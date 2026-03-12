@@ -33,6 +33,7 @@ DEFAULT_DAYS = 7
 DEFAULT_MAX_RESULTS = 80
 DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
+DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
 COMMON_SUFFIXES = {
     "inc",
     "corp",
@@ -427,55 +428,67 @@ def generate_synopsis(
     if not openarena_bearer_token or not openarena_workflow_id:
         return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", "Missing OpenArena credentials."
 
-    excerpt = filing_text[:12000]
-    prompt = (
-        "You are assisting a financial reporter covering private credit.\n"
-        "Return a consistent structured analysis using these exact section headings and lettering:\n"
-        "A. Relevance Verdict\n"
-        "B. One-Line Takeaway\n"
-        "C. What's New\n"
-        "D. Most Important Points\n"
-        "E. Why It Matters Now\n"
-        "F. Filing Details Extracted\n"
-        "G. Signals Reporters Should Notice\n"
-        "H. Routine vs. Non-Routine\n"
-        "I. Questions for Follow-Up\n"
-        "J. Evidence from the Filing\n"
-        "K. Final Newsroom Brief\n"
-        "Start with a title line in the form: SEC Filing Analysis: <entity> - <form/date cue>.\n"
-        "Do not include SEC boilerplate or navigation text.\n"
-        "In section A, use a clear relevance verdict such as HIGHLY RELEVANT TO PRIVATE CREDIT, RELEVANT TO PRIVATE CREDIT, or LOW RELEVANCE.\n\n"
-        f"Form Type: {form_type}\n"
-        f"Company Name: {company_name}\n"
-        f"Tracked Entity: {tracked_name}\n"
-        f"Matched Keywords: {', '.join(keywords)}\n"
-        f"Snippet Hint: {snippet}\n\n"
-        "Filing Text Excerpt:\n"
-        f"{excerpt}"
-    )
-    try:
-        summary = _call_openarena(
-            openarena_base_url,
-            openarena_bearer_token,
-            openarena_workflow_id,
-            prompt,
-            openarena_timeout_seconds,
+    def build_prompt(excerpt_len: int) -> str:
+        excerpt = filing_text[:excerpt_len]
+        return (
+            "You are assisting a financial reporter covering private credit.\n"
+            "Return a consistent structured analysis using these exact section headings and lettering:\n"
+            "A. Relevance Verdict\n"
+            "B. One-Line Takeaway\n"
+            "C. What's New\n"
+            "D. Most Important Points\n"
+            "E. Why It Matters Now\n"
+            "F. Filing Details Extracted\n"
+            "G. Signals Reporters Should Notice\n"
+            "H. Routine vs. Non-Routine\n"
+            "I. Questions for Follow-Up\n"
+            "J. Evidence from the Filing\n"
+            "K. Final Newsroom Brief\n"
+            "Start with a title line in the form: SEC Filing Analysis: <entity> - <form/date cue>.\n"
+            "Do not include SEC boilerplate or navigation text.\n"
+            "In section A, use a clear relevance verdict such as HIGHLY RELEVANT TO PRIVATE CREDIT, RELEVANT TO PRIVATE CREDIT, or LOW RELEVANCE.\n"
+            "Be concise but specific. Prefer direct facts from the filing excerpt.\n\n"
+            f"Form Type: {form_type}\n"
+            f"Company Name: {company_name}\n"
+            f"Tracked Entity: {tracked_name}\n"
+            f"Matched Keywords: {', '.join(keywords)}\n"
+            f"Snippet Hint: {snippet}\n\n"
+            "Filing Text Excerpt:\n"
+            f"{excerpt}"
         )
-        if is_low_quality_summary(summary):
+
+    last_error: str | None = None
+    for excerpt_len in (12000, 6000, 3000):
+        prompt = build_prompt(excerpt_len)
+        try:
             summary = _call_openarena(
                 openarena_base_url,
                 openarena_bearer_token,
                 openarena_workflow_id,
-                prompt + "\n\nRetry with cleaner structured output only.",
+                prompt,
                 openarena_timeout_seconds,
             )
-        if not summary or is_low_quality_summary(summary):
-            return (
-                fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords),
-                "fallback",
-                "OpenArena returned low-quality output.",
-            )
-        return summary.strip(), "openarena", None
+            if is_low_quality_summary(summary):
+                summary = _call_openarena(
+                    openarena_base_url,
+                    openarena_bearer_token,
+                    openarena_workflow_id,
+                    prompt + "\n\nRetry with cleaner structured output only.",
+                    openarena_timeout_seconds,
+                )
+            if summary and not is_low_quality_summary(summary):
+                return summary.strip(), "openarena", None
+            last_error = "OpenArena returned low-quality output."
+        except Exception as exc:
+            last_error = str(exc)
+            continue
+
+    try:
+        return (
+            fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords),
+            "fallback",
+            last_error or "request_failed",
+        )
     except Exception as exc:
         return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", str(exc)
 
@@ -550,7 +563,9 @@ def run_monitor(
     openarena_base_url = os.getenv("OPENARENA_BASE_URL", DEFAULT_OPENARENA_BASE_URL).strip()
     openarena_bearer_token = os.getenv("OPENARENA_BEARER_TOKEN", "").strip()
     openarena_workflow_id = os.getenv("OPENARENA_WORKFLOW_ID", DEFAULT_OPENARENA_WORKFLOW_ID).strip()
-    openarena_timeout_seconds = int((os.getenv("OPENARENA_TIMEOUT_SECONDS", "60") or "60").strip())
+    openarena_timeout_seconds = int(
+        (os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)).strip()
+    )
     state = load_json(STATE_PATH, {"seen_accessions": [], "last_run": None, "last_error": None})
     seen_accessions = set(state.get("seen_accessions", []))
 
