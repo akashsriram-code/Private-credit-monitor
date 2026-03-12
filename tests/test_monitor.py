@@ -1,8 +1,10 @@
 import unittest
 
 from private_credit_monitor.monitor import (
+    FilingMatch,
     TrackedEntity,
     choose_entity,
+    merge_match_history,
     normalize_filed_date,
     parse_master_index,
 )
@@ -110,6 +112,64 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(parsed["relevance_verdict"], "HIGHLY RELEVANT TO PRIVATE CREDIT")
         self.assertEqual(parsed["one_line_takeaway"], "Example takeaway.")
         self.assertEqual(parsed["whats_new"][0], "First point")
+
+    def test_merge_match_history_preserves_existing_archive(self) -> None:
+        existing_payloads = [
+            {
+                "accession_number": "0000000001-26-000001",
+                "cik": "1",
+                "company_name": "Older Fund",
+                "form_type": "8-K",
+                "filed_date": "2026-03-10",
+                "filing_url": "https://example.com/old.txt",
+                "index_url": "https://example.com/old-index.html",
+                "tracked_name": "Older Fund",
+                "tracked_type": "Private",
+                "matched_keywords": ["private credit"],
+                "description": "older description",
+                "openarena_output": "old output",
+                "openarena_title": "Older Title",
+                "relevance_verdict": "RELEVANT",
+                "one_line_takeaway": "Older takeaway",
+                "whats_new": ["Older point"],
+                "remaining_sections": {},
+                "wire_recommendation": "MEDIUM",
+                "analysis_source": "openarena",
+                "openarena_error": None,
+                "source": "sec-daily-index",
+            }
+        ]
+        recent_matches = [
+            FilingMatch(
+                accession_number="0000000002-26-000002",
+                cik="2",
+                company_name="Newer Fund",
+                form_type="8-K",
+                filed_date="2026-03-11",
+                filing_url="https://example.com/new.txt",
+                index_url="https://example.com/new-index.html",
+                tracked_name="Newer Fund",
+                tracked_type="Private",
+                matched_keywords=["direct lending"],
+                description="new description",
+                openarena_output="new output",
+                openarena_title="Newer Title",
+                relevance_verdict="HIGHLY RELEVANT TO PRIVATE CREDIT",
+                one_line_takeaway="Newer takeaway",
+                whats_new=["Newer point"],
+                remaining_sections={},
+                wire_recommendation="HIGH",
+                analysis_source="openarena",
+                openarena_error=None,
+                source="sec-daily-index",
+            )
+        ]
+
+        merged = merge_match_history(existing_payloads, recent_matches, max_results=10)
+
+        self.assertEqual(len(merged), 2)
+        self.assertEqual(merged[0].accession_number, "0000000002-26-000002")
+        self.assertEqual(merged[1].accession_number, "0000000001-26-000001")
 
 
 if __name__ == "__main__":

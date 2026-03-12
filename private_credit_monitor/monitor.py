@@ -108,6 +108,35 @@ def save_json(path: Path, payload) -> None:
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
+def match_from_dict(payload: dict[str, Any]) -> FilingMatch | None:
+    try:
+        return FilingMatch(
+            accession_number=payload["accession_number"],
+            cik=payload.get("cik", ""),
+            company_name=payload.get("company_name", ""),
+            form_type=payload.get("form_type", ""),
+            filed_date=payload.get("filed_date", ""),
+            filing_url=payload.get("filing_url", ""),
+            index_url=payload.get("index_url", ""),
+            tracked_name=payload.get("tracked_name", ""),
+            tracked_type=payload.get("tracked_type", ""),
+            matched_keywords=list(payload.get("matched_keywords", [])),
+            description=payload.get("description", ""),
+            openarena_output=payload.get("openarena_output", ""),
+            openarena_title=payload.get("openarena_title", ""),
+            relevance_verdict=payload.get("relevance_verdict", ""),
+            one_line_takeaway=payload.get("one_line_takeaway", ""),
+            whats_new=list(payload.get("whats_new", [])),
+            remaining_sections=dict(payload.get("remaining_sections", {})),
+            wire_recommendation=payload.get("wire_recommendation", "UNKNOWN"),
+            analysis_source=payload.get("analysis_source", "unknown"),
+            openarena_error=payload.get("openarena_error"),
+            source=payload.get("source", "sec-daily-index"),
+        )
+    except KeyError:
+        return None
+
+
 def normalize_whitespace(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
@@ -321,6 +350,22 @@ def fetch_recent_feed_entries(user_agent: str, hours_lookback: int, max_pages: i
         time.sleep(0.2)
 
     return all_entries
+
+
+def merge_match_history(existing_payloads: list[dict[str, Any]], recent_matches: list[FilingMatch], max_results: int) -> list[FilingMatch]:
+    merged_by_accession: dict[str, FilingMatch] = {}
+    for payload in existing_payloads:
+        existing_match = match_from_dict(payload)
+        if existing_match is None:
+            continue
+        merged_by_accession[existing_match.accession_number] = existing_match
+    for match in recent_matches:
+        merged_by_accession[match.accession_number] = match
+    return sorted(
+        merged_by_accession.values(),
+        key=lambda item: (item.filed_date, item.company_name, item.accession_number),
+        reverse=True,
+    )[:max_results]
 
 
 def fetch_recent_entries(user_agent: str, days: int) -> list[dict[str, str]]:
@@ -670,6 +715,7 @@ def run_monitor(
         (os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)).strip()
     )
     state = load_json(STATE_PATH, {"seen_accessions": [], "last_run": None, "last_error": None})
+    existing_alert_payloads = load_json(ALERTS_PATH, [])
     seen_accessions = set(state.get("seen_accessions", []))
 
     entities = load_tracked_entities()
@@ -763,10 +809,12 @@ def run_monitor(
         if len(unique_matches) >= max_results:
             break
 
+    all_matches = merge_match_history(existing_alert_payloads, unique_matches, max_results)
+
     email_sent, email_error = send_email_alert(new_matches)
     seen_accessions.update(match.accession_number for match in new_matches)
 
-    save_json(ALERTS_PATH, [asdict(match) for match in unique_matches])
+    save_json(ALERTS_PATH, [asdict(match) for match in all_matches])
     save_json(
         STATUS_PATH,
         {
@@ -778,7 +826,7 @@ def run_monitor(
             "forms": active_forms,
             "keywords": active_keywords,
             "new_alerts": len(new_matches),
-            "total_alerts": len(unique_matches),
+            "total_alerts": len(all_matches),
             "email_sent": email_sent,
             "entities_tracked": len(entities),
             "recent_entries_scanned": len(recent_entries),
@@ -798,14 +846,14 @@ def run_monitor(
     )
 
     if print_matches:
-        for match in unique_matches:
+        for match in all_matches:
             print(
                 f"{match.filed_date} | {match.company_name} | {match.form_type} | "
                 f"{match.relevance_verdict or ', '.join(match.matched_keywords)}"
             )
             print(f"  {match.one_line_takeaway or match.description}")
             print(f"  {match.index_url}")
-    return unique_matches
+    return all_matches
 
 
 def parse_args() -> argparse.Namespace:

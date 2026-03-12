@@ -164,9 +164,10 @@ async function render() {
     ? `Updated ${new Date(status.last_run).toLocaleString()}`
     : "Awaiting data";
   document.getElementById("statusLine").textContent =
-    `Scanned ${status.recent_entries_scanned || 0} recent index entries across ${status.days_scanned || 0} day(s). `
+    `Scanned ${status.recent_entries_scanned || 0} recent SEC entries${status.hours_lookback ? ` across the last ${status.hours_lookback} hour(s)` : ` across ${status.days_scanned || 0} day(s)`}. `
     + `Forms: ${formatList(status.forms || [])}. `
     + `Keywords: ${formatList(status.keywords || [])}. `
+    + `Archive: ${filings.length} matched filing(s) shown. `
     + `OpenArena: ${status.openarena_enabled ? `on (${status.openarena_workflow_id}); generated=${status.openarena_generated || 0}, fallback=${status.fallback_generated || 0}` : "fallback mode"}. `
     + (status.last_error ? `Last error: ${status.last_error}` : "System healthy.");
 
