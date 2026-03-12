@@ -45,6 +45,15 @@ This repo is designed for static hosting.
 4. Run the `Poll SEC Filings` workflow once from the Actions tab.
 5. The action will refresh `data/*.json`, commit those changes, and the dashboard will reflect the latest matches.
 
+## Backfill Action
+
+There is also a manual `Backfill SEC Filings` GitHub Action.
+
+- Default backfill window: `3` days
+- The person running the workflow can choose a different day count at launch time
+
+Use it from `Actions -> Backfill SEC Filings -> Run workflow`, then enter the number of days you want scanned.
+
 ## Email Alert Integration
 
 The script already includes optional SMTP delivery for new matches. To enable it in GitHub Actions, add these secrets:
