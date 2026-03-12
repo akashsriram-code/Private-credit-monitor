@@ -1,8 +1,8 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-03-12T21:02:48.523378+00:00",
+  "last_run": "2026-03-12T21:13:49.578254+00:00",
   "last_error": null,
-  "days_scanned": 6,
+  "days_scanned": 3,
   "forms": [
     "8-K",
     "D"
@@ -20,13 +20,13 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 2,
-  "total_alerts": 5,
+  "new_alerts": 0,
+  "total_alerts": 3,
   "email_sent": false,
   "entities_tracked": 146,
-  "recent_entries_scanned": 16064,
+  "recent_entries_scanned": 10854,
   "openarena_enabled": true,
   "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
-  "openarena_generated": 0,
-  "fallback_generated": 5
+  "openarena_generated": 3,
+  "fallback_generated": 0
 }
