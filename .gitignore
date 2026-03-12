@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.tmp_etf_repo/
+.tmp_forensic_repo/

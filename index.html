@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Credit Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <div class="page-wash"></div>
+  <main class="page-shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Private Credit Desk</p>
+        <h1>Private Credit Monitor</h1>
+        <p class="subtitle">A quiet newsroom dashboard for recent SEC filings tied to tracked credit platforms, BDCs, and private funds.</p>
+      </div>
+      <div class="status-chip" id="statusChip">Awaiting data</div>
+    </header>
+
+    <section class="metric-grid">
+      <article class="metric-card">
+        <p class="metric-label">Tracked Entities</p>
+        <p class="metric-value" id="trackedCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">Recent Filings</p>
+        <p class="metric-value" id="filingCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">New Alerts</p>
+        <p class="metric-value" id="newCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">Forms Scanned</p>
+        <p class="metric-value" id="formCount">0</p>
+      </article>
+    </section>
+
+    <section class="panel panel-intro">
+      <div class="panel-head">
+        <h2>System Pulse</h2>
+        <button id="refreshButton" class="button-link">Refresh</button>
+      </div>
+      <p class="status-line" id="statusLine">Loading latest poll status...</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head filters-head">
+        <h2>Matched Filings</h2>
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="Search company, keyword, description" />
+          <select id="formFilter">
+            <option value="ALL">All forms</option>
+          </select>
+        </div>
+      </div>
+      <p class="meta-line"><span id="visibleCount">0</span> filings shown</p>
+      <div id="filings" class="filing-list"></div>
+    </section>
+  </main>
+
+  <div id="analysisModal" class="modal-shell hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal="true"></div>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Full Analysis</p>
+          <h2 id="modalTitle">Filing Analysis</h2>
+        </div>
+        <button id="closeModalButton" class="button-link">Close</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </section>
+  </div>
+
+  <script src="static/app.js"></script>
+</body>
+</html>
