@@ -84,7 +84,7 @@ If you want a richer alert layer later, the clean next step is to swap SMTP for:
 
 This repo now mirrors the ETF monitor pattern for synopsis generation.
 
-- `OPENARENA_BASE_URL` defaults to `https://aiopenarena.gcs.int.thomsonreuters.com`
+- `OPENARENA_BASE_URL` defaults to `https://aiopenarena.thomsonreuters.com`
 - `OPENARENA_WORKFLOW_ID` is pinned in the workflow to `9214a226-9866-4f29-abd3-0eb3cd235f8e`
 - only `OPENARENA_BEARER_TOKEN` needs to be added as a GitHub secret
 

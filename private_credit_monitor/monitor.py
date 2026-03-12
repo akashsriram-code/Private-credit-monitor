@@ -31,7 +31,7 @@ KEYWORDS_PATH = CONFIG_DIR / "keywords.txt"
 DEFAULT_FORMS = ["8-K", "D"]
 DEFAULT_DAYS = 7
 DEFAULT_MAX_RESULTS = 80
-DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.gcs.int.thomsonreuters.com"
+DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 COMMON_SUFFIXES = {
     "inc",
