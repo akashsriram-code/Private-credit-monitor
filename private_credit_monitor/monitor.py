@@ -389,6 +389,27 @@ def fallback_synopsis(
     return "\n".join(lines).strip()
 
 
+def summarize_openarena_error(error_text: str | None) -> str:
+    if not error_text:
+        return "unknown"
+    lower = error_text.lower()
+    if "401" in lower or "403" in lower or "unauthorized" in lower or "forbidden" in lower:
+        return "auth_error"
+    if "timeout" in lower or "timed out" in lower:
+        return "timeout"
+    if "empty answer" in lower:
+        return "empty_answer"
+    if "low-quality output" in lower:
+        return "low_quality_output"
+    if "missing openarena credentials" in lower:
+        return "missing_credentials"
+    if "no filing text available" in lower:
+        return "no_filing_text"
+    if "urlopen error" in lower or "name or service not known" in lower or "temporary failure" in lower:
+        return "network_error"
+    return "request_failed"
+
+
 def generate_synopsis(
     filing_text: str,
     company_name: str,
@@ -569,8 +590,14 @@ def run_monitor(
             )
             if analysis_source == "openarena":
                 openarena_generated += 1
+                print(f"OpenArena success | {entry['accession_number']} | {entry['company_name']}")
             else:
                 fallback_generated += 1
+                print(
+                    "OpenArena fallback: "
+                    f"{summarize_openarena_error(openarena_error)} | "
+                    f"{entry['accession_number']} | {entry['company_name']}"
+                )
             parsed_synopsis = parse_openarena_output(synopsis)
             matches.append(
                 FilingMatch(
