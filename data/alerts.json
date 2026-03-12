@@ -30,6 +30,8 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "The read operation timed out",
     "source": "sec-daily-index"
   },
   {
@@ -63,6 +65,8 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "The read operation timed out",
     "source": "sec-daily-index"
   },
   {
@@ -95,6 +99,8 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "The read operation timed out",
     "source": "sec-daily-index"
   }
 ]

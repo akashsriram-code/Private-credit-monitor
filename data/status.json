@@ -1,6 +1,6 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-03-12T20:38:14.421659+00:00",
+  "last_run": "2026-03-12T20:47:00.972514+00:00",
   "last_error": null,
   "days_scanned": 3,
   "forms": [
@@ -26,5 +26,7 @@
   "entities_tracked": 146,
   "recent_entries_scanned": 10854,
   "openarena_enabled": true,
-  "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e"
+  "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
+  "openarena_generated": 0,
+  "fallback_generated": 3
 }
