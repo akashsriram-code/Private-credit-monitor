@@ -28,8 +28,15 @@ def _clean(value: str) -> str:
     return " ".join((value or "").strip().split())
 
 
+def _strip_formatting(value: str) -> str:
+    text = (value or "").strip()
+    text = re.sub(r"^[#*\-_\s`>]+", "", text)
+    text = re.sub(r"[#*\-_\s`>]+$", "", text)
+    return _clean(text)
+
+
 def normalize_alert_level(value: str) -> str:
-    text = _clean(value).upper()
+    text = _strip_formatting(value).upper()
     if "HIGHLY RELEVANT" in text or "HIGH" in text or "CRITICAL" in text:
         return "HIGH"
     if "MEDIUM" in text:
@@ -41,7 +48,12 @@ def normalize_alert_level(value: str) -> str:
 
 def _split_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
     raw = (text or "").strip()
-    matches = list(re.finditer(r"(?m)^(?P<letter>[A-Z])\.\s+(?P<title>.+?)\s*$", raw))
+    matches = list(
+        re.finditer(
+            r"(?m)^\s*(?:\*\*|__)?(?P<letter>[A-Z])\.\s+(?P<title>.+?)(?:\*\*|__)?\s*:?\s*$",
+            raw,
+        )
+    )
     if not matches:
         return raw, []
 
@@ -50,7 +62,7 @@ def _split_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
     for idx, match in enumerate(matches):
         start = match.end()
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(raw)
-        section_title = _clean(match.group("title"))
+        section_title = _strip_formatting(match.group("title")).rstrip(":")
         section_body = raw[start:end].strip()
         sections.append((section_title, section_body))
     return title, sections
@@ -88,7 +100,7 @@ def parse_openarena_output(text: str) -> dict[str, Any]:
     sections: dict[str, Any] = {}
 
     for label, body in section_pairs:
-        key = SECTION_NAME_MAP.get(label.strip().lower())
+        key = SECTION_NAME_MAP.get(_strip_formatting(label).lower().rstrip(":"))
         if key:
             sections[key] = _parse_section_content(key, body)
 

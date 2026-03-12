@@ -29,7 +29,7 @@ jobs:
       - name: Backfill SEC filings
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-          ENABLE_EMAIL_ALERTS: ${{ secrets.ENABLE_EMAIL_ALERTS }}
+          ENABLE_EMAIL_ALERTS: false
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
