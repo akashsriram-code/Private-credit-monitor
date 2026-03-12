@@ -102,5 +102,74 @@
     "analysis_source": "fallback",
     "openarena_error": "The read operation timed out",
     "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-097985",
+    "cik": "1920453",
+    "company_name": "Fidelity Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-03-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920453/0001193125-26-097985.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526097985/0001193125-26-097985-index.html",
+    "tracked_name": "Fidelity Private Credit Company LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: Fidelity Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nFidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Fidelity Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Fidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "The read operation timed out",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-098659",
+    "cik": "1812554",
+    "company_name": "Blue Owl Credit Income Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-03-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/0001193125-26-098659.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526098659/0001193125-26-098659-index.html",
+    "tracked_name": "Blue Owl Credit Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "private debt",
+      "senior secured",
+      "structured credit"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: Blue Owl Credit Income Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: credit income, private debt, senior secured, structured credit.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Blue Owl Credit Income Corp. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: credit income, private debt, senior secured, structured credit. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "The read operation timed out",
+    "source": "sec-daily-index"
   }
 ]
