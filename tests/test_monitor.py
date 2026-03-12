@@ -1,9 +1,11 @@
 import unittest
+from unittest.mock import patch
 
 from private_credit_monitor.monitor import (
     FilingMatch,
     TrackedEntity,
     choose_entity,
+    fetch_text,
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
@@ -170,6 +172,34 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(len(merged), 2)
         self.assertEqual(merged[0].accession_number, "0000000002-26-000002")
         self.assertEqual(merged[1].accession_number, "0000000001-26-000001")
+
+    def test_fetch_text_retries_after_incomplete_read(self) -> None:
+        class FakeResponse:
+            def __init__(self, payload: bytes) -> None:
+                self.payload = payload
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self) -> bytes:
+                return self.payload
+
+        calls = {"count": 0}
+
+        def flaky_urlopen(*args, **kwargs):
+            calls["count"] += 1
+            if calls["count"] == 1:
+                raise __import__("http.client").client.IncompleteRead(b"partial")
+            return FakeResponse(b"ok")
+
+        with patch("private_credit_monitor.monitor.urlopen", side_effect=flaky_urlopen), patch(
+            "private_credit_monitor.monitor.time.sleep"
+        ):
+            self.assertEqual(fetch_text("https://example.com", "test-agent", retries=2), "ok")
+        self.assertEqual(calls["count"], 2)
 
 
 if __name__ == "__main__":

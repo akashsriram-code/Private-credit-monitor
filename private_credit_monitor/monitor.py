@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import http.client
 import json
 import os
 import re
@@ -38,6 +39,7 @@ DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
 FEED_PAGE_SIZE = 100
 DEFAULT_FEED_MAX_PAGES = 6
+DEFAULT_FETCH_RETRIES = 3
 COMMON_SUFFIXES = {
     "inc",
     "corp",
@@ -201,9 +203,25 @@ def build_request(url: str, user_agent: str) -> Request:
     return Request(url, headers={"User-Agent": user_agent, "Accept-Encoding": "identity"})
 
 
-def fetch_text(url: str, user_agent: str, timeout: int = 30) -> str:
-    with urlopen(build_request(url, user_agent), timeout=timeout) as response:
-        return response.read().decode("utf-8", "ignore")
+def fetch_text(url: str, user_agent: str, timeout: int = 30, retries: int = DEFAULT_FETCH_RETRIES) -> str:
+    last_error: Exception | None = None
+    for attempt in range(max(retries, 1)):
+        try:
+            with urlopen(build_request(url, user_agent), timeout=timeout) as response:
+                return response.read().decode("utf-8", "ignore")
+        except http.client.IncompleteRead as exc:
+            last_error = exc
+        except URLError as exc:
+            last_error = exc
+        except HTTPError as exc:
+            if 400 <= exc.code < 500 and exc.code != 429:
+                raise
+            last_error = exc
+        if attempt < max(retries, 1) - 1:
+            time.sleep(1.5 * (attempt + 1))
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError(f"Unable to fetch URL: {url}")
 
 
 def load_keywords(path: Path = KEYWORDS_PATH) -> list[str]:
