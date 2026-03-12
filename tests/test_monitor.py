@@ -1,4 +1,7 @@
+import os
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from private_credit_monitor.monitor import (
@@ -6,6 +9,7 @@ from private_credit_monitor.monitor import (
     TrackedEntity,
     choose_entity,
     fetch_text,
+    load_cik_lookup_text,
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
@@ -200,6 +204,51 @@ class MonitorTests(unittest.TestCase):
         ):
             self.assertEqual(fetch_text("https://example.com", "test-agent", retries=2), "ok")
         self.assertEqual(calls["count"], 2)
+
+    def test_load_cik_lookup_text_uses_fresh_cache(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            cache_path = Path(tmpdir) / "cik_lookup_cache.txt"
+            cache_path.write_text("cached-data", encoding="utf-8")
+
+            with patch("private_credit_monitor.monitor.fetch_text") as fetch_mock:
+                text, source, age_days = load_cik_lookup_text("test-agent", cache_path=cache_path, max_age_days=7)
+
+            self.assertEqual(text, "cached-data")
+            self.assertEqual(source, "cache")
+            self.assertIsNotNone(age_days)
+            fetch_mock.assert_not_called()
+
+    def test_load_cik_lookup_text_refreshes_stale_cache(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            cache_path = Path(tmpdir) / "cik_lookup_cache.txt"
+            cache_path.write_text("stale-data", encoding="utf-8")
+
+            stale_time = 0
+            os.utime(cache_path, (stale_time, stale_time))
+
+            with patch("private_credit_monitor.monitor.fetch_text", return_value="fresh-data") as fetch_mock:
+                text, source, age_days = load_cik_lookup_text("test-agent", cache_path=cache_path, max_age_days=7)
+
+            self.assertEqual(text, "fresh-data")
+            self.assertEqual(source, "refreshed")
+            self.assertIsNotNone(age_days)
+            fetch_mock.assert_called_once()
+            self.assertEqual(cache_path.read_text(encoding="utf-8"), "fresh-data")
+
+    def test_load_cik_lookup_text_falls_back_to_stale_cache_on_error(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            cache_path = Path(tmpdir) / "cik_lookup_cache.txt"
+            cache_path.write_text("stale-data", encoding="utf-8")
+
+            stale_time = 0
+            os.utime(cache_path, (stale_time, stale_time))
+
+            with patch("private_credit_monitor.monitor.fetch_text", side_effect=RuntimeError("network down")):
+                text, source, age_days = load_cik_lookup_text("test-agent", cache_path=cache_path, max_age_days=7)
+
+            self.assertEqual(text, "stale-data")
+            self.assertEqual(source, "stale-cache")
+            self.assertIsNotNone(age_days)
 
 
 if __name__ == "__main__":

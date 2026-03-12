@@ -168,6 +168,7 @@ async function render() {
     + `Forms: ${formatList(status.forms || [])}. `
     + `Keywords: ${formatList(status.keywords || [])}. `
     + `Archive: ${filings.length} matched filing(s) shown. `
+    + `CIK lookup: ${escapeHtml(status.cik_lookup_source || "unknown")}${status.cik_lookup_age_days != null ? ` (${status.cik_lookup_age_days} day(s) old)` : ""}. `
     + `OpenArena: ${status.openarena_enabled ? `on (${status.openarena_workflow_id}); generated=${status.openarena_generated || 0}, fallback=${status.fallback_generated || 0}` : "fallback mode"}. `
     + (status.last_error ? `Last error: ${status.last_error}` : "System healthy.");
 

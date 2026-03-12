@@ -5,6 +5,7 @@ A GitHub-native SEC filing monitor for private credit, direct lending, and BDC c
 ## What It Does
 
 - Polls recent SEC daily index files and fetches the underlying filing text from EDGAR.
+- Caches the SEC CIK lookup file locally in [`data/cik_lookup_cache.txt`](/C:/Users/6113101/Private-credit-monitor/data/cik_lookup_cache.txt) and refreshes it once a week.
 - Filters by target forms such as `8-K` and `D` by default.
 - Matches filings against a configurable watchlist of public and private credit entities in [`config/tracked_entities.csv`](/C:/Users/6113101/Private-credit-monitor/config/tracked_entities.csv).
 - Searches filing text for keywords from [`config/keywords.txt`](/C:/Users/6113101/Private-credit-monitor/config/keywords.txt) such as `private credit`.
@@ -47,6 +48,7 @@ This repo is designed for static hosting.
 5. The action will refresh `data/*.json`, commit those changes, and the dashboard will reflect the latest matches.
 
 The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
+The SEC CIK lookup file is cached in the repo and refreshed automatically if it is older than `7` days; if the live SEC refresh fails, the last good cached copy is reused.
 
 ## Backfill Action
 

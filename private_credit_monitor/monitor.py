@@ -27,6 +27,7 @@ DATA_DIR = ROOT_DIR / "data"
 STATE_PATH = DATA_DIR / "state.json"
 ALERTS_PATH = DATA_DIR / "alerts.json"
 STATUS_PATH = DATA_DIR / "status.json"
+CIK_LOOKUP_CACHE_PATH = DATA_DIR / "cik_lookup_cache.txt"
 TRACKED_ENTITIES_PATH = CONFIG_DIR / "tracked_entities.csv"
 KEYWORDS_PATH = CONFIG_DIR / "keywords.txt"
 
@@ -37,6 +38,7 @@ DEFAULT_MAX_RESULTS = 80
 DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
+DEFAULT_CIK_CACHE_MAX_AGE_DAYS = 7
 FEED_PAGE_SIZE = 100
 DEFAULT_FEED_MAX_PAGES = 6
 DEFAULT_FETCH_RETRIES = 3
@@ -108,6 +110,11 @@ def load_json(path: Path, default):
 def save_json(path: Path, payload) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+
+def save_text(path: Path, payload: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(payload, encoding="utf-8")
 
 
 def match_from_dict(payload: dict[str, Any]) -> FilingMatch | None:
@@ -255,6 +262,34 @@ def parse_cik_lookup(raw_text: str) -> dict[str, set[str]]:
             if key:
                 lookup.setdefault(key, set()).add(cik)
     return lookup
+
+
+def cache_age_days(path: Path) -> float | None:
+    if not path.exists():
+        return None
+    modified_at = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
+    return (datetime.now(timezone.utc) - modified_at).total_seconds() / 86400
+
+
+def load_cik_lookup_text(
+    user_agent: str,
+    cache_path: Path = CIK_LOOKUP_CACHE_PATH,
+    max_age_days: int = DEFAULT_CIK_CACHE_MAX_AGE_DAYS,
+) -> tuple[str, str, float | None]:
+    age_days = cache_age_days(cache_path)
+    cache_is_fresh = age_days is not None and age_days <= max(max_age_days, 1)
+
+    if cache_is_fresh:
+        return cache_path.read_text(encoding="utf-8"), "cache", age_days
+
+    try:
+        raw_text = fetch_text("https://www.sec.gov/Archives/edgar/cik-lookup-data.txt", user_agent)
+        save_text(cache_path, raw_text)
+        return raw_text, "refreshed", cache_age_days(cache_path)
+    except Exception:
+        if cache_path.exists():
+            return cache_path.read_text(encoding="utf-8"), "stale-cache", age_days
+        raise
 
 
 def hydrate_entity_ciks(entities: list[TrackedEntity], cik_lookup: dict[str, set[str]]) -> None:
@@ -737,7 +772,8 @@ def run_monitor(
     seen_accessions = set(state.get("seen_accessions", []))
 
     entities = load_tracked_entities()
-    cik_lookup = parse_cik_lookup(fetch_text("https://www.sec.gov/Archives/edgar/cik-lookup-data.txt", user_agent))
+    cik_lookup_text, cik_lookup_source, cik_lookup_age_days = load_cik_lookup_text(user_agent)
+    cik_lookup = parse_cik_lookup(cik_lookup_text)
     hydrate_entity_ciks(entities, cik_lookup)
 
     recent_entries = (
@@ -848,6 +884,8 @@ def run_monitor(
             "email_sent": email_sent,
             "entities_tracked": len(entities),
             "recent_entries_scanned": len(recent_entries),
+            "cik_lookup_source": cik_lookup_source,
+            "cik_lookup_age_days": round(cik_lookup_age_days, 2) if cik_lookup_age_days is not None else None,
             "openarena_enabled": bool(openarena_bearer_token),
             "openarena_workflow_id": openarena_workflow_id,
             "openarena_generated": openarena_generated,
