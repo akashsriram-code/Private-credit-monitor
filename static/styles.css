@@ -97,6 +97,21 @@ h1 {
   font-size: 12px;
 }
 
+.status-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.byline {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  text-transform: lowercase;
+}
+
 .metric-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -373,6 +388,10 @@ input {
   .filing-top,
   .controls {
     flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .status-block {
     align-items: flex-start;
   }
 
