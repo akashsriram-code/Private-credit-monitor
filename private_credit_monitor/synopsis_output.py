@@ -50,14 +50,18 @@ def _split_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
     raw = (text or "").strip()
     matches = list(
         re.finditer(
-            r"(?m)^\s*(?:\*\*|__)?(?P<letter>[A-Z])\.\s+(?P<title>.+?)(?:\*\*|__)?\s*:?\s*$",
+            r"(?m)^\s*(?:#{1,6}\s*)?(?:\*\*|__)?(?P<letter>[A-Z])\.\s+(?P<title>.+?)(?:\*\*|__)?\s*:?\s*$",
             raw,
         )
     )
     if not matches:
-        return raw, []
+        title_match = re.search(r"(?m)^\s*(?:#{1,6}\s*)?(?P<title>SEC Filing Analysis:.+?)\s*$", raw)
+        title = _strip_formatting(title_match.group("title")) if title_match else raw
+        return title, []
 
-    title = raw[: matches[0].start()].strip()
+    title_block = raw[: matches[0].start()].strip()
+    title_match = re.search(r"(?m)^\s*(?:#{1,6}\s*)?(?P<title>SEC Filing Analysis:.+?)\s*$", title_block)
+    title = _strip_formatting(title_match.group("title")) if title_match else _strip_formatting(title_block)
     sections: list[tuple[str, str]] = []
     for idx, match in enumerate(matches):
         start = match.end()
@@ -90,8 +94,8 @@ def _parse_section_content(key: str, body: str) -> Any:
         "questions_for_follow_up",
         "evidence_from_the_filing",
     }:
-        return _split_bullets_or_paragraphs(body)
-    return body.strip()
+        return [_strip_formatting(item) for item in _split_bullets_or_paragraphs(body)]
+    return _strip_formatting(body)
 
 
 def parse_openarena_output(text: str) -> dict[str, Any]:

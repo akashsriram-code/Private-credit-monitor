@@ -81,6 +81,36 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(parsed["one_line_takeaway"], "This is the takeaway.")
         self.assertEqual(parsed["whats_new"][0], "New point one")
 
+    def test_parse_openarena_output_handles_hash_markdown_headers(self) -> None:
+        parsed = parse_openarena_output(
+            "\n".join(
+                [
+                    "---",
+                    "",
+                    "## SEC Filing Analysis: Example Fund - 8-K / March 11, 2026",
+                    "",
+                    "---",
+                    "",
+                    "### A. Relevance Verdict",
+                    "",
+                    "**HIGHLY RELEVANT TO PRIVATE CREDIT**",
+                    "",
+                    "### B. One-Line Takeaway",
+                    "",
+                    "Example takeaway.",
+                    "",
+                    "### C. What's New",
+                    "",
+                    "- First point",
+                    "- Second point",
+                ]
+            )
+        )
+        self.assertEqual(parsed["title"], "SEC Filing Analysis: Example Fund - 8-K / March 11, 2026")
+        self.assertEqual(parsed["relevance_verdict"], "HIGHLY RELEVANT TO PRIVATE CREDIT")
+        self.assertEqual(parsed["one_line_takeaway"], "Example takeaway.")
+        self.assertEqual(parsed["whats_new"][0], "First point")
+
 
 if __name__ == "__main__":
     unittest.main()
