@@ -46,6 +46,7 @@ function buildCard(filing) {
             <span class="tag">${escapeHtml(filing.form_type)}</span>
             <span class="tag type">${escapeHtml(filing.tracked_type)}</span>
             <span class="tag type">${escapeHtml(filing.wire_recommendation || "UNKNOWN")}</span>
+            <span class="tag type">${escapeHtml((filing.analysis_source || "unknown").toUpperCase())}</span>
           </div>
         </div>
         <div class="filing-meta">
@@ -60,6 +61,9 @@ function buildCard(filing) {
       <p class="section-label">What's New</p>
       ${renderList(filing.whats_new || [], "preview-list")}
       <p class="filing-meta">Keywords: ${escapeHtml(formatList(filing.matched_keywords))}</p>
+      ${filing.analysis_source === "fallback" && filing.openarena_error
+        ? `<p class="filing-meta">OpenArena fallback: ${escapeHtml(filing.openarena_error)}</p>`
+        : ""}
       <div class="link-row">
         <button class="story-link buttonish" data-open-analysis="${escapeHtml(filing.accession_number)}">Open Analysis</button>
         <a class="story-link" href="${escapeHtml(filing.index_url)}" target="_blank" rel="noreferrer">Open Filing</a>
@@ -163,7 +167,7 @@ async function render() {
     `Scanned ${status.recent_entries_scanned || 0} recent index entries across ${status.days_scanned || 0} day(s). `
     + `Forms: ${formatList(status.forms || [])}. `
     + `Keywords: ${formatList(status.keywords || [])}. `
-    + `OpenArena: ${status.openarena_enabled ? `on (${status.openarena_workflow_id})` : "fallback mode"}. `
+    + `OpenArena: ${status.openarena_enabled ? `on (${status.openarena_workflow_id}); generated=${status.openarena_generated || 0}, fallback=${status.fallback_generated || 0}` : "fallback mode"}. `
     + (status.last_error ? `Last error: ${status.last_error}` : "System healthy.");
 
   const formFilter = document.getElementById("formFilter");

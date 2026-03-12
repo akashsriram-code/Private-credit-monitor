@@ -80,6 +80,8 @@ class FilingMatch:
     whats_new: list[str]
     remaining_sections: dict[str, Any]
     wire_recommendation: str
+    analysis_source: str
+    openarena_error: str | None
     source: str
 
 
@@ -398,11 +400,11 @@ def generate_synopsis(
     openarena_bearer_token: str,
     openarena_workflow_id: str,
     openarena_timeout_seconds: int,
-) -> str:
+) -> tuple[str, str, str | None]:
     if not filing_text.strip():
-        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords)
+        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", "No filing text available."
     if not openarena_bearer_token or not openarena_workflow_id:
-        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords)
+        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", "Missing OpenArena credentials."
 
     excerpt = filing_text[:12000]
     prompt = (
@@ -447,10 +449,14 @@ def generate_synopsis(
                 openarena_timeout_seconds,
             )
         if not summary or is_low_quality_summary(summary):
-            return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords)
-        return summary.strip()
-    except Exception:
-        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords)
+            return (
+                fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords),
+                "fallback",
+                "OpenArena returned low-quality output.",
+            )
+        return summary.strip(), "openarena", None
+    except Exception as exc:
+        return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", str(exc)
 
 
 def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
@@ -534,6 +540,8 @@ def run_monitor(
     recent_entries = fetch_recent_entries(user_agent, days)
     matches: list[FilingMatch] = []
     last_error = None
+    openarena_generated = 0
+    fallback_generated = 0
 
     for entry in recent_entries:
         if entry["form_type"] not in active_forms:
@@ -547,7 +555,7 @@ def run_monitor(
             if not keyword_hits:
                 continue
             snippet = extract_snippet(filing_text, keyword_hits)
-            synopsis = generate_synopsis(
+            synopsis, analysis_source, openarena_error = generate_synopsis(
                 filing_text=filing_text,
                 company_name=entry["company_name"],
                 tracked_name=entity.name,
@@ -559,6 +567,10 @@ def run_monitor(
                 openarena_workflow_id=openarena_workflow_id,
                 openarena_timeout_seconds=openarena_timeout_seconds,
             )
+            if analysis_source == "openarena":
+                openarena_generated += 1
+            else:
+                fallback_generated += 1
             parsed_synopsis = parse_openarena_output(synopsis)
             matches.append(
                 FilingMatch(
@@ -580,6 +592,8 @@ def run_monitor(
                     whats_new=parsed_synopsis["whats_new"],
                     remaining_sections=parsed_synopsis["remaining_sections"],
                     wire_recommendation=parsed_synopsis["wire_recommendation"],
+                    analysis_source=analysis_source,
+                    openarena_error=openarena_error,
                     source="sec-daily-index",
                 )
             )
@@ -620,6 +634,8 @@ def run_monitor(
             "recent_entries_scanned": len(recent_entries),
             "openarena_enabled": bool(openarena_bearer_token),
             "openarena_workflow_id": openarena_workflow_id,
+            "openarena_generated": openarena_generated,
+            "fallback_generated": fallback_generated,
         },
     )
     save_json(
