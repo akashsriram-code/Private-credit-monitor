@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree as ET
 
 from private_credit_monitor.synopsis_output import format_email_html, format_email_text, parse_openarena_output
 
@@ -30,10 +31,13 @@ KEYWORDS_PATH = CONFIG_DIR / "keywords.txt"
 
 DEFAULT_FORMS = ["8-K", "D"]
 DEFAULT_DAYS = 7
+DEFAULT_HOURS_LOOKBACK = 3
 DEFAULT_MAX_RESULTS = 80
 DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
+FEED_PAGE_SIZE = 100
+DEFAULT_FEED_MAX_PAGES = 6
 COMMON_SUFFIXES = {
     "inc",
     "corp",
@@ -129,12 +133,29 @@ def normalize_filed_date(value: str) -> str:
     return value.replace("/", "-")
 
 
+def parse_iso_datetime(value: str) -> datetime | None:
+    candidate = (value or "").strip()
+    if not candidate:
+        return None
+    try:
+        return datetime.fromisoformat(candidate.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
 def quarter_for_day(day: date) -> int:
     return ((day.month - 1) // 3) + 1
 
 
 def master_index_url(day: date) -> str:
     return f"https://www.sec.gov/Archives/edgar/daily-index/{day.year}/QTR{quarter_for_day(day)}/master.{day:%Y%m%d}.idx"
+
+
+def current_feed_url(start: int) -> str:
+    return (
+        "https://www.sec.gov/cgi-bin/browse-edgar?"
+        f"action=getcurrent&count={FEED_PAGE_SIZE}&start={max(start, 0)}&output=atom"
+    )
 
 
 def sec_archive_url(filename: str) -> str:
@@ -219,6 +240,87 @@ def parse_master_index(raw_text: str) -> list[dict[str, str]]:
             }
         )
     return entries
+
+
+def extract_company_and_cik_from_title(title: str) -> tuple[str, str]:
+    match = re.search(r"^\s*[^-]+-\s*(.+?)\s*\((\d{7,10})\)", title)
+    if not match:
+        return title.strip(), ""
+    return match.group(1).strip(), match.group(2).strip()
+
+
+def extract_accession_from_link(link: str) -> str:
+    dashed = re.search(r"/(\d{10}-\d{2}-\d{6})-index\.htm", link, flags=re.IGNORECASE)
+    if dashed:
+        return dashed.group(1)
+    raw = re.search(r"/data/\d+/(\d{18,})/", link, flags=re.IGNORECASE)
+    if raw:
+        digits = raw.group(1)
+        return f"{digits[:10]}-{digits[10:12]}-{digits[12:18]}"
+    return ""
+
+
+def parse_feed_entries(feed_text: str) -> list[dict[str, str]]:
+    root = ET.fromstring(feed_text)
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    entries: list[dict[str, str]] = []
+
+    for entry in root.findall("atom:entry", ns):
+        link_el = entry.find("atom:link", ns)
+        title_el = entry.find("atom:title", ns)
+        category_el = entry.find("atom:category", ns)
+        updated_el = entry.find("atom:updated", ns)
+
+        link = link_el.attrib.get("href", "").strip() if link_el is not None else ""
+        title = (title_el.text or "").strip() if title_el is not None else ""
+        category_term = category_el.attrib.get("term", "").strip() if category_el is not None else ""
+        updated = (updated_el.text or "").strip() if updated_el is not None else ""
+        company_name, cik = extract_company_and_cik_from_title(title)
+        accession_number = extract_accession_from_link(link)
+
+        entries.append(
+            {
+                "cik": cik,
+                "company_name": company_name,
+                "form_type": normalize_form(category_term or title.split("-", maxsplit=1)[0].strip()),
+                "filed_date": normalize_filed_date(updated[:10]),
+                "filing_url": link.replace("-index.htm", ".txt") if link.endswith("-index.htm") else link,
+                "accession_number": accession_number,
+                "updated_at": updated,
+            }
+        )
+
+    return entries
+
+
+def fetch_recent_feed_entries(user_agent: str, hours_lookback: int, max_pages: int = DEFAULT_FEED_MAX_PAGES) -> list[dict[str, str]]:
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=max(hours_lookback, 1))
+    all_entries: list[dict[str, str]] = []
+    seen_signatures: set[tuple[str, ...]] = set()
+
+    for page_number in range(max_pages):
+        page_entries = parse_feed_entries(fetch_text(current_feed_url(page_number * FEED_PAGE_SIZE), user_agent))
+        if not page_entries:
+            break
+
+        signature = tuple(entry.get("accession_number", "") for entry in page_entries[:8])
+        if signature in seen_signatures:
+            break
+        seen_signatures.add(signature)
+
+        hit_cutoff = False
+        for entry in page_entries:
+            updated_at = parse_iso_datetime(entry.get("updated_at", ""))
+            if updated_at and updated_at < cutoff:
+                hit_cutoff = True
+                continue
+            all_entries.append(entry)
+
+        if hit_cutoff or len(page_entries) < FEED_PAGE_SIZE:
+            break
+        time.sleep(0.2)
+
+    return all_entries
 
 
 def fetch_recent_entries(user_agent: str, days: int) -> list[dict[str, str]]:
@@ -553,6 +655,7 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
 def run_monitor(
     user_agent: str,
     days: int = DEFAULT_DAYS,
+    hours_lookback: int | None = None,
     forms: list[str] | None = None,
     keywords: list[str] | None = None,
     max_results: int = DEFAULT_MAX_RESULTS,
@@ -573,7 +676,11 @@ def run_monitor(
     cik_lookup = parse_cik_lookup(fetch_text("https://www.sec.gov/Archives/edgar/cik-lookup-data.txt", user_agent))
     hydrate_entity_ciks(entities, cik_lookup)
 
-    recent_entries = fetch_recent_entries(user_agent, days)
+    recent_entries = (
+        fetch_recent_feed_entries(user_agent, hours_lookback)
+        if hours_lookback is not None
+        else fetch_recent_entries(user_agent, days)
+    )
     matches: list[FilingMatch] = []
     last_error = None
     openarena_generated = 0
@@ -667,6 +774,7 @@ def run_monitor(
             "last_run": utc_now_iso(),
             "last_error": email_error or last_error,
             "days_scanned": days,
+            "hours_lookback": hours_lookback,
             "forms": active_forms,
             "keywords": active_keywords,
             "new_alerts": len(new_matches),
@@ -703,6 +811,12 @@ def run_monitor(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Search recent SEC filings for private credit signals.")
     parser.add_argument("--days", type=int, default=DEFAULT_DAYS, help="Number of calendar days to scan.")
+    parser.add_argument(
+        "--hours-lookback",
+        type=int,
+        default=None,
+        help="Scan only filings updated in the last N hours using the SEC current feed.",
+    )
     parser.add_argument("--forms", default=",".join(DEFAULT_FORMS), help="Comma-separated SEC form types.")
     parser.add_argument("--keywords", default="", help="Optional comma-separated keywords.")
     parser.add_argument("--max-results", type=int, default=DEFAULT_MAX_RESULTS, help="Maximum matches to keep.")
@@ -721,6 +835,7 @@ def main() -> int:
     run_monitor(
         user_agent=user_agent,
         days=max(args.days, 1),
+        hours_lookback=max(args.hours_lookback, 1) if args.hours_lookback is not None else None,
         forms=forms,
         keywords=keywords,
         max_results=max(args.max_results, 1),

@@ -26,12 +26,13 @@ Set a descriptive SEC user agent first:
 
 ```powershell
 $env:SEC_USER_AGENT="Private-Credit-Monitor/1.0 your-email@example.com"
-python scripts/poll_filings.py --days 7 --forms 8-K,D
+python scripts/poll_filings.py --hours-lookback 3 --forms 8-K,D
 ```
 
 Optional flags:
 
 ```powershell
+python scripts/poll_filings.py --hours-lookback 3 --forms 8-K,D --max-results 40
 python scripts/poll_filings.py --days 14 --forms 8-K,D,10-Q --keywords "private credit,direct lending" --max-results 40
 ```
 
@@ -44,6 +45,8 @@ This repo is designed for static hosting.
 3. Add a repository secret named `SEC_USER_AGENT`.
 4. Run the `Poll SEC Filings` workflow once from the Actions tab.
 5. The action will refresh `data/*.json`, commit those changes, and the dashboard will reflect the latest matches.
+
+The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
 
 ## Backfill Action
 
