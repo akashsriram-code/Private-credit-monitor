@@ -1,7 +1,7 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-03-13T21:01:52.601706+00:00",
-  "last_error": null,
+  "last_run": "2026-03-13T21:49:30.713832+00:00",
+  "last_error": "Email alert skipped because SMTP settings are incomplete.",
   "days_scanned": 7,
   "hours_lookback": 3,
   "forms": [
@@ -25,8 +25,8 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 0,
-  "total_alerts": 8,
+  "new_alerts": 1,
+  "total_alerts": 9,
   "email_sent": false,
   "entities_tracked": 146,
   "recent_entries_scanned": 600,
@@ -34,6 +34,6 @@
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
   "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
-  "openarena_generated": 0,
+  "openarena_generated": 1,
   "fallback_generated": 0
 }
