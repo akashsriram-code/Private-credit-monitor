@@ -1,0 +1,38 @@
+name: Refresh CIK Lookup
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh SEC CIK lookup cache
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python -c "import os; from private_credit_monitor.monitor import load_cik_lookup_text; user_agent=os.environ['SEC_USER_AGENT'].strip(); text, source, age_days = load_cik_lookup_text(user_agent, max_age_days=0); print(f'CIK lookup source: {source}; age_days={age_days}')"
+
+      - name: Commit CIK lookup cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cik_lookup_cache.txt
+          git diff --cached --quiet || git commit -m "Refresh SEC CIK lookup cache"
+          git push

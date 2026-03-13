@@ -20,6 +20,7 @@ A GitHub-native SEC filing monitor for private credit, direct lending, and BDC c
 - [`static/styles.css`](/C:/Users/6113101/Private-credit-monitor/static/styles.css): subtle editorial styling.
 - [`static/app.js`](/C:/Users/6113101/Private-credit-monitor/static/app.js): JSON-driven dashboard rendering.
 - [`.github/workflows/poll-filings.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/poll-filings.yml): scheduled GitHub Action that refreshes dashboard data.
+- [`.github/workflows/refresh-cik-lookup.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/refresh-cik-lookup.yml): dedicated weekly/manual refresh for the SEC CIK cache.
 
 ## Local Run
 
@@ -49,6 +50,16 @@ This repo is designed for static hosting.
 
 The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
 The SEC CIK lookup file is cached in the repo and refreshed automatically if it is older than `7` days; if the live SEC refresh fails, the last good cached copy is reused.
+
+## CIK Refresh Action
+
+There is also a dedicated `Refresh CIK Lookup` GitHub Action.
+
+- Runs weekly on Mondays
+- Can also be launched manually from the Actions tab
+- Only updates and commits [`data/cik_lookup_cache.txt`](/C:/Users/6113101/Private-credit-monitor/data/cik_lookup_cache.txt)
+
+Use it from `Actions -> Refresh CIK Lookup -> Run workflow` if you want to refresh the SEC CIK mapping outside the normal polling cycle.
 
 ## Backfill Action
 
