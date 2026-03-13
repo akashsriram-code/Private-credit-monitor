@@ -38,7 +38,7 @@ jobs:
           OPENARENA_WORKFLOW_ID: 9214a226-9866-4f29-abd3-0eb3cd235f8e
           OPENARENA_TIMEOUT_SECONDS: 180
           REFRESH_CIK_LOOKUP: false
-        run: python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A" --max-results 80 --quiet
+        run: python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A" --max-results 80 --quiet
 
       - name: Commit dashboard data
         run: |
