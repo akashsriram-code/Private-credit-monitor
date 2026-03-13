@@ -275,12 +275,16 @@ def load_cik_lookup_text(
     user_agent: str,
     cache_path: Path = CIK_LOOKUP_CACHE_PATH,
     max_age_days: int = DEFAULT_CIK_CACHE_MAX_AGE_DAYS,
+    allow_refresh: bool = True,
 ) -> tuple[str, str, float | None]:
     age_days = cache_age_days(cache_path)
     cache_is_fresh = age_days is not None and age_days <= max(max_age_days, 1)
 
     if cache_is_fresh:
         return cache_path.read_text(encoding="utf-8"), "cache", age_days
+
+    if not allow_refresh and cache_path.exists():
+        return cache_path.read_text(encoding="utf-8"), "cache-disabled-refresh", age_days
 
     try:
         raw_text = fetch_text("https://www.sec.gov/Archives/edgar/cik-lookup-data.txt", user_agent)
@@ -767,12 +771,16 @@ def run_monitor(
     openarena_timeout_seconds = int(
         (os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)).strip()
     )
+    refresh_cik_lookup = (os.getenv("REFRESH_CIK_LOOKUP", "true").strip().lower() not in {"false", "0", "no"})
     state = load_json(STATE_PATH, {"seen_accessions": [], "last_run": None, "last_error": None})
     existing_alert_payloads = load_json(ALERTS_PATH, [])
     seen_accessions = set(state.get("seen_accessions", []))
 
     entities = load_tracked_entities()
-    cik_lookup_text, cik_lookup_source, cik_lookup_age_days = load_cik_lookup_text(user_agent)
+    cik_lookup_text, cik_lookup_source, cik_lookup_age_days = load_cik_lookup_text(
+        user_agent,
+        allow_refresh=refresh_cik_lookup,
+    )
     cik_lookup = parse_cik_lookup(cik_lookup_text)
     hydrate_entity_ciks(entities, cik_lookup)
 

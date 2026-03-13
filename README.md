@@ -49,7 +49,7 @@ This repo is designed for static hosting.
 5. The action will refresh `data/*.json`, commit those changes, and the dashboard will reflect the latest matches.
 
 The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
-The SEC CIK lookup file is cached in the repo and refreshed automatically if it is older than `7` days; if the live SEC refresh fails, the last good cached copy is reused.
+The SEC CIK lookup file is cached in the repo. The high-frequency `Poll SEC Filings` and `Backfill SEC Filings` workflows only read the cached copy; the dedicated `Refresh CIK Lookup` workflow is the job that refreshes it weekly or on demand.
 
 ## CIK Refresh Action
 

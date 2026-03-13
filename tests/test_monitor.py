@@ -250,6 +250,27 @@ class MonitorTests(unittest.TestCase):
             self.assertEqual(source, "stale-cache")
             self.assertIsNotNone(age_days)
 
+    def test_load_cik_lookup_text_skips_refresh_when_disabled(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            cache_path = Path(tmpdir) / "cik_lookup_cache.txt"
+            cache_path.write_text("stale-data", encoding="utf-8")
+
+            stale_time = 0
+            os.utime(cache_path, (stale_time, stale_time))
+
+            with patch("private_credit_monitor.monitor.fetch_text") as fetch_mock:
+                text, source, age_days = load_cik_lookup_text(
+                    "test-agent",
+                    cache_path=cache_path,
+                    max_age_days=7,
+                    allow_refresh=False,
+                )
+
+            self.assertEqual(text, "stale-data")
+            self.assertEqual(source, "cache-disabled-refresh")
+            self.assertIsNotNone(age_days)
+            fetch_mock.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()

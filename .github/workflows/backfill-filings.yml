@@ -40,12 +40,13 @@ jobs:
           OPENARENA_BEARER_TOKEN: ${{ secrets.OPENARENA_BEARER_TOKEN }}
           OPENARENA_WORKFLOW_ID: 9214a226-9866-4f29-abd3-0eb3cd235f8e
           OPENARENA_TIMEOUT_SECONDS: 180
+          REFRESH_CIK_LOOKUP: false
         run: python scripts/poll_filings.py --days ${{ inputs.backfill_days }} --forms 8-K,D,SC TO-I,SC TO-I/A --max-results 200 --quiet
 
       - name: Commit backfill data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/alerts.json data/state.json data/status.json data/cik_lookup_cache.txt
+          git add data/alerts.json data/state.json data/status.json
           git diff --cached --quiet || git commit -m "Backfill filing dashboard data"
           git push
