@@ -1,14 +1,16 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-03-13T19:48:55.794899+00:00",
+  "last_run": "2026-03-13T19:51:59.529042+00:00",
   "last_error": null,
-  "days_scanned": 7,
-  "hours_lookback": 3,
+  "days_scanned": 1,
+  "hours_lookback": null,
   "forms": [
     "8-K",
     "D",
     "SC TO-I",
-    "SC TO-I/A"
+    "SC TO-I/A",
+    "SC TO-T",
+    "SC TO-T/A"
   ],
   "keywords": [
     "private credit",
@@ -27,7 +29,7 @@
   "total_alerts": 7,
   "email_sent": false,
   "entities_tracked": 146,
-  "recent_entries_scanned": 600,
+  "recent_entries_scanned": 0,
   "cik_lookup_source": "cache",
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
