@@ -28,14 +28,14 @@ Set a descriptive SEC user agent first:
 
 ```powershell
 $env:SEC_USER_AGENT="Private-Credit-Monitor/1.0 your-email@example.com"
-python scripts/poll_filings.py --hours-lookback 3 --forms 8-K,D,SC TO-I,SC TO-I/A
+python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A"
 ```
 
 Optional flags:
 
 ```powershell
-python scripts/poll_filings.py --hours-lookback 3 --forms 8-K,D,SC TO-I,SC TO-I/A --max-results 40
-python scripts/poll_filings.py --days 14 --forms 8-K,D,SC TO-I,SC TO-I/A,10-Q --keywords "private credit,direct lending" --max-results 40
+python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A" --max-results 40
+python scripts/poll_filings.py --days 14 --forms "8-K,D,SC TO-I,SC TO-I/A,10-Q" --keywords "private credit,direct lending" --max-results 40
 ```
 
 ## GitHub Hosting
