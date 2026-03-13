@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-106167",
+    "cik": "0001837532",
+    "company_name": "K - Apollo Debt Solutions BDC",
+    "form_type": "8-K",
+    "filed_date": "2026-03-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1837532/000119312526106167/0001193125-26-106167.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1837532/000119312526106167/0001193125-26-106167-index.html",
+    "tracked_name": "Apollo Debt Solutions BDC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt",
+      "senior secured"
+    ],
+    "description": "uch coin or currency of the United States of America as at the time shall be legal tender for payment of all public and private debts and (b) funds denominated in any other Specified Currencies. &#8220; Cause Event &#8221; is defined in Section 13(g). &#8220; Certificated Security &#8221; is defined in Section 8-102(a)",
+    "openarena_output": "SEC Filing Analysis: K - Apollo Debt Solutions BDC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nuch coin or currency of the United States of America as at the time shall be legal tender for payment of all public and private debts and (b) funds denominated in any other Specified Currencies. &#8220; Cause Event &#8221; is defined in Section 13(g). &#8220; Certificated Security &#8221; is defined in Section 8-102(a)\n\nC. What's New\nMatched keywords: private debt, senior secured.\nuch coin or currency of the United States of America as at the time shall be legal tender for payment of all public and private debts and (b) funds denominated in any other Specified Currencies. &#8220; Cause Event &#8221; is defined in Section 13(g). &#8220; Certificated Security &#8221; is defined in Section 8-102(a)\n\nD. Most Important Points\nApollo Debt Solutions BDC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Apollo Debt Solutions BDC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "uch coin or currency of the United States of America as at the time shall be legal tender for payment of all public and private debts and (b) funds denominated in any other Specified Currencies. &#8220; Cause Event &#8221; is defined in Section 13(g). &#8220; Certificated Security &#8221; is defined in Section 8-102(a)",
+    "whats_new": [
+      "Matched keywords: private debt, senior secured. uch coin or currency of the United States of America as at the time shall be legal tender for payment of all public and private debts and (b) funds denominated in any other Specified Currencies. &#8220; Cause Event &#8221; is defined in Section 13(g). &#8220; Certificated Security &#8221; is defined in Section 8-102(a)"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Apollo Debt Solutions BDC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 504: Gateway Timeout",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001901164-26-000010",
     "cik": "1901164",
     "company_name": "T. Rowe Price OHA Select Private Credit Fund",
