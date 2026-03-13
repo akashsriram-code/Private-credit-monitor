@@ -45,5 +45,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/alerts.json data/state.json data/status.json
-          git diff --cached --quiet || git commit -m "Update filing dashboard data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No dashboard data changes to commit."
+          else
+            git commit -m "Update filing dashboard data"
+            git pull --rebase origin main
+            git push origin main
+          fi

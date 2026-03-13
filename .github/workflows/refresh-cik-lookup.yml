@@ -34,5 +34,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/cik_lookup_cache.txt
-          git diff --cached --quiet || git commit -m "Refresh SEC CIK lookup cache"
-          git push
+          if git diff --cached --quiet; then
+            echo "No CIK cache changes to commit."
+          else
+            git commit -m "Refresh SEC CIK lookup cache"
+            git pull --rebase origin main
+            git push origin main
+          fi
