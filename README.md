@@ -19,9 +19,11 @@ A GitHub-native SEC filing monitor for private credit, direct lending, and BDC c
 - [`index.html`](/C:/Users/6113101/Private-credit-monitor/index.html): static dashboard shell.
 - [`static/styles.css`](/C:/Users/6113101/Private-credit-monitor/static/styles.css): subtle editorial styling.
 - [`static/app.js`](/C:/Users/6113101/Private-credit-monitor/static/app.js): JSON-driven dashboard rendering.
+- [`static/analytics.js`](/C:/Users/6113101/Private-credit-monitor/static/analytics.js): silent anonymous event tracking for the frontend.
 - [`.github/workflows/poll-filings.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/poll-filings.yml): scheduled GitHub Action that refreshes dashboard data.
 - [`.github/workflows/refresh-cik-lookup.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/refresh-cik-lookup.yml): dedicated weekly/manual refresh for the SEC CIK cache.
 - [`.github/workflows/send-test-email.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/send-test-email.yml): manual SMTP health-check email workflow.
+- [`analytics-collector/README.md`](/C:/Users/6113101/Private-credit-monitor/analytics-collector/README.md): separate Vercel collector for invisible anonymous usage logging.
 
 ## Local Run
 
@@ -51,6 +53,23 @@ This repo is designed for static hosting.
 
 The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
 The SEC CIK lookup file is cached in the repo. The high-frequency `Poll SEC Filings` and `Backfill SEC Filings` workflows only read the cached copy; the dedicated `Refresh CIK Lookup` workflow is the job that refreshes it weekly or on demand.
+
+## Anonymous Usage Logging
+
+The dashboard now supports invisible anonymous usage logging for internal product metrics.
+
+- Frontend events are emitted silently from [`static/analytics.js`](/C:/Users/6113101/Private-credit-monitor/static/analytics.js)
+- No analytics UI is shown to end users
+- No named user identity, raw search text, or fingerprinting data is collected
+- A separate Vercel project in [`analytics-collector/`](C:/Users/6113101/Private-credit-monitor/analytics-collector/) ingests and stores the events
+
+To enable it:
+
+1. Deploy the `analytics-collector` folder as a separate Vercel project.
+2. Set `ALLOWED_ORIGINS` and connect Vercel Postgres.
+3. Run the SQL in [`analytics-collector/sql/schema.sql`](C:/Users/6113101/Private-credit-monitor/analytics-collector/sql/schema.sql).
+4. Set the hidden meta tag in [`index.html`](C:/Users/6113101/Private-credit-monitor/index.html) to your collector endpoint:
+   - `https://<your-vercel-project>.vercel.app/api/collect`
 
 ## CIK Refresh Action
 

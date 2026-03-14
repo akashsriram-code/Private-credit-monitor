@@ -38,7 +38,13 @@ function renderList(items, className) {
 
 function buildCard(filing) {
   return `
-    <article class="filing-card">
+    <article
+      class="filing-card"
+      data-filing-card="true"
+      data-accession-number="${escapeHtml(filing.accession_number)}"
+      data-form-type="${escapeHtml(filing.form_type)}"
+      data-tracked-name="${escapeHtml(filing.tracked_name)}"
+    >
       <div class="filing-top">
         <div>
           <h3 class="filing-title">${escapeHtml(filing.company_name)}</h3>
@@ -66,7 +72,13 @@ function buildCard(filing) {
         : ""}
       <div class="link-row">
         <button class="story-link buttonish" data-open-analysis="${escapeHtml(filing.accession_number)}">Open Analysis</button>
-        <a class="story-link" href="${escapeHtml(filing.index_url)}" target="_blank" rel="noreferrer">Open Filing</a>
+        <a
+          class="story-link"
+          href="${escapeHtml(filing.index_url)}"
+          target="_blank"
+          rel="noreferrer"
+          data-open-filing="${escapeHtml(filing.accession_number)}"
+        >Open Filing</a>
       </div>
     </article>
   `;
@@ -114,6 +126,7 @@ function renderModalSection(key, value) {
 function openAnalysisModal(accessionNumber) {
   const filing = (window.__filings || []).find((item) => item.accession_number === accessionNumber);
   if (!filing) return;
+  window.__PCMAnalytics?.trackAnalysisModalOpen(filing);
 
   document.getElementById("modalTitle").textContent = filing.openarena_title || filing.company_name;
   const remainingSections = filing.remaining_sections || {};
@@ -179,11 +192,26 @@ async function render() {
     .join("");
 
   applyFilters(filings);
+  window.__PCMAnalytics?.observeFilingCards();
+  window.__PCMAnalytics?.trackPageView();
 }
 
-document.getElementById("refreshButton").addEventListener("click", render);
-document.getElementById("searchInput").addEventListener("input", () => applyFilters(window.__filings || []));
-document.getElementById("formFilter").addEventListener("change", () => applyFilters(window.__filings || []));
+document.getElementById("refreshButton").addEventListener("click", () => {
+  window.__PCMAnalytics?.trackRefreshClick();
+  render();
+});
+document.getElementById("searchInput").addEventListener("input", (event) => {
+  const value = event.target instanceof HTMLInputElement ? event.target.value.trim() : "";
+  window.__PCMAnalytics?.trackSearchUsage(value.length);
+  applyFilters(window.__filings || []);
+});
+document.getElementById("formFilter").addEventListener("change", (event) => {
+  const value = event.target instanceof HTMLSelectElement ? event.target.value : "";
+  if (value) {
+    window.__PCMAnalytics?.trackFormFilterChange(value);
+  }
+  applyFilters(window.__filings || []);
+});
 document.getElementById("closeModalButton").addEventListener("click", closeAnalysisModal);
 document.getElementById("analysisModal").addEventListener("click", (event) => {
   const target = event.target;
@@ -195,6 +223,12 @@ document.getElementById("filings").addEventListener("click", (event) => {
   const target = event.target;
   if (target instanceof HTMLElement && target.dataset.openAnalysis) {
     openAnalysisModal(target.dataset.openAnalysis);
+  }
+  if (target instanceof HTMLAnchorElement && target.dataset.openFiling) {
+    const filing = (window.__filings || []).find((item) => item.accession_number === target.dataset.openFiling);
+    if (filing) {
+      window.__PCMAnalytics?.trackFilingLinkClick(filing);
+    }
   }
 });
 document.addEventListener("keydown", (event) => {

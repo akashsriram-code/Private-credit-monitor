@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/collect.js": {
+      "maxDuration": 10
+    },
+    "api/cleanup.js": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cleanup",
+      "schedule": "0 5 * * *"
+    }
+  ]
+}
