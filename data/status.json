@@ -1,6 +1,6 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-03-13T23:49:00.894103+00:00",
+  "last_run": "2026-03-14T00:53:42.801865+00:00",
   "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
@@ -29,11 +29,11 @@
   "total_alerts": 9,
   "email_sent": false,
   "entities_tracked": 146,
-  "recent_entries_scanned": 600,
+  "recent_entries_scanned": 555,
   "cik_lookup_source": "cache",
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
   "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
-  "openarena_generated": 1,
+  "openarena_generated": 0,
   "fallback_generated": 0
 }
