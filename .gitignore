@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-node_modules/
 .tmp_etf_repo/
 .tmp_forensic_repo/
