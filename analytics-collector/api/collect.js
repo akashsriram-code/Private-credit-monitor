@@ -1,9 +1,19 @@
 import { insertEvent } from "../lib/db.js";
 import { consumeRateLimit, rateLimitKey } from "../lib/rate-limit.js";
-import { bodySizeOkay, isAllowedOrigin, validatePayload } from "../lib/validation.js";
+import { bodySizeOkay, isAllowedOrigin, resolveAllowedOrigin, validatePayload } from "../lib/validation.js";
 
 function json(res, status, payload) {
   res.status(status).json(payload);
+}
+
+function applyCors(req, res) {
+  const allowedOrigin = resolveAllowedOrigin(req);
+  if (allowedOrigin) {
+    res.setHeader("Access-Control-Allow-Origin", allowedOrigin);
+    res.setHeader("Vary", "Origin");
+  }
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 }
 
 function userAgentFamily(req) {
@@ -17,8 +27,14 @@ function userAgentFamily(req) {
 }
 
 export default async function handler(req, res) {
+  applyCors(req, res);
+
+  if (req.method === "OPTIONS") {
+    return res.status(204).end();
+  }
+
   if (req.method !== "POST") {
-    res.setHeader("Allow", "POST");
+    res.setHeader("Allow", "POST, OPTIONS");
     return json(res, 405, { error: "Method not allowed." });
   }
 

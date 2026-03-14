@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import { consumeRateLimit } from "../lib/rate-limit.js";
-import { bodySizeOkay, isAllowedOrigin, validatePayload } from "../lib/validation.js";
+import { bodySizeOkay, isAllowedOrigin, resolveAllowedOrigin, validatePayload } from "../lib/validation.js";
 
 function validPayload() {
   return {
@@ -33,6 +33,16 @@ test("isAllowedOrigin enforces configured origins", () => {
   process.env.ALLOWED_ORIGINS = "https://akashsriram-code.github.io,https://example.com";
   assert.equal(isAllowedOrigin({ headers: { origin: "https://akashsriram-code.github.io" } }), true);
   assert.equal(isAllowedOrigin({ headers: { origin: "https://bad.example" } }), false);
+  delete process.env.ALLOWED_ORIGINS;
+});
+
+test("resolveAllowedOrigin returns wildcard or matched origin", () => {
+  delete process.env.ALLOWED_ORIGINS;
+  assert.equal(resolveAllowedOrigin({ headers: { origin: "https://akashsriram-code.github.io" } }), "https://akashsriram-code.github.io");
+
+  process.env.ALLOWED_ORIGINS = "https://akashsriram-code.github.io";
+  assert.equal(resolveAllowedOrigin({ headers: { origin: "https://akashsriram-code.github.io" } }), "https://akashsriram-code.github.io");
+  assert.equal(resolveAllowedOrigin({ headers: { origin: "https://bad.example" } }), "");
   delete process.env.ALLOWED_ORIGINS;
 });
 

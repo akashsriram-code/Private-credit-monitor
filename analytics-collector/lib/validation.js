@@ -7,13 +7,17 @@ function allowedOrigins() {
     .filter(Boolean);
 }
 
-export function isAllowedOrigin(req) {
+export function resolveAllowedOrigin(req) {
   const configured = allowedOrigins();
-  if (!configured.length) {
-    return true;
-  }
   const origin = String(req.headers.origin || "");
-  return configured.includes(origin);
+  if (!configured.length) {
+    return origin || "*";
+  }
+  return configured.includes(origin) ? origin : "";
+}
+
+export function isAllowedOrigin(req) {
+  return Boolean(resolveAllowedOrigin(req));
 }
 
 export function bodySizeOkay(bodyText) {
