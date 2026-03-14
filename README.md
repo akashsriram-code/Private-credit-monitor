@@ -21,6 +21,7 @@ A GitHub-native SEC filing monitor for private credit, direct lending, and BDC c
 - [`static/app.js`](/C:/Users/6113101/Private-credit-monitor/static/app.js): JSON-driven dashboard rendering.
 - [`.github/workflows/poll-filings.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/poll-filings.yml): scheduled GitHub Action that refreshes dashboard data.
 - [`.github/workflows/refresh-cik-lookup.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/refresh-cik-lookup.yml): dedicated weekly/manual refresh for the SEC CIK cache.
+- [`.github/workflows/send-test-email.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/send-test-email.yml): manual SMTP health-check email workflow.
 
 ## Local Run
 
@@ -95,6 +96,16 @@ If you want a richer alert layer later, the clean next step is to swap SMTP for:
 - AWS SES or Resend for deliverability and better analytics.
 - A daily digest plus immediate alerts split by severity.
 - A second workflow that fans out alerts to Slack, Teams, or other editorial channels.
+
+## Test Email Action
+
+There is also a manual `Send Test Email` GitHub Action.
+
+- Uses the existing SMTP secrets
+- Sends a routine health-check email to `ALERT_EMAIL_TO`
+- Helps verify the email component without waiting for a live filing alert
+
+Use it from `Actions -> Send Test Email -> Run workflow`.
 
 ## OpenArena Wiring
 

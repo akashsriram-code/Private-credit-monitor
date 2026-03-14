@@ -697,11 +697,7 @@ def generate_synopsis(
         return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", str(exc)
 
 
-def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
-    enabled = os.getenv("ENABLE_EMAIL_ALERTS", "false").strip().lower() == "true"
-    if not enabled or not matches:
-        return False, None
-
+def load_smtp_settings() -> tuple[dict[str, str | int], str | None]:
     smtp_host = os.getenv("SMTP_HOST", "").strip()
     smtp_port = int(os.getenv("SMTP_PORT", "587").strip())
     smtp_username = os.getenv("SMTP_USERNAME", "").strip()
@@ -709,14 +705,73 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
     from_email = os.getenv("FROM_EMAIL", smtp_username).strip()
     to_email = os.getenv("ALERT_EMAIL_TO", "").strip()
     if not all([smtp_host, smtp_username, smtp_password, from_email, to_email]):
-        return False, "Email alert skipped because SMTP settings are incomplete."
+        return {}, "Email alert skipped because SMTP settings are incomplete."
+    return {
+        "smtp_host": smtp_host,
+        "smtp_port": smtp_port,
+        "smtp_username": smtp_username,
+        "smtp_password": smtp_password,
+        "from_email": from_email,
+        "to_email": to_email,
+    }, None
+
+
+def send_messages(messages: list[EmailMessage], smtp_settings: dict[str, str | int]) -> tuple[bool, str | None]:
+    with smtplib.SMTP(str(smtp_settings["smtp_host"]), int(smtp_settings["smtp_port"]), timeout=30) as server:
+        server.starttls(context=ssl.create_default_context())
+        server.login(str(smtp_settings["smtp_username"]), str(smtp_settings["smtp_password"]))
+        for message in messages:
+            server.send_message(message)
+    return True, None
+
+
+def send_test_email() -> tuple[bool, str | None]:
+    smtp_settings, smtp_error = load_smtp_settings()
+    if smtp_error:
+        return False, smtp_error
+
+    message = EmailMessage()
+    message["Subject"] = "[Private Credit Monitor] Routine email health check"
+    message["From"] = str(smtp_settings["from_email"])
+    message["To"] = str(smtp_settings["to_email"])
+    message.set_content(
+        "\n".join(
+            [
+                "Private Credit Monitor test email",
+                "",
+                "This is a routine test email to check the health of the email component.",
+                "If you received this, the SMTP configuration is working.",
+            ]
+        )
+    )
+    message.add_alternative(
+        (
+            "<html><body>"
+            "<h2>Private Credit Monitor test email</h2>"
+            "<p>This is a routine test email to check the health of the email component.</p>"
+            "<p>If you received this, the SMTP configuration is working.</p>"
+            "</body></html>"
+        ),
+        subtype="html",
+    )
+    return send_messages([message], smtp_settings)
+
+
+def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
+    enabled = os.getenv("ENABLE_EMAIL_ALERTS", "false").strip().lower() == "true"
+    if not enabled or not matches:
+        return False, None
+
+    smtp_settings, smtp_error = load_smtp_settings()
+    if smtp_error:
+        return False, smtp_error
 
     if len(matches) == 1:
         match = matches[0]
         message = EmailMessage()
         message["Subject"] = f"[Private Credit Monitor] {match.company_name} | {match.relevance_verdict or match.form_type}"
-        message["From"] = from_email
-        message["To"] = to_email
+        message["From"] = str(smtp_settings["from_email"])
+        message["To"] = str(smtp_settings["to_email"])
         parsed = {
             "title": match.openarena_title,
             "relevance_verdict": match.relevance_verdict,
@@ -729,8 +784,8 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
     else:
         message = EmailMessage()
         message["Subject"] = f"[Private Credit Monitor] {len(matches)} new filing alert(s)"
-        message["From"] = from_email
-        message["To"] = to_email
+        message["From"] = str(smtp_settings["from_email"])
+        message["To"] = str(smtp_settings["to_email"])
         text_blocks = []
         html_blocks = []
         for match in matches[:20]:
@@ -746,12 +801,7 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
         message.add_alternative("<html><body>" + "<hr/>".join(html_blocks) + "</body></html>", subtype="html")
         messages = [message]
 
-    with smtplib.SMTP(smtp_host, smtp_port, timeout=30) as server:
-        server.starttls(context=ssl.create_default_context())
-        server.login(smtp_username, smtp_password)
-        for message in messages:
-            server.send_message(message)
-    return True, None
+    return send_messages(messages, smtp_settings)
 
 
 def run_monitor(

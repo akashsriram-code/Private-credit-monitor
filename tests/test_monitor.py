@@ -13,6 +13,7 @@ from private_credit_monitor.monitor import (
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
+    send_test_email,
 )
 from private_credit_monitor.synopsis_output import parse_openarena_output
 
@@ -270,6 +271,35 @@ class MonitorTests(unittest.TestCase):
             self.assertEqual(source, "cache-disabled-refresh")
             self.assertIsNotNone(age_days)
             fetch_mock.assert_not_called()
+
+    def test_send_test_email_uses_routine_health_check_copy(self) -> None:
+        captured = {}
+
+        def fake_send_messages(messages, smtp_settings):
+            captured["messages"] = messages
+            captured["smtp_settings"] = smtp_settings
+            return True, None
+
+        with patch.dict(
+            os.environ,
+            {
+                "SMTP_HOST": "smtp.example.com",
+                "SMTP_PORT": "587",
+                "SMTP_USERNAME": "reporter@example.com",
+                "SMTP_PASSWORD": "secret",
+                "FROM_EMAIL": "reporter@example.com",
+                "ALERT_EMAIL_TO": "desk@example.com",
+            },
+            clear=False,
+        ), patch("private_credit_monitor.monitor.send_messages", side_effect=fake_send_messages):
+            sent, error = send_test_email()
+
+        self.assertTrue(sent)
+        self.assertIsNone(error)
+        self.assertEqual(len(captured["messages"]), 1)
+        message = captured["messages"][0]
+        self.assertIn("Routine email health check", message["Subject"])
+        self.assertIn("routine test email to check the health of the email component", message.get_body().get_content())
 
 
 if __name__ == "__main__":
