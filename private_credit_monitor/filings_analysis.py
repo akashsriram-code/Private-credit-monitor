@@ -736,8 +736,28 @@ def parse_uploaded_file(
     )
     file_uuid = str(response_json.get("file_uuid", "")).strip()
     if not file_uuid:
+        nested = response_json.get("file_parse") or {}
+        file_uuid = str(nested.get("file_uuid", "")).strip()
+    if not file_uuid:
         raise RuntimeError("OpenArena parsing response did not include file_uuid.")
     return file_uuid
+
+
+def trigger_rag_population(
+    base_url: str,
+    bearer_token: str,
+    workflow_id: str,
+    timeout_seconds: int,
+) -> None:
+    request = Request(
+        f"{base_url.rstrip('/')}/v1/rag/populate/{workflow_id}",
+        headers={
+            "Authorization": f"Bearer {bearer_token}",
+        },
+        method="PUT",
+    )
+    with urlopen(request, timeout=timeout_seconds):
+        return
 
 
 def build_context_fallback(question: str, filings: list[FilingDocument]) -> str:
@@ -783,7 +803,7 @@ def call_openarena_ask_documents(
             }
             for filing in filings
         ],
-        "is_rag_storage_request": False,
+        "is_rag_storage_request": True,
         "workflow_id": workflow_id,
     }
     upload_payload = post_json(
@@ -825,14 +845,20 @@ def call_openarena_ask_documents(
             )
         )
 
+    trigger_rag_population(
+        base_url=base_url,
+        bearer_token=bearer_token,
+        workflow_id=workflow_id,
+        timeout_seconds=timeout_seconds,
+    )
+
     inference_payload = {
         "workflow_id": workflow_id,
         "query": question,
         "is_persistence_allowed": False,
         "modelparams": build_model_params(),
-        "input_variables": {
-            "file_uuids": file_uuids,
-        },
+        "input_variables": {},
+        "file_uuid": file_uuids,
         "conversation_id": None,
     }
     response_json = post_json(
