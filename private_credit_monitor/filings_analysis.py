@@ -603,9 +603,8 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
             raw_text = fetch_text(filing.filing_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
         full_text = text_from_filing(raw_text)
         excerpt = build_filing_excerpt(full_text, question)
-        suffix = Path(filing.primary_document or "").suffix or ".html"
         safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
-        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}{suffix.lower()}"
+        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.txt"
         hydrated.append(
             FilingDocument(
                 entity_name=filing.entity_name,
