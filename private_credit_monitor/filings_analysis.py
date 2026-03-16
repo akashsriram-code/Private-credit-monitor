@@ -717,6 +717,29 @@ def upload_presigned_file(
         return
 
 
+def parse_uploaded_file(
+    base_url: str,
+    bearer_token: str,
+    workflow_id: str,
+    presigned_url: dict[str, Any],
+    timeout_seconds: int,
+) -> str:
+    payload = {
+        "workflow_id": workflow_id,
+        "presigned_url": presigned_url,
+    }
+    response_json = post_json(
+        f"{base_url.rstrip('/')}/v1/document/file_parsing",
+        bearer_token,
+        payload,
+        timeout_seconds,
+    )
+    file_uuid = str(response_json.get("file_uuid", "")).strip()
+    if not file_uuid:
+        raise RuntimeError("OpenArena parsing response did not include file_uuid.")
+    return file_uuid
+
+
 def build_context_fallback(question: str, filings: list[FilingDocument]) -> str:
     doc_blocks = []
     for filing in filings:
@@ -773,6 +796,7 @@ def call_openarena_ask_documents(
     if len(upload_urls) != len(filings):
         raise RuntimeError("OpenArena upload URL response did not match the number of filings.")
 
+    file_uuids: list[str] = []
     for filing, file_obj in zip(filings, upload_urls):
         nested_url = file_obj.get("url") or {}
         target_url = nested_url.get("url")
@@ -787,13 +811,28 @@ def call_openarena_ask_documents(
             file_bytes=filing.full_text.encode("utf-8"),
             timeout_seconds=timeout_seconds,
         )
+        file_uuids.append(
+            parse_uploaded_file(
+                base_url=base_url,
+                bearer_token=bearer_token,
+                workflow_id=workflow_id,
+                presigned_url={
+                    "url": target_url,
+                    "fields": fields,
+                    "file_name": file_name,
+                },
+                timeout_seconds=timeout_seconds,
+            )
+        )
 
     inference_payload = {
         "workflow_id": workflow_id,
         "query": question,
         "is_persistence_allowed": False,
         "modelparams": build_model_params(),
-        "input_variables": {},
+        "input_variables": {
+            "file_uuids": file_uuids,
+        },
         "conversation_id": None,
     }
     response_json = post_json(
