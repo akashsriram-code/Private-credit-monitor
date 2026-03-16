@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Private Credit Monitor</title>
+  <meta name="github-repo" content="akashsriram-code/Private-credit-monitor" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -24,45 +25,123 @@
       </div>
     </header>
 
-    <section class="metric-grid">
-      <article class="metric-card">
-        <p class="metric-label">Tracked Entities</p>
-        <p class="metric-value" id="trackedCount">0</p>
-      </article>
-      <article class="metric-card">
-        <p class="metric-label">Tracked Filings</p>
-        <p class="metric-value" id="filingCount">0</p>
-      </article>
-      <article class="metric-card">
-        <p class="metric-label">New Alerts</p>
-        <p class="metric-value" id="newCount">0</p>
-      </article>
-      <article class="metric-card">
-        <p class="metric-label">Forms Scanned</p>
-        <p class="metric-value" id="formCount">0</p>
-      </article>
-    </section>
+    <nav class="tab-bar" aria-label="Primary views">
+      <button class="tab-button active" data-tab-target="monitorView">Monitor</button>
+      <button class="tab-button" data-tab-target="analysisView">Filings Analysis</button>
+    </nav>
 
-    <section class="panel panel-intro">
-      <div class="panel-head">
-        <h2>System Pulse</h2>
-        <button id="refreshButton" class="button-link">Refresh</button>
-      </div>
-      <p class="status-line" id="statusLine">Loading latest poll status...</p>
-    </section>
+    <section id="monitorView" class="tab-panel active">
+      <section class="metric-grid">
+        <article class="metric-card">
+          <p class="metric-label">Tracked Entities</p>
+          <p class="metric-value" id="trackedCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Tracked Filings</p>
+          <p class="metric-value" id="filingCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">New Alerts</p>
+          <p class="metric-value" id="newCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Forms Scanned</p>
+          <p class="metric-value" id="formCount">0</p>
+        </article>
+      </section>
 
-    <section class="panel">
-      <div class="panel-head filters-head">
-        <h2>Matched Filings</h2>
-        <div class="controls">
-          <input id="searchInput" type="search" placeholder="Search company, keyword, description" />
-          <select id="formFilter">
-            <option value="ALL">All forms</option>
-          </select>
+      <section class="panel panel-intro">
+        <div class="panel-head">
+          <h2>System Pulse</h2>
+          <button id="refreshButton" class="button-link">Refresh</button>
         </div>
-      </div>
-      <p class="meta-line"><span id="visibleCount">0</span> filings shown</p>
-      <div id="filings" class="filing-list"></div>
+        <p class="status-line" id="statusLine">Loading latest poll status...</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head filters-head">
+          <h2>Matched Filings</h2>
+          <div class="controls">
+            <input id="searchInput" type="search" placeholder="Search company, keyword, description" />
+            <select id="formFilter">
+              <option value="ALL">All forms</option>
+            </select>
+          </div>
+        </div>
+        <p class="meta-line"><span id="visibleCount">0</span> filings shown</p>
+        <div id="filings" class="filing-list"></div>
+      </section>
+    </section>
+
+    <section id="analysisView" class="tab-panel hidden">
+      <section class="metric-grid analysis-metrics">
+        <article class="metric-card">
+          <p class="metric-label">Analysis Sessions</p>
+          <p class="metric-value" id="analysisSessionCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Queued</p>
+          <p class="metric-value" id="analysisQueuedCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Completed</p>
+          <p class="metric-value" id="analysisCompleteCount">0</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Failed</p>
+          <p class="metric-value" id="analysisFailedCount">0</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Ask Your Document</p>
+            <h2>10-K / 10-Q Filings Analysis</h2>
+          </div>
+          <button id="refreshAnalysisButton" class="button-link">Refresh Sessions</button>
+        </div>
+        <p class="status-line" id="analysisStatusLine">Loading live analysis history...</p>
+        <div class="analysis-layout">
+          <form id="analysisRequestForm" class="analysis-form">
+            <label class="field-label" for="entitySearchInput">Tracked entities</label>
+            <input id="entitySearchInput" type="search" placeholder="Filter the watchlist" />
+            <div id="entitySelectionSummary" class="meta-line">No entities selected.</div>
+            <div id="entityMultiSelect" class="entity-grid"></div>
+
+            <div class="dual-fields">
+              <div>
+                <label class="field-label" for="analysisFormType">Filing type</label>
+                <select id="analysisFormType">
+                  <option value="10-K">10-K</option>
+                  <option value="10-Q">10-Q</option>
+                </select>
+              </div>
+              <div>
+                <label class="field-label" for="analysisLookbackCount">Calendar lookback</label>
+                <input id="analysisLookbackCount" type="number" min="1" max="12" value="2" />
+              </div>
+            </div>
+
+            <label class="field-label" for="analysisQuestion">What are you looking for?</label>
+            <textarea id="analysisQuestion" rows="7" placeholder="Example: Compare liquidity, leverage, and non-accrual trends across the last two annual filings."></textarea>
+
+            <div class="link-row">
+              <button type="submit" class="story-link buttonish action-button">Run Analysis</button>
+              <button type="button" id="copyIssueButton" class="story-link action-button">Copy Request JSON</button>
+            </div>
+            <p class="meta-line">This tab now calls the live backend directly. The server fetches filings, sends them to OpenArena, returns the answer, and stores the session as JSON.</p>
+            <pre id="issuePreview" class="issue-preview"></pre>
+          </form>
+
+          <div class="analysis-results">
+            <div class="panel-head">
+              <h2>Recent Sessions</h2>
+            </div>
+            <div id="analysisSessions" class="analysis-session-list"></div>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
 

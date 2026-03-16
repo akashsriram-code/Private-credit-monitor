@@ -43,6 +43,10 @@ body {
   padding: 34px 0 64px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .masthead {
   display: flex;
   justify-content: space-between;
@@ -127,6 +131,40 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.tab-bar {
+  display: inline-flex;
+  gap: 8px;
+  padding: 6px;
+  margin: 8px 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 252, 247, 0.76);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+}
+
+.tab-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tab-button.active {
+  background: var(--sage);
+  color: #fff;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
 .metric-card {
   border-radius: 18px;
   padding: 16px;
@@ -199,6 +237,19 @@ select {
   background: rgba(255, 255, 255, 0.76);
   color: var(--ink);
   font-size: 12px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--ink);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  resize: vertical;
 }
 
 input {
@@ -378,6 +429,167 @@ input {
   text-align: center;
 }
 
+.analysis-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 430px) minmax(0, 1fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.analysis-form,
+.analysis-results {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.field-label {
+  display: block;
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.entity-grid {
+  max-height: 240px;
+  overflow: auto;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.entity-option {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-top: 1px solid rgba(22, 33, 43, 0.08);
+}
+
+.entity-option:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.entity-option input {
+  width: auto;
+  margin-top: 2px;
+}
+
+.entity-copy {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.entity-copy strong {
+  color: var(--ink);
+}
+
+.dual-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.action-button {
+  cursor: pointer;
+}
+
+.issue-preview {
+  margin: 14px 0 0;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(22, 33, 43, 0.04);
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.analysis-session-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.analysis-card {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.analysis-card:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.analysis-answer {
+  margin: 14px 0 0;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.citation-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.citation-card {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.citation-card p {
+  margin: 8px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(22, 33, 43, 0.08);
+  color: var(--ink-soft);
+}
+
+.status-pill.queued,
+.status-pill.processing {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.status-pill.complete {
+  background: var(--sage-soft);
+  color: var(--sage);
+}
+
+.status-pill.failed {
+  background: rgba(137, 44, 32, 0.12);
+  color: #8a2c20;
+}
+
 @media (max-width: 900px) {
   .metric-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -397,6 +609,11 @@ input {
 
   input {
     width: min(100%, 540px);
+  }
+
+  .analysis-layout,
+  .dual-fields {
+    grid-template-columns: 1fr;
   }
 }
 

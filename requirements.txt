@@ -1,1 +1,2 @@
-# No third-party packages required for the scheduled GitHub Pages workflow.
+Flask>=3.0.0
+vercel>=1.0.0

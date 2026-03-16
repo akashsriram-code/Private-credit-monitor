@@ -1,0 +1,38 @@
+name: Queue Filing Analysis
+
+on:
+  issues:
+    types: [opened, edited, labeled, reopened]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  queue:
+    if: contains(join(github.event.issue.labels.*.name, ','), 'filing-analysis')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ingest issue into session archive
+        run: python scripts/ingest_analysis_issue.py --event-path "$GITHUB_EVENT_PATH"
+
+      - name: Commit queued session data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/filing_analysis_sessions.json
+          if git diff --cached --quiet; then
+            echo "No filing analysis queue changes to commit."
+          else
+            git commit -m "Queue filing analysis request #${{ github.event.issue.number }}"
+            git pull --rebase origin main
+            git push origin main
+          fi

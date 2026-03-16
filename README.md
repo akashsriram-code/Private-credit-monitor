@@ -1,6 +1,6 @@
 # Private Credit Monitor
 
-A GitHub-native SEC filing monitor for private credit, direct lending, and BDC coverage. The repo scans recent EDGAR filings, filters by tracked names plus keyword hits, stores the results in JSON, and serves a newsroom-style static dashboard from the repository itself.
+A Vercel-ready SEC filing monitor for private credit, direct lending, and BDC coverage. The repo scans recent EDGAR filings, filters by tracked names plus keyword hits, stores the results in JSON, and now also supports live `10-K` / `10-Q` ask-your-document analysis through OpenArena-backed Python API routes.
 
 ## What It Does
 
@@ -11,14 +11,19 @@ A GitHub-native SEC filing monitor for private credit, direct lending, and BDC c
 - Searches filing text for keywords from [`config/keywords.txt`](/C:/Users/6113101/Private-credit-monitor/config/keywords.txt) such as `private credit`.
 - Prints filing dates, company names, matched keywords, and an OpenArena-driven editorial preview.
 - Writes dashboard-ready output to [`data/alerts.json`](/C:/Users/6113101/Private-credit-monitor/data/alerts.json) and [`data/status.json`](/C:/Users/6113101/Private-credit-monitor/data/status.json).
+- Runs live 10-K / 10-Q ask-your-document requests through Vercel API routes and stores session outputs in JSON-backed session history.
 
 ## Project Layout
 
 - [`scripts/poll_filings.py`](/C:/Users/6113101/Private-credit-monitor/scripts/poll_filings.py): command-line entrypoint for the SEC poller.
 - [`private_credit_monitor/monitor.py`](/C:/Users/6113101/Private-credit-monitor/private_credit_monitor/monitor.py): matching, EDGAR fetch, keyword filtering, state, and email logic.
-- [`index.html`](/C:/Users/6113101/Private-credit-monitor/index.html): static dashboard shell.
+- [`index.html`](/C:/Users/6113101/Private-credit-monitor/index.html): dashboard shell served by Vercel as a static asset.
 - [`static/styles.css`](/C:/Users/6113101/Private-credit-monitor/static/styles.css): subtle editorial styling.
-- [`static/app.js`](/C:/Users/6113101/Private-credit-monitor/static/app.js): JSON-driven dashboard rendering.
+- [`static/app.js`](/C:/Users/6113101/Private-credit-monitor/static/app.js): dashboard rendering plus live filings-analysis requests to the backend API.
+- [`private_credit_monitor/filings_analysis.py`](/C:/Users/6113101/Private-credit-monitor/private_credit_monitor/filings_analysis.py): filing selection, OpenArena request packaging, live analysis execution, and JSON session persistence for 10-K / 10-Q analysis.
+- [`api/filings_analysis.py`](/C:/Users/6113101/Private-credit-monitor/api/filings_analysis.py): live `POST` endpoint that fetches filings, calls OpenArena, and returns the answer.
+- [`api/filings_analysis_sessions.py`](/C:/Users/6113101/Private-credit-monitor/api/filings_analysis_sessions.py): live `GET` endpoint that returns stored analysis sessions.
+- [`vercel.json`](/C:/Users/6113101/Private-credit-monitor/vercel.json): Vercel rewrites and Python function duration settings.
 - [`.github/workflows/poll-filings.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/poll-filings.yml): scheduled GitHub Action that refreshes dashboard data.
 - [`.github/workflows/refresh-cik-lookup.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/refresh-cik-lookup.yml): dedicated weekly/manual refresh for the SEC CIK cache.
 - [`.github/workflows/send-test-email.yml`](/C:/Users/6113101/Private-credit-monitor/.github/workflows/send-test-email.yml): manual SMTP health-check email workflow.
@@ -39,26 +44,56 @@ python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I
 python scripts/poll_filings.py --days 14 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q" --keywords "private credit,direct lending" --max-results 40
 ```
 
-## GitHub Hosting
+## Vercel Hosting
 
-This repo is designed for static hosting.
+This repo is now designed to work well on Vercel.
 
 1. Push the repository to GitHub.
-2. Enable GitHub Pages for the repository root.
-3. Add a repository secret named `SEC_USER_AGENT`.
-4. Run the `Poll SEC Filings` workflow once from the Actions tab.
-5. The action will refresh `data/*.json`, commit those changes, and the dashboard will reflect the latest matches.
+2. Import the repo into Vercel.
+3. Add these environment variables in Vercel:
+   - `SEC_USER_AGENT`
+   - `OPENARENA_BEARER_TOKEN`
+   - `OPENARENA_FILINGS_WORKFLOW_ID` if you want to override the pinned default
+   - `BLOB_READ_WRITE_TOKEN` if you want persistent live session storage in Vercel Blob
+4. Deploy.
+5. The static dashboard will load normally, and the filings-analysis tab will call the live Python API routes on submit.
 
 The scheduled poll workflow now scans a rolling `3`-hour SEC current-feed window instead of rescanning full days every run.
 The SEC CIK lookup file is cached in the repo. The high-frequency `Poll SEC Filings` and `Backfill SEC Filings` workflows only read the cached copy; the dedicated `Refresh CIK Lookup` workflow is the job that refreshes it weekly or on demand.
+
+## Filings Analysis Tab
+
+The dashboard now includes a second tab for live `10-K` / `10-Q` document analysis.
+
+How it works:
+
+1. Select one or more tracked entities from the existing watchlist.
+2. Choose `10-K` or `10-Q` plus a calendar lookback count.
+3. Enter a free-text question.
+4. The frontend `POST`s the request to `/api/filings-analysis`.
+5. The backend fetches the matching filings, sends them to the OpenArena ask-your-document workflow, and returns the answer plus citations.
+6. The backend stores the session in JSON history. On Vercel, this is persistent only when `BLOB_READ_WRITE_TOKEN` is configured; otherwise it falls back to the local archive for non-Vercel/local use.
+
+The filings-analysis workflow is pinned by default to:
+
+- `8c608893-8fd4-4c0d-9f71-64ef91091c85`
+
+You can optionally override it with this repository secret:
+
+- `OPENARENA_FILINGS_WORKFLOW_ID`
+
+The live analysis backend also uses:
+
+- `OPENARENA_BEARER_TOKEN`
+- `SEC_USER_AGENT`
 
 ## Anonymous Usage Logging
 
 The dashboard now supports an invisible Cloudflare Web Analytics integration.
 
 - No analytics UI is shown to end users
-- The frontend remains static on GitHub Pages
-- No custom collector, Vercel project, or database is required
+- The frontend remains static even when served by Vercel
+- No custom collector or database is required
 
 To enable it:
 
@@ -70,7 +105,7 @@ To enable it:
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_CLOUDFLARE_TOKEN"}'></script><!-- End Cloudflare Web Analytics -->
 ```
 
-4. Push to `main` and let GitHub Pages redeploy.
+4. Push to `main` and let Vercel redeploy.
 
 ## CIK Refresh Action
 

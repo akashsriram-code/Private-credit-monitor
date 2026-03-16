@@ -9,18 +9,6 @@ const SECTION_LABELS = {
   final_newsroom_brief: "Final Newsroom Brief",
 };
 
-async function loadJson(path) {
-  const response = await fetch(path, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`Failed to load ${path}`);
-  }
-  return response.json();
-}
-
-function formatList(values) {
-  return values && values.length ? values.join(", ") : "n/a";
-}
-
 function escapeHtml(value) {
   return String(value || "")
     .replaceAll("&", "&amp;")
@@ -29,11 +17,45 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+async function loadJson(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}`);
+  }
+  return response.json();
+}
+
+async function loadCsv(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}`);
+  }
+  return response.text();
+}
+
+function formatList(values) {
+  return values && values.length ? values.join(", ") : "n/a";
+}
+
 function renderList(items, className) {
   if (!Array.isArray(items) || !items.length) {
     return "<p class=\"modal-copy\">N/A</p>";
   }
   return `<ul class="${className}">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+}
+
+function parseTrackedEntitiesCsv(raw) {
+  const lines = raw.trim().split(/\r?\n/);
+  const [, ...rows] = lines;
+  return rows
+    .map((row) => row.split(","))
+    .filter((parts) => parts.length >= 3)
+    .map(([ticker, name, type]) => ({
+      ticker: (ticker || "").trim(),
+      name: (name || "").trim(),
+      type: (type || "").trim(),
+    }))
+    .filter((entity) => entity.name);
 }
 
 function buildCard(filing) {
@@ -148,14 +170,161 @@ function closeAnalysisModal() {
   modal.setAttribute("aria-hidden", "true");
 }
 
-async function render() {
+function switchTab(targetId) {
+  document.querySelectorAll(".tab-button").forEach((button) => {
+    button.classList.toggle("active", button.dataset.tabTarget === targetId);
+  });
+  document.querySelectorAll(".tab-panel").forEach((panel) => {
+    const active = panel.id === targetId;
+    panel.classList.toggle("active", active);
+    panel.classList.toggle("hidden", !active);
+  });
+}
+
+function renderEntityOptions() {
+  const search = (document.getElementById("entitySearchInput").value || "").toLowerCase().trim();
+  const selected = new Set(window.__analysisSelection || []);
+  const entities = (window.__trackedEntities || []).filter((entity) => {
+    const haystack = `${entity.name} ${entity.ticker} ${entity.type}`.toLowerCase();
+    return !search || haystack.includes(search);
+  });
+  const container = document.getElementById("entityMultiSelect");
+  container.innerHTML = entities.length
+    ? entities.map((entity) => `
+      <label class="entity-option">
+        <input type="checkbox" data-entity-name="${escapeHtml(entity.name)}" ${selected.has(entity.name) ? "checked" : ""} />
+        <p class="entity-copy">
+          <strong>${escapeHtml(entity.name)}</strong><br />
+          ${escapeHtml(entity.type)}${entity.ticker ? ` · ${escapeHtml(entity.ticker)}` : ""}
+        </p>
+      </label>
+    `).join("")
+    : '<div class="empty-state">No tracked entities match the current filter.</div>';
+  document.getElementById("entitySelectionSummary").textContent = selected.size
+    ? `${selected.size} tracked entit${selected.size === 1 ? "y" : "ies"} selected.`
+    : "No entities selected.";
+}
+
+function buildAnalysisRequestPayload() {
+  const selected = Array.from(window.__analysisSelection || []);
+  return {
+    entities: selected,
+    filing_type: document.getElementById("analysisFormType").value,
+    lookback_count: Number(document.getElementById("analysisLookbackCount").value || 1),
+    question: document.getElementById("analysisQuestion").value.trim(),
+  };
+}
+
+function updateIssuePreview() {
+  document.getElementById("issuePreview").textContent = JSON.stringify(buildAnalysisRequestPayload(), null, 2);
+}
+
+async function submitLiveAnalysisRequest() {
+  const payload = buildAnalysisRequestPayload();
+  if (!payload.entities.length) {
+    document.getElementById("analysisStatusLine").textContent = "Select at least one tracked entity before running analysis.";
+    return;
+  }
+  if (!payload.question) {
+    document.getElementById("analysisStatusLine").textContent = "Add a free-text question before running analysis.";
+    return;
+  }
+
+  document.getElementById("analysisStatusLine").textContent = "Running live analysis. The server is fetching filings and calling OpenArena now...";
+  const response = await fetch("/api/filings-analysis", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.error || "Live analysis request failed.");
+  }
+  const session = data.session;
+  window.__analysisSessions = [session, ...(window.__analysisSessions || []).filter((item) => item.id !== session.id)];
+  renderAnalysisSessions(window.__analysisSessions);
+  document.getElementById("analysisStatusLine").textContent = "Analysis complete. The latest result has been added to the session history.";
+}
+
+async function copyIssueBody() {
+  await navigator.clipboard.writeText(JSON.stringify(buildAnalysisRequestPayload(), null, 2));
+  document.getElementById("analysisStatusLine").textContent = "Request JSON copied.";
+}
+
+function buildCitationCard(citation) {
+  return `
+    <article class="citation-card">
+      <div class="tag-row">
+        <span class="tag">${escapeHtml(citation.filing_type)}</span>
+        <span class="tag type">${escapeHtml(citation.entity_name)}</span>
+        <span class="tag type">${escapeHtml(citation.filed_date)}</span>
+      </div>
+      <p>${escapeHtml(citation.excerpt || "No excerpt captured.")}</p>
+      <div class="link-row">
+        <a class="story-link" href="${escapeHtml(citation.index_url)}" target="_blank" rel="noreferrer">Open Filing</a>
+      </div>
+    </article>
+  `;
+}
+
+function buildSessionCard(session) {
+  const citations = Array.isArray(session.citations) ? session.citations : [];
+  const filings = Array.isArray(session.filings) ? session.filings : [];
+  return `
+    <article class="analysis-card">
+      <div class="filing-top">
+        <div>
+          <h3 class="filing-title">${escapeHtml(session.issue_title || session.id)}</h3>
+          <div class="tag-row">
+            <span class="status-pill ${escapeHtml(session.status || "queued")}">${escapeHtml(session.status || "queued")}</span>
+            <span class="tag">${escapeHtml(session.filing_type || "N/A")}</span>
+            <span class="tag type">${escapeHtml(`${session.lookback_count || 0} period(s)`)}</span>
+            <span class="tag type">${escapeHtml((session.model || "unknown").toUpperCase())}</span>
+          </div>
+        </div>
+        <div class="filing-meta">
+          Created ${escapeHtml(session.created_at || "N/A")}<br />
+          ${session.completed_at ? `Completed ${escapeHtml(session.completed_at)}` : "Awaiting workflow result"}
+        </div>
+      </div>
+      <p class="section-label">Entities</p>
+      <p class="filing-description">${escapeHtml((session.entities || []).join(", ") || "N/A")}</p>
+      <p class="section-label">Question</p>
+      <p class="filing-description">${escapeHtml(session.question || "N/A")}</p>
+      <p class="section-label">Workflow Result</p>
+      <p class="analysis-answer">${escapeHtml(session.answer || session.error || "No output yet. The request may still be queued or processing.")}</p>
+      <p class="filing-meta">${filings.length} filing(s) attached${session.workflow_id ? ` · Workflow ${escapeHtml(session.workflow_id)}` : ""}</p>
+      ${citations.length ? `<div class="citation-list">${citations.map(buildCitationCard).join("")}</div>` : ""}
+      <div class="link-row">
+        ${session.issue_url ? `<a class="story-link" href="${escapeHtml(session.issue_url)}" target="_blank" rel="noreferrer">Open Issue</a>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function renderAnalysisSessions(sessions) {
+  window.__analysisSessions = sessions;
+  document.getElementById("analysisSessionCount").textContent = String(sessions.length);
+  document.getElementById("analysisQueuedCount").textContent = String(sessions.filter((item) => item.status === "queued" || item.status === "processing").length);
+  document.getElementById("analysisCompleteCount").textContent = String(sessions.filter((item) => item.status === "complete").length);
+  document.getElementById("analysisFailedCount").textContent = String(sessions.filter((item) => item.status === "failed").length);
+  document.getElementById("analysisStatusLine").textContent = sessions.length
+    ? `Loaded ${sessions.length} analysis session(s) from the live API session store.`
+    : "No analysis sessions found yet. Run the first live filings analysis from the form.";
+  document.getElementById("analysisSessions").innerHTML = sessions.length
+    ? sessions.map(buildSessionCard).join("")
+    : '<div class="empty-state">No filing analysis sessions have been created yet.</div>';
+}
+
+async function renderMonitor() {
   const [status, filings] = await Promise.all([
     loadJson("data/status.json"),
     loadJson("data/alerts.json"),
   ]);
 
   window.__filings = filings;
-
   document.getElementById("trackedCount").textContent = String(status.entities_tracked || 0);
   document.getElementById("filingCount").textContent = String(status.total_alerts || 0);
   document.getElementById("newCount").textContent = String(status.new_alerts || 0);
@@ -177,11 +346,35 @@ async function render() {
   formFilter.innerHTML = uniqueForms
     .map((form) => `<option value="${form}">${form === "ALL" ? "All forms" : form}</option>`)
     .join("");
-
   applyFilters(filings);
 }
 
-document.getElementById("refreshButton").addEventListener("click", render);
+async function renderAnalysis() {
+  const [sessions, trackedEntityCsv] = await Promise.all([
+    fetch("/api/filings-analysis-sessions", { cache: "no-store" })
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error("Failed to load live analysis sessions.");
+        }
+        return response.json();
+      })
+      .then((payload) => payload.sessions || [])
+      .catch(() => loadJson("data/filing_analysis_sessions.json")),
+    loadCsv("config/tracked_entities.csv"),
+  ]);
+  window.__trackedEntities = parseTrackedEntitiesCsv(trackedEntityCsv);
+  window.__analysisSelection = window.__analysisSelection || [];
+  renderEntityOptions();
+  updateIssuePreview();
+  renderAnalysisSessions(Array.isArray(sessions) ? sessions : []);
+}
+
+async function renderAll() {
+  await Promise.all([renderMonitor(), renderAnalysis()]);
+}
+
+document.getElementById("refreshButton").addEventListener("click", renderMonitor);
+document.getElementById("refreshAnalysisButton").addEventListener("click", renderAnalysis);
 document.getElementById("searchInput").addEventListener("input", () => applyFilters(window.__filings || []));
 document.getElementById("formFilter").addEventListener("change", () => applyFilters(window.__filings || []));
 document.getElementById("closeModalButton").addEventListener("click", closeAnalysisModal);
@@ -197,12 +390,44 @@ document.getElementById("filings").addEventListener("click", (event) => {
     openAnalysisModal(target.dataset.openAnalysis);
   }
 });
+document.getElementById("entitySearchInput").addEventListener("input", renderEntityOptions);
+document.getElementById("entityMultiSelect").addEventListener("change", (event) => {
+  const target = event.target;
+  if (!(target instanceof HTMLInputElement) || !target.dataset.entityName) return;
+  const selection = new Set(window.__analysisSelection || []);
+  if (target.checked) {
+    selection.add(target.dataset.entityName);
+  } else {
+    selection.delete(target.dataset.entityName);
+  }
+  window.__analysisSelection = Array.from(selection).sort();
+  renderEntityOptions();
+  updateIssuePreview();
+});
+document.getElementById("analysisRequestForm").addEventListener("submit", (event) => {
+  event.preventDefault();
+  submitLiveAnalysisRequest().catch((error) => {
+    document.getElementById("analysisStatusLine").textContent = error.message;
+  });
+});
+document.getElementById("copyIssueButton").addEventListener("click", () => {
+  copyIssueBody().catch((error) => {
+    document.getElementById("analysisStatusLine").textContent = error.message;
+  });
+});
+document.getElementById("analysisFormType").addEventListener("change", updateIssuePreview);
+document.getElementById("analysisLookbackCount").addEventListener("input", updateIssuePreview);
+document.getElementById("analysisQuestion").addEventListener("input", updateIssuePreview);
+document.querySelectorAll(".tab-button").forEach((button) => {
+  button.addEventListener("click", () => switchTab(button.dataset.tabTarget));
+});
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeAnalysisModal();
   }
 });
 
-render().catch((error) => {
+renderAll().catch((error) => {
   document.getElementById("statusLine").textContent = error.message;
+  document.getElementById("analysisStatusLine").textContent = error.message;
 });
