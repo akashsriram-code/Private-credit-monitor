@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import argparse
+import mimetypes
 import json
 import os
 import re
 import secrets
+import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -42,6 +44,23 @@ DEFAULT_ANALYSIS_MODEL = "claude-4.6-sonnet"
 DEFAULT_MAX_FILINGS_PER_ENTITY = 8
 DEFAULT_PERSISTED_SESSION_LIMIT = 20
 FILINGS_ANALYSIS_BLOB_PREFIX = "filing-analysis/sessions"
+DEFAULT_ANALYSIS_SYSTEM_PROMPT = (
+    "You are a private-credit SEC filings analyst. You will receive one or more 10-K or 10-Q filings plus a "
+    "user question. Answer the question using only the provided filings, identify trends across filings where "
+    "possible, and cite every material factual claim using the most specific locator available (page, section, "
+    "note, table, item, line, or chunk ID). Structure the response as:\n\n"
+    "1. Answer\n"
+    "2. Key findings\n"
+    "3. Trends / changes observed\n"
+    "4. Evidence with citations\n"
+    "5. Caveats / limits\n\n"
+    "Rules:\n"
+    "- Use filings as the source of truth.\n"
+    "- Compare across periods and entities when relevant.\n"
+    "- Label inferences clearly.\n"
+    "- Do not invent facts.\n"
+    "- If only one filing is provided, say trend analysis was not done since a singular filing was provided."
+)
 ISSUE_SECTION_PATTERN = re.compile(r"(?m)^###\s+(?P<name>.+?)\s*$")
 
 
@@ -59,6 +78,7 @@ class FilingDocument:
     filing_label: str
     text_excerpt: str
     full_text: str = ""
+    upload_file_name: str = ""
 
 
 @dataclass
@@ -392,6 +412,14 @@ def build_filing_index_url(cik: str, accession_number: str) -> str:
     return f"https://www.sec.gov/Archives/edgar/data/{clean_cik}/{flat_accession}/{accession_number}-index.html"
 
 
+def build_primary_document_url(cik: str, accession_number: str, primary_document: str) -> str:
+    clean_cik = str(int(cik))
+    flat_accession = accession_number.replace("-", "")
+    if not primary_document:
+        return build_filing_txt_url(cik, accession_number)
+    return f"https://www.sec.gov/Archives/edgar/data/{clean_cik}/{flat_accession}/{primary_document}"
+
+
 def filing_matches_type(form: str, filing_type: str) -> bool:
     upper = (form or "").upper().strip()
     if filing_type == "10-K":
@@ -503,6 +531,7 @@ def select_filings_from_rows(
             primary_document=row.get("primary_document", ""),
             filing_label=f"{entity_name} {form.upper()} filed {filed_date}",
             text_excerpt="",
+            upload_file_name="",
         )
     selected = sorted(deduped.values(), key=lambda item: item.filed_date, reverse=True)
     return selected[:max_filings]
@@ -566,9 +595,16 @@ def build_filing_excerpt(text: str, question: str, max_chars: int = 900) -> str:
 def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, question: str) -> list[FilingDocument]:
     hydrated: list[FilingDocument] = []
     for filing in filings:
-        raw_text = fetch_text(filing.filing_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
+        preferred_url = build_primary_document_url(filing.cik, filing.accession_number, filing.primary_document)
+        try:
+            raw_text = fetch_text(preferred_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
+        except Exception:
+            raw_text = fetch_text(filing.filing_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
         full_text = text_from_filing(raw_text)
         excerpt = build_filing_excerpt(full_text, question)
+        suffix = Path(filing.primary_document or "").suffix or ".html"
+        safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
+        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}{suffix.lower()}"
         hydrated.append(
             FilingDocument(
                 entity_name=filing.entity_name,
@@ -583,6 +619,7 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
                 filing_label=filing.filing_label,
                 text_excerpt=excerpt,
                 full_text=full_text,
+                upload_file_name=upload_file_name,
             )
         )
     return hydrated
@@ -605,6 +642,79 @@ def build_openarena_documents(filings: list[FilingDocument]) -> list[dict[str, A
         }
         for filing in filings
     ]
+
+
+def build_model_params() -> dict[str, Any]:
+    return {
+        "anthropic_direct.claude-v4-6-sonnet": {
+            "max_tokens": "8192",
+            "enable_websearch": "false",
+            "top_k": "250",
+            "temperature": "0.4",
+            "effort": "high",
+            "system_prompt": os.getenv("OPENARENA_FILINGS_SYSTEM_PROMPT", DEFAULT_ANALYSIS_SYSTEM_PROMPT),
+            "enable_reasoning": "true",
+        }
+    }
+
+
+def post_json(url: str, bearer_token: str, payload: dict[str, Any], timeout_seconds: int) -> dict[str, Any]:
+    request = Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {bearer_token}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    with urlopen(request, timeout=timeout_seconds) as response:
+        return json.loads(response.read().decode("utf-8", "ignore"))
+
+
+def build_multipart_form_data(
+    fields: dict[str, str],
+    file_name: str,
+    file_bytes: bytes,
+    content_type: str,
+) -> tuple[bytes, str]:
+    boundary = f"----OpenArenaupload{uuid.uuid4().hex}"
+    body = bytearray()
+    for key, value in fields.items():
+        body.extend(f"--{boundary}\r\n".encode("utf-8"))
+        body.extend(f'Content-Disposition: form-data; name="{key}"\r\n\r\n'.encode("utf-8"))
+        body.extend(str(value).encode("utf-8"))
+        body.extend(b"\r\n")
+    body.extend(f"--{boundary}\r\n".encode("utf-8"))
+    body.extend(
+        f'Content-Disposition: form-data; name="file"; filename="{file_name}"\r\n'.encode("utf-8")
+    )
+    body.extend(f"Content-Type: {content_type}\r\n\r\n".encode("utf-8"))
+    body.extend(file_bytes)
+    body.extend(b"\r\n")
+    body.extend(f"--{boundary}--\r\n".encode("utf-8"))
+    return bytes(body), boundary
+
+
+def upload_presigned_file(
+    target_url: str,
+    fields: dict[str, str],
+    file_name: str,
+    file_bytes: bytes,
+    timeout_seconds: int,
+) -> None:
+    content_type = mimetypes.guess_type(file_name)[0] or "application/octet-stream"
+    body, boundary = build_multipart_form_data(fields, file_name, file_bytes, content_type)
+    request = Request(
+        target_url,
+        data=body,
+        headers={
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
+        },
+        method="POST",
+    )
+    with urlopen(request, timeout=timeout_seconds):
+        return
 
 
 def build_context_fallback(question: str, filings: list[FilingDocument]) -> str:
@@ -642,57 +752,56 @@ def call_openarena_ask_documents(
         raise RuntimeError("Missing OpenArena credentials.")
     if not workflow_id:
         raise RuntimeError("Missing OpenArena workflow ID.")
+    file_payload = {
+        "files_names": [
+            {
+                "file_name": filing.upload_file_name or f"{filing.accession_number}.html",
+                "file_id": filing.upload_file_name or f"{filing.accession_number}.html",
+            }
+            for filing in filings
+        ],
+        "is_rag_storage_request": False,
+        "workflow_id": workflow_id,
+    }
+    upload_payload = post_json(
+        f"{base_url.rstrip('/')}/v3/document/file_upload",
+        bearer_token,
+        file_payload,
+        timeout_seconds,
+    )
+    upload_urls = upload_payload.get("url", [])
+    if len(upload_urls) != len(filings):
+        raise RuntimeError("OpenArena upload URL response did not match the number of filings.")
 
-    documents = build_openarena_documents(filings)
-    payload = {
+    for filing, file_obj in zip(filings, upload_urls):
+        nested_url = file_obj.get("url") or {}
+        target_url = nested_url.get("url")
+        fields = nested_url.get("fields") or {}
+        file_name = nested_url.get("file_name") or filing.upload_file_name or f"{filing.accession_number}.html"
+        if not target_url or not fields:
+            raise RuntimeError("OpenArena upload URL response was missing upload fields.")
+        upload_presigned_file(
+            target_url=target_url,
+            fields=fields,
+            file_name=file_name,
+            file_bytes=filing.full_text.encode("utf-8"),
+            timeout_seconds=timeout_seconds,
+        )
+
+    inference_payload = {
+        "workflow_id": workflow_id,
         "query": question,
-        "workflow_id": workflow_id,
         "is_persistence_allowed": False,
-        "documents": documents,
-        "input_documents": documents,
-        "metadata": {
-            "model": DEFAULT_ANALYSIS_MODEL,
-            "source": "private-credit-monitor",
-        },
+        "modelparams": build_model_params(),
+        "input_variables": {},
+        "conversation_id": None,
     }
-    request = Request(
-        f"{base_url.rstrip('/')}/v2/inference",
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {bearer_token}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
+    response_json = post_json(
+        f"{base_url.rstrip('/')}/v3/inference",
+        bearer_token,
+        inference_payload,
+        timeout_seconds,
     )
-    try:
-        with urlopen(request, timeout=timeout_seconds) as response:
-            response_json = json.loads(response.read().decode("utf-8", "ignore"))
-        answer = _extract_openarena_answer(response_json if isinstance(response_json, dict) else {})
-        if answer:
-            return answer
-    except Exception:
-        pass
-
-    fallback_payload = {
-        "query": build_context_fallback(question, filings),
-        "workflow_id": workflow_id,
-        "is_persistence_allowed": False,
-        "metadata": {
-            "model": DEFAULT_ANALYSIS_MODEL,
-            "source": "private-credit-monitor-context-fallback",
-        },
-    }
-    request = Request(
-        f"{base_url.rstrip('/')}/v2/inference",
-        data=json.dumps(fallback_payload).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {bearer_token}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    with urlopen(request, timeout=timeout_seconds) as response:
-        response_json = json.loads(response.read().decode("utf-8", "ignore"))
     answer = _extract_openarena_answer(response_json if isinstance(response_json, dict) else {})
     if not answer:
         raise RuntimeError("OpenArena returned an empty answer.")
