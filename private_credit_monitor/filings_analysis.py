@@ -30,6 +30,7 @@ from private_credit_monitor.monitor import (
     utc_now_iso,
 )
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 try:
     from vercel.blob import list_objects, put
@@ -668,8 +669,12 @@ def post_json(url: str, bearer_token: str, payload: dict[str, Any], timeout_seco
         },
         method="POST",
     )
-    with urlopen(request, timeout=timeout_seconds) as response:
-        return json.loads(response.read().decode("utf-8", "ignore"))
+    try:
+        with urlopen(request, timeout=timeout_seconds) as response:
+            return json.loads(response.read().decode("utf-8", "ignore"))
+    except HTTPError as exc:
+        detail = exc.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"OpenArena POST {url} failed with {exc.code}: {detail or exc.reason}") from exc
 
 
 def build_multipart_form_data(
@@ -713,8 +718,12 @@ def upload_presigned_file(
         },
         method="POST",
     )
-    with urlopen(request, timeout=timeout_seconds):
-        return
+    try:
+        with urlopen(request, timeout=timeout_seconds):
+            return
+    except HTTPError as exc:
+        detail = exc.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"OpenArena file upload failed with {exc.code}: {detail or exc.reason}") from exc
 
 
 def parse_uploaded_file(
@@ -756,8 +765,12 @@ def trigger_rag_population(
         },
         method="PUT",
     )
-    with urlopen(request, timeout=timeout_seconds):
-        return
+    try:
+        with urlopen(request, timeout=timeout_seconds):
+            return
+    except HTTPError as exc:
+        detail = exc.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"OpenArena RAG populate failed with {exc.code}: {detail or exc.reason}") from exc
 
 
 def build_context_fallback(question: str, filings: list[FilingDocument]) -> str:
@@ -845,12 +858,16 @@ def call_openarena_ask_documents(
             )
         )
 
-    trigger_rag_population(
-        base_url=base_url,
-        bearer_token=bearer_token,
-        workflow_id=workflow_id,
-        timeout_seconds=timeout_seconds,
-    )
+    rag_population_error = None
+    try:
+        trigger_rag_population(
+            base_url=base_url,
+            bearer_token=bearer_token,
+            workflow_id=workflow_id,
+            timeout_seconds=timeout_seconds,
+        )
+    except Exception as exc:
+        rag_population_error = str(exc)
 
     inference_payload = {
         "workflow_id": workflow_id,
@@ -870,6 +887,8 @@ def call_openarena_ask_documents(
     answer = _extract_openarena_answer(response_json if isinstance(response_json, dict) else {})
     if not answer:
         raise RuntimeError("OpenArena returned an empty answer.")
+    if rag_population_error:
+        return answer
     return answer
 
 
