@@ -3,8 +3,10 @@ import unittest
 from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
 from private_credit_monitor.filings_analysis import (
+    EmailDeliveryResult,
     FilingAnalysisSession,
     build_openarena_documents,
     build_live_session,
@@ -14,6 +16,7 @@ from private_credit_monitor.filings_analysis import (
     parse_live_request_payload,
     persist_live_session,
     parse_issue_request,
+    run_live_analysis,
     select_filings_from_rows,
     transition_session,
     upsert_session_archive,
@@ -95,6 +98,30 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(parsed["filing_type"], "10-Q")
         self.assertEqual(parsed["lookback_count"], 4)
         self.assertIn("Apollo Debt Solutions BDC", parsed["entities"])
+
+    def test_parse_live_request_payload_accepts_optional_email(self) -> None:
+        parsed = parse_live_request_payload(
+            {
+                "entities": ["Ares Capital Corporation"],
+                "filing_type": "10-K",
+                "lookback_count": 2,
+                "question": "Compare liquidity trends.",
+                "email": "analyst@example.com",
+            }
+        )
+        self.assertEqual(parsed["email"], "analyst@example.com")
+
+    def test_parse_live_request_payload_rejects_invalid_email(self) -> None:
+        with self.assertRaisesRegex(ValueError, "email must be a valid email address"):
+            parse_live_request_payload(
+                {
+                    "entities": ["Ares Capital Corporation"],
+                    "filing_type": "10-K",
+                    "lookback_count": 2,
+                    "question": "Compare liquidity trends.",
+                    "email": "not-an-email",
+                }
+            )
 
     def test_build_live_session_marks_request_source(self) -> None:
         entities = [
@@ -226,6 +253,123 @@ class FilingsAnalysisTests(unittest.TestCase):
             payload = load_persisted_sessions(sessions_path=path)
             self.assertEqual(payload[0]["id"], "live-1")
             self.assertEqual(payload[0]["answer"], "Example answer")
+            self.assertNotIn("email", payload[0])
+
+    @patch("private_credit_monitor.filings_analysis.persist_live_session")
+    @patch("private_credit_monitor.filings_analysis.process_single_session")
+    @patch("private_credit_monitor.filings_analysis.hydrate_tracked_entities_with_ciks")
+    def test_run_live_analysis_sends_email_when_requested(
+        self,
+        hydrate_tracked_entities_with_ciks_mock,
+        process_single_session_mock,
+        persist_live_session_mock,
+    ) -> None:
+        entities = [
+            TrackedEntity(
+                ticker="ARCC",
+                name="Ares Capital Corporation",
+                entity_type="Public",
+                normalized_name="ares capital corporation",
+                reduced_name="ares capital",
+            )
+        ]
+        hydrate_tracked_entities_with_ciks_mock.return_value = entities
+        process_single_session_mock.return_value = FilingAnalysisSession(
+            id="live-1",
+            issue_number=None,
+            issue_title="Live filings analysis",
+            issue_url="",
+            status="complete",
+            entities=["Ares Capital Corporation"],
+            filing_type="10-K",
+            lookback_count=1,
+            question="What changed?",
+            answer="Example answer",
+            request_source="live-api",
+        )
+        with patch("private_credit_monitor.filings_analysis.send_filings_analysis_email", return_value=(True, None)) as email_mock:
+            with patch.dict(
+                "os.environ",
+                {
+                    "SEC_USER_AGENT": "Private-Credit-Monitor/1.0 user@example.com",
+                    "OPENARENA_BEARER_TOKEN": "token",
+                    "OPENARENA_FILINGS_WORKFLOW_ID": "workflow",
+                },
+                clear=False,
+            ):
+                session, email_delivery = run_live_analysis(
+                    {
+                        "entities": ["Ares Capital Corporation"],
+                        "filing_type": "10-K",
+                        "lookback_count": 1,
+                        "question": "What changed?",
+                        "email": "analyst@example.com",
+                    }
+                )
+        self.assertEqual(session.status, "complete")
+        self.assertEqual(email_delivery.status, "sent")
+        email_mock.assert_called_once()
+        sent_session, sent_email = email_mock.call_args[0]
+        self.assertEqual(sent_session.id, "live-1")
+        self.assertEqual(sent_email, "analyst@example.com")
+        persisted_session = persist_live_session_mock.call_args[0][0]
+        self.assertFalse(hasattr(persisted_session, "email"))
+
+    @patch("private_credit_monitor.filings_analysis.persist_live_session")
+    @patch("private_credit_monitor.filings_analysis.process_single_session")
+    @patch("private_credit_monitor.filings_analysis.hydrate_tracked_entities_with_ciks")
+    def test_run_live_analysis_email_failure_is_non_fatal(
+        self,
+        hydrate_tracked_entities_with_ciks_mock,
+        process_single_session_mock,
+        persist_live_session_mock,
+    ) -> None:
+        entities = [
+            TrackedEntity(
+                ticker="ARCC",
+                name="Ares Capital Corporation",
+                entity_type="Public",
+                normalized_name="ares capital corporation",
+                reduced_name="ares capital",
+            )
+        ]
+        hydrate_tracked_entities_with_ciks_mock.return_value = entities
+        process_single_session_mock.return_value = FilingAnalysisSession(
+            id="live-2",
+            issue_number=None,
+            issue_title="Live filings analysis",
+            issue_url="",
+            status="complete",
+            entities=["Ares Capital Corporation"],
+            filing_type="10-K",
+            lookback_count=1,
+            question="What changed?",
+            answer="Example answer",
+            request_source="live-api",
+        )
+        with patch("private_credit_monitor.filings_analysis.send_filings_analysis_email", return_value=(False, "SMTP unavailable")):
+            with patch.dict(
+                "os.environ",
+                {
+                    "SEC_USER_AGENT": "Private-Credit-Monitor/1.0 user@example.com",
+                    "OPENARENA_BEARER_TOKEN": "token",
+                    "OPENARENA_FILINGS_WORKFLOW_ID": "workflow",
+                },
+                clear=False,
+            ):
+                session, email_delivery = run_live_analysis(
+                    {
+                        "entities": ["Ares Capital Corporation"],
+                        "filing_type": "10-K",
+                        "lookback_count": 1,
+                        "question": "What changed?",
+                        "email": "analyst@example.com",
+                    }
+                )
+        self.assertEqual(session.status, "complete")
+        self.assertEqual(email_delivery.status, "failed")
+        self.assertEqual(email_delivery.error, "SMTP unavailable")
+        persist_live_session_mock.assert_called_once()
 
 
 if __name__ == "__main__":

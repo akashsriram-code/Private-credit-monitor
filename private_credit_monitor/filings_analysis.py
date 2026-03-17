@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import io
 import mimetypes
 import json
@@ -10,6 +11,7 @@ import secrets
 import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timezone
+from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
 from private_credit_monitor.monitor import (
@@ -24,9 +26,11 @@ from private_credit_monitor.monitor import (
     fetch_text,
     hydrate_entity_ciks,
     load_cik_lookup_text,
+    load_smtp_settings,
     load_tracked_entities,
     parse_cik_lookup,
     reduce_name,
+    send_messages,
     text_from_filing,
     utc_now_iso,
 )
@@ -64,6 +68,7 @@ DEFAULT_ANALYSIS_SYSTEM_PROMPT = (
     "- If only one filing is provided, say trend analysis was not done since a singular filing was provided."
 )
 ISSUE_SECTION_PATTERN = re.compile(r"(?m)^###\s+(?P<name>.+?)\s*$")
+EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
 @dataclass
@@ -118,6 +123,12 @@ class FilingAnalysisSession:
     error: str | None = None
     request_source: str = "github-issue"
     progress_log: list[str] = field(default_factory=list)
+
+
+@dataclass
+class EmailDeliveryResult:
+    status: str = "not_requested"
+    error: str | None = None
 
 
 def load_json(path: Path, default):
@@ -197,17 +208,21 @@ def parse_live_request_payload(payload: dict[str, Any]) -> dict[str, Any]:
     except (TypeError, ValueError) as exc:
         raise ValueError("lookback_count must be an integer.") from exc
     question = str(payload.get("question", "")).strip()
+    email = str(payload.get("email", "")).strip()
     if not entities:
         raise ValueError("At least one tracked entity is required.")
     if lookback_count < 1:
         raise ValueError("Lookback count must be at least 1.")
     if not question:
         raise ValueError("Question is required.")
+    if email and not EMAIL_PATTERN.match(email):
+        raise ValueError("email must be a valid email address.")
     return {
         "entities": entities,
         "filing_type": filing_type,
         "lookback_count": lookback_count,
         "question": question,
+        "email": email,
     }
 
 
@@ -378,6 +393,87 @@ def append_progress(session: FilingAnalysisSession, message: str) -> None:
     session.updated_at = utc_now_iso()
 
 
+def format_filings_analysis_email_text(session: FilingAnalysisSession) -> str:
+    lines = [
+        f"Private Credit Monitor filings analysis: {session.filing_type}",
+        "",
+        f"Entities: {', '.join(session.entities) or 'N/A'}",
+        f"Question: {session.question or 'N/A'}",
+        "",
+        "Analysis:",
+        session.answer or "No analysis output was produced.",
+        "",
+    ]
+    if session.filings:
+        lines.append("Filings reviewed:")
+        for filing in session.filings:
+            lines.append(
+                f"- {filing.get('entity_name', 'Unknown')} | {filing.get('filing_type', 'N/A')} | "
+                f"{filing.get('filed_date', 'N/A')} | {filing.get('index_url', '')}"
+            )
+        lines.append("")
+    lines.append("This was a one-off delivery. Your email address was not stored by the application.")
+    return "\n".join(lines).strip()
+
+
+def format_filings_analysis_email_html(session: FilingAnalysisSession) -> str:
+    filing_rows = "".join(
+        (
+            "<li>"
+            f"{html.escape(str(filing.get('entity_name', 'Unknown')))} | "
+            f"{html.escape(str(filing.get('filing_type', 'N/A')))} | "
+            f"{html.escape(str(filing.get('filed_date', 'N/A')))}"
+            + (
+                f" | <a href=\"{html.escape(str(filing.get('index_url', '')))}\">Open Filing</a>"
+                if filing.get("index_url")
+                else ""
+            )
+            + "</li>"
+        )
+        for filing in session.filings
+    )
+    filings_section = (
+        "<p style='margin:24px 0 8px;font:12px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:0.08em;color:#6d4c34;'>Filings Reviewed</p>"
+        f"<ul style='margin:0 0 18px 18px;padding:0;line-height:1.6;color:#38434d;'>{filing_rows}</ul>"
+        if filing_rows
+        else ""
+    )
+    escaped_answer = html.escape(session.answer or "No analysis output was produced.").replace("\n", "<br />")
+    return f"""
+<html>
+  <body style="margin:0;padding:24px;background:#f4efe6;color:#16212b;font-family:Georgia,serif;">
+    <div style="max-width:760px;margin:0 auto;background:#fffdf9;border:1px solid rgba(22,33,43,0.12);border-radius:18px;padding:24px;">
+      <p style="margin:0 0 8px;font:12px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:0.08em;color:#6d4c34;">Filings Analysis</p>
+      <h2 style="margin:0 0 16px;font-size:28px;line-height:1.2;">{html.escape(session.filing_type)} analysis</h2>
+      <p style="margin:0 0 8px;font:12px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:0.08em;color:#6d4c34;">Entities</p>
+      <p style="margin:0 0 14px;font-size:18px;line-height:1.45;">{html.escape(', '.join(session.entities) or 'N/A')}</p>
+      <p style="margin:0 0 8px;font:12px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:0.08em;color:#6d4c34;">Question</p>
+      <p style="margin:0 0 18px;font-size:17px;line-height:1.55;">{html.escape(session.question or 'N/A')}</p>
+      <p style="margin:0 0 8px;font:12px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:0.08em;color:#6d4c34;">Analysis</p>
+      <div style="margin:0 0 18px;font-size:16px;line-height:1.7;color:#38434d;">{escaped_answer}</div>
+      {filings_section}
+      <p style="margin:18px 0 0;font-size:13px;line-height:1.6;color:#6e747b;">This was a one-off delivery. Your email address was not stored by the application.</p>
+    </div>
+  </body>
+</html>
+""".strip()
+
+
+def send_filings_analysis_email(session: FilingAnalysisSession, email_address: str) -> tuple[bool, str | None]:
+    smtp_settings, smtp_error = load_smtp_settings()
+    if smtp_error:
+        return False, smtp_error
+
+    message = EmailMessage()
+    entity_label = session.entities[0] if len(session.entities) == 1 else f"{len(session.entities)} entities"
+    message["Subject"] = f"[Private Credit Monitor] {session.filing_type} analysis for {entity_label}"
+    message["From"] = str(smtp_settings["from_email"])
+    message["To"] = email_address
+    message.set_content(format_filings_analysis_email_text(session))
+    message.add_alternative(format_filings_analysis_email_html(session), subtype="html")
+    return send_messages([message], smtp_settings)
+
+
 def resolved_timeout_seconds() -> int:
     raw_value = os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)
     try:
@@ -390,7 +486,7 @@ def resolved_timeout_seconds() -> int:
 def run_live_analysis(
     request_payload: dict[str, Any],
     sessions_path: Path = FILINGS_ANALYSIS_SESSIONS_PATH,
-) -> FilingAnalysisSession:
+) -> tuple[FilingAnalysisSession, EmailDeliveryResult]:
     user_agent = os.getenv("SEC_USER_AGENT", "").strip()
     if not user_agent:
         raise RuntimeError("SEC_USER_AGENT is required.")
@@ -400,7 +496,8 @@ def run_live_analysis(
     timeout_seconds = resolved_timeout_seconds()
 
     tracked_entities = hydrate_tracked_entities_with_ciks(user_agent)
-    live_session = build_live_session(request_payload, tracked_entities)
+    parsed_request = parse_live_request_payload(request_payload)
+    live_session = build_live_session(parsed_request, tracked_entities)
     processed = process_single_session(
         asdict(live_session),
         tracked_entities=tracked_entities,
@@ -411,7 +508,17 @@ def run_live_analysis(
         timeout_seconds=timeout_seconds,
     )
     persist_live_session(processed, sessions_path=sessions_path)
-    return processed
+    email_delivery = EmailDeliveryResult()
+    email_address = parsed_request.get("email", "")
+    if email_address and processed.status == "complete":
+        sent, email_error = send_filings_analysis_email(processed, email_address)
+        email_delivery = EmailDeliveryResult(
+            status="sent" if sent else "failed",
+            error=email_error,
+        )
+    elif email_address:
+        email_delivery = EmailDeliveryResult(status="skipped")
+    return processed, email_delivery
 
 
 def fetch_submission_json(cik: str, user_agent: str) -> dict[str, Any]:

@@ -27,8 +27,16 @@ class handler(BaseHTTPRequestHandler):
             content_length = int(self.headers.get("Content-Length", "0") or "0")
             raw = self.rfile.read(content_length).decode("utf-8")
             payload = json.loads(raw or "{}")
-            session = run_live_analysis(payload, sessions_path=FILINGS_ANALYSIS_SESSIONS_PATH)
-            _write_json(self, 200, {"session": asdict(session)})
+            session, email_delivery = run_live_analysis(payload, sessions_path=FILINGS_ANALYSIS_SESSIONS_PATH)
+            _write_json(
+                self,
+                200,
+                {
+                    "session": asdict(session),
+                    "email_status": email_delivery.status,
+                    "email_error": email_delivery.error,
+                },
+            )
         except ValueError as exc:
             _write_json(self, 400, {"error": str(exc)})
         except Exception as exc:  # pragma: no cover

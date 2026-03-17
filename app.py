@@ -25,8 +25,14 @@ def index():
 def filings_analysis():
     try:
         payload = request.get_json(silent=True) or {}
-        session = run_live_analysis(payload, sessions_path=FILINGS_ANALYSIS_SESSIONS_PATH)
-        return jsonify({"session": asdict(session)})
+        session, email_delivery = run_live_analysis(payload, sessions_path=FILINGS_ANALYSIS_SESSIONS_PATH)
+        return jsonify(
+            {
+                "session": asdict(session),
+                "email_status": email_delivery.status,
+                "email_error": email_delivery.error,
+            }
+        )
     except ValueError as exc:
         return jsonify({"error": str(exc)}), 400
     except Exception as exc:  # pragma: no cover

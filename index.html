@@ -126,6 +126,9 @@
             <label class="field-label" for="analysisQuestion">What are you looking for?</label>
             <textarea id="analysisQuestion" rows="7" placeholder="Example: Compare liquidity, leverage, and non-accrual trends across the last two annual filings."></textarea>
 
+            <label class="field-label" for="analysisEmail">Email result to</label>
+            <input id="analysisEmail" type="email" inputmode="email" placeholder="Optional: name@example.com" />
+
             <div class="link-row">
               <button type="submit" class="story-link buttonish action-button">Run Analysis</button>
               <button type="button" id="copyIssueButton" class="story-link action-button">Copy Request JSON</button>
@@ -135,7 +138,6 @@
               <p class="field-label">Run Status</p>
               <div id="analysisProgressLog" class="progress-log">No live analysis run yet.</div>
             </div>
-            <pre id="issuePreview" class="issue-preview"></pre>
           </form>
 
           <div class="analysis-results">

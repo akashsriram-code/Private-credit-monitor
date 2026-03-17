@@ -17,6 +17,69 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function renderInlineMarkdown(text) {
+  let html = escapeHtml(text || "");
+  html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/\*(.+?)\*/g, "<em>$1</em>");
+  html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
+  return html;
+}
+
+function renderMarkdown(value) {
+  const normalized = String(value || "").replace(/\r\n/g, "\n").trim();
+  if (!normalized) {
+    return "<p>No output yet. The request may still be queued or processing.</p>";
+  }
+
+  const lines = normalized.split("\n");
+  const blocks = [];
+  let paragraph = [];
+  let listItems = [];
+
+  const flushParagraph = () => {
+    if (!paragraph.length) return;
+    blocks.push(`<p>${renderInlineMarkdown(paragraph.join(" "))}</p>`);
+    paragraph = [];
+  };
+
+  const flushList = () => {
+    if (!listItems.length) return;
+    blocks.push(`<ul>${listItems.map((item) => `<li>${renderInlineMarkdown(item)}</li>`).join("")}</ul>`);
+    listItems = [];
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
+
+    const headingMatch = line.match(/^(#{1,6})\s+(.*)$/);
+    if (headingMatch) {
+      flushParagraph();
+      flushList();
+      const level = Math.min(4, headingMatch[1].length + 1);
+      blocks.push(`<h${level}>${renderInlineMarkdown(headingMatch[2])}</h${level}>`);
+      continue;
+    }
+
+    const listMatch = line.match(/^[-*]\s+(.*)$/);
+    if (listMatch) {
+      flushParagraph();
+      listItems.push(listMatch[1]);
+      continue;
+    }
+
+    paragraph.push(line);
+  }
+
+  flushParagraph();
+  flushList();
+  return blocks.join("");
+}
+
 async function loadJson(path) {
   const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) {
@@ -205,18 +268,26 @@ function renderEntityOptions() {
     : "No entities selected.";
 }
 
-function buildAnalysisRequestPayload() {
+function buildAnalysisRequestPayload(options = {}) {
+  const includeEmail = options.includeEmail !== false;
   const selected = Array.from(window.__analysisSelection || []);
-  return {
+  const payload = {
     entities: selected,
     filing_type: document.getElementById("analysisFormType").value,
     lookback_count: Number(document.getElementById("analysisLookbackCount").value || 1),
     question: document.getElementById("analysisQuestion").value.trim(),
   };
+  if (includeEmail) {
+    payload.email = document.getElementById("analysisEmail").value.trim();
+  }
+  return payload;
 }
 
 function updateIssuePreview() {
-  document.getElementById("issuePreview").textContent = JSON.stringify(buildAnalysisRequestPayload(), null, 2);
+  const previewEl = document.getElementById("issuePreview");
+  if (previewEl) {
+    previewEl.textContent = JSON.stringify(buildAnalysisRequestPayload(), null, 2);
+  }
 }
 
 function renderProgressLog(lines) {
@@ -250,6 +321,11 @@ async function submitLiveAnalysisRequest() {
     renderProgressLog(["Run blocked: add a free-text question before starting analysis."]);
     return;
   }
+  if (payload.email && !document.getElementById("analysisEmail").checkValidity()) {
+    document.getElementById("analysisStatusLine").textContent = "Enter a valid email address or leave it blank.";
+    renderProgressLog(["Run blocked: the email address is not valid."]);
+    return;
+  }
 
   document.getElementById("analysisStatusLine").textContent = "Running live analysis. The server is fetching filings and calling OpenArena now...";
   renderProgressLog(buildPendingProgressLog(payload));
@@ -267,12 +343,18 @@ async function submitLiveAnalysisRequest() {
   const session = data.session;
   window.__analysisSessions = [session, ...(window.__analysisSessions || []).filter((item) => item.id !== session.id)];
   renderAnalysisSessions(window.__analysisSessions);
-  document.getElementById("analysisStatusLine").textContent = "Analysis complete. The latest result has been added to the session history.";
+  if (data.email_status === "sent") {
+    document.getElementById("analysisStatusLine").textContent = "Analysis complete. The latest result has been added to the session history and emailed.";
+  } else if (data.email_status === "failed") {
+    document.getElementById("analysisStatusLine").textContent = `Analysis complete, but email delivery failed: ${data.email_error || "Unknown email error."}`;
+  } else {
+    document.getElementById("analysisStatusLine").textContent = "Analysis complete. The latest result has been added to the session history.";
+  }
   renderProgressLog(session.progress_log || []);
 }
 
 async function copyIssueBody() {
-  await navigator.clipboard.writeText(JSON.stringify(buildAnalysisRequestPayload(), null, 2));
+  await navigator.clipboard.writeText(JSON.stringify(buildAnalysisRequestPayload({ includeEmail: false }), null, 2));
   document.getElementById("analysisStatusLine").textContent = "Request JSON copied.";
 }
 
@@ -317,9 +399,7 @@ function buildSessionCard(session) {
       <p class="section-label">Question</p>
       <p class="filing-description">${escapeHtml(session.question || "N/A")}</p>
       <p class="section-label">Workflow Result</p>
-      <p class="analysis-answer">${escapeHtml(session.answer || session.error || "No output yet. The request may still be queued or processing.")}</p>
-      <p class="section-label">Run Status</p>
-      <pre class="issue-preview">${escapeHtml((Array.isArray(session.progress_log) && session.progress_log.length) ? session.progress_log.join("\n") : "No step-by-step progress recorded yet.")}</pre>
+      <div class="analysis-answer markdown-output">${renderMarkdown(session.answer || session.error || "No output yet. The request may still be queued or processing.")}</div>
       <p class="filing-meta">${filings.length} filing(s) attached${session.workflow_id ? ` · Workflow ${escapeHtml(session.workflow_id)}` : ""}</p>
       ${citations.length ? `<div class="citation-list">${citations.map(buildCitationCard).join("")}</div>` : ""}
       <div class="link-row">
