@@ -314,6 +314,8 @@ class FilingsAnalysisTests(unittest.TestCase):
         sent_session, sent_email = email_mock.call_args[0]
         self.assertEqual(sent_session.id, "live-1")
         self.assertEqual(sent_email, "analyst@example.com")
+        self.assertTrue(any("Sending one-off analysis email" in line for line in session.progress_log))
+        self.assertTrue(any("Analysis email sent successfully." in line for line in session.progress_log))
         persisted_session = persist_live_session_mock.call_args[0][0]
         self.assertFalse(hasattr(persisted_session, "email"))
 
@@ -371,6 +373,7 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(session.status, "complete")
         self.assertEqual(email_delivery.status, "failed")
         self.assertEqual(email_delivery.error, "SMTP unavailable")
+        self.assertTrue(any("Analysis email failed: SMTP unavailable" in line for line in session.progress_log))
         persist_live_session_mock.assert_called_once()
 
     def test_send_filings_analysis_email_handles_smtp_exception(self) -> None:

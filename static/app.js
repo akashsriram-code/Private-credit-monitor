@@ -411,10 +411,6 @@ function buildSessionCard(session) {
 
 function renderAnalysisSessions(sessions) {
   window.__analysisSessions = sessions;
-  document.getElementById("analysisSessionCount").textContent = String(sessions.length);
-  document.getElementById("analysisQueuedCount").textContent = String(sessions.filter((item) => item.status === "queued" || item.status === "processing").length);
-  document.getElementById("analysisCompleteCount").textContent = String(sessions.filter((item) => item.status === "complete").length);
-  document.getElementById("analysisFailedCount").textContent = String(sessions.filter((item) => item.status === "failed").length);
   document.getElementById("analysisStatusLine").textContent = sessions.length
     ? `Loaded ${sessions.length} analysis session(s) from the live API session store.`
     : "No analysis sessions found yet. Run the first live filings analysis from the form.";

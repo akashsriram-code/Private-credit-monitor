@@ -510,17 +510,25 @@ def run_live_analysis(
         base_url=base_url,
         timeout_seconds=timeout_seconds,
     )
-    persist_live_session(processed, sessions_path=sessions_path)
     email_delivery = EmailDeliveryResult()
     email_address = parsed_request.get("email", "")
     if email_address and processed.status == "complete":
+        append_progress(processed, "Sending one-off analysis email to the requested recipient.")
         sent, email_error = send_filings_analysis_email(processed, email_address)
         email_delivery = EmailDeliveryResult(
             status="sent" if sent else "failed",
             error=email_error,
         )
+        if sent:
+            append_progress(processed, "Analysis email sent successfully.")
+        else:
+            append_progress(processed, f"Analysis email failed: {email_error or 'Unknown email error.'}")
     elif email_address:
         email_delivery = EmailDeliveryResult(status="skipped")
+        append_progress(processed, "Analysis email was skipped because the analysis did not complete successfully.")
+    else:
+        append_progress(processed, "No analysis email requested for this run.")
+    persist_live_session(processed, sessions_path=sessions_path)
     return processed, email_delivery
 
 
