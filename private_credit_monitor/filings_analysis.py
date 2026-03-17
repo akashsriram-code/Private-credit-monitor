@@ -117,6 +117,7 @@ class FilingAnalysisSession:
     completed_at: str | None = None
     error: str | None = None
     request_source: str = "github-issue"
+    progress_log: list[str] = field(default_factory=list)
 
 
 def load_json(path: Path, default):
@@ -371,6 +372,21 @@ def transition_session(session: FilingAnalysisSession, status: str, error: str |
     return session
 
 
+def append_progress(session: FilingAnalysisSession, message: str) -> None:
+    timestamp = datetime.now(timezone.utc).strftime("%H:%M:%S UTC")
+    session.progress_log.append(f"{timestamp} - {message}")
+    session.updated_at = utc_now_iso()
+
+
+def resolved_timeout_seconds() -> int:
+    raw_value = os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)
+    try:
+        requested = int(str(raw_value).strip())
+    except ValueError:
+        requested = DEFAULT_OPENARENA_TIMEOUT_SECONDS
+    return max(requested, 180)
+
+
 def run_live_analysis(
     request_payload: dict[str, Any],
     sessions_path: Path = FILINGS_ANALYSIS_SESSIONS_PATH,
@@ -381,7 +397,7 @@ def run_live_analysis(
     workflow_id = os.getenv("OPENARENA_FILINGS_WORKFLOW_ID", os.getenv("OPENARENA_WORKFLOW_ID", DEFAULT_ANALYSIS_WORKFLOW_ID)).strip()
     bearer_token = os.getenv("OPENARENA_BEARER_TOKEN", "").strip()
     base_url = os.getenv("OPENARENA_BASE_URL", DEFAULT_OPENARENA_BASE_URL).strip()
-    timeout_seconds = int((os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or "180").strip())
+    timeout_seconds = resolved_timeout_seconds()
 
     tracked_entities = hydrate_tracked_entities_with_ciks(user_agent)
     live_session = build_live_session(request_payload, tracked_entities)
@@ -736,6 +752,47 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
     return hydrated
 
 
+def hydrate_filing_texts_with_progress(
+    session: FilingAnalysisSession,
+    filings: list[FilingDocument],
+    user_agent: str,
+    question: str,
+) -> list[FilingDocument]:
+    hydrated: list[FilingDocument] = []
+    for filing in filings:
+        append_progress(session, f"Fetching filing HTML for {filing.filing_label}.")
+        preferred_url = build_primary_document_url(filing.cik, filing.accession_number, filing.primary_document)
+        try:
+            raw_text = fetch_text(preferred_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
+        except Exception:
+            raw_text = fetch_text(filing.filing_url, user_agent, timeout=60, retries=DEFAULT_FETCH_RETRIES)
+        full_text = text_from_filing(raw_text)
+        excerpt = build_filing_excerpt(full_text, question)
+        safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
+        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.pdf"
+        append_progress(session, f"Converting {filing.filing_label} into PDF for workflow upload.")
+        upload_bytes = filing_text_to_pdf_bytes(filing.filing_label, filing.index_url, full_text)
+        hydrated.append(
+            FilingDocument(
+                entity_name=filing.entity_name,
+                filing_type=filing.filing_type,
+                filed_date=filing.filed_date,
+                accession_number=filing.accession_number,
+                cik=filing.cik,
+                period_key=filing.period_key,
+                filing_url=filing.filing_url,
+                index_url=filing.index_url,
+                primary_document=filing.primary_document,
+                filing_label=filing.filing_label,
+                text_excerpt=excerpt,
+                full_text=full_text,
+                upload_file_name=upload_file_name,
+                upload_bytes=upload_bytes,
+            )
+        )
+    return hydrated
+
+
 def build_openarena_documents(filings: list[FilingDocument]) -> list[dict[str, Any]]:
     return [
         {
@@ -907,6 +964,7 @@ def build_context_fallback(question: str, filings: list[FilingDocument]) -> str:
 
 
 def call_openarena_ask_documents(
+    session: FilingAnalysisSession,
     question: str,
     filings: list[FilingDocument],
     workflow_id: str,
@@ -929,6 +987,7 @@ def call_openarena_ask_documents(
         "is_rag_storage_request": True,
         "workflow_id": workflow_id,
     }
+    append_progress(session, f"Requesting OpenArena upload URLs for {len(filings)} filing PDF(s).")
     upload_payload = post_json(
         f"{base_url.rstrip('/')}/v3/document/file_upload",
         bearer_token,
@@ -947,6 +1006,7 @@ def call_openarena_ask_documents(
         file_name = nested_url.get("file_name") or filing.upload_file_name or f"{filing.accession_number}.html"
         if not target_url or not fields:
             raise RuntimeError("OpenArena upload URL response was missing upload fields.")
+        append_progress(session, f"Uploading PDF for {filing.filing_label}.")
         upload_presigned_file(
             target_url=target_url,
             fields=fields,
@@ -954,6 +1014,7 @@ def call_openarena_ask_documents(
             file_bytes=filing.upload_bytes or filing.full_text.encode("utf-8"),
             timeout_seconds=timeout_seconds,
         )
+        append_progress(session, f"Parsing uploaded PDF for {filing.filing_label}.")
         file_uuids.append(
             parse_uploaded_file(
                 base_url=base_url,
@@ -970,6 +1031,7 @@ def call_openarena_ask_documents(
 
     rag_population_error = None
     try:
+        append_progress(session, "Triggering OpenArena RAG population for the uploaded filing set.")
         trigger_rag_population(
             base_url=base_url,
             bearer_token=bearer_token,
@@ -978,6 +1040,7 @@ def call_openarena_ask_documents(
         )
     except Exception as exc:
         rag_population_error = str(exc)
+        append_progress(session, f"RAG population returned a non-fatal error: {rag_population_error}")
 
     inference_payload = {
         "workflow_id": workflow_id,
@@ -988,6 +1051,7 @@ def call_openarena_ask_documents(
         "file_uuid": file_uuids,
         "conversation_id": None,
     }
+    append_progress(session, f"Running OpenArena inference with a {timeout_seconds}-second timeout.")
     response_json = post_json(
         f"{base_url.rstrip('/')}/v3/inference",
         bearer_token,
@@ -997,8 +1061,7 @@ def call_openarena_ask_documents(
     answer = _extract_openarena_answer(response_json if isinstance(response_json, dict) else {})
     if not answer:
         raise RuntimeError("OpenArena returned an empty answer.")
-    if rag_population_error:
-        return answer
+    append_progress(session, "Received OpenArena analysis output.")
     return answer
 
 
@@ -1043,15 +1106,19 @@ def process_single_session(
 ) -> FilingAnalysisSession:
     session = FilingAnalysisSession(**session_payload)
     transition_session(session, "processing")
+    append_progress(session, "Starting live filings analysis.")
     resolved_entities = resolve_entities(session.entities, tracked_entities)
     filings: list[FilingDocument] = []
     for entity in resolved_entities:
+        append_progress(session, f"Looking up {session.filing_type} filings for {entity.name} across {session.lookback_count} calendar period(s).")
         filings.extend(fetch_entity_filings(entity, session.filing_type, session.lookback_count, user_agent))
     if not filings:
+        append_progress(session, "No matching filings were found for the selected entities and lookback window.")
         transition_session(session, "failed", "No matching filings were found for the requested entities and period.")
         return session
 
-    hydrated_filings = hydrate_filing_texts(filings, user_agent, session.question)
+    append_progress(session, f"Matched {len(filings)} filing(s). Preparing documents for upload.")
+    hydrated_filings = hydrate_filing_texts_with_progress(session, filings, user_agent, session.question)
     session.filings = [
         {
             "entity_name": filing.entity_name,
@@ -1071,6 +1138,7 @@ def process_single_session(
     session.model = DEFAULT_ANALYSIS_MODEL
     try:
         session.answer = call_openarena_ask_documents(
+            session=session,
             question=session.question,
             filings=hydrated_filings,
             workflow_id=workflow_id,
@@ -1078,8 +1146,10 @@ def process_single_session(
             base_url=base_url,
             timeout_seconds=timeout_seconds,
         )
+        append_progress(session, "Analysis run completed successfully.")
         transition_session(session, "complete")
     except Exception as exc:
+        append_progress(session, f"Analysis failed: {exc}")
         transition_session(session, "failed", str(exc))
     return session
 
@@ -1094,7 +1164,7 @@ def process_pending_sessions(
     workflow_id = os.getenv("OPENARENA_FILINGS_WORKFLOW_ID", os.getenv("OPENARENA_WORKFLOW_ID", DEFAULT_ANALYSIS_WORKFLOW_ID)).strip()
     bearer_token = os.getenv("OPENARENA_BEARER_TOKEN", "").strip()
     base_url = os.getenv("OPENARENA_BASE_URL", DEFAULT_OPENARENA_BASE_URL).strip()
-    timeout_seconds = int((os.getenv("OPENARENA_TIMEOUT_SECONDS", str(DEFAULT_OPENARENA_TIMEOUT_SECONDS)) or "180").strip())
+    timeout_seconds = resolved_timeout_seconds()
 
     archive = load_session_archive(sessions_path)
     tracked_entities = hydrate_tracked_entities_with_ciks(user_agent)

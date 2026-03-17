@@ -524,6 +524,26 @@ input {
   line-height: 1.55;
 }
 
+.progress-box {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.progress-box .field-label {
+  margin-bottom: 10px;
+}
+
+.progress-log {
+  color: var(--ink-soft);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
 .analysis-session-list {
   display: grid;
   gap: 12px;

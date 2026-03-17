@@ -131,6 +131,10 @@
               <button type="button" id="copyIssueButton" class="story-link action-button">Copy Request JSON</button>
             </div>
             <p class="meta-line">This tab now calls the live backend directly. The server fetches filings, sends them to OpenArena, returns the answer, and stores the session as JSON.</p>
+            <div id="analysisProgressBox" class="progress-box">
+              <p class="field-label">Run Status</p>
+              <div id="analysisProgressLog" class="progress-log">No live analysis run yet.</div>
+            </div>
             <pre id="issuePreview" class="issue-preview"></pre>
           </form>
 

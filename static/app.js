@@ -219,18 +219,40 @@ function updateIssuePreview() {
   document.getElementById("issuePreview").textContent = JSON.stringify(buildAnalysisRequestPayload(), null, 2);
 }
 
+function renderProgressLog(lines) {
+  const logEl = document.getElementById("analysisProgressLog");
+  const safeLines = Array.isArray(lines) ? lines.filter(Boolean) : [];
+  logEl.textContent = safeLines.length ? safeLines.join("\n") : "No live analysis run yet.";
+}
+
+function buildPendingProgressLog(payload) {
+  const entityLabel = payload.entities.length === 1 ? payload.entities[0] : `${payload.entities.length} tracked entities`;
+  return [
+    `Starting run for ${entityLabel}.`,
+    `Fetching matching ${payload.filing_type} filings from SEC for the last ${payload.lookback_count} period(s).`,
+    "Converting fetched filings into uploadable PDFs.",
+    "Requesting OpenArena upload URLs.",
+    "Uploading filing PDFs to OpenArena.",
+    "Parsing uploaded documents for workflow use.",
+    "Waiting for OpenArena inference output.",
+  ];
+}
+
 async function submitLiveAnalysisRequest() {
   const payload = buildAnalysisRequestPayload();
   if (!payload.entities.length) {
     document.getElementById("analysisStatusLine").textContent = "Select at least one tracked entity before running analysis.";
+    renderProgressLog(["Run blocked: select at least one tracked entity."]);
     return;
   }
   if (!payload.question) {
     document.getElementById("analysisStatusLine").textContent = "Add a free-text question before running analysis.";
+    renderProgressLog(["Run blocked: add a free-text question before starting analysis."]);
     return;
   }
 
   document.getElementById("analysisStatusLine").textContent = "Running live analysis. The server is fetching filings and calling OpenArena now...";
+  renderProgressLog(buildPendingProgressLog(payload));
   const response = await fetch("/api/filings-analysis", {
     method: "POST",
     headers: {
@@ -246,6 +268,7 @@ async function submitLiveAnalysisRequest() {
   window.__analysisSessions = [session, ...(window.__analysisSessions || []).filter((item) => item.id !== session.id)];
   renderAnalysisSessions(window.__analysisSessions);
   document.getElementById("analysisStatusLine").textContent = "Analysis complete. The latest result has been added to the session history.";
+  renderProgressLog(session.progress_log || []);
 }
 
 async function copyIssueBody() {
@@ -295,6 +318,8 @@ function buildSessionCard(session) {
       <p class="filing-description">${escapeHtml(session.question || "N/A")}</p>
       <p class="section-label">Workflow Result</p>
       <p class="analysis-answer">${escapeHtml(session.answer || session.error || "No output yet. The request may still be queued or processing.")}</p>
+      <p class="section-label">Run Status</p>
+      <pre class="issue-preview">${escapeHtml((Array.isArray(session.progress_log) && session.progress_log.length) ? session.progress_log.join("\n") : "No step-by-step progress recorded yet.")}</pre>
       <p class="filing-meta">${filings.length} filing(s) attached${session.workflow_id ? ` · Workflow ${escapeHtml(session.workflow_id)}` : ""}</p>
       ${citations.length ? `<div class="citation-list">${citations.map(buildCitationCard).join("")}</div>` : ""}
       <div class="link-row">
@@ -316,6 +341,7 @@ function renderAnalysisSessions(sessions) {
   document.getElementById("analysisSessions").innerHTML = sessions.length
     ? sessions.map(buildSessionCard).join("")
     : '<div class="empty-state">No filing analysis sessions have been created yet.</div>';
+  renderProgressLog(sessions.length ? sessions[0].progress_log || [] : []);
 }
 
 async function renderMonitor() {
@@ -408,11 +434,13 @@ document.getElementById("analysisRequestForm").addEventListener("submit", (event
   event.preventDefault();
   submitLiveAnalysisRequest().catch((error) => {
     document.getElementById("analysisStatusLine").textContent = error.message;
+    renderProgressLog([`Run failed: ${error.message}`]);
   });
 });
 document.getElementById("copyIssueButton").addEventListener("click", () => {
   copyIssueBody().catch((error) => {
     document.getElementById("analysisStatusLine").textContent = error.message;
+    renderProgressLog([`Copy failed: ${error.message}`]);
   });
 });
 document.getElementById("analysisFormType").addEventListener("change", updateIssuePreview);
@@ -430,4 +458,5 @@ document.addEventListener("keydown", (event) => {
 renderAll().catch((error) => {
   document.getElementById("statusLine").textContent = error.message;
   document.getElementById("analysisStatusLine").textContent = error.message;
+  renderProgressLog([`Page load failed: ${error.message}`]);
 });
