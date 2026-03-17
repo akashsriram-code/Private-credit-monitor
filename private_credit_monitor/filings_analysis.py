@@ -984,7 +984,7 @@ def call_openarena_ask_documents(
             }
             for filing in filings
         ],
-        "is_rag_storage_request": True,
+        "is_rag_storage_request": False,
         "workflow_id": workflow_id,
     }
     append_progress(session, f"Requesting OpenArena upload URLs for {len(filings)} filing PDF(s).")
@@ -1028,19 +1028,6 @@ def call_openarena_ask_documents(
                 timeout_seconds=timeout_seconds,
             )
         )
-
-    rag_population_error = None
-    try:
-        append_progress(session, "Triggering OpenArena RAG population for the uploaded filing set.")
-        trigger_rag_population(
-            base_url=base_url,
-            bearer_token=bearer_token,
-            workflow_id=workflow_id,
-            timeout_seconds=timeout_seconds,
-        )
-    except Exception as exc:
-        rag_population_error = str(exc)
-        append_progress(session, f"RAG population returned a non-fatal error: {rag_population_error}")
 
     inference_payload = {
         "workflow_id": workflow_id,
