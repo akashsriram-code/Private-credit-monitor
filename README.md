@@ -76,7 +76,7 @@ How it works:
 
 The filings-analysis workflow is pinned by default to:
 
-- `8c608893-8fd4-4c0d-9f71-64ef91091c85`
+- `a1781c17-d09d-4ed5-b11c-032fe42052ae`
 
 You can optionally override it with this repository secret:
 

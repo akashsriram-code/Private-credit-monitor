@@ -444,6 +444,12 @@ input {
   background: rgba(255, 255, 255, 0.48);
 }
 
+.analysis-form input,
+.analysis-form select {
+  width: 100%;
+  min-width: 0;
+}
+
 .field-label {
   display: block;
   margin: 0 0 8px;

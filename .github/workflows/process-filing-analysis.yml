@@ -28,7 +28,7 @@ jobs:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           OPENARENA_BASE_URL: https://aiopenarena.thomsonreuters.com
           OPENARENA_BEARER_TOKEN: ${{ secrets.OPENARENA_BEARER_TOKEN }}
-          OPENARENA_FILINGS_WORKFLOW_ID: ${{ secrets.OPENARENA_FILINGS_WORKFLOW_ID || '8c608893-8fd4-4c0d-9f71-64ef91091c85' }}
+          OPENARENA_FILINGS_WORKFLOW_ID: ${{ secrets.OPENARENA_FILINGS_WORKFLOW_ID || 'a1781c17-d09d-4ed5-b11c-032fe42052ae' }}
           OPENARENA_TIMEOUT_SECONDS: 180
           REFRESH_CIK_LOOKUP: false
         run: python scripts/process_analysis_requests.py --process --limit 3
