@@ -1,5 +1,7 @@
 import os
+import smtplib
 import unittest
+from email.message import EmailMessage
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
@@ -14,6 +16,7 @@ from private_credit_monitor.monitor import (
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
+    send_messages,
     send_test_email,
 )
 from private_credit_monitor.synopsis_output import parse_openarena_output
@@ -319,6 +322,65 @@ class MonitorTests(unittest.TestCase):
 
         self.assertIsNone(error)
         self.assertEqual(smtp_settings["from_email"], "reporter@example.com")
+
+    def test_send_messages_uses_smtp_ssl_for_port_465(self) -> None:
+        class FakeServer:
+            def __init__(self):
+                self.logged_in = False
+                self.sent = 0
+
+            def login(self, username, password):
+                self.logged_in = True
+
+            def send_message(self, message):
+                self.sent += 1
+
+            def quit(self):
+                return None
+
+        fake_server = FakeServer()
+        with patch("private_credit_monitor.monitor.smtplib.SMTP_SSL", return_value=fake_server) as smtp_ssl_mock:
+            sent, error = send_messages(
+                [EmailMessage()],
+                {
+                    "smtp_host": "smtp.gmail.com",
+                    "smtp_port": 465,
+                    "smtp_username": "reporter@example.com",
+                    "smtp_password": "secret",
+                    "from_email": "reporter@example.com",
+                    "to_email": "desk@example.com",
+                },
+            )
+
+        self.assertTrue(sent)
+        self.assertIsNone(error)
+        smtp_ssl_mock.assert_called_once()
+        self.assertTrue(fake_server.logged_in)
+        self.assertEqual(fake_server.sent, 1)
+
+    def test_send_messages_reports_tls_failure(self) -> None:
+        class FakeServer:
+            def starttls(self, context=None):
+                raise smtplib.SMTPException("TLS handshake failed")
+
+            def quit(self):
+                return None
+
+        with patch("private_credit_monitor.monitor.smtplib.SMTP", return_value=FakeServer()):
+            sent, error = send_messages(
+                [EmailMessage()],
+                {
+                    "smtp_host": "smtp.gmail.com",
+                    "smtp_port": 587,
+                    "smtp_username": "reporter@example.com",
+                    "smtp_password": "secret",
+                    "from_email": "reporter@example.com",
+                    "to_email": "desk@example.com",
+                },
+            )
+
+        self.assertFalse(sent)
+        self.assertIn("SMTP TLS negotiation failed", error)
 
 
 if __name__ == "__main__":

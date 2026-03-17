@@ -720,12 +720,45 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
 
 
 def send_messages(messages: list[EmailMessage], smtp_settings: dict[str, str | int]) -> tuple[bool, str | None]:
-    with smtplib.SMTP(str(smtp_settings["smtp_host"]), int(smtp_settings["smtp_port"]), timeout=30) as server:
-        server.starttls(context=ssl.create_default_context())
-        server.login(str(smtp_settings["smtp_username"]), str(smtp_settings["smtp_password"]))
+    smtp_host = str(smtp_settings["smtp_host"])
+    smtp_port = int(smtp_settings["smtp_port"])
+    smtp_username = str(smtp_settings["smtp_username"])
+    smtp_password = str(smtp_settings["smtp_password"])
+    ssl_context = ssl.create_default_context()
+    server = None
+    try:
+        if smtp_port == 465:
+            try:
+                server = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=30, context=ssl_context)
+            except Exception as exc:
+                return False, f"SMTP SSL connection failed: {exc}"
+        else:
+            try:
+                server = smtplib.SMTP(smtp_host, smtp_port, timeout=30)
+            except Exception as exc:
+                return False, f"SMTP connection failed: {exc}"
+            try:
+                server.starttls(context=ssl_context)
+            except Exception as exc:
+                return False, f"SMTP TLS negotiation failed: {exc}"
+
+        try:
+            server.login(smtp_username, smtp_password)
+        except Exception as exc:
+            return False, f"SMTP login failed: {exc}"
+
         for message in messages:
-            server.send_message(message)
-    return True, None
+            try:
+                server.send_message(message)
+            except Exception as exc:
+                return False, f"SMTP send failed: {exc}"
+        return True, None
+    finally:
+        if server is not None:
+            try:
+                server.quit()
+            except Exception:
+                pass
 
 
 def send_test_email() -> tuple[bool, str | None]:
