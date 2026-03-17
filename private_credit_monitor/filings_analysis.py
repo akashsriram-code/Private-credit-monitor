@@ -42,7 +42,7 @@ except ImportError:  # pragma: no cover
 
 FILINGS_ANALYSIS_SESSIONS_PATH = DATA_DIR / "filing_analysis_sessions.json"
 DEFAULT_ANALYSIS_WORKFLOW_ID = "a1781c17-d09d-4ed5-b11c-032fe42052ae"
-DEFAULT_ANALYSIS_MODEL = "claude-4.6-sonnet"
+DEFAULT_ANALYSIS_MODEL = "gemini-3-flash"
 DEFAULT_MAX_FILINGS_PER_ENTITY = 8
 DEFAULT_PERSISTED_SESSION_LIMIT = 20
 FILINGS_ANALYSIS_BLOB_PREFIX = "filing-analysis/sessions"
@@ -814,14 +814,15 @@ def build_openarena_documents(filings: list[FilingDocument]) -> list[dict[str, A
 
 def build_model_params() -> dict[str, Any]:
     return {
-        "anthropic_direct.claude-v4-6-sonnet": {
-            "max_tokens": "8192",
-            "enable_websearch": "false",
-            "top_k": "250",
-            "temperature": "0.4",
-            "effort": "high",
+        "vertexai_gemini-3-flash": {
+            "top_p": "0.95",
+            "thinking_level": "high",
+            "top_k": "47",
+            "temperature": "1.0",
+            "media_resolution": "media_resolution_medium",
             "system_prompt": os.getenv("OPENARENA_FILINGS_SYSTEM_PROMPT", DEFAULT_ANALYSIS_SYSTEM_PROMPT),
             "enable_reasoning": "true",
+            "max_output_tokens": "48531",
         }
     }
 
@@ -1035,8 +1036,11 @@ def call_openarena_ask_documents(
         "is_persistence_allowed": False,
         "modelparams": build_model_params(),
         "input_variables": {},
-        "file_uuid": file_uuids,
         "conversation_id": None,
+        "context": {
+            "input_type": "file_uuid",
+            "value": file_uuids,
+        },
     }
     append_progress(session, f"Running OpenArena inference with a {timeout_seconds}-second timeout.")
     response_json = post_json(
