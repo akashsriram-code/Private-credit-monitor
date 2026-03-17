@@ -1,4 +1,5 @@
 import json
+import smtplib
 import unittest
 from datetime import date
 from pathlib import Path
@@ -17,6 +18,7 @@ from private_credit_monitor.filings_analysis import (
     persist_live_session,
     parse_issue_request,
     run_live_analysis,
+    send_filings_analysis_email,
     select_filings_from_rows,
     transition_session,
     upsert_session_archive,
@@ -370,6 +372,38 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(email_delivery.status, "failed")
         self.assertEqual(email_delivery.error, "SMTP unavailable")
         persist_live_session_mock.assert_called_once()
+
+    def test_send_filings_analysis_email_handles_smtp_exception(self) -> None:
+        session = FilingAnalysisSession(
+            id="live-3",
+            issue_number=None,
+            issue_title="Live filings analysis",
+            issue_url="",
+            status="complete",
+            entities=["Ares Capital Corporation"],
+            filing_type="10-K",
+            lookback_count=1,
+            question="What changed?",
+            answer="Example answer",
+            request_source="live-api",
+        )
+        with patch.dict(
+            "os.environ",
+            {
+                "SMTP_HOST": "smtp.example.com",
+                "SMTP_PORT": "587",
+                "SMTP_USERNAME": "reporter@example.com",
+                "SMTP_PASSWORD": "secret",
+                "FROM_EMAIL": "reporter@example.com",
+                "ALERT_EMAIL_TO": "",
+            },
+            clear=False,
+        ):
+            with patch("private_credit_monitor.filings_analysis.send_messages", side_effect=smtplib.SMTPException("relay denied")):
+                sent, error = send_filings_analysis_email(session, "analyst@example.com")
+
+        self.assertFalse(sent)
+        self.assertIn("relay denied", error)
 
 
 if __name__ == "__main__":

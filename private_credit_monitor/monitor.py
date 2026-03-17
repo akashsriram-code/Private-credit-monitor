@@ -697,14 +697,17 @@ def generate_synopsis(
         return fallback_synopsis(company_name, tracked_name, form_type, snippet, keywords), "fallback", str(exc)
 
 
-def load_smtp_settings() -> tuple[dict[str, str | int], str | None]:
+def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | int], str | None]:
     smtp_host = os.getenv("SMTP_HOST", "").strip()
     smtp_port = int(os.getenv("SMTP_PORT", "587").strip())
     smtp_username = os.getenv("SMTP_USERNAME", "").strip()
     smtp_password = os.getenv("SMTP_PASSWORD", "").strip()
     from_email = os.getenv("FROM_EMAIL", smtp_username).strip()
     to_email = os.getenv("ALERT_EMAIL_TO", "").strip()
-    if not all([smtp_host, smtp_username, smtp_password, from_email, to_email]):
+    required_values = [smtp_host, smtp_username, smtp_password, from_email]
+    if require_to_email:
+        required_values.append(to_email)
+    if not all(required_values):
         return {}, "Email alert skipped because SMTP settings are incomplete."
     return {
         "smtp_host": smtp_host,

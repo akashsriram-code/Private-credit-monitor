@@ -460,7 +460,7 @@ def format_filings_analysis_email_html(session: FilingAnalysisSession) -> str:
 
 
 def send_filings_analysis_email(session: FilingAnalysisSession, email_address: str) -> tuple[bool, str | None]:
-    smtp_settings, smtp_error = load_smtp_settings()
+    smtp_settings, smtp_error = load_smtp_settings(require_to_email=False)
     if smtp_error:
         return False, smtp_error
 
@@ -471,7 +471,10 @@ def send_filings_analysis_email(session: FilingAnalysisSession, email_address: s
     message["To"] = email_address
     message.set_content(format_filings_analysis_email_text(session))
     message.add_alternative(format_filings_analysis_email_html(session), subtype="html")
-    return send_messages([message], smtp_settings)
+    try:
+        return send_messages([message], smtp_settings)
+    except Exception as exc:
+        return False, str(exc)
 
 
 def resolved_timeout_seconds() -> int:

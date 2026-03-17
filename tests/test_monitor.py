@@ -10,6 +10,7 @@ from private_credit_monitor.monitor import (
     choose_entity,
     fetch_text,
     load_cik_lookup_text,
+    load_smtp_settings,
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
@@ -300,6 +301,24 @@ class MonitorTests(unittest.TestCase):
         message = captured["messages"][0]
         self.assertIn("Routine email health check", message["Subject"])
         self.assertIn("routine test email to check the health of the email component", message.get_body().get_content())
+
+    def test_load_smtp_settings_can_skip_alert_recipient_requirement(self) -> None:
+        with patch.dict(
+            os.environ,
+            {
+                "SMTP_HOST": "smtp.example.com",
+                "SMTP_PORT": "587",
+                "SMTP_USERNAME": "reporter@example.com",
+                "SMTP_PASSWORD": "secret",
+                "FROM_EMAIL": "reporter@example.com",
+                "ALERT_EMAIL_TO": "",
+            },
+            clear=False,
+        ):
+            smtp_settings, error = load_smtp_settings(require_to_email=False)
+
+        self.assertIsNone(error)
+        self.assertEqual(smtp_settings["from_email"], "reporter@example.com")
 
 
 if __name__ == "__main__":
