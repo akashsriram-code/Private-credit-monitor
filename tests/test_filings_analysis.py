@@ -9,6 +9,7 @@ from private_credit_monitor.filings_analysis import (
     build_openarena_documents,
     build_live_session,
     build_session_from_issue,
+    filing_text_to_pdf_bytes,
     load_persisted_sessions,
     parse_live_request_payload,
     persist_live_session,
@@ -173,6 +174,15 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(docs[0]["id"], "0001-26-000001")
         self.assertIn("leverage", docs[0]["text"])
         self.assertEqual(docs[0]["metadata"]["entity_name"], "Ares Capital Corporation")
+
+    def test_filing_text_to_pdf_bytes_generates_pdf_payload(self) -> None:
+        pdf_bytes = filing_text_to_pdf_bytes(
+            "Ares Capital Corporation 10-K filed 2026-02-10",
+            "https://example.com/filing",
+            "Liquidity improved year over year.\n\nCash balances increased.",
+        )
+        self.assertTrue(pdf_bytes.startswith(b"%PDF"))
+        self.assertGreater(len(pdf_bytes), 500)
 
     def test_upsert_session_archive_and_transition_persist_status(self) -> None:
         with TemporaryDirectory() as tmpdir:

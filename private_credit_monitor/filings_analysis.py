@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import io
 import mimetypes
 import json
 import os
@@ -80,6 +81,7 @@ class FilingDocument:
     text_excerpt: str
     full_text: str = ""
     upload_file_name: str = ""
+    upload_bytes: bytes = b""
 
 
 @dataclass
@@ -593,6 +595,113 @@ def build_filing_excerpt(text: str, question: str, max_chars: int = 900) -> str:
     return excerpt[:max_chars]
 
 
+def wrap_pdf_line(text: str, max_chars: int = 95) -> list[str]:
+    words = text.split()
+    if not words:
+        return [""]
+    lines: list[str] = []
+    current = words[0]
+    for word in words[1:]:
+        candidate = f"{current} {word}"
+        if len(candidate) <= max_chars:
+            current = candidate
+        else:
+            lines.append(current)
+            current = word
+    lines.append(current)
+    return lines
+
+
+def _pdf_escape(value: str) -> str:
+    return value.replace("\\", "\\\\").replace("(", "\\(").replace(")", "\\)")
+
+
+def _pdf_object(obj_num: int, content: bytes) -> bytes:
+    return f"{obj_num} 0 obj\n".encode("utf-8") + content + b"\nendobj\n"
+
+
+def filing_text_to_pdf_bytes(filing_label: str, source_url: str, text: str) -> bytes:
+    lines: list[str] = []
+    lines.extend(wrap_pdf_line(filing_label, max_chars=82))
+    lines.append("")
+    lines.extend(wrap_pdf_line(f"Source: {source_url}", max_chars=96))
+    lines.append("")
+    for paragraph in [part.strip() for part in re.split(r"\n\s*\n", text) if part.strip()]:
+        lines.extend(wrap_pdf_line(paragraph, max_chars=96))
+        lines.append("")
+
+    page_line_capacity = 42
+    page_groups = [lines[idx: idx + page_line_capacity] for idx in range(0, len(lines), page_line_capacity)] or [["No filing text available."]]
+
+    object_num = 1
+    catalog_id = object_num
+    object_num += 1
+    pages_id = object_num
+    object_num += 1
+    font_id = object_num
+    object_num += 1
+
+    page_ids: list[int] = []
+    content_ids: list[int] = []
+    page_streams: list[bytes] = []
+
+    for page_lines in page_groups:
+        page_id = object_num
+        object_num += 1
+        content_id = object_num
+        object_num += 1
+        page_ids.append(page_id)
+        content_ids.append(content_id)
+
+        commands = ["BT", "/F1 11 Tf", "54 738 Td", "14 TL"]
+        if page_lines:
+            first_line = _pdf_escape(page_lines[0])
+            commands.append(f"({first_line}) Tj")
+            for line in page_lines[1:]:
+                commands.append(f"T* ({_pdf_escape(line)}) Tj")
+        commands.append("ET")
+        stream_body = "\n".join(commands).encode("utf-8")
+        page_streams.append(stream_body)
+
+    objects: list[bytes] = []
+    objects.append(_pdf_object(catalog_id, f"<< /Type /Catalog /Pages {pages_id} 0 R >>".encode("utf-8")))
+    kids = " ".join(f"{page_id} 0 R" for page_id in page_ids)
+    objects.append(_pdf_object(pages_id, f"<< /Type /Pages /Kids [{kids}] /Count {len(page_ids)} >>".encode("utf-8")))
+    objects.append(_pdf_object(font_id, b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>"))
+
+    for page_id, content_id, stream_body in zip(page_ids, content_ids, page_streams):
+        page_dict = (
+            f"<< /Type /Page /Parent {pages_id} 0 R /MediaBox [0 0 612 792] "
+            f"/Resources << /Font << /F1 {font_id} 0 R >> >> /Contents {content_id} 0 R >>"
+        ).encode("utf-8")
+        objects.append(_pdf_object(page_id, page_dict))
+        content = (
+            f"<< /Length {len(stream_body)} >>\nstream\n".encode("utf-8")
+            + stream_body
+            + b"\nendstream"
+        )
+        objects.append(_pdf_object(content_id, content))
+
+    output = io.BytesIO()
+    output.write(b"%PDF-1.4\n%\xe2\xe3\xcf\xd3\n")
+    offsets = [0]
+    for obj in objects:
+        offsets.append(output.tell())
+        output.write(obj)
+    xref_start = output.tell()
+    output.write(f"xref\n0 {len(offsets)}\n".encode("utf-8"))
+    output.write(b"0000000000 65535 f \n")
+    for offset in offsets[1:]:
+        output.write(f"{offset:010d} 00000 n \n".encode("utf-8"))
+    output.write(
+        (
+            f"trailer\n<< /Size {len(offsets)} /Root {catalog_id} 0 R >>\n"
+            f"startxref\n{xref_start}\n%%EOF"
+        ).encode("utf-8")
+    )
+    return output.getvalue()
+
+
 def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, question: str) -> list[FilingDocument]:
     hydrated: list[FilingDocument] = []
     for filing in filings:
@@ -604,7 +713,8 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
         full_text = text_from_filing(raw_text)
         excerpt = build_filing_excerpt(full_text, question)
         safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
-        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.txt"
+        upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.pdf"
+        upload_bytes = filing_text_to_pdf_bytes(filing.filing_label, filing.index_url, full_text)
         hydrated.append(
             FilingDocument(
                 entity_name=filing.entity_name,
@@ -620,6 +730,7 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
                 text_excerpt=excerpt,
                 full_text=full_text,
                 upload_file_name=upload_file_name,
+                upload_bytes=upload_bytes,
             )
         )
     return hydrated
@@ -840,7 +951,7 @@ def call_openarena_ask_documents(
             target_url=target_url,
             fields=fields,
             file_name=file_name,
-            file_bytes=filing.full_text.encode("utf-8"),
+            file_bytes=filing.upload_bytes or filing.full_text.encode("utf-8"),
             timeout_seconds=timeout_seconds,
         )
         file_uuids.append(
