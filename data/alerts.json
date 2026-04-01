@@ -28,7 +28,7 @@
     },
     "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
-    "openarena_error": "OpenArena returned an empty answer.",
+    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   },
   {
