@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001143598-26-000004",
+    "cik": "0001825265",
+    "company_name": "TCW Direct Lending VIII LLC",
+    "form_type": "D",
+    "filed_date": "2026-04-01",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825265/000114359826000004/0001143598-26-000004.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1825265/000114359826000004/0001143598-26-000004-index.html",
+    "tracked_name": "TCW Direct Lending VIII LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending"
+    ],
+    "description": "ATE: 20260401 DATE AS OF CHANGE: 20260401 EFFECTIVENESS DATE: 20260401 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: ",
+    "openarena_output": "SEC Filing Analysis: TCW Direct Lending VIII LLC - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nATE: 20260401 DATE AS OF CHANGE: 20260401 EFFECTIVENESS DATE: 20260401 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: \n\nC. What's New\nMatched keywords: direct lending.\nATE: 20260401 DATE AS OF CHANGE: 20260401 EFFECTIVENESS DATE: 20260401 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: \n\nD. Most Important Points\nTCW Direct Lending VIII LLC is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: TCW Direct Lending VIII LLC - D",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ATE: 20260401 DATE AS OF CHANGE: 20260401 EFFECTIVENESS DATE: 20260401 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER:",
+    "whats_new": [
+      "Matched keywords: direct lending. ATE: 20260401 DATE AS OF CHANGE: 20260401 EFFECTIVENESS DATE: 20260401 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER:"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "TCW Direct Lending VIII LLC is on the watchlist and matched a recent D filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "OpenArena returned an empty answer.",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000930413-26-000959",
     "cik": "0002041841",
     "company_name": "K - Lord Abbett Private Credit Fund S",
