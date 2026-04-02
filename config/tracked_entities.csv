@@ -1,4 +1,5 @@
 ticker,name,type
+AIG,"American International Group, Inc.",Public
 ARCC,Ares Capital Corporation,Public
 BCSF,Bain Capital Specialty Finance Inc.,Public
 BBDC,Barings BDC Inc.,Public
@@ -9,6 +10,7 @@ OBDC,Blue Owl Capital Corporation,Public
 OTF,Blue Owl Technology Finance Corp.,Public
 CSWC,Capital Southwest Corporation,Public
 CCBD,Carlyle Secured Lending Inc.,Public
+CB,Chubb Limited,Public
 LIEN,Chicago Atlantic BDC Inc.,Public
 CION,CION Investment Corporation,Public
 CCAP,Crescent Capital BDC Inc.,Public
@@ -27,6 +29,7 @@ HRZN,Horizon Technology Finance Corp.,Public
 ICMB,Investcorp Credit Management BDC Inc.,Public
 KBDC,Kayne Anderson BDC Inc.,Public
 MAIN,Main Street Capital Corporation,Public
+MET,"MetLife, Inc.",Public
 MFIC,MidCap Financial Investment Corporation,Public
 MRCC,Monroe Capital Corporation,Public
 MSDL,Morgan Stanley Direct Lending Fund,Public
@@ -41,6 +44,7 @@ PFLT,PennantPark Floating Rate Capital Ltd.,Public
 PNNT,PennantPark Investment Corp.,Public
 PFX,PhenixFIN Corporation,Public
 PIAC,Princeton Capital Corp.,Public
+PRU,"Prudential Financial, Inc.",Public
 PSEC,Prospect Capital Corporation,Public
 RAND,Rand Capital Corp.,Public
 RWAY,Runway Growth Finance Corp.,Public
@@ -50,6 +54,7 @@ SLRC,SLR Investment Corp.,Public
 SCM,Stellus Capital Investment Corp.,Public
 SSSS,SuRo Capital Corp.,Public
 TRIN,Trinity Capital Inc.,Public
+TRV,"The Travelers Companies, Inc.",Public
 TPVG,TriplePoint Venture Growth BDC Corp.,Public
 UCIX,Umbra Cos. Inc.,Public
 WHF,WhiteHorse Finance Inc.,Public
@@ -58,12 +63,14 @@ WHF,WhiteHorse Finance Inc.,Public
 ,AG Twin Brook BDC Inc.,Private
 ,AGL Private Credit Income Fund,Private
 ,American Capital Ltd.,Private
+,"American National Group, Inc.",Private
 ,Antares Private Credit Fund,Private
 ,Antares Strategic Credit Fund,Private
 ,Apollo Debt Solutions BDC,Private
 ,Apollo Origination II Levered Capital Trust,Private
 ,Ares Core Infrastructure Fund,Private
 ,Ares Strategic Income Fund,Private
+,Athene Holding Ltd.,Private
 ,Audax Credit BDC Inc.,Private
 ,Bain Capital Private Credit,Private
 ,Barings Private Credit Corp,Private
@@ -82,6 +89,7 @@ WHF,WhiteHorse Finance Inc.,Public
 ,Committed Capital Acquisition Corp. II,Private
 ,Diameter Credit Company,Private
 ,Digital Creative Development Corp.,Private
+,DOXA Insurance Holdings LLC,Private
 ,Endless Charge Inc.,Private
 ,Fidelity Private Credit Company LLC,Private
 ,Fidelity Private Credit Fund,Private
@@ -89,6 +97,7 @@ WHF,WhiteHorse Finance Inc.,Public
 ,Franklin BSP Capital Corp,Private
 ,Franklin BSP Lending Corp.,Private
 ,FS Investment Corp. II,Private
+,Global Atlantic Financial Group Ltd.,Private
 ,Goldman Sachs Private Credit Corp,Private
 ,Goldman Sachs Private Middle Market Credit II LLC,Private
 ,Golub Capital BDC 4 Inc.,Private
@@ -138,6 +147,7 @@ WHF,WhiteHorse Finance Inc.,Public
 ,TCW Direct Lending LLC,Private
 ,TCW Direct Lending VII LLC,Private
 ,TCW Direct Lending VIII LLC,Private
+,Truist Insurance Holdings,Private
 ,TPG Twin Brook Capital Income Fund,Private
 ,United Capital Consultants Inc.,Private
 ,Varagon Capital Corp,Private
