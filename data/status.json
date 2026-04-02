@@ -1,7 +1,7 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-04-02T15:18:29.467268+00:00",
-  "last_error": "SMTP login failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a593ee25c9sm31297906d6.22 - gsmtp')",
+  "last_run": "2026-04-02T16:17:02.773165+00:00",
+  "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
   "forms": [
@@ -25,7 +25,7 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 1,
+  "new_alerts": 0,
   "total_alerts": 50,
   "email_sent": false,
   "entities_tracked": 156,
