@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-142364",
+    "cik": "0001920145",
+    "company_name": "K - Goldman Sachs Private Credit Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-04-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526142364/0001193125-26-142364.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526142364/0001193125-26-142364-index.html",
+    "tracked_name": "Goldman Sachs Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d125818d8k.htm 8-K 8-K false 0001920145 0001920145 ",
+    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d125818d8k.htm 8-K 8-K false 0001920145 0001920145 \n\nC. What's New\nMatched keywords: credit fund, private credit.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d125818d8k.htm 8-K 8-K false 0001920145 0001920145 \n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d125818d8k.htm 8-K 8-K false 0001920145 0001920145",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d125818d8k.htm 8-K 8-K false 0001920145 0001920145"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001911066-26-000027",
     "cik": "0001911066",
     "company_name": "K - Nuveen Churchill Private Capital Income Fund",

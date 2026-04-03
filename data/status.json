@@ -1,7 +1,7 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-04-03T20:52:55.087081+00:00",
-  "last_error": null,
+  "last_run": "2026-04-03T21:40:28.737657+00:00",
+  "last_error": "SMTP login failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a59323a2d1sm70345676d6.9 - gsmtp')",
   "days_scanned": 7,
   "hours_lookback": 3,
   "forms": [
@@ -25,8 +25,8 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 0,
-  "total_alerts": 51,
+  "new_alerts": 1,
+  "total_alerts": 52,
   "email_sent": false,
   "entities_tracked": 156,
   "recent_entries_scanned": 600,
@@ -35,5 +35,5 @@
   "openarena_enabled": true,
   "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
   "openarena_generated": 0,
-  "fallback_generated": 0
+  "fallback_generated": 1
 }
