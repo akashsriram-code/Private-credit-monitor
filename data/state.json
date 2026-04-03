@@ -55,6 +55,6 @@
     "0002061670-26-000034",
     "0002112554-26-000004"
   ],
-  "last_run": "2026-04-03T21:40:28.737826+00:00",
-  "last_error": "SMTP login failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a59323a2d1sm70345676d6.9 - gsmtp')"
+  "last_run": "2026-04-03T22:17:34.905223+00:00",
+  "last_error": null
 }
