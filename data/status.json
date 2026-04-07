@@ -1,7 +1,7 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-04-07T12:42:39.349008+00:00",
-  "last_error": "SMTP login failed: (534, b'5.7.9 Please log in with your web browser and then try again. For more\\n5.7.9 information, go to\\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired 586e51a60fabf-422eb42db1bsm15545579fac.17 - gsmtp')",
+  "last_run": "2026-04-07T14:21:45.516904+00:00",
+  "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
   "forms": [
@@ -25,11 +25,11 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 1,
+  "new_alerts": 0,
   "total_alerts": 57,
   "email_sent": false,
   "entities_tracked": 156,
-  "recent_entries_scanned": 302,
+  "recent_entries_scanned": 519,
   "cik_lookup_source": "cache",
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
