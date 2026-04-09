@@ -1,6 +1,6 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-04-09T00:03:23.509089+00:00",
+  "last_run": "2026-04-09T03:27:04.921727+00:00",
   "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
@@ -29,7 +29,7 @@
   "total_alerts": 58,
   "email_sent": false,
   "entities_tracked": 156,
-  "recent_entries_scanned": 600,
+  "recent_entries_scanned": 117,
   "cik_lookup_source": "cache",
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
