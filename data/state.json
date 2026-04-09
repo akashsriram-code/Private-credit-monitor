@@ -65,6 +65,6 @@
     "0002061670-26-000034",
     "0002112554-26-000004"
   ],
-  "last_run": "2026-04-09T17:26:14.948085+00:00",
-  "last_error": "SMTP login failed: (534, b'5.7.9 Please log in with your web browser and then try again. For more\\n5.7.9 information, go to\\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired 5a478bee46e88-2d562db6ac8sm476269eec.26 - gsmtp')"
+  "last_run": "2026-04-09T18:15:27.523420+00:00",
+  "last_error": null
 }
