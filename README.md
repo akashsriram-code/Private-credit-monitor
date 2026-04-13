@@ -128,7 +128,7 @@ Use it from `Actions -> Backfill SEC Filings -> Run workflow`, then enter the nu
 
 ## Email Alert Integration
 
-The script already includes optional email delivery for new matches. The recommended provider is now Brevo, and the repo still supports SMTP as a fallback.
+The script already includes optional email delivery for new matches. The simplest setup for this repo is now password-based SMTP with Zoho Mail using an app-specific password.
 
 For Brevo, add these secrets:
 
@@ -157,58 +157,38 @@ For password-based SMTP, add these secrets:
   comma-separated recipient list is supported, for example `a@example.com, b@example.com`
 - `OPENARENA_BEARER_TOKEN`
 
-For OAuth 2.0 SMTP, add these instead:
+### Zoho Mail App Password
 
-- `ENABLE_EMAIL_ALERTS=true`
+For Zoho Mail, use password-based SMTP with an app-specific password:
+
 - `EMAIL_PROVIDER=smtp`
-- `SMTP_HOST`
-- `SMTP_PORT`
-- `SMTP_AUTH_METHOD=oauth2`
-- `SMTP_USERNAME`
-- `SMTP_OAUTH_TOKEN_URL`
-- `SMTP_OAUTH_CLIENT_ID`
-- `SMTP_OAUTH_CLIENT_SECRET`
-- `SMTP_OAUTH_REDIRECT_URI`
-- `SMTP_OAUTH_REFRESH_TOKEN`
-- `SMTP_OAUTH_SCOPE`
-- `FROM_EMAIL`
-- `ALERT_EMAIL_TO`
-  comma-separated recipient list is supported, for example `a@example.com, b@example.com`
-- `OPENARENA_BEARER_TOKEN`
+- `SMTP_USERNAME=<your Zoho email address>`
+- `FROM_EMAIL=<your Zoho email address or alias>`
+- `SMTP_PASSWORD=<your Zoho app password>`
 
-You can also set `SMTP_OAUTH_ACCESS_TOKEN` for short-lived local testing, but the normal path is a refresh token.
+Use one of these SMTP settings:
 
-### Brevo Recommendation
+- Personal Zoho mailbox:
+  `SMTP_HOST=smtp.zoho.com`
+  `SMTP_PORT=587`
+- Zoho-hosted custom-domain mailbox:
+  `SMTP_HOST=smtppro.zoho.com`
+  `SMTP_PORT=587`
 
-For a GitHub Actions and Vercel-friendly setup without buying your own domain first, Brevo is the simplest path:
+Notes:
+
+- If Zoho two-factor authentication is enabled, generate an app-specific password and use that value as `SMTP_PASSWORD`.
+- Port `587` with STARTTLS is the cleanest default for this repo.
+- `SMTP_AUTH_METHOD` can be omitted because the code defaults to password auth.
+
+### Brevo Fallback
+
+Brevo still works if you prefer an API-based provider:
 
 - create a Brevo API key
 - set `EMAIL_PROVIDER=brevo`
 - set `FROM_EMAIL` to the sender address configured in Brevo
 - if Brevo rewrites the sender to one of its managed sending domains, delivery can still proceed for basic alerting
-
-The existing email formatting and one-off analysis email flow continue to work unchanged because the repo now swaps the delivery transport underneath the same message-generation code.
-
-### Outlook / Microsoft OAuth 2.0
-
-For a personal Outlook mailbox, use:
-
-- `SMTP_HOST=smtp-mail.outlook.com`
-- `SMTP_PORT=587`
-- `SMTP_AUTH_METHOD=oauth2`
-- `SMTP_USERNAME=<your Outlook address>`
-- `FROM_EMAIL=<your Outlook address>`
-- `SMTP_OAUTH_TOKEN_URL=https://login.microsoftonline.com/common/oauth2/v2.0/token`
-- `SMTP_OAUTH_SCOPE=offline_access https://outlook.office.com/SMTP.Send`
-
-There is also a helper script to generate the Microsoft consent URL and exchange the authorization code:
-
-```powershell
-python scripts/microsoft_oauth_helper.py --client-id "YOUR_CLIENT_ID" --smtp-username "your_outlook_address" --redirect-uri "http://localhost"
-python scripts/microsoft_oauth_helper.py --client-id "YOUR_CLIENT_ID" --client-secret "YOUR_CLIENT_SECRET" --smtp-username "your_outlook_address" --redirect-uri "http://localhost" --code "PASTE_CODE_HERE"
-```
-
-The helper prints the refresh token and the exact env vars/secrets to store afterward.
 
 How it works:
 

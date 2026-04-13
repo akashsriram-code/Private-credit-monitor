@@ -30,14 +30,6 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          SMTP_AUTH_METHOD: ${{ secrets.SMTP_AUTH_METHOD }}
-          SMTP_OAUTH_TOKEN_URL: ${{ secrets.SMTP_OAUTH_TOKEN_URL }}
-          SMTP_OAUTH_CLIENT_ID: ${{ secrets.SMTP_OAUTH_CLIENT_ID }}
-          SMTP_OAUTH_CLIENT_SECRET: ${{ secrets.SMTP_OAUTH_CLIENT_SECRET }}
-          SMTP_OAUTH_REDIRECT_URI: ${{ secrets.SMTP_OAUTH_REDIRECT_URI }}
-          SMTP_OAUTH_REFRESH_TOKEN: ${{ secrets.SMTP_OAUTH_REFRESH_TOKEN }}
-          SMTP_OAUTH_ACCESS_TOKEN: ${{ secrets.SMTP_OAUTH_ACCESS_TOKEN }}
-          SMTP_OAUTH_SCOPE: ${{ secrets.SMTP_OAUTH_SCOPE }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python scripts/send_test_email.py
