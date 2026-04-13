@@ -137,6 +137,7 @@ For Brevo, add these secrets:
 - `BREVO_API_KEY`
 - `FROM_EMAIL`
 - `ALERT_EMAIL_TO`
+  comma-separated recipient list is supported, for example `a@example.com, b@example.com`
 - `OPENARENA_BEARER_TOKEN`
 
 You can optionally override the API base URL with:
@@ -153,6 +154,7 @@ For password-based SMTP, add these secrets:
 - `SMTP_PASSWORD`
 - `FROM_EMAIL`
 - `ALERT_EMAIL_TO`
+  comma-separated recipient list is supported, for example `a@example.com, b@example.com`
 - `OPENARENA_BEARER_TOKEN`
 
 For OAuth 2.0 SMTP, add these instead:
@@ -171,6 +173,7 @@ For OAuth 2.0 SMTP, add these instead:
 - `SMTP_OAUTH_SCOPE`
 - `FROM_EMAIL`
 - `ALERT_EMAIL_TO`
+  comma-separated recipient list is supported, for example `a@example.com, b@example.com`
 - `OPENARENA_BEARER_TOKEN`
 
 You can also set `SMTP_OAUTH_ACCESS_TOKEN` for short-lived local testing, but the normal path is a refresh token.

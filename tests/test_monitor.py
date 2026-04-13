@@ -344,6 +344,40 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(smtp_settings["email_provider"], "brevo")
         self.assertEqual(smtp_settings["from_email"], "alerts@example.com")
 
+    def test_load_smtp_settings_normalizes_wrapped_brevo_addresses(self) -> None:
+        with patch.dict(
+            os.environ,
+            {
+                "EMAIL_PROVIDER": "brevo",
+                "BREVO_API_KEY": "brevo_test_key",
+                "FROM_EMAIL": "\"Alerts Desk <alerts@example.com>\"",
+                "ALERT_EMAIL_TO": "'Desk <desk@example.com>, Other Desk <other@example.com>'",
+            },
+            clear=False,
+        ):
+            smtp_settings, error = load_smtp_settings()
+
+        self.assertIsNone(error)
+        self.assertEqual(smtp_settings["from_email"], "alerts@example.com")
+        self.assertEqual(smtp_settings["to_emails"], ["desk@example.com", "other@example.com"])
+        self.assertEqual(smtp_settings["to_email"], "desk@example.com, other@example.com")
+
+    def test_load_smtp_settings_rejects_invalid_brevo_recipient(self) -> None:
+        with patch.dict(
+            os.environ,
+            {
+                "EMAIL_PROVIDER": "brevo",
+                "BREVO_API_KEY": "brevo_test_key",
+                "FROM_EMAIL": "alerts@example.com",
+                "ALERT_EMAIL_TO": "desk@example.com, not-an-email",
+            },
+            clear=False,
+        ):
+            smtp_settings, error = load_smtp_settings()
+
+        self.assertEqual(smtp_settings, {})
+        self.assertEqual(error, "ALERT_EMAIL_TO contains an invalid email address: not-an-email")
+
     def test_load_smtp_settings_supports_oauth2_without_password(self) -> None:
         with patch.dict(
             os.environ,
@@ -507,7 +541,7 @@ class MonitorTests(unittest.TestCase):
         message = EmailMessage()
         message["Subject"] = "Routine test"
         message["From"] = "alerts@example.com"
-        message["To"] = "desk@example.com"
+        message["To"] = "desk@example.com, other@example.com"
         message.set_content("plain body")
         message.add_alternative("<p>html body</p>", subtype="html")
 
@@ -519,13 +553,17 @@ class MonitorTests(unittest.TestCase):
                     "brevo_api_key": "brevo_test_key",
                     "brevo_api_base_url": "https://api.brevo.com/v3",
                     "from_email": "alerts@example.com",
-                    "to_email": "desk@example.com",
+                    "to_emails": ["desk@example.com", "other@example.com"],
+                    "to_email": "desk@example.com, other@example.com",
                 },
             )
 
         self.assertTrue(sent)
         self.assertIsNone(error)
         urlopen_mock.assert_called_once()
+        request = urlopen_mock.call_args.args[0]
+        payload = __import__("json").loads(request.data.decode("utf-8"))
+        self.assertEqual(payload["to"], [{"email": "desk@example.com"}, {"email": "other@example.com"}])
 
     def test_send_messages_reports_tls_failure(self) -> None:
         class FakeServer:

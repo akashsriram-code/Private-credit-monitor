@@ -13,6 +13,7 @@ import time
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
+from email.utils import getaddresses
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import urlencode
@@ -46,6 +47,7 @@ DEFAULT_CIK_CACHE_MAX_AGE_DAYS = 7
 FEED_PAGE_SIZE = 100
 DEFAULT_FEED_MAX_PAGES = 6
 DEFAULT_FETCH_RETRIES = 3
+EMAIL_ADDRESS_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 COMMON_SUFFIXES = {
     "inc",
     "corp",
@@ -705,10 +707,15 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
     email_provider = os.getenv("EMAIL_PROVIDER", DEFAULT_EMAIL_PROVIDER).strip().lower()
     brevo_api_key = os.getenv("BREVO_API_KEY", "").strip()
     brevo_api_base_url = os.getenv("BREVO_API_BASE_URL", DEFAULT_BREVO_API_BASE_URL).strip()
-    from_email = os.getenv("FROM_EMAIL", "").strip()
-    to_email = os.getenv("ALERT_EMAIL_TO", "").strip()
+    from_email, from_email_error = normalize_email_address(os.getenv("FROM_EMAIL", ""), "FROM_EMAIL")
+    to_emails, to_email_error = normalize_email_addresses(os.getenv("ALERT_EMAIL_TO", ""), "ALERT_EMAIL_TO")
+    to_email = ", ".join(to_emails)
 
     if email_provider == "brevo":
+        if from_email_error:
+            return {}, from_email_error
+        if require_to_email and to_email_error:
+            return {}, to_email_error
         required_values = [brevo_api_key, from_email]
         if require_to_email:
             required_values.append(to_email)
@@ -719,6 +726,7 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
             "brevo_api_key": brevo_api_key,
             "brevo_api_base_url": brevo_api_base_url,
             "from_email": from_email,
+            "to_emails": to_emails,
             "to_email": to_email,
         }, None
 
@@ -734,8 +742,12 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
     smtp_oauth_refresh_token = os.getenv("SMTP_OAUTH_REFRESH_TOKEN", "").strip()
     smtp_oauth_access_token = os.getenv("SMTP_OAUTH_ACCESS_TOKEN", "").strip()
     smtp_oauth_scope = os.getenv("SMTP_OAUTH_SCOPE", "").strip()
-    from_email = (from_email or smtp_username).strip()
-    to_email = to_email.strip()
+    if not from_email:
+        from_email, from_email_error = normalize_email_address(smtp_username, "SMTP_USERNAME")
+    if from_email_error:
+        return {}, from_email_error
+    if require_to_email and to_email_error:
+        return {}, to_email_error
 
     if smtp_auth_method not in {"password", "oauth2"}:
         return {}, "Email alert skipped because SMTP_AUTH_METHOD must be either 'password' or 'oauth2'."
@@ -775,8 +787,43 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
         "smtp_oauth_access_token": smtp_oauth_access_token,
         "smtp_oauth_scope": smtp_oauth_scope,
         "from_email": from_email,
+        "to_emails": to_emails,
         "to_email": to_email,
     }, None
+
+
+def normalize_email_address(value: str, variable_name: str) -> tuple[str, str | None]:
+    raw_value = str(value or "").strip().strip("\"'")
+    if not raw_value:
+        return "", None
+
+    parsed_addresses = [(name.strip(), addr.strip()) for name, addr in getaddresses([raw_value]) if addr.strip()]
+    if len(parsed_addresses) != 1:
+        return "", f"{variable_name} must contain exactly one email address."
+
+    _, email_address = parsed_addresses[0]
+    if not EMAIL_ADDRESS_PATTERN.match(email_address):
+        return "", f"{variable_name} must be a valid email address."
+
+    return email_address, None
+
+
+def normalize_email_addresses(value: str, variable_name: str) -> tuple[list[str], str | None]:
+    raw_value = str(value or "").strip().strip("\"'")
+    if not raw_value:
+        return [], None
+
+    parsed_addresses = [(name.strip(), addr.strip()) for name, addr in getaddresses([raw_value]) if addr.strip()]
+    if not parsed_addresses:
+        return [], f"{variable_name} must contain at least one email address."
+
+    normalized_addresses: list[str] = []
+    for _, email_address in parsed_addresses:
+        if not EMAIL_ADDRESS_PATTERN.match(email_address):
+            return [], f"{variable_name} contains an invalid email address: {email_address}"
+        normalized_addresses.append(email_address)
+
+    return normalized_addresses, None
 
 
 def message_body_content(message: EmailMessage, subtype: str) -> str:
@@ -793,11 +840,16 @@ def send_messages_via_brevo(messages: list[EmailMessage], email_settings: dict[s
     api_key = str(email_settings["brevo_api_key"])
     api_base_url = str(email_settings["brevo_api_base_url"]).rstrip("/")
     for message in messages:
+        to_addresses = [addr.strip() for _, addr in getaddresses(message.get_all("To", [])) if addr.strip()]
+        if not to_addresses:
+            fallback_addresses = email_settings.get("to_emails", [])
+            if isinstance(fallback_addresses, list):
+                to_addresses = [str(addr).strip() for addr in fallback_addresses if str(addr).strip()]
         payload = {
             "sender": {
                 "email": str(message["From"] or email_settings["from_email"]),
             },
-            "to": [{"email": str(message["To"])}],
+            "to": [{"email": address} for address in to_addresses],
             "subject": str(message["Subject"] or ""),
         }
         text_body = message_body_content(message, "plain")
