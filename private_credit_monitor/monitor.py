@@ -41,8 +41,6 @@ DEFAULT_MAX_RESULTS = 80
 DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
-DEFAULT_EMAIL_PROVIDER = "smtp"
-DEFAULT_BREVO_API_BASE_URL = "https://api.brevo.com/v3"
 DEFAULT_CIK_CACHE_MAX_AGE_DAYS = 7
 FEED_PAGE_SIZE = 100
 DEFAULT_FEED_MAX_PAGES = 6
@@ -704,32 +702,9 @@ def generate_synopsis(
 
 
 def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | int], str | None]:
-    email_provider = os.getenv("EMAIL_PROVIDER", DEFAULT_EMAIL_PROVIDER).strip().lower()
-    brevo_api_key = os.getenv("BREVO_API_KEY", "").strip()
-    brevo_api_base_url = os.getenv("BREVO_API_BASE_URL", DEFAULT_BREVO_API_BASE_URL).strip()
     from_email, from_email_error = normalize_email_address(os.getenv("FROM_EMAIL", ""), "FROM_EMAIL")
     to_emails, to_email_error = normalize_email_addresses(os.getenv("ALERT_EMAIL_TO", ""), "ALERT_EMAIL_TO")
     to_email = ", ".join(to_emails)
-
-    if email_provider == "brevo":
-        if from_email_error:
-            return {}, from_email_error
-        if require_to_email and to_email_error:
-            return {}, to_email_error
-        required_values = [brevo_api_key, from_email]
-        if require_to_email:
-            required_values.append(to_email)
-        if not all(required_values):
-            return {}, "Email alert skipped because Brevo settings are incomplete."
-        return {
-            "email_provider": email_provider,
-            "brevo_api_key": brevo_api_key,
-            "brevo_api_base_url": brevo_api_base_url,
-            "from_email": from_email,
-            "to_emails": to_emails,
-            "to_email": to_email,
-        }, None
-
     smtp_host = os.getenv("SMTP_HOST", "").strip()
     smtp_port = int(os.getenv("SMTP_PORT", "587").strip())
     smtp_username = os.getenv("SMTP_USERNAME", "").strip()
@@ -742,6 +717,7 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
     smtp_oauth_refresh_token = os.getenv("SMTP_OAUTH_REFRESH_TOKEN", "").strip()
     smtp_oauth_access_token = os.getenv("SMTP_OAUTH_ACCESS_TOKEN", "").strip()
     smtp_oauth_scope = os.getenv("SMTP_OAUTH_SCOPE", "").strip()
+
     if not from_email:
         from_email, from_email_error = normalize_email_address(smtp_username, "SMTP_USERNAME")
     if from_email_error:
@@ -773,7 +749,6 @@ def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | i
     if not all(required_values):
         return {}, "Email alert skipped because SMTP settings are incomplete."
     return {
-        "email_provider": email_provider,
         "smtp_host": smtp_host,
         "smtp_port": smtp_port,
         "smtp_username": smtp_username,
@@ -840,51 +815,6 @@ def set_message_recipients(message: EmailMessage, email_addresses: list[str]) ->
     if "To" in message:
         del message["To"]
     message["To"] = ", ".join(formataddr(("", address)) for address in email_addresses)
-
-
-def send_messages_via_brevo(messages: list[EmailMessage], email_settings: dict[str, str | int]) -> tuple[bool, str | None]:
-    api_key = str(email_settings["brevo_api_key"])
-    api_base_url = str(email_settings["brevo_api_base_url"]).rstrip("/")
-    for message in messages:
-        to_addresses = [addr.strip() for _, addr in getaddresses(message.get_all("To", [])) if addr.strip()]
-        if not to_addresses:
-            fallback_addresses = email_settings.get("to_emails", [])
-            if isinstance(fallback_addresses, list):
-                to_addresses = [str(addr).strip() for addr in fallback_addresses if str(addr).strip()]
-        payload = {
-            "sender": {
-                "email": str(message["From"] or email_settings["from_email"]),
-            },
-            "to": [{"email": address} for address in to_addresses],
-            "subject": str(message["Subject"] or ""),
-        }
-        text_body = message_body_content(message, "plain")
-        html_body = message_body_content(message, "html")
-        if text_body.strip():
-            payload["textContent"] = text_body
-        if html_body.strip():
-            payload["htmlContent"] = html_body
-        request = Request(
-            f"{api_base_url}/smtp/email",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "api-key": api_key,
-                "accept": "application/json",
-                "Content-Type": "application/json",
-            },
-            method="POST",
-        )
-        try:
-            with urlopen(request, timeout=30) as response:
-                status_code = getattr(response, "status", 200)
-                if int(status_code) >= 400:
-                    return False, f"Brevo send failed with status {status_code}."
-        except HTTPError as exc:
-            detail = exc.read().decode("utf-8", "ignore")
-            return False, f"Brevo send failed with {exc.code}: {detail or exc.reason}"
-        except Exception as exc:
-            return False, f"Brevo send failed: {exc}"
-    return True, None
 
 
 def fetch_smtp_oauth_access_token(smtp_settings: dict[str, str | int]) -> tuple[str | None, str | None]:
@@ -989,9 +919,6 @@ def authenticate_smtp_server(server: Any, smtp_settings: dict[str, str | int]) -
 
 
 def send_messages(messages: list[EmailMessage], smtp_settings: dict[str, str | int]) -> tuple[bool, str | None]:
-    if str(smtp_settings.get("email_provider", DEFAULT_EMAIL_PROVIDER)).lower() == "brevo":
-        return send_messages_via_brevo(messages, smtp_settings)
-
     smtp_host = str(smtp_settings["smtp_host"])
     smtp_port = int(smtp_settings["smtp_port"])
     ssl_context = ssl.create_default_context()

@@ -130,24 +130,9 @@ Use it from `Actions -> Backfill SEC Filings -> Run workflow`, then enter the nu
 
 The script already includes optional email delivery for new matches. The simplest setup for this repo is now password-based SMTP with Zoho Mail using an app-specific password.
 
-For Brevo, add these secrets:
-
-- `ENABLE_EMAIL_ALERTS=true`
-- `EMAIL_PROVIDER=brevo`
-- `BREVO_API_KEY`
-- `FROM_EMAIL`
-- `ALERT_EMAIL_TO`
-  comma-separated recipient list is supported, for example `a@example.com, b@example.com`
-- `OPENARENA_BEARER_TOKEN`
-
-You can optionally override the API base URL with:
-
-- `BREVO_API_BASE_URL`
-
 For password-based SMTP, add these secrets:
 
 - `ENABLE_EMAIL_ALERTS=true`
-- `EMAIL_PROVIDER=smtp`
 - `SMTP_HOST`
 - `SMTP_PORT`
 - `SMTP_USERNAME`
@@ -161,7 +146,6 @@ For password-based SMTP, add these secrets:
 
 For Zoho Mail, use password-based SMTP with an app-specific password:
 
-- `EMAIL_PROVIDER=smtp`
 - `SMTP_USERNAME=<your Zoho email address>`
 - `FROM_EMAIL=<your Zoho email address or alias>`
 - `SMTP_PASSWORD=<your Zoho app password>`
@@ -181,15 +165,6 @@ Notes:
 - Port `587` with STARTTLS is the cleanest default for this repo.
 - `SMTP_AUTH_METHOD` can be omitted because the code defaults to password auth.
 
-### Brevo Fallback
-
-Brevo still works if you prefer an API-based provider:
-
-- create a Brevo API key
-- set `EMAIL_PROVIDER=brevo`
-- set `FROM_EMAIL` to the sender address configured in Brevo
-- if Brevo rewrites the sender to one of its managed sending domains, delivery can still proceed for basic alerting
-
 How it works:
 
 1. Each workflow run compares fresh matches against [`data/state.json`](/C:/Users/6113101/Private-credit-monitor/data/state.json).
@@ -207,7 +182,7 @@ If you want a richer alert layer later, the clean next step is to swap SMTP for:
 
 There is also a manual `Send Test Email` GitHub Action.
 
-- Uses the configured email-provider secrets
+- Uses the configured SMTP secrets
 - Sends a routine health-check email to `ALERT_EMAIL_TO`
 - Helps verify the email component without waiting for a live filing alert
 

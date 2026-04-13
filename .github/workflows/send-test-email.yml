@@ -23,9 +23,6 @@ jobs:
 
       - name: Send routine test email
         env:
-          EMAIL_PROVIDER: ${{ secrets.EMAIL_PROVIDER }}
-          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-          BREVO_API_BASE_URL: ${{ secrets.BREVO_API_BASE_URL }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
