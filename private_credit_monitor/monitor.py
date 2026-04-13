@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import csv
 import http.client
 import json
@@ -14,6 +15,7 @@ from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
 from pathlib import Path
 from typing import Any, Iterable
+from urllib.parse import urlencode
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
@@ -38,6 +40,8 @@ DEFAULT_MAX_RESULTS = 80
 DEFAULT_OPENARENA_BASE_URL = "https://aiopenarena.thomsonreuters.com"
 DEFAULT_OPENARENA_WORKFLOW_ID = "9214a226-9866-4f29-abd3-0eb3cd235f8e"
 DEFAULT_OPENARENA_TIMEOUT_SECONDS = 180
+DEFAULT_EMAIL_PROVIDER = "smtp"
+DEFAULT_BREVO_API_BASE_URL = "https://api.brevo.com/v3"
 DEFAULT_CIK_CACHE_MAX_AGE_DAYS = 7
 FEED_PAGE_SIZE = 100
 DEFAULT_FEED_MAX_PAGES = 6
@@ -698,32 +702,210 @@ def generate_synopsis(
 
 
 def load_smtp_settings(require_to_email: bool = True) -> tuple[dict[str, str | int], str | None]:
+    email_provider = os.getenv("EMAIL_PROVIDER", DEFAULT_EMAIL_PROVIDER).strip().lower()
+    brevo_api_key = os.getenv("BREVO_API_KEY", "").strip()
+    brevo_api_base_url = os.getenv("BREVO_API_BASE_URL", DEFAULT_BREVO_API_BASE_URL).strip()
+    from_email = os.getenv("FROM_EMAIL", "").strip()
+    to_email = os.getenv("ALERT_EMAIL_TO", "").strip()
+
+    if email_provider == "brevo":
+        required_values = [brevo_api_key, from_email]
+        if require_to_email:
+            required_values.append(to_email)
+        if not all(required_values):
+            return {}, "Email alert skipped because Brevo settings are incomplete."
+        return {
+            "email_provider": email_provider,
+            "brevo_api_key": brevo_api_key,
+            "brevo_api_base_url": brevo_api_base_url,
+            "from_email": from_email,
+            "to_email": to_email,
+        }, None
+
     smtp_host = os.getenv("SMTP_HOST", "").strip()
     smtp_port = int(os.getenv("SMTP_PORT", "587").strip())
     smtp_username = os.getenv("SMTP_USERNAME", "").strip()
     smtp_password = os.getenv("SMTP_PASSWORD", "").strip()
-    from_email = os.getenv("FROM_EMAIL", smtp_username).strip()
-    to_email = os.getenv("ALERT_EMAIL_TO", "").strip()
-    required_values = [smtp_host, smtp_username, smtp_password, from_email]
+    smtp_auth_method = os.getenv("SMTP_AUTH_METHOD", "password").strip().lower()
+    smtp_oauth_token_url = os.getenv("SMTP_OAUTH_TOKEN_URL", "").strip()
+    smtp_oauth_client_id = os.getenv("SMTP_OAUTH_CLIENT_ID", "").strip()
+    smtp_oauth_client_secret = os.getenv("SMTP_OAUTH_CLIENT_SECRET", "").strip()
+    smtp_oauth_redirect_uri = os.getenv("SMTP_OAUTH_REDIRECT_URI", "").strip()
+    smtp_oauth_refresh_token = os.getenv("SMTP_OAUTH_REFRESH_TOKEN", "").strip()
+    smtp_oauth_access_token = os.getenv("SMTP_OAUTH_ACCESS_TOKEN", "").strip()
+    smtp_oauth_scope = os.getenv("SMTP_OAUTH_SCOPE", "").strip()
+    from_email = (from_email or smtp_username).strip()
+    to_email = to_email.strip()
+
+    if smtp_auth_method not in {"password", "oauth2"}:
+        return {}, "Email alert skipped because SMTP_AUTH_METHOD must be either 'password' or 'oauth2'."
+
+    required_values = [smtp_host, smtp_username, from_email]
     if require_to_email:
         required_values.append(to_email)
+
+    if smtp_auth_method == "password":
+        required_values.append(smtp_password)
+    elif not smtp_oauth_access_token:
+        required_values.extend(
+            [
+                smtp_oauth_token_url,
+                smtp_oauth_client_id,
+                smtp_oauth_client_secret,
+                smtp_oauth_redirect_uri,
+                smtp_oauth_refresh_token,
+                smtp_oauth_scope,
+            ]
+        )
+
     if not all(required_values):
         return {}, "Email alert skipped because SMTP settings are incomplete."
     return {
+        "email_provider": email_provider,
         "smtp_host": smtp_host,
         "smtp_port": smtp_port,
         "smtp_username": smtp_username,
         "smtp_password": smtp_password,
+        "smtp_auth_method": smtp_auth_method,
+        "smtp_oauth_token_url": smtp_oauth_token_url,
+        "smtp_oauth_client_id": smtp_oauth_client_id,
+        "smtp_oauth_client_secret": smtp_oauth_client_secret,
+        "smtp_oauth_redirect_uri": smtp_oauth_redirect_uri,
+        "smtp_oauth_refresh_token": smtp_oauth_refresh_token,
+        "smtp_oauth_access_token": smtp_oauth_access_token,
+        "smtp_oauth_scope": smtp_oauth_scope,
         "from_email": from_email,
         "to_email": to_email,
     }, None
 
 
+def message_body_content(message: EmailMessage, subtype: str) -> str:
+    if message.is_multipart():
+        preferred = "html" if subtype == "html" else "plain"
+        body = message.get_body(preferencelist=(preferred,))
+        return body.get_content() if body is not None else ""
+    if message.get_content_subtype() == subtype:
+        return message.get_content()
+    return ""
+
+
+def send_messages_via_brevo(messages: list[EmailMessage], email_settings: dict[str, str | int]) -> tuple[bool, str | None]:
+    api_key = str(email_settings["brevo_api_key"])
+    api_base_url = str(email_settings["brevo_api_base_url"]).rstrip("/")
+    for message in messages:
+        payload = {
+            "sender": {
+                "email": str(message["From"] or email_settings["from_email"]),
+            },
+            "to": [{"email": str(message["To"])}],
+            "subject": str(message["Subject"] or ""),
+        }
+        text_body = message_body_content(message, "plain")
+        html_body = message_body_content(message, "html")
+        if text_body.strip():
+            payload["textContent"] = text_body
+        if html_body.strip():
+            payload["htmlContent"] = html_body
+        request = Request(
+            f"{api_base_url}/smtp/email",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "api-key": api_key,
+                "accept": "application/json",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urlopen(request, timeout=30) as response:
+                status_code = getattr(response, "status", 200)
+                if int(status_code) >= 400:
+                    return False, f"Brevo send failed with status {status_code}."
+        except HTTPError as exc:
+            detail = exc.read().decode("utf-8", "ignore")
+            return False, f"Brevo send failed with {exc.code}: {detail or exc.reason}"
+        except Exception as exc:
+            return False, f"Brevo send failed: {exc}"
+    return True, None
+
+
+def fetch_smtp_oauth_access_token(smtp_settings: dict[str, str | int]) -> tuple[str | None, str | None]:
+    direct_access_token = str(smtp_settings.get("smtp_oauth_access_token", "")).strip()
+    if direct_access_token:
+        return direct_access_token, None
+
+    token_url = str(smtp_settings.get("smtp_oauth_token_url", "")).strip()
+    client_id = str(smtp_settings.get("smtp_oauth_client_id", "")).strip()
+    client_secret = str(smtp_settings.get("smtp_oauth_client_secret", "")).strip()
+    redirect_uri = str(smtp_settings.get("smtp_oauth_redirect_uri", "")).strip()
+    refresh_token = str(smtp_settings.get("smtp_oauth_refresh_token", "")).strip()
+    scope = str(smtp_settings.get("smtp_oauth_scope", "")).strip()
+    if not all([token_url, client_id, client_secret, redirect_uri, refresh_token, scope]):
+        return None, "SMTP OAuth token refresh is not configured."
+
+    request_body = urlencode(
+        {
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "grant_type": "refresh_token",
+            "redirect_uri": redirect_uri,
+            "refresh_token": refresh_token,
+            "scope": scope,
+        }
+    ).encode("utf-8")
+    request = Request(
+        token_url,
+        data=request_body,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        method="POST",
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except Exception as exc:
+        return None, f"SMTP OAuth token fetch failed: {exc}"
+
+    access_token = str(payload.get("access_token", "")).strip()
+    if not access_token:
+        return None, "SMTP OAuth token fetch failed: no access_token returned."
+    return access_token, None
+
+
+def authenticate_smtp_server(server: Any, smtp_settings: dict[str, str | int]) -> str | None:
+    smtp_auth_method = str(smtp_settings.get("smtp_auth_method", "password")).strip().lower()
+    smtp_username = str(smtp_settings["smtp_username"])
+    smtp_password = str(smtp_settings.get("smtp_password", ""))
+
+    if smtp_auth_method == "password":
+        try:
+            server.login(smtp_username, smtp_password)
+        except Exception as exc:
+            return f"SMTP login failed: {exc}"
+        return None
+
+    access_token, token_error = fetch_smtp_oauth_access_token(smtp_settings)
+    if token_error:
+        return token_error
+
+    xoauth2_payload = base64.b64encode(
+        f"user={smtp_username}\x01auth=Bearer {access_token}\x01\x01".encode("utf-8")
+    ).decode("ascii")
+    try:
+        code, response = server.docmd("AUTH", f"XOAUTH2 {xoauth2_payload}")
+    except Exception as exc:
+        return f"SMTP OAuth authentication failed: {exc}"
+    if int(code) != 235:
+        response_text = response.decode("utf-8", "ignore") if isinstance(response, bytes) else str(response)
+        return f"SMTP OAuth authentication failed: {code} {response_text}".strip()
+    return None
+
+
 def send_messages(messages: list[EmailMessage], smtp_settings: dict[str, str | int]) -> tuple[bool, str | None]:
+    if str(smtp_settings.get("email_provider", DEFAULT_EMAIL_PROVIDER)).lower() == "brevo":
+        return send_messages_via_brevo(messages, smtp_settings)
+
     smtp_host = str(smtp_settings["smtp_host"])
     smtp_port = int(smtp_settings["smtp_port"])
-    smtp_username = str(smtp_settings["smtp_username"])
-    smtp_password = str(smtp_settings["smtp_password"])
     ssl_context = ssl.create_default_context()
     server = None
     try:
@@ -738,14 +920,22 @@ def send_messages(messages: list[EmailMessage], smtp_settings: dict[str, str | i
             except Exception as exc:
                 return False, f"SMTP connection failed: {exc}"
             try:
+                server.ehlo()
+            except Exception:
+                pass
+            try:
                 server.starttls(context=ssl_context)
             except Exception as exc:
                 return False, f"SMTP TLS negotiation failed: {exc}"
 
         try:
-            server.login(smtp_username, smtp_password)
-        except Exception as exc:
-            return False, f"SMTP login failed: {exc}"
+            server.ehlo()
+        except Exception:
+            pass
+
+        auth_error = authenticate_smtp_server(server, smtp_settings)
+        if auth_error:
+            return False, auth_error
 
         for message in messages:
             try:

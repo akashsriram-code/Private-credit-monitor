@@ -128,9 +128,25 @@ Use it from `Actions -> Backfill SEC Filings -> Run workflow`, then enter the nu
 
 ## Email Alert Integration
 
-The script already includes optional SMTP delivery for new matches. To enable it in GitHub Actions, add these secrets:
+The script already includes optional email delivery for new matches. The recommended provider is now Brevo, and the repo still supports SMTP as a fallback.
+
+For Brevo, add these secrets:
 
 - `ENABLE_EMAIL_ALERTS=true`
+- `EMAIL_PROVIDER=brevo`
+- `BREVO_API_KEY`
+- `FROM_EMAIL`
+- `ALERT_EMAIL_TO`
+- `OPENARENA_BEARER_TOKEN`
+
+You can optionally override the API base URL with:
+
+- `BREVO_API_BASE_URL`
+
+For password-based SMTP, add these secrets:
+
+- `ENABLE_EMAIL_ALERTS=true`
+- `EMAIL_PROVIDER=smtp`
 - `SMTP_HOST`
 - `SMTP_PORT`
 - `SMTP_USERNAME`
@@ -138,6 +154,58 @@ The script already includes optional SMTP delivery for new matches. To enable it
 - `FROM_EMAIL`
 - `ALERT_EMAIL_TO`
 - `OPENARENA_BEARER_TOKEN`
+
+For OAuth 2.0 SMTP, add these instead:
+
+- `ENABLE_EMAIL_ALERTS=true`
+- `EMAIL_PROVIDER=smtp`
+- `SMTP_HOST`
+- `SMTP_PORT`
+- `SMTP_AUTH_METHOD=oauth2`
+- `SMTP_USERNAME`
+- `SMTP_OAUTH_TOKEN_URL`
+- `SMTP_OAUTH_CLIENT_ID`
+- `SMTP_OAUTH_CLIENT_SECRET`
+- `SMTP_OAUTH_REDIRECT_URI`
+- `SMTP_OAUTH_REFRESH_TOKEN`
+- `SMTP_OAUTH_SCOPE`
+- `FROM_EMAIL`
+- `ALERT_EMAIL_TO`
+- `OPENARENA_BEARER_TOKEN`
+
+You can also set `SMTP_OAUTH_ACCESS_TOKEN` for short-lived local testing, but the normal path is a refresh token.
+
+### Brevo Recommendation
+
+For a GitHub Actions and Vercel-friendly setup without buying your own domain first, Brevo is the simplest path:
+
+- create a Brevo API key
+- set `EMAIL_PROVIDER=brevo`
+- set `FROM_EMAIL` to the sender address configured in Brevo
+- if Brevo rewrites the sender to one of its managed sending domains, delivery can still proceed for basic alerting
+
+The existing email formatting and one-off analysis email flow continue to work unchanged because the repo now swaps the delivery transport underneath the same message-generation code.
+
+### Outlook / Microsoft OAuth 2.0
+
+For a personal Outlook mailbox, use:
+
+- `SMTP_HOST=smtp-mail.outlook.com`
+- `SMTP_PORT=587`
+- `SMTP_AUTH_METHOD=oauth2`
+- `SMTP_USERNAME=<your Outlook address>`
+- `FROM_EMAIL=<your Outlook address>`
+- `SMTP_OAUTH_TOKEN_URL=https://login.microsoftonline.com/common/oauth2/v2.0/token`
+- `SMTP_OAUTH_SCOPE=offline_access https://outlook.office.com/SMTP.Send`
+
+There is also a helper script to generate the Microsoft consent URL and exchange the authorization code:
+
+```powershell
+python scripts/microsoft_oauth_helper.py --client-id "YOUR_CLIENT_ID" --smtp-username "your_outlook_address" --redirect-uri "http://localhost"
+python scripts/microsoft_oauth_helper.py --client-id "YOUR_CLIENT_ID" --client-secret "YOUR_CLIENT_SECRET" --smtp-username "your_outlook_address" --redirect-uri "http://localhost" --code "PASTE_CODE_HERE"
+```
+
+The helper prints the refresh token and the exact env vars/secrets to store afterward.
 
 How it works:
 
@@ -148,7 +216,7 @@ How it works:
 
 If you want a richer alert layer later, the clean next step is to swap SMTP for:
 
-- AWS SES or Resend for deliverability and better analytics.
+- AWS SES or a fully authenticated custom-domain provider for better deliverability and analytics.
 - A daily digest plus immediate alerts split by severity.
 - A second workflow that fans out alerts to Slack, Teams, or other editorial channels.
 
@@ -156,7 +224,7 @@ If you want a richer alert layer later, the clean next step is to swap SMTP for:
 
 There is also a manual `Send Test Email` GitHub Action.
 
-- Uses the existing SMTP secrets
+- Uses the configured email-provider secrets
 - Sends a routine health-check email to `ALERT_EMAIL_TO`
 - Helps verify the email component without waiting for a live filing alert
 

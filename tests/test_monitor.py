@@ -10,6 +10,7 @@ from private_credit_monitor.monitor import (
     FilingMatch,
     TrackedEntity,
     choose_entity,
+    fetch_smtp_oauth_access_token,
     fetch_text,
     load_cik_lookup_text,
     load_smtp_settings,
@@ -323,11 +324,93 @@ class MonitorTests(unittest.TestCase):
         self.assertIsNone(error)
         self.assertEqual(smtp_settings["from_email"], "reporter@example.com")
 
+    def test_load_smtp_settings_supports_brevo_without_smtp_fields(self) -> None:
+        with patch.dict(
+            os.environ,
+            {
+                "EMAIL_PROVIDER": "brevo",
+                "BREVO_API_KEY": "brevo_test_key",
+                "FROM_EMAIL": "alerts@example.com",
+                "ALERT_EMAIL_TO": "desk@example.com",
+                "SMTP_HOST": "",
+                "SMTP_USERNAME": "",
+                "SMTP_PASSWORD": "",
+            },
+            clear=False,
+        ):
+            smtp_settings, error = load_smtp_settings()
+
+        self.assertIsNone(error)
+        self.assertEqual(smtp_settings["email_provider"], "brevo")
+        self.assertEqual(smtp_settings["from_email"], "alerts@example.com")
+
+    def test_load_smtp_settings_supports_oauth2_without_password(self) -> None:
+        with patch.dict(
+            os.environ,
+            {
+                "SMTP_HOST": "smtp-mail.outlook.com",
+                "SMTP_PORT": "587",
+                "SMTP_USERNAME": "reporter@outlook.com",
+                "SMTP_PASSWORD": "",
+                "SMTP_AUTH_METHOD": "oauth2",
+                "SMTP_OAUTH_TOKEN_URL": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+                "SMTP_OAUTH_CLIENT_ID": "client-id",
+                "SMTP_OAUTH_CLIENT_SECRET": "client-secret",
+                "SMTP_OAUTH_REDIRECT_URI": "http://localhost",
+                "SMTP_OAUTH_REFRESH_TOKEN": "refresh-token",
+                "SMTP_OAUTH_SCOPE": "offline_access https://outlook.office.com/SMTP.Send",
+                "FROM_EMAIL": "reporter@outlook.com",
+                "ALERT_EMAIL_TO": "desk@example.com",
+            },
+            clear=False,
+        ):
+            smtp_settings, error = load_smtp_settings()
+
+        self.assertIsNone(error)
+        self.assertEqual(smtp_settings["smtp_auth_method"], "oauth2")
+        self.assertEqual(smtp_settings["smtp_oauth_scope"], "offline_access https://outlook.office.com/SMTP.Send")
+
+    def test_fetch_smtp_oauth_access_token_uses_direct_access_token_when_present(self) -> None:
+        token, error = fetch_smtp_oauth_access_token({"smtp_oauth_access_token": "direct-token"})
+
+        self.assertEqual(token, "direct-token")
+        self.assertIsNone(error)
+
+    def test_fetch_smtp_oauth_access_token_refreshes_token(self) -> None:
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self) -> bytes:
+                return b'{"access_token":"fresh-token"}'
+
+        with patch("private_credit_monitor.monitor.urlopen", return_value=FakeResponse()) as urlopen_mock:
+            token, error = fetch_smtp_oauth_access_token(
+                {
+                    "smtp_oauth_token_url": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+                    "smtp_oauth_client_id": "client-id",
+                    "smtp_oauth_client_secret": "client-secret",
+                    "smtp_oauth_redirect_uri": "http://localhost",
+                    "smtp_oauth_refresh_token": "refresh-token",
+                    "smtp_oauth_scope": "offline_access https://outlook.office.com/SMTP.Send",
+                }
+            )
+
+        self.assertEqual(token, "fresh-token")
+        self.assertIsNone(error)
+        urlopen_mock.assert_called_once()
+
     def test_send_messages_uses_smtp_ssl_for_port_465(self) -> None:
         class FakeServer:
             def __init__(self):
                 self.logged_in = False
                 self.sent = 0
+
+            def ehlo(self):
+                return None
 
             def login(self, username, password):
                 self.logged_in = True
@@ -358,8 +441,97 @@ class MonitorTests(unittest.TestCase):
         self.assertTrue(fake_server.logged_in)
         self.assertEqual(fake_server.sent, 1)
 
+    def test_send_messages_uses_oauth2_for_smtp(self) -> None:
+        class FakeServer:
+            def __init__(self):
+                self.logged_in = False
+                self.sent = 0
+                self.auth_command = None
+
+            def ehlo(self):
+                return None
+
+            def starttls(self, context=None):
+                return None
+
+            def login(self, username, password):
+                self.logged_in = True
+
+            def docmd(self, command, argument):
+                self.auth_command = (command, argument)
+                return 235, b"2.7.0 Accepted"
+
+            def send_message(self, message):
+                self.sent += 1
+
+            def quit(self):
+                return None
+
+        fake_server = FakeServer()
+        with patch("private_credit_monitor.monitor.smtplib.SMTP", return_value=fake_server):
+            sent, error = send_messages(
+                [EmailMessage()],
+                {
+                    "smtp_host": "smtp-mail.outlook.com",
+                    "smtp_port": 587,
+                    "smtp_username": "reporter@outlook.com",
+                    "smtp_password": "",
+                    "smtp_auth_method": "oauth2",
+                    "smtp_oauth_access_token": "access-token",
+                    "from_email": "reporter@outlook.com",
+                    "to_email": "desk@example.com",
+                },
+            )
+
+        self.assertTrue(sent)
+        self.assertIsNone(error)
+        self.assertFalse(fake_server.logged_in)
+        self.assertEqual(fake_server.sent, 1)
+        self.assertIsNotNone(fake_server.auth_command)
+        self.assertEqual(fake_server.auth_command[0], "AUTH")
+        self.assertIn("XOAUTH2", fake_server.auth_command[1])
+
+    def test_send_messages_uses_brevo_api(self) -> None:
+        class FakeResponse:
+            status = 200
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self) -> bytes:
+                return b'{"id":"email_123"}'
+
+        message = EmailMessage()
+        message["Subject"] = "Routine test"
+        message["From"] = "alerts@example.com"
+        message["To"] = "desk@example.com"
+        message.set_content("plain body")
+        message.add_alternative("<p>html body</p>", subtype="html")
+
+        with patch("private_credit_monitor.monitor.urlopen", return_value=FakeResponse()) as urlopen_mock:
+            sent, error = send_messages(
+                [message],
+                {
+                    "email_provider": "brevo",
+                    "brevo_api_key": "brevo_test_key",
+                    "brevo_api_base_url": "https://api.brevo.com/v3",
+                    "from_email": "alerts@example.com",
+                    "to_email": "desk@example.com",
+                },
+            )
+
+        self.assertTrue(sent)
+        self.assertIsNone(error)
+        urlopen_mock.assert_called_once()
+
     def test_send_messages_reports_tls_failure(self) -> None:
         class FakeServer:
+            def ehlo(self):
+                return None
+
             def starttls(self, context=None):
                 raise smtplib.SMTPException("TLS handshake failed")
 
