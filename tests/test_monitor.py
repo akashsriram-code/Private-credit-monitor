@@ -306,6 +306,32 @@ class MonitorTests(unittest.TestCase):
         self.assertIn("Routine email health check", message["Subject"])
         self.assertIn("routine test email to check the health of the email component", message.get_body().get_content())
 
+    def test_send_test_email_formats_multiple_recipients_cleanly(self) -> None:
+        captured = {}
+
+        def fake_send_messages(messages, smtp_settings):
+            captured["messages"] = messages
+            return True, None
+
+        with patch.dict(
+            os.environ,
+            {
+                "SMTP_HOST": "smtp.example.com",
+                "SMTP_PORT": "587",
+                "SMTP_USERNAME": "reporter@example.com",
+                "SMTP_PASSWORD": "secret",
+                "FROM_EMAIL": "reporter@example.com",
+                "ALERT_EMAIL_TO": "desk@example.com, other@example.com",
+            },
+            clear=False,
+        ), patch("private_credit_monitor.monitor.send_messages", side_effect=fake_send_messages):
+            sent, error = send_test_email()
+
+        self.assertTrue(sent)
+        self.assertIsNone(error)
+        message = captured["messages"][0]
+        self.assertEqual(message["To"], "desk@example.com, other@example.com")
+
     def test_load_smtp_settings_can_skip_alert_recipient_requirement(self) -> None:
         with patch.dict(
             os.environ,

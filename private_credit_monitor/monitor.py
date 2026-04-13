@@ -13,7 +13,7 @@ import time
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
-from email.utils import getaddresses
+from email.utils import formataddr, getaddresses
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import urlencode
@@ -836,6 +836,12 @@ def message_body_content(message: EmailMessage, subtype: str) -> str:
     return ""
 
 
+def set_message_recipients(message: EmailMessage, email_addresses: list[str]) -> None:
+    if "To" in message:
+        del message["To"]
+    message["To"] = ", ".join(formataddr(("", address)) for address in email_addresses)
+
+
 def send_messages_via_brevo(messages: list[EmailMessage], email_settings: dict[str, str | int]) -> tuple[bool, str | None]:
     api_key = str(email_settings["brevo_api_key"])
     api_base_url = str(email_settings["brevo_api_base_url"]).rstrip("/")
@@ -1011,7 +1017,7 @@ def send_test_email() -> tuple[bool, str | None]:
     message = EmailMessage()
     message["Subject"] = "[Private Credit Monitor] Routine email health check"
     message["From"] = str(smtp_settings["from_email"])
-    message["To"] = str(smtp_settings["to_email"])
+    set_message_recipients(message, list(smtp_settings.get("to_emails", [])))
     message.set_content(
         "\n".join(
             [
@@ -1049,7 +1055,7 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
         message = EmailMessage()
         message["Subject"] = f"[Private Credit Monitor] {match.company_name} | {match.relevance_verdict or match.form_type}"
         message["From"] = str(smtp_settings["from_email"])
-        message["To"] = str(smtp_settings["to_email"])
+        set_message_recipients(message, list(smtp_settings.get("to_emails", [])))
         parsed = {
             "title": match.openarena_title,
             "relevance_verdict": match.relevance_verdict,
@@ -1063,7 +1069,7 @@ def send_email_alert(matches: list[FilingMatch]) -> tuple[bool, str | None]:
         message = EmailMessage()
         message["Subject"] = f"[Private Credit Monitor] {len(matches)} new filing alert(s)"
         message["From"] = str(smtp_settings["from_email"])
-        message["To"] = str(smtp_settings["to_email"])
+        set_message_recipients(message, list(smtp_settings.get("to_emails", [])))
         text_blocks = []
         html_blocks = []
         for match in matches[:20]:
