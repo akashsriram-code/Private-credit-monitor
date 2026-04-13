@@ -618,6 +618,40 @@ class MonitorTests(unittest.TestCase):
         self.assertFalse(sent)
         self.assertIn("SMTP TLS negotiation failed", error)
 
+    def test_send_messages_reports_verbose_auth_failure_details(self) -> None:
+        class FakeServer:
+            def ehlo(self):
+                return None
+
+            def starttls(self, context=None):
+                return None
+
+            def login(self, username, password):
+                raise smtplib.SMTPAuthenticationError(535, b"Authentication Failed")
+
+            def quit(self):
+                return None
+
+        with patch("private_credit_monitor.monitor.smtplib.SMTP", return_value=FakeServer()):
+            sent, error = send_messages(
+                [EmailMessage()],
+                {
+                    "smtp_host": "smtppro.zoho.com",
+                    "smtp_port": 587,
+                    "smtp_username": "reporter@example.com",
+                    "smtp_password": "secret",
+                    "from_email": "reporter@example.com",
+                    "to_email": "desk@example.com",
+                },
+            )
+
+        self.assertFalse(sent)
+        self.assertIsNotNone(error)
+        self.assertIn("SMTP login failed for reporter@example.com via smtppro.zoho.com:587", error)
+        self.assertIn("Authentication Failed", error)
+        self.assertIn("app password", error)
+        self.assertIn("smtp.zoho.com or smtppro.zoho.com", error)
+
 
 if __name__ == "__main__":
     unittest.main()

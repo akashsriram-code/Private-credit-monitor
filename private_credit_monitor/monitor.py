@@ -929,6 +929,36 @@ def fetch_smtp_oauth_access_token(smtp_settings: dict[str, str | int]) -> tuple[
     return access_token, None
 
 
+def format_smtp_auth_error(exc: Exception, smtp_settings: dict[str, str | int]) -> str:
+    smtp_host = str(smtp_settings.get("smtp_host", "")).strip() or "unknown host"
+    smtp_port = str(smtp_settings.get("smtp_port", "")).strip() or "unknown port"
+    smtp_username = str(smtp_settings.get("smtp_username", "")).strip() or "unknown username"
+    raw_detail = str(exc).strip()
+
+    if isinstance(exc, smtplib.SMTPAuthenticationError):
+        response_text = exc.smtp_error.decode("utf-8", "ignore").strip() if isinstance(exc.smtp_error, bytes) else str(exc.smtp_error).strip()
+        detail = response_text or raw_detail or "Authentication failed."
+        hints = [
+            "verify SMTP_USERNAME exactly matches the mailbox address",
+            "verify SMTP_PASSWORD is the current mailbox password or app password required by the provider",
+        ]
+        lower_host = smtp_host.lower()
+        if "zoho" in lower_host:
+            hints.extend(
+                [
+                    "for Zoho, use an app password if MFA is enabled",
+                    "confirm the SMTP host is correct for the mailbox, often smtp.zoho.com or smtppro.zoho.com",
+                    "confirm SMTP/client access is enabled for the account",
+                ]
+            )
+        return (
+            f"SMTP login failed for {smtp_username} via {smtp_host}:{smtp_port}: {detail}. "
+            f"Likely causes: {'; '.join(hints)}."
+        )
+
+    return f"SMTP login failed for {smtp_username} via {smtp_host}:{smtp_port}: {raw_detail or exc.__class__.__name__}"
+
+
 def authenticate_smtp_server(server: Any, smtp_settings: dict[str, str | int]) -> str | None:
     smtp_auth_method = str(smtp_settings.get("smtp_auth_method", "password")).strip().lower()
     smtp_username = str(smtp_settings["smtp_username"])
@@ -938,7 +968,7 @@ def authenticate_smtp_server(server: Any, smtp_settings: dict[str, str | int]) -
         try:
             server.login(smtp_username, smtp_password)
         except Exception as exc:
-            return f"SMTP login failed: {exc}"
+            return format_smtp_auth_error(exc, smtp_settings)
         return None
 
     access_token, token_error = fetch_smtp_oauth_access_token(smtp_settings)
