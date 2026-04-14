@@ -9,14 +9,17 @@ from unittest.mock import patch
 from private_credit_monitor.filings_analysis import (
     EmailDeliveryResult,
     FilingAnalysisSession,
+    OpenArenaRequestError,
     build_openarena_documents,
     build_live_session,
     build_session_from_issue,
+    call_openarena_inference_with_retries,
     filing_text_to_pdf_bytes,
     load_persisted_sessions,
     parse_live_request_payload,
     persist_live_session,
     parse_issue_request,
+    resolved_timeout_seconds,
     run_live_analysis,
     send_filings_analysis_email,
     select_filings_from_rows,
@@ -407,6 +410,50 @@ class FilingsAnalysisTests(unittest.TestCase):
 
         self.assertFalse(sent)
         self.assertIn("relay denied", error)
+
+    def test_resolved_timeout_seconds_uses_300_second_minimum(self) -> None:
+        with patch.dict("os.environ", {"OPENARENA_TIMEOUT_SECONDS": "180"}, clear=False):
+            self.assertEqual(resolved_timeout_seconds(), 300)
+
+    def test_call_openarena_inference_with_retries_retries_http_504(self) -> None:
+        session = FilingAnalysisSession(
+            id="live-retry",
+            issue_number=None,
+            issue_title="Live filings analysis",
+            issue_url="",
+            status="processing",
+            entities=["Ares Capital Corporation"],
+            filing_type="10-K",
+            lookback_count=1,
+            question="What changed?",
+            request_source="live-api",
+        )
+        responses = [
+            OpenArenaRequestError("https://aiopenarena.thomsonreuters.com/v3/inference", 504, '{"message":"Endpoint request timed out"}'),
+            {"result": {"answer": "Recovered answer"}},
+        ]
+
+        def fake_post_json(url, bearer_token, payload, timeout_seconds):
+            result = responses.pop(0)
+            if isinstance(result, Exception):
+                raise result
+            return result
+
+        with patch("private_credit_monitor.filings_analysis.post_json", side_effect=fake_post_json) as post_json_mock:
+            with patch("private_credit_monitor.filings_analysis.time.sleep") as sleep_mock:
+                response = call_openarena_inference_with_retries(
+                    session=session,
+                    base_url="https://aiopenarena.thomsonreuters.com",
+                    bearer_token="token",
+                    inference_payload={"query": "What changed?"},
+                    timeout_seconds=300,
+                )
+
+        self.assertEqual(response, {"result": {"answer": "Recovered answer"}})
+        self.assertEqual(post_json_mock.call_count, 2)
+        sleep_mock.assert_called_once_with(5)
+        self.assertTrue(any("attempt 1/3" in line for line in session.progress_log))
+        self.assertTrue(any("retrying in 5 seconds" in line for line in session.progress_log))
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ import json
 import os
 import re
 import secrets
+import time
 import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timezone
@@ -69,6 +70,16 @@ DEFAULT_ANALYSIS_SYSTEM_PROMPT = (
 )
 ISSUE_SECTION_PATTERN = re.compile(r"(?m)^###\s+(?P<name>.+?)\s*$")
 EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+DEFAULT_OPENARENA_INFERENCE_RETRIES = 3
+
+
+class OpenArenaRequestError(RuntimeError):
+    def __init__(self, url: str, status_code: int | None, detail: str):
+        self.url = url
+        self.status_code = status_code
+        self.detail = detail
+        status_text = status_code if status_code is not None else "unknown"
+        super().__init__(f"OpenArena POST {url} failed with {status_text}: {detail}")
 
 
 @dataclass
@@ -483,7 +494,7 @@ def resolved_timeout_seconds() -> int:
         requested = int(str(raw_value).strip())
     except ValueError:
         requested = DEFAULT_OPENARENA_TIMEOUT_SECONDS
-    return max(requested, 180)
+    return max(requested, DEFAULT_OPENARENA_TIMEOUT_SECONDS)
 
 
 def run_live_analysis(
@@ -960,7 +971,42 @@ def post_json(url: str, bearer_token: str, payload: dict[str, Any], timeout_seco
             return json.loads(response.read().decode("utf-8", "ignore"))
     except HTTPError as exc:
         detail = exc.read().decode("utf-8", "ignore")
-        raise RuntimeError(f"OpenArena POST {url} failed with {exc.code}: {detail or exc.reason}") from exc
+        raise OpenArenaRequestError(url, exc.code, detail or str(exc.reason)) from exc
+
+
+def call_openarena_inference_with_retries(
+    session: FilingAnalysisSession,
+    base_url: str,
+    bearer_token: str,
+    inference_payload: dict[str, Any],
+    timeout_seconds: int,
+    max_attempts: int = DEFAULT_OPENARENA_INFERENCE_RETRIES,
+) -> dict[str, Any]:
+    inference_url = f"{base_url.rstrip('/')}/v3/inference"
+    attempts = max(max_attempts, 1)
+    for attempt in range(1, attempts + 1):
+        append_progress(
+            session,
+            f"Running OpenArena inference (attempt {attempt}/{attempts}) with a {timeout_seconds}-second timeout.",
+        )
+        try:
+            return post_json(
+                inference_url,
+                bearer_token,
+                inference_payload,
+                timeout_seconds,
+            )
+        except OpenArenaRequestError as exc:
+            is_retryable_timeout = exc.status_code == 504 and attempt < attempts
+            if not is_retryable_timeout:
+                raise
+            backoff_seconds = attempt * 5
+            append_progress(
+                session,
+                f"OpenArena inference timed out with HTTP 504 on attempt {attempt}/{attempts}; retrying in {backoff_seconds} seconds.",
+            )
+            time.sleep(backoff_seconds)
+    raise RuntimeError("OpenArena inference retry loop exited unexpectedly.")
 
 
 def build_multipart_form_data(
@@ -1160,12 +1206,12 @@ def call_openarena_ask_documents(
             "value": file_uuids,
         },
     }
-    append_progress(session, f"Running OpenArena inference with a {timeout_seconds}-second timeout.")
-    response_json = post_json(
-        f"{base_url.rstrip('/')}/v3/inference",
-        bearer_token,
-        inference_payload,
-        timeout_seconds,
+    response_json = call_openarena_inference_with_retries(
+        session=session,
+        base_url=base_url,
+        bearer_token=bearer_token,
+        inference_payload=inference_payload,
+        timeout_seconds=timeout_seconds,
     )
     answer = _extract_openarena_answer(response_json if isinstance(response_json, dict) else {})
     if not answer:
