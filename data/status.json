@@ -1,7 +1,7 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-04-21T20:09:40.722139+00:00",
-  "last_error": "SMTP send failed: Connection unexpectedly closed",
+  "last_run": "2026-04-21T21:06:59.597237+00:00",
+  "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
   "forms": [
@@ -27,7 +27,7 @@
   ],
   "new_alerts": 1,
   "total_alerts": 80,
-  "email_sent": false,
+  "email_sent": true,
   "entities_tracked": 156,
   "recent_entries_scanned": 600,
   "cik_lookup_source": "cache",
