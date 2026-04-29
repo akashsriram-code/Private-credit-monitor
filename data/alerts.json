@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001213900-26-048831",
+    "cik": "0001259429",
+    "company_name": "K - Oxford Square Capital Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-04-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026048831/0001213900-26-048831.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026048831/0001213900-26-048831-index.html",
+    "tracked_name": "Oxford Square Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nOxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Oxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001803498-26-000026",
     "cik": "0001803498",
     "company_name": "K - Blackstone Private Credit Fund",
@@ -5228,40 +5260,6 @@
     "wire_recommendation": "HIGH",
     "analysis_source": "openarena",
     "openarena_error": null,
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-020504",
-    "cik": "0001918712",
-    "company_name": "K - ARES STRATEGIC INCOME FUND",
-    "form_type": "8-K",
-    "filed_date": "2026-03-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026020504/0001628280-26-020504.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026020504/0001628280-26-020504-index.html",
-    "tracked_name": "Ares Strategic Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Strategic Income Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   }
 ]
