@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001140361-26-020704",
+    "cik": "0001422183",
+    "company_name": "T - FS KKR Capital Corp",
+    "form_type": "SC TO-T",
+    "filed_date": "2026-05-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000114036126020704/0001140361-26-020704.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000114036126020704/0001140361-26-020704-index.html",
+    "tracked_name": "FS KKR Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1",
+    "openarena_output": "SEC Filing Analysis: T - FS KKR Capital Corp - SC TO-T\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1\n\nC. What's New\nMatched keywords: senior secured.\nded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent SC TO-T filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: T - FS KKR Capital Corp - SC TO-T",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1",
+    "whats_new": [
+      "Matched keywords: senior secured. ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "FS KKR Capital Corp. is on the watchlist and matched a recent SC TO-T filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-054511",
     "cik": "0001747172",
     "company_name": "K - Kayne Anderson BDC, Inc.",
@@ -5225,39 +5257,6 @@
     "wire_recommendation": "UNKNOWN",
     "analysis_source": "openarena",
     "openarena_error": null,
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001396440-26-000055",
-    "cik": "0001396440",
-    "company_name": "K - Main Street Capital CORP",
-    "form_type": "8-K",
-    "filed_date": "2026-04-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000055/0001396440-26-000055.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000055/0001396440-26-000055-index.html",
-    "tracked_name": "Main Street Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "private debt"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Main Street Capital CORP - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 8.01\n\nC. What's New\nMatched keywords: private credit, private debt.\n8-K item sections referenced: 1.01, 2.03, 8.01\n\nD. Most Important Points\nMain Street Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Main Street Capital CORP - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 8.01",
-    "whats_new": [
-      "Matched keywords: private credit, private debt. 8-K item sections referenced: 1.01, 2.03, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Main Street Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   }
 ]
