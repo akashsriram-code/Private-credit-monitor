@@ -7,6 +7,14 @@ on:
         description: Number of calendar days to scan for backfill
         required: true
         default: "3"
+      send_email_alerts:
+        description: Send email alerts for newly matched backfill filings
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -29,7 +37,7 @@ jobs:
       - name: Backfill SEC filings
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-          ENABLE_EMAIL_ALERTS: false
+          ENABLE_EMAIL_ALERTS: ${{ inputs.send_email_alerts }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
@@ -41,7 +49,7 @@ jobs:
           OPENARENA_WORKFLOW_ID: 9214a226-9866-4f29-abd3-0eb3cd235f8e
           OPENARENA_TIMEOUT_SECONDS: 180
           REFRESH_CIK_LOOKUP: false
-        run: python scripts/poll_filings.py --days ${{ inputs.backfill_days }} --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A" --max-results 200 --quiet
+        run: python scripts/poll_filings.py --days ${{ inputs.backfill_days }} --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q,10-Q/A" --max-results 200 --quiet
 
       - name: Commit backfill data
         run: |

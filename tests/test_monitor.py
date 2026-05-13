@@ -7,6 +7,7 @@ from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from private_credit_monitor.monitor import (
+    DEFAULT_FORMS,
     FilingMatch,
     TrackedEntity,
     choose_entity,
@@ -14,6 +15,7 @@ from private_credit_monitor.monitor import (
     fetch_text,
     load_cik_lookup_text,
     load_smtp_settings,
+    normalize_cik,
     merge_match_history,
     normalize_filed_date,
     parse_master_index,
@@ -24,6 +26,13 @@ from private_credit_monitor.synopsis_output import parse_openarena_output
 
 
 class MonitorTests(unittest.TestCase):
+    def test_default_forms_include_quarterly_reports(self) -> None:
+        self.assertIn("10-Q", DEFAULT_FORMS)
+        self.assertIn("10-Q/A", DEFAULT_FORMS)
+
+    def test_normalize_cik_strips_sec_lookup_padding(self) -> None:
+        self.assertEqual(normalize_cik("0001869453"), "1869453")
+
     def test_normalize_filed_date_compacts_daily_index_dates(self) -> None:
         self.assertEqual(normalize_filed_date("20260311"), "2026-03-11")
 
@@ -49,6 +58,27 @@ class MonitorTests(unittest.TestCase):
         )
         entry = {"company_name": "North Haven Private Income Fund A LLC", "cik": "0000000000"}
         self.assertIs(choose_entity(entry, [entity]), entity)
+
+    def test_choose_entity_prefers_normalized_cik_over_fuzzy_name(self) -> None:
+        technology_finance = TrackedEntity(
+            ticker="OTF",
+            name="Blue Owl Technology Finance Corp.",
+            entity_type="Public",
+            normalized_name="blue owl technology finance corp",
+            reduced_name="blue owl technology finance",
+            ciks={"1747777"},
+        )
+        technology_income = TrackedEntity(
+            ticker="",
+            name="Blue Owl Technology Income Corp",
+            entity_type="Private",
+            normalized_name="blue owl technology income corp",
+            reduced_name="blue owl technology income",
+            ciks={"1869453"},
+        )
+        entry = {"company_name": "Blue Owl Technology Income Corp.", "cik": "0001869453"}
+
+        self.assertIs(choose_entity(entry, [technology_finance, technology_income]), technology_income)
 
     def test_parse_openarena_output_extracts_preview_sections(self) -> None:
         parsed = parse_openarena_output(

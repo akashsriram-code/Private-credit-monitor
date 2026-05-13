@@ -34,7 +34,7 @@ CIK_LOOKUP_CACHE_PATH = DATA_DIR / "cik_lookup_cache.txt"
 TRACKED_ENTITIES_PATH = CONFIG_DIR / "tracked_entities.csv"
 KEYWORDS_PATH = CONFIG_DIR / "keywords.txt"
 
-DEFAULT_FORMS = ["8-K", "D", "SC TO-I", "SC TO-I/A", "SC TO-T", "SC TO-T/A"]
+DEFAULT_FORMS = ["8-K", "D", "SC TO-I", "SC TO-I/A", "SC TO-T", "SC TO-T/A", "10-Q", "10-Q/A"]
 DEFAULT_DAYS = 7
 DEFAULT_HOURS_LOOKBACK = 3
 DEFAULT_MAX_RESULTS = 80
@@ -168,6 +168,13 @@ def normalize_form(value: str) -> str:
     return value.upper().replace("FORM ", "").strip()
 
 
+def normalize_cik(value: str) -> str:
+    digits = re.sub(r"\D+", "", value or "")
+    if not digits:
+        return ""
+    return str(int(digits))
+
+
 def normalize_filed_date(value: str) -> str:
     value = value.strip()
     if re.fullmatch(r"\d{8}", value):
@@ -261,7 +268,7 @@ def parse_cik_lookup(raw_text: str) -> dict[str, set[str]]:
     pattern = re.compile(r"([^:\n][^:\n]*?):(\d{10}):")
     for match in pattern.finditer(raw_text):
         name = normalize_whitespace(match.group(1))
-        cik = match.group(2)
+        cik = normalize_cik(match.group(2))
         for key in {normalize_name(name), reduce_name(name)}:
             if key:
                 lookup.setdefault(key, set()).add(cik)
@@ -448,7 +455,7 @@ def fetch_recent_entries(user_agent: str, days: int) -> list[dict[str, str]]:
 def choose_entity(entry: dict[str, str], entities: list[TrackedEntity]) -> TrackedEntity | None:
     entry_name = normalize_name(entry["company_name"])
     entry_reduced = reduce_name(entry["company_name"])
-    cik = entry["cik"]
+    cik = normalize_cik(entry["cik"])
 
     for entity in entities:
         if cik in entity.ciks:

@@ -6,7 +6,7 @@ A Vercel-ready SEC filing monitor for private credit, direct lending, and BDC co
 
 - Polls recent SEC daily index files and fetches the underlying filing text from EDGAR.
 - Caches the SEC CIK lookup file locally in [`data/cik_lookup_cache.txt`](/C:/Users/6113101/Private-credit-monitor/data/cik_lookup_cache.txt) and refreshes it once a week.
-- Filters by target forms such as `8-K` and `D` by default.
+- Filters by target forms such as `8-K`, `D`, and `10-Q` by default.
 - Matches filings against a configurable watchlist of public and private credit entities in [`config/tracked_entities.csv`](/C:/Users/6113101/Private-credit-monitor/config/tracked_entities.csv).
 - Searches filing text for keywords from [`config/keywords.txt`](/C:/Users/6113101/Private-credit-monitor/config/keywords.txt) such as `private credit`.
 - Prints filing dates, company names, matched keywords, and an OpenArena-driven editorial preview.
@@ -34,14 +34,14 @@ Set a descriptive SEC user agent first:
 
 ```powershell
 $env:SEC_USER_AGENT="Private-Credit-Monitor/1.0 your-email@example.com"
-python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A"
+python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q,10-Q/A"
 ```
 
 Optional flags:
 
 ```powershell
-python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A" --max-results 40
-python scripts/poll_filings.py --days 14 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q" --keywords "private credit,direct lending" --max-results 40
+python scripts/poll_filings.py --hours-lookback 3 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q,10-Q/A" --max-results 40
+python scripts/poll_filings.py --days 14 --forms "8-K,D,SC TO-I,SC TO-I/A,SC TO-T,SC TO-T/A,10-Q,10-Q/A" --keywords "private credit,direct lending" --max-results 40
 ```
 
 ## Vercel Hosting
@@ -123,6 +123,7 @@ There is also a manual `Backfill SEC Filings` GitHub Action.
 
 - Default backfill window: `3` days
 - The person running the workflow can choose a different day count at launch time
+- Email alerts stay off by default for backfills, but the workflow can send emails for newly matched backfill filings when `send_email_alerts` is set to `true`
 
 Use it from `Actions -> Backfill SEC Filings -> Run workflow`, then enter the number of days you want scanned.
 
