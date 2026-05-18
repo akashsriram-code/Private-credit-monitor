@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Private Credit Monitor</title>
-  <meta name="github-repo" content="akashsriram-code/Private-credit-monitor" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -17,12 +16,9 @@
       <div>
         <p class="eyebrow">Private Credit Desk</p>
         <h1>Private Credit Monitor</h1>
-        <p class="subtitle">A quiet newsroom dashboard for SEC filings tied to tracked credit platforms, BDCs, and private funds.</p>
+        <p class="subtitle">A newsroom dashboard for recent SEC filings tied to tracked credit platforms, BDCs, and private funds.</p>
       </div>
-      <div class="status-block">
-        <div class="status-chip" id="statusChip">Awaiting data</div>
-        <p class="byline">by akash sriram</p>
-      </div>
+      <div class="status-chip" id="statusChip">Awaiting data</div>
     </header>
 
     <nav class="tab-bar" aria-label="Primary views">
@@ -31,46 +27,46 @@
     </nav>
 
     <section id="monitorView" class="tab-panel active">
-      <section class="metric-grid">
-        <article class="metric-card">
-          <p class="metric-label">Tracked Entities</p>
-          <p class="metric-value" id="trackedCount">0</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-label">Tracked Filings</p>
-          <p class="metric-value" id="filingCount">0</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-label">New Alerts</p>
-          <p class="metric-value" id="newCount">0</p>
-        </article>
-        <article class="metric-card">
-          <p class="metric-label">Forms Scanned</p>
-          <p class="metric-value" id="formCount">0</p>
-        </article>
-      </section>
+    <section class="metric-grid">
+      <article class="metric-card">
+        <p class="metric-label">Tracked Entities</p>
+        <p class="metric-value" id="trackedCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">Recent Filings</p>
+        <p class="metric-value" id="filingCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">New Alerts</p>
+        <p class="metric-value" id="newCount">0</p>
+      </article>
+      <article class="metric-card">
+        <p class="metric-label">Forms Scanned</p>
+        <p class="metric-value" id="formCount">0</p>
+      </article>
+    </section>
 
-      <section class="panel panel-intro">
-        <div class="panel-head">
-          <h2>System Pulse</h2>
-          <button id="refreshButton" class="button-link">Refresh</button>
-        </div>
-        <p class="status-line" id="statusLine">Loading latest poll status...</p>
-      </section>
+    <section class="panel panel-intro">
+      <div class="panel-head">
+        <h2>System Pulse</h2>
+        <button id="refreshButton" class="button-link">Refresh</button>
+      </div>
+      <p class="status-line" id="statusLine">Loading latest poll status...</p>
+    </section>
 
-      <section class="panel">
-        <div class="panel-head filters-head">
-          <h2>Matched Filings</h2>
-          <div class="controls">
-            <input id="searchInput" type="search" placeholder="Search company, keyword, description" />
-            <select id="formFilter">
-              <option value="ALL">All forms</option>
-            </select>
-          </div>
+    <section class="panel">
+      <div class="panel-head filters-head">
+        <h2>Matched Filings</h2>
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="Search company, keyword, description" />
+          <select id="formFilter">
+            <option value="ALL">All forms</option>
+          </select>
         </div>
-        <p class="meta-line"><span id="visibleCount">0</span> filings shown</p>
-        <div id="filings" class="filing-list"></div>
-      </section>
+      </div>
+      <p class="meta-line"><span id="visibleCount">0</span> filings shown</p>
+      <div id="filings" class="filing-list"></div>
+    </section>
     </section>
 
     <section id="analysisView" class="tab-panel hidden">
@@ -94,18 +90,20 @@
               <div>
                 <label class="field-label" for="analysisFormType">Filing type</label>
                 <select id="analysisFormType">
-                  <option value="10-K">10-K</option>
-                  <option value="10-Q">10-Q</option>
+                  <option value="10-Q+10-K">Current 10-Q + latest 10-K</option>
+                  <option value="10-Q">10-Q only</option>
+                  <option value="10-K">10-K only</option>
                 </select>
+                <p id="analysisFilingTypeHelp" class="meta-line">Includes the selected number of recent 10-Q periods plus the latest 10-K, useful for comparing a current quarter against the December annual filing.</p>
               </div>
               <div>
                 <label class="field-label" for="analysisLookbackCount">Calendar lookback</label>
-                <input id="analysisLookbackCount" type="number" min="1" max="12" value="2" />
+                <input id="analysisLookbackCount" type="number" min="1" max="12" value="1" />
               </div>
             </div>
 
             <label class="field-label" for="analysisQuestion">What are you looking for?</label>
-            <textarea id="analysisQuestion" rows="7" placeholder="Example: Compare liquidity, leverage, and non-accrual trends across the last two annual filings."></textarea>
+            <textarea id="analysisQuestion" rows="7" placeholder="Example: Compare the current 10-Q against the latest 10-K for liquidity, leverage, portfolio quality, and non-accrual trends."></textarea>
 
             <label class="field-label" for="analysisEmail">Email result to</label>
             <input id="analysisEmail" type="email" inputmode="email" placeholder="Optional: name@example.com" />
@@ -114,7 +112,7 @@
               <button type="submit" class="story-link buttonish action-button">Run Analysis</button>
               <button type="button" id="copyIssueButton" class="story-link action-button">Copy Request JSON</button>
             </div>
-            <p class="meta-line">This tab now calls the live backend directly. The server fetches filings, sends them to OpenArena, returns the answer, and stores the session as JSON.</p>
+            <p class="meta-line">The server fetches filings, sends them to OpenArena, returns the answer, and stores the session as JSON.</p>
             <div id="analysisProgressBox" class="progress-box">
               <p class="field-label">Run Status</p>
               <div id="analysisProgressLog" class="progress-log">No live analysis run yet.</div>
@@ -147,6 +145,5 @@
   </div>
 
   <script src="static/app.js"></script>
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0f4405178c4743c8b5bd030147be30e3"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

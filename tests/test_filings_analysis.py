@@ -14,9 +14,12 @@ from private_credit_monitor.filings_analysis import (
     build_live_session,
     build_session_from_issue,
     call_openarena_inference_with_retries,
+    estimate_openarena_input_tokens,
+    fetch_entity_filings,
     filing_text_to_pdf_bytes,
     load_persisted_sessions,
     parse_live_request_payload,
+    prepare_openarena_uploads,
     persist_live_session,
     parse_issue_request,
     resolved_timeout_seconds,
@@ -104,6 +107,17 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(parsed["lookback_count"], 4)
         self.assertIn("Apollo Debt Solutions BDC", parsed["entities"])
 
+    def test_parse_live_request_payload_accepts_quarterly_annual_combo(self) -> None:
+        parsed = parse_live_request_payload(
+            {
+                "entities": ["Ares Capital Corporation"],
+                "filing_type": "10-Q + 10-K",
+                "lookback_count": 1,
+                "question": "Compare the current 10-Q with the annual filing.",
+            }
+        )
+        self.assertEqual(parsed["filing_type"], "10-Q+10-K")
+
     def test_parse_live_request_payload_accepts_optional_email(self) -> None:
         parsed = parse_live_request_payload(
             {
@@ -190,6 +204,40 @@ class FilingsAnalysisTests(unittest.TestCase):
         self.assertEqual(filings[1].period_key, "2025-Q4")
         self.assertEqual(filings[1].accession_number, "0001-25-000011")
 
+    def test_fetch_entity_filings_combines_current_10q_with_latest_10k(self) -> None:
+        entity = TrackedEntity(
+            ticker="ARCC",
+            name="Ares Capital Corporation",
+            entity_type="Public",
+            normalized_name="ares capital corporation",
+            reduced_name="ares capital",
+            ciks={"1000"},
+        )
+        submission = {
+            "filings": {
+                "recent": {
+                    "form": ["10-Q", "10-K", "10-Q"],
+                    "accessionNumber": ["0001-26-000010", "0001-26-000001", "0001-25-000011"],
+                    "filingDate": ["2026-05-08", "2026-02-10", "2025-11-10"],
+                    "primaryDocument": ["q1.htm", "annual.htm", "q3.htm"],
+                    "primaryDocDescription": ["Quarterly report", "Annual report", "Quarterly report"],
+                }
+            }
+        }
+
+        with patch("private_credit_monitor.filings_analysis.fetch_submission_json", return_value=submission):
+            filings = fetch_entity_filings(
+                entity=entity,
+                filing_type="10-Q+10-K",
+                lookback_count=1,
+                user_agent="Private-Credit-Monitor/1.0 user@example.com",
+                reference_date=date(2026, 5, 18),
+            )
+
+        self.assertEqual([filing.filing_type for filing in filings], ["10-Q", "10-K"])
+        self.assertEqual(filings[0].accession_number, "0001-26-000010")
+        self.assertEqual(filings[1].accession_number, "0001-26-000001")
+
     def test_build_openarena_documents_keeps_question_payload_ready(self) -> None:
         filings = select_filings_from_rows(
             rows=[
@@ -215,6 +263,46 @@ class FilingsAnalysisTests(unittest.TestCase):
         )
         self.assertTrue(pdf_bytes.startswith(b"%PDF"))
         self.assertGreater(len(pdf_bytes), 500)
+
+    def test_prepare_openarena_uploads_keeps_small_filings_untrimmed(self) -> None:
+        filing = select_filings_from_rows(
+            rows=[
+                {"form": "10-K", "accession_number": "0001-26-000001", "filed_date": "2026-02-10", "primary_document": "annual.htm", "description": ""}
+            ],
+            cik="1000",
+            entity_name="Ares Capital Corporation",
+            filing_type="10-K",
+            lookback_count=1,
+            reference_date=date(2026, 3, 16),
+        )[0]
+        filing.full_text = "Liquidity improved year over year. Cash balances increased."
+
+        prepare_openarena_uploads([filing], "Compare liquidity trends.", token_budget=50_000)
+
+        self.assertEqual(filing.upload_text, filing.full_text)
+        self.assertTrue(filing.upload_bytes.startswith(b"%PDF"))
+
+    def test_prepare_openarena_uploads_trims_large_filings_to_budget(self) -> None:
+        filings = select_filings_from_rows(
+            rows=[
+                {"form": "10-K", "accession_number": "0001-26-000001", "filed_date": "2026-02-10", "primary_document": "annual.htm", "description": ""},
+                {"form": "10-K", "accession_number": "0001-25-000002", "filed_date": "2025-02-10", "primary_document": "annual.htm", "description": ""},
+            ],
+            cik="1000",
+            entity_name="Ares Capital Corporation",
+            filing_type="10-K",
+            lookback_count=2,
+            reference_date=date(2026, 3, 16),
+        )
+        filings[0].full_text = ("portfolio leverage liquidity nonaccrual " * 3000).strip()
+        filings[1].full_text = ("debt maturity covenant secured assets " * 3000).strip()
+
+        prepare_openarena_uploads(filings, "Compare leverage and liquidity.", token_budget=30_000)
+
+        total_upload_tokens = sum(estimate_openarena_input_tokens(filing.upload_text) for filing in filings)
+        self.assertLess(total_upload_tokens, 30_000)
+        self.assertTrue(all("shortened before OpenArena upload" in filing.upload_text for filing in filings))
+        self.assertTrue(all(filing.upload_bytes.startswith(b"%PDF") for filing in filings))
 
     def test_upsert_session_archive_and_transition_persist_status(self) -> None:
         with TemporaryDirectory() as tmpdir:
@@ -454,6 +542,37 @@ class FilingsAnalysisTests(unittest.TestCase):
         sleep_mock.assert_called_once_with(5)
         self.assertTrue(any("attempt 1/3" in line for line in session.progress_log))
         self.assertTrue(any("retrying in 5 seconds" in line for line in session.progress_log))
+
+    def test_call_openarena_inference_reports_token_limit_without_retrying(self) -> None:
+        session = FilingAnalysisSession(
+            id="live-token-limit",
+            issue_number=None,
+            issue_title="Live filings analysis",
+            issue_url="",
+            status="processing",
+            entities=["Ares Capital Corporation"],
+            filing_type="10-K",
+            lookback_count=1,
+            question="What changed?",
+            request_source="live-api",
+        )
+        error = OpenArenaRequestError(
+            "https://aiopenarena.thomsonreuters.com/v3/inference",
+            500,
+            "The input token count exceeds the maximum number of tokens allowed 1048576.",
+        )
+
+        with patch("private_credit_monitor.filings_analysis.post_json", side_effect=error) as post_json_mock:
+            with self.assertRaisesRegex(RuntimeError, "uploaded filings still exceeded"):
+                call_openarena_inference_with_retries(
+                    session=session,
+                    base_url="https://aiopenarena.thomsonreuters.com",
+                    bearer_token="token",
+                    inference_payload={"query": "What changed?"},
+                    timeout_seconds=300,
+                )
+
+        post_json_mock.assert_called_once()
 
 
 if __name__ == "__main__":

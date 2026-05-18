@@ -68,7 +68,7 @@ The dashboard now includes a second tab for live `10-K` / `10-Q` document analys
 How it works:
 
 1. Select one or more tracked entities from the existing watchlist.
-2. Choose `10-K` or `10-Q` plus a calendar lookback count.
+2. Choose `10-K`, `10-Q`, or `Current 10-Q + latest 10-K` plus a calendar lookback count. The mixed option is useful for comparing the current quarterly filing against the latest annual filing, such as a March/May `10-Q` versus the December-year-end `10-K`.
 3. Enter a free-text question.
 4. The frontend `POST`s the request to `/api/filings-analysis`.
 5. The backend fetches the matching filings, sends them to the OpenArena ask-your-document workflow, and returns the answer plus citations.

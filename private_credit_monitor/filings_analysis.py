@@ -51,6 +51,11 @@ DEFAULT_ANALYSIS_MODEL = "gemini-3-flash"
 DEFAULT_MAX_FILINGS_PER_ENTITY = 8
 DEFAULT_PERSISTED_SESSION_LIMIT = 20
 FILINGS_ANALYSIS_BLOB_PREFIX = "filing-analysis/sessions"
+DEFAULT_OPENARENA_INPUT_TOKEN_BUDGET = 500_000
+OPENARENA_ESTIMATED_CHARS_PER_TOKEN = 2
+OPENARENA_UPLOAD_OVERHEAD_TOKENS = 20_000
+MIN_OPENARENA_UPLOAD_CHARS_PER_FILING = 12_000
+MIXED_QUARTERLY_ANNUAL_FILING_TYPE = "10-Q+10-K"
 DEFAULT_ANALYSIS_SYSTEM_PROMPT = (
     "You are a private-credit SEC filings analyst. You will receive one or more 10-K or 10-Q filings plus a "
     "user question. Answer the question using only the provided filings, identify trends across filings where "
@@ -71,6 +76,10 @@ DEFAULT_ANALYSIS_SYSTEM_PROMPT = (
 ISSUE_SECTION_PATTERN = re.compile(r"(?m)^###\s+(?P<name>.+?)\s*$")
 EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 DEFAULT_OPENARENA_INFERENCE_RETRIES = 3
+TOKEN_LIMIT_ERROR_MARKERS = (
+    "input token count exceeds",
+    "maximum number of tokens allowed",
+)
 
 
 class OpenArenaRequestError(RuntimeError):
@@ -96,6 +105,7 @@ class FilingDocument:
     filing_label: str
     text_excerpt: str
     full_text: str = ""
+    upload_text: str = ""
     upload_file_name: str = ""
     upload_bytes: bytes = b""
 
@@ -157,9 +167,18 @@ def save_json(path: Path, payload) -> None:
 
 
 def normalize_form_type(value: str) -> str:
-    normalized = (value or "").strip().upper()
-    if normalized not in {"10-K", "10-Q"}:
-        raise ValueError("filing_type must be 10-K or 10-Q")
+    normalized = re.sub(r"\s+", "", (value or "").strip().upper())
+    aliases = {
+        "10-Q+10-K": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+        "10-Q/10-K": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+        "10-Q&10-K": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+        "10-QAND10-K": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+        "10-QWITH10-K": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+        "MIXED": MIXED_QUARTERLY_ANNUAL_FILING_TYPE,
+    }
+    normalized = aliases.get(normalized, normalized)
+    if normalized not in {"10-K", "10-Q", MIXED_QUARTERLY_ANNUAL_FILING_TYPE}:
+        raise ValueError("filing_type must be 10-K, 10-Q, or 10-Q+10-K")
     return normalized
 
 
@@ -699,6 +718,29 @@ def fetch_entity_filings(
         except Exception:
             continue
         rows = collect_submission_rows(submission, user_agent)
+        if filing_type == MIXED_QUARTERLY_ANNUAL_FILING_TYPE:
+            quarterly_filings = select_filings_from_rows(
+                rows=rows,
+                cik=cik,
+                entity_name=entity.name,
+                filing_type="10-Q",
+                lookback_count=lookback_count,
+                reference_date=reference_date,
+            )
+            annual_filings = select_filings_from_rows(
+                rows=rows,
+                cik=cik,
+                entity_name=entity.name,
+                filing_type="10-K",
+                lookback_count=1,
+                reference_date=reference_date,
+                max_filings=1,
+            )
+            deduped = {filing.accession_number: filing for filing in [*quarterly_filings, *annual_filings]}
+            filings = sorted(deduped.values(), key=lambda item: item.filed_date, reverse=True)
+            if filings:
+                return filings
+            continue
         filings = select_filings_from_rows(
             rows=rows,
             cik=cik,
@@ -738,6 +780,239 @@ def build_filing_excerpt(text: str, question: str, max_chars: int = 900) -> str:
             break
     excerpt = " ".join(excerpt_parts).strip() or normalized[:max_chars]
     return excerpt[:max_chars]
+
+
+def resolved_openarena_input_token_budget() -> int:
+    raw_value = os.getenv("OPENARENA_INPUT_TOKEN_BUDGET", str(DEFAULT_OPENARENA_INPUT_TOKEN_BUDGET))
+    try:
+        requested = int(str(raw_value).strip())
+    except ValueError:
+        requested = DEFAULT_OPENARENA_INPUT_TOKEN_BUDGET
+    return max(requested, 50_000)
+
+
+def estimate_openarena_input_tokens(text: str) -> int:
+    if not text:
+        return 0
+    return max(1, (len(text) + OPENARENA_ESTIMATED_CHARS_PER_TOKEN - 1) // OPENARENA_ESTIMATED_CHARS_PER_TOKEN)
+
+
+def _allocate_upload_char_budgets(lengths: list[int], total_budget: int) -> list[int]:
+    if not lengths:
+        return []
+    if sum(lengths) <= total_budget:
+        return lengths[:]
+
+    budgets = [0 for _ in lengths]
+    remaining = max(total_budget, len(lengths))
+    unsettled = set(range(len(lengths)))
+    while unsettled:
+        share = max(remaining // len(unsettled), 1)
+        settled_this_round = False
+        for idx in list(unsettled):
+            if lengths[idx] <= share:
+                budgets[idx] = lengths[idx]
+                remaining -= lengths[idx]
+                unsettled.remove(idx)
+                settled_this_round = True
+        if not settled_this_round:
+            for idx in unsettled:
+                budgets[idx] = min(lengths[idx], share)
+            break
+    return budgets
+
+
+def _question_terms(question: str) -> set[str]:
+    stop_words = {
+        "about",
+        "across",
+        "after",
+        "against",
+        "also",
+        "and",
+        "are",
+        "between",
+        "compare",
+        "does",
+        "filing",
+        "filings",
+        "for",
+        "from",
+        "have",
+        "how",
+        "into",
+        "look",
+        "looking",
+        "show",
+        "that",
+        "the",
+        "their",
+        "there",
+        "these",
+        "this",
+        "what",
+        "when",
+        "where",
+        "which",
+        "with",
+        "year",
+    }
+    return {
+        token
+        for token in re.findall(r"[a-z0-9]{4,}", question.lower())
+        if token not in stop_words
+    }
+
+
+def _relevant_text_windows(text: str, question: str, max_chars: int) -> str:
+    if max_chars <= 0:
+        return ""
+    lower_text = text.lower()
+    terms = _question_terms(question) | {
+        "assets",
+        "borrowings",
+        "commitments",
+        "covenant",
+        "debt",
+        "default",
+        "fair",
+        "income",
+        "interest",
+        "leverage",
+        "liabilities",
+        "liquidity",
+        "maturity",
+        "nonaccrual",
+        "portfolio",
+        "redemption",
+        "risk",
+        "secured",
+        "value",
+    }
+    windows: list[tuple[int, int, int]] = []
+    window_radius = 1_800
+    for term in sorted(terms):
+        start = 0
+        hits = 0
+        while hits < 8:
+            idx = lower_text.find(term, start)
+            if idx < 0:
+                break
+            left = max(0, idx - window_radius)
+            right = min(len(text), idx + len(term) + window_radius)
+            snippet = lower_text[left:right]
+            score = sum(1 for candidate in terms if candidate in snippet)
+            windows.append((score, left, right))
+            start = idx + len(term)
+            hits += 1
+
+    if not windows:
+        return text[:max_chars]
+
+    selected: list[tuple[int, int]] = []
+    total = 0
+    for _, left, right in sorted(windows, key=lambda item: (item[0], item[2] - item[1]), reverse=True):
+        if any(not (right < existing_left or left > existing_right) for existing_left, existing_right in selected):
+            continue
+        snippet_len = right - left
+        if total + snippet_len > max_chars and selected:
+            continue
+        selected.append((left, right))
+        total += snippet_len
+        if total >= max_chars:
+            break
+
+    selected.sort()
+    pieces: list[str] = []
+    used = 0
+    for left, right in selected:
+        if used >= max_chars:
+            break
+        remaining = max_chars - used
+        snippet = text[left:right].strip()
+        if len(snippet) > remaining:
+            snippet = snippet[:remaining].rsplit(" ", 1)[0].strip() or snippet[:remaining]
+        if snippet:
+            pieces.append(snippet)
+            used += len(snippet) + 2
+    return "\n\n".join(pieces).strip()[:max_chars]
+
+
+def fit_filing_text_to_upload_budget(text: str, question: str, max_chars: int) -> str:
+    normalized = _clean_text(text)
+    if len(normalized) <= max_chars:
+        return normalized
+
+    notice = (
+        "NOTE: This filing text was shortened before OpenArena upload to stay within the model input limit. "
+        "It preserves the beginning of the filing, question-relevant passages, and the end of the filing.\n\n"
+    )
+    available = max(max_chars - len(notice), 1_000)
+    head_chars = max(1_000, int(available * 0.35))
+    tail_chars = max(1_000, int(available * 0.15))
+    if head_chars + tail_chars >= available:
+        head_chars = max(1, int(available * 0.7))
+        tail_chars = max(0, available - head_chars)
+    middle_chars = max(0, available - head_chars - tail_chars)
+
+    head = normalized[:head_chars].strip()
+    tail = normalized[-tail_chars:].strip() if tail_chars else ""
+    middle = _relevant_text_windows(normalized[head_chars: len(normalized) - tail_chars], question, middle_chars)
+    parts = [notice.strip(), head]
+    if middle:
+        parts.extend(["[Question-relevant passages]", middle])
+    if tail:
+        parts.extend(["[End of filing]", tail])
+    return "\n\n".join(part for part in parts if part).strip()[:max_chars]
+
+
+def prepare_openarena_uploads(
+    filings: list[FilingDocument],
+    question: str,
+    session: FilingAnalysisSession | None = None,
+    token_budget: int | None = None,
+) -> list[FilingDocument]:
+    if not filings:
+        return filings
+
+    resolved_budget = token_budget or resolved_openarena_input_token_budget()
+    overhead_tokens = estimate_openarena_input_tokens(question) + estimate_openarena_input_tokens(
+        os.getenv("OPENARENA_FILINGS_SYSTEM_PROMPT", DEFAULT_ANALYSIS_SYSTEM_PROMPT)
+    ) + OPENARENA_UPLOAD_OVERHEAD_TOKENS
+    available_tokens = max(resolved_budget - overhead_tokens, 10_000)
+    available_chars = available_tokens * OPENARENA_ESTIMATED_CHARS_PER_TOKEN
+    upload_texts = [filing.full_text or filing.text_excerpt for filing in filings]
+    estimated_tokens = overhead_tokens + sum(estimate_openarena_input_tokens(text) for text in upload_texts)
+
+    if session:
+        append_progress(
+            session,
+            f"Estimated OpenArena input at about {estimated_tokens:,} token(s) against a {resolved_budget:,}-token budget.",
+        )
+
+    if estimated_tokens > resolved_budget:
+        budgets = _allocate_upload_char_budgets([len(text) for text in upload_texts], available_chars)
+        if session:
+            append_progress(
+                session,
+                "Compressing uploaded filing text before PDF generation to avoid the OpenArena/Gemini input limit.",
+            )
+    else:
+        budgets = [len(text) for text in upload_texts]
+
+    per_filing_floor = min(MIN_OPENARENA_UPLOAD_CHARS_PER_FILING, max(1, available_chars // len(filings)))
+    for filing, source_text, char_budget in zip(filings, upload_texts, budgets):
+        budget = max(char_budget, min(len(source_text), per_filing_floor))
+        filing.upload_text = fit_filing_text_to_upload_budget(source_text, question, budget)
+        if session and len(filing.upload_text) < len(source_text):
+            append_progress(
+                session,
+                f"Shortened {filing.filing_label} upload text from {len(source_text):,} to {len(filing.upload_text):,} characters.",
+            )
+        if session:
+            append_progress(session, f"Converting {filing.filing_label} into PDF for workflow upload.")
+        filing.upload_bytes = filing_text_to_pdf_bytes(filing.filing_label, filing.index_url, filing.upload_text)
+    return filings
 
 
 def wrap_pdf_line(text: str, max_chars: int = 95) -> list[str]:
@@ -859,7 +1134,6 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
         excerpt = build_filing_excerpt(full_text, question)
         safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
         upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.pdf"
-        upload_bytes = filing_text_to_pdf_bytes(filing.filing_label, filing.index_url, full_text)
         hydrated.append(
             FilingDocument(
                 entity_name=filing.entity_name,
@@ -875,10 +1149,9 @@ def hydrate_filing_texts(filings: list[FilingDocument], user_agent: str, questio
                 text_excerpt=excerpt,
                 full_text=full_text,
                 upload_file_name=upload_file_name,
-                upload_bytes=upload_bytes,
             )
         )
-    return hydrated
+    return prepare_openarena_uploads(hydrated, question)
 
 
 def hydrate_filing_texts_with_progress(
@@ -899,8 +1172,6 @@ def hydrate_filing_texts_with_progress(
         excerpt = build_filing_excerpt(full_text, question)
         safe_entity = re.sub(r"[^a-zA-Z0-9]+", "-", filing.entity_name).strip("-").lower() or "entity"
         upload_file_name = f"{safe_entity}_{filing.filing_type}_{filing.filed_date}_{filing.accession_number}.pdf"
-        append_progress(session, f"Converting {filing.filing_label} into PDF for workflow upload.")
-        upload_bytes = filing_text_to_pdf_bytes(filing.filing_label, filing.index_url, full_text)
         hydrated.append(
             FilingDocument(
                 entity_name=filing.entity_name,
@@ -916,10 +1187,9 @@ def hydrate_filing_texts_with_progress(
                 text_excerpt=excerpt,
                 full_text=full_text,
                 upload_file_name=upload_file_name,
-                upload_bytes=upload_bytes,
             )
         )
-    return hydrated
+    return prepare_openarena_uploads(hydrated, question, session=session)
 
 
 def build_openarena_documents(filings: list[FilingDocument]) -> list[dict[str, Any]]:
@@ -974,6 +1244,11 @@ def post_json(url: str, bearer_token: str, payload: dict[str, Any], timeout_seco
         raise OpenArenaRequestError(url, exc.code, detail or str(exc.reason)) from exc
 
 
+def is_openarena_token_limit_error(detail: str) -> bool:
+    normalized = (detail or "").lower()
+    return all(marker in normalized for marker in TOKEN_LIMIT_ERROR_MARKERS)
+
+
 def call_openarena_inference_with_retries(
     session: FilingAnalysisSession,
     base_url: str,
@@ -997,6 +1272,12 @@ def call_openarena_inference_with_retries(
                 timeout_seconds,
             )
         except OpenArenaRequestError as exc:
+            if is_openarena_token_limit_error(exc.detail):
+                raise RuntimeError(
+                    "OpenArena/Gemini rejected the request because the uploaded filings still exceeded the model "
+                    "input limit. Try fewer entities or periods, or lower OPENARENA_INPUT_TOKEN_BUDGET so the "
+                    f"backend compresses uploads more aggressively. Original error: {exc.detail}"
+                ) from exc
             is_retryable_timeout = exc.status_code == 504 and attempt < attempts
             if not is_retryable_timeout:
                 raise
@@ -1176,7 +1457,7 @@ def call_openarena_ask_documents(
             target_url=target_url,
             fields=fields,
             file_name=file_name,
-            file_bytes=filing.upload_bytes or filing.full_text.encode("utf-8"),
+            file_bytes=filing.upload_bytes or (filing.upload_text or filing.full_text).encode("utf-8"),
             timeout_seconds=timeout_seconds,
         )
         append_progress(session, f"Parsing uploaded PDF for {filing.filing_label}.")
@@ -1250,6 +1531,12 @@ def hydrate_tracked_entities_with_ciks(user_agent: str) -> list[TrackedEntity]:
     return entities
 
 
+def describe_filing_selection(filing_type: str, lookback_count: int) -> str:
+    if filing_type == MIXED_QUARTERLY_ANNUAL_FILING_TYPE:
+        return f"the latest 10-K plus {lookback_count} recent 10-Q period(s)"
+    return f"{filing_type} filings across {lookback_count} calendar period(s)"
+
+
 def process_single_session(
     session_payload: dict[str, Any],
     tracked_entities: list[TrackedEntity],
@@ -1265,7 +1552,7 @@ def process_single_session(
     resolved_entities = resolve_entities(session.entities, tracked_entities)
     filings: list[FilingDocument] = []
     for entity in resolved_entities:
-        append_progress(session, f"Looking up {session.filing_type} filings for {entity.name} across {session.lookback_count} calendar period(s).")
+        append_progress(session, f"Looking up {describe_filing_selection(session.filing_type, session.lookback_count)} for {entity.name}.")
         filings.extend(fetch_entity_filings(entity, session.filing_type, session.lookback_count, user_agent))
     if not filings:
         append_progress(session, "No matching filings were found for the selected entities and lookback window.")

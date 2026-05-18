@@ -283,11 +283,28 @@ function buildAnalysisRequestPayload(options = {}) {
   return payload;
 }
 
+function filingTypeLabel(value) {
+  if (value === "10-Q+10-K") {
+    return "Current 10-Q + latest 10-K";
+  }
+  return value || "N/A";
+}
+
+function updateFilingTypeHelper() {
+  const helper = document.getElementById("analysisFilingTypeHelp");
+  const select = document.getElementById("analysisFormType");
+  if (!helper || !select) return;
+  helper.textContent = select.value === "10-Q+10-K"
+    ? "Includes the selected number of recent 10-Q periods plus the latest 10-K, useful for comparing a current quarter against the December annual filing."
+    : "Uses only the selected filing type across the calendar lookback.";
+}
+
 function updateIssuePreview() {
   const previewEl = document.getElementById("issuePreview");
   if (previewEl) {
     previewEl.textContent = JSON.stringify(buildAnalysisRequestPayload(), null, 2);
   }
+  updateFilingTypeHelper();
 }
 
 function renderProgressLog(lines) {
@@ -300,7 +317,7 @@ function buildPendingProgressLog(payload) {
   const entityLabel = payload.entities.length === 1 ? payload.entities[0] : `${payload.entities.length} tracked entities`;
   return [
     `Starting run for ${entityLabel}.`,
-    `Fetching matching ${payload.filing_type} filings from SEC for the last ${payload.lookback_count} period(s).`,
+    `Fetching matching ${filingTypeLabel(payload.filing_type)} filings from SEC for the selected lookback.`,
     "Converting fetched filings into uploadable PDFs.",
     "Requesting OpenArena upload URLs.",
     "Uploading filing PDFs to OpenArena.",
@@ -384,7 +401,7 @@ function buildSessionCard(session) {
           <h3 class="filing-title">${escapeHtml(session.issue_title || session.id)}</h3>
           <div class="tag-row">
             <span class="status-pill ${escapeHtml(session.status || "queued")}">${escapeHtml(session.status || "queued")}</span>
-            <span class="tag">${escapeHtml(session.filing_type || "N/A")}</span>
+            <span class="tag">${escapeHtml(filingTypeLabel(session.filing_type))}</span>
             <span class="tag type">${escapeHtml(`${session.lookback_count || 0} period(s)`)}</span>
             <span class="tag type">${escapeHtml((session.model || "unknown").toUpperCase())}</span>
           </div>
@@ -519,7 +536,10 @@ document.getElementById("copyIssueButton").addEventListener("click", () => {
     renderProgressLog([`Copy failed: ${error.message}`]);
   });
 });
-document.getElementById("analysisFormType").addEventListener("change", updateIssuePreview);
+document.getElementById("analysisFormType").addEventListener("change", () => {
+  updateIssuePreview();
+  updateFilingTypeHelper();
+});
 document.getElementById("analysisLookbackCount").addEventListener("input", updateIssuePreview);
 document.getElementById("analysisQuestion").addEventListener("input", updateIssuePreview);
 document.querySelectorAll(".tab-button").forEach((button) => {
