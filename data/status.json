@@ -1,6 +1,6 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-05-28T22:59:12.467852+00:00",
+  "last_run": "2026-05-29T00:15:11.515595+00:00",
   "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
@@ -36,6 +36,6 @@
   "cik_lookup_age_days": 0.0,
   "openarena_enabled": true,
   "openarena_workflow_id": "9214a226-9866-4f29-abd3-0eb3cd235f8e",
-  "openarena_generated": 1,
+  "openarena_generated": 0,
   "fallback_generated": 0
 }
