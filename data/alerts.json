@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001193125-26-284779",
+    "cik": "0001920453",
+    "company_name": "K - Fidelity Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-06-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526284779/0001193125-26-284779.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526284779/0001193125-26-284779-index.html",
+    "tracked_name": "Fidelity Private Credit Company LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Fidelity Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 2.02, 7.01, 8.01\n\nD. Most Important Points\nFidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Fidelity Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 2.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Fidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000930413-26-001953",
     "cik": "0002041841",
     "company_name": "K - Lord Abbett Private Credit Fund S",
@@ -4049,39 +4083,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Carlyle Secured Lending Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-217011",
-    "cik": "0002011498",
-    "company_name": "K - AGL Private Credit Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-05-11",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526217011/0001193125-26-217011.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526217011/0001193125-26-217011-index.html",
-    "tracked_name": "AGL Private Credit Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 2.02",
-    "openarena_output": "SEC Filing Analysis: K - AGL Private Credit Income Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02\n\nC. What's New\nMatched keywords: credit income, private credit.\n8-K item sections referenced: 2.02\n\nD. Most Important Points\nAGL Private Credit Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - AGL Private Credit Income Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02",
-    "whats_new": [
-      "Matched keywords: credit income, private credit. 8-K item sections referenced: 2.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "AGL Private Credit Income Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
