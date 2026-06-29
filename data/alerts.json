@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001104659-26-078562",
+    "cik": "0002031283",
+    "company_name": "K - Stone Point Credit Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-06-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926078562/0001104659-26-078562.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926078562/0001104659-26-078562-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: credit income.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: credit income. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001580642-26-003984",
     "cik": "0002037804",
     "company_name": "K - New Mountain Private Credit Fund",
@@ -4045,39 +4077,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Kayne Anderson BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-058250",
-    "cik": "0001422183",
-    "company_name": "K - FS KKR Capital Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-05-11",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926058250/0001104659-26-058250.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926058250/0001104659-26-058250-index.html",
-    "tracked_name": "FS KKR Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.02, 7.01",
-    "openarena_output": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.02, 7.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 1.01, 2.02, 7.01\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.02, 7.01",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 1.01, 2.02, 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "FS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
