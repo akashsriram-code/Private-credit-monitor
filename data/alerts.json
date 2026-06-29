@@ -63,6 +63,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001104659-26-078916",
+    "cik": "0001422183",
+    "company_name": "K - FS KKR Capital Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-06-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926078916/0001104659-26-078916.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926078916/0001104659-26-078916-index.html",
+    "tracked_name": "FS KKR Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 3.03, 5.03",
+    "openarena_output": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 3.03, 5.03\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 1.01, 3.03, 5.03\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 3.03, 5.03",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 1.01, 3.03, 5.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "FS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001859919-26-000057",
     "cik": "0001859919",
     "company_name": "K - Barings Private Credit Corp",
@@ -4014,38 +4046,6 @@
     "wire_recommendation": "HIGH",
     "analysis_source": "openarena",
     "openarena_error": null,
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-020704",
-    "cik": "0001422183",
-    "company_name": "T - FS KKR Capital Corp",
-    "form_type": "SC TO-T",
-    "filed_date": "2026-05-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000114036126020704/0001140361-26-020704.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000114036126020704/0001140361-26-020704-index.html",
-    "tracked_name": "FS KKR Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1",
-    "openarena_output": "SEC Filing Analysis: T - FS KKR Capital Corp - SC TO-T\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1\n\nC. What's New\nMatched keywords: senior secured.\nded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent SC TO-T filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: T - FS KKR Capital Corp - SC TO-T",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1",
-    "whats_new": [
-      "Matched keywords: senior secured. ded December 31, 2025 filed on February 25, 2026). (d)(5) &#8194; &#8194; Amendment No. 1 to Third Amended and Restated Senior Secured Revolving Credit Agreement, dated as of May 8, 2026, by and among the Company, JPMorgan Chase Bank, N.A. and each of the lenders party thereto (incorporated by reference to Exhibit 10.1"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "FS KKR Capital Corp. is on the watchlist and matched a recent SC TO-T filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
   }
 ]
