@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001140361-26-027772",
+    "cik": "0001911321",
+    "company_name": "K - Kennedy Lewis Capital Co",
+    "form_type": "8-K",
+    "filed_date": "2026-07-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911321/000114036126027772/0001140361-26-027772.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1911321/000114036126027772/0001140361-26-027772-index.html",
+    "tracked_name": "Kennedy Lewis Capital Company",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 1.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 1.02, 9.01\n\nC. What's New\nMatched keywords: direct lending, private debt, senior secured.\n8-K item sections referenced: 1.01, 1.02, 9.01\n\nD. Most Important Points\nKennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 1.02, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, private debt, senior secured. 8-K item sections referenced: 1.01, 1.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Kennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-293510",
     "cik": "0001869453",
     "company_name": "K - Blue Owl Technology Income Corp.",
@@ -3853,41 +3887,6 @@
     "wire_recommendation": "HIGH",
     "analysis_source": "openarena",
     "openarena_error": null,
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-221900",
-    "cik": "0001603480",
-    "company_name": "Q - TCW Direct Lending LLC",
-    "form_type": "10-Q",
-    "filed_date": "2026-05-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1603480/000119312526221900/0001193125-26-221900.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1603480/000119312526221900/0001193125-26-221900-index.html",
-    "tracked_name": "TCW Direct Lending LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "EPORT: 20260331 FILED AS OF DATE: 20260513 DATE AS OF CHANGE: 20260513 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending LLC CENTRAL INDEX KEY: 0001603480 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 81",
-    "openarena_output": "SEC Filing Analysis: Q - TCW Direct Lending LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEPORT: 20260331 FILED AS OF DATE: 20260513 DATE AS OF CHANGE: 20260513 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending LLC CENTRAL INDEX KEY: 0001603480 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 81\n\nC. What's New\nMatched keywords: direct lending, private credit, private debt, senior secured.\nEPORT: 20260331 FILED AS OF DATE: 20260513 DATE AS OF CHANGE: 20260513 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending LLC CENTRAL INDEX KEY: 0001603480 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 81\n\nD. Most Important Points\nTCW Direct Lending LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - TCW Direct Lending LLC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EPORT: 20260331 FILED AS OF DATE: 20260513 DATE AS OF CHANGE: 20260513 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending LLC CENTRAL INDEX KEY: 0001603480 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 81",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit, private debt, senior secured. EPORT: 20260331 FILED AS OF DATE: 20260513 DATE AS OF CHANGE: 20260513 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending LLC CENTRAL INDEX KEY: 0001603480 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 81"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   }
 ]
