@@ -1,5 +1,70 @@
 [
   {
+    "accession_number": "0001193125-26-309005",
+    "cik": "0001885968",
+    "company_name": "K - T Series BDC LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-07-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1885968/000119312526309005/0001193125-26-309005.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1885968/000119312526309005/0001193125-26-309005-index.html",
+    "tracked_name": "T Series Middle Market Loan Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: K - T Series BDC LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nT Series Middle Market Loan Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - T Series BDC LLC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "T Series Middle Market Loan Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0002061670-26-000067",
+    "cik": "0002061670",
+    "company_name": "K - Monroe Capital Enhanced Corporate Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000067/0002061670-26-000067.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000067/0002061670-26-000067-index.html",
+    "tracked_name": "Monroe Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "lending fund",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: lending fund, senior secured.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: lending fund, senior secured. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001859919-26-000062",
     "cik": "0001859919",
     "company_name": "K - Barings Private Credit Corp",
@@ -3194,76 +3259,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Golub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-037355",
-    "cik": "0001913724",
-    "company_name": "K - TPG Twin Brook Capital Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-05-21",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000162828026037355/0001628280-26-037355.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000162828026037355/0001628280-26-037355-index.html",
-    "tracked_name": "TPG Twin Brook Capital Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, private debt.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, lending fund, private credit, private debt. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001803498-26-000033",
-    "cik": "0001803498",
-    "company_name": "K - Blackstone Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-05-21",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000033/0001803498-26-000033.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000033/0001803498-26-000033-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
