@@ -98,6 +98,72 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002031750-26-000058",
+    "cik": "0002031750",
+    "company_name": "K - Ares Core Infrastructure Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000058/0002031750-26-000058.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000058/0002031750-26-000058-index.html",
+    "tracked_name": "Ares Core Infrastructure Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-049036",
+    "cik": "0001918712",
+    "company_name": "K - ARES STRATEGIC INCOME FUND",
+    "form_type": "8-K",
+    "filed_date": "2026-07-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026049036/0001628280-26-049036.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026049036/0001628280-26-049036-index.html",
+    "tracked_name": "Ares Strategic Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 3.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Strategic Income Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-309005",
     "cik": "0001885968",
     "company_name": "K - T Series BDC LLC",
@@ -3161,71 +3227,6 @@
     "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-065964",
-    "cik": "0001287750",
-    "company_name": "K - ARES CAPITAL CORP",
-    "form_type": "8-K",
-    "filed_date": "2026-05-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/0001104659-26-065964.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/0001104659-26-065964-index.html",
-    "tracked_name": "Ares Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - ARES CAPITAL CORP - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nAres Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - ARES CAPITAL CORP - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-238728",
-    "cik": "0001920145",
-    "company_name": "I - Goldman Sachs Private Credit Corp.",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-05-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526238728/0001193125-26-238728.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526238728/0001193125-26-238728-index.html",
-    "tracked_name": "Goldman Sachs Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "openarena_output": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nC. What's New\nMatched keywords: credit fund, private credit.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   }
 ]
