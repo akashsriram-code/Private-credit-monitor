@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001803498-26-000039",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000039/0001803498-26-000039.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000039/0001803498-26-000039-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, private debt.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, private debt. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001580642-26-004541",
     "cik": "0001825265",
     "company_name": "K - TCW Direct Lending VIII LLC",
@@ -3068,38 +3102,6 @@
     "wire_recommendation": "UNKNOWN",
     "analysis_source": "openarena",
     "openarena_error": null,
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-069021",
-    "cik": "0001975736",
-    "company_name": "I - KKR FS Income Trust Select",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-06-01",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1975736/000110465926069021/0001104659-26-069021.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1975736/000110465926069021/0001104659-26-069021-index.html",
-    "tracked_name": "KKR FS Income Trust",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "lending fund"
-    ],
-    "description": "ent Agreement, dated as of March 27, 2024, by and between one of the Company&rsquo;s shareholders, Cliffwater Corporate Lending Fund (&ldquo;CCLF&rdquo;), and the Company, which provided for the acquisition of Shares by CCLF in a manner consistent with the requirements of Rule 12d1-4 under the 1940 Act, CCLF has waived",
-    "openarena_output": "SEC Filing Analysis: I - KKR FS Income Trust Select - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nent Agreement, dated as of March 27, 2024, by and between one of the Company&rsquo;s shareholders, Cliffwater Corporate Lending Fund (&ldquo;CCLF&rdquo;), and the Company, which provided for the acquisition of Shares by CCLF in a manner consistent with the requirements of Rule 12d1-4 under the 1940 Act, CCLF has waived\n\nC. What's New\nMatched keywords: lending fund.\nent Agreement, dated as of March 27, 2024, by and between one of the Company&rsquo;s shareholders, Cliffwater Corporate Lending Fund (&ldquo;CCLF&rdquo;), and the Company, which provided for the acquisition of Shares by CCLF in a manner consistent with the requirements of Rule 12d1-4 under the 1940 Act, CCLF has waived\n\nD. Most Important Points\nKKR FS Income Trust is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - KKR FS Income Trust Select - SC TO-I",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ent Agreement, dated as of March 27, 2024, by and between one of the Company&rsquo;s shareholders, Cliffwater Corporate Lending Fund (&ldquo;CCLF&rdquo;), and the Company, which provided for the acquisition of Shares by CCLF in a manner consistent with the requirements of Rule 12d1-4 under the 1940 Act, CCLF has waived",
-    "whats_new": [
-      "Matched keywords: lending fund. ent Agreement, dated as of March 27, 2024, by and between one of the Company&rsquo;s shareholders, Cliffwater Corporate Lending Fund (&ldquo;CCLF&rdquo;), and the Company, which provided for the acquisition of Shares by CCLF in a manner consistent with the requirements of Rule 12d1-4 under the 1940 Act, CCLF has waived"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "KKR FS Income Trust is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 504: Gateway Timeout",
     "source": "sec-daily-index"
   }
 ]
