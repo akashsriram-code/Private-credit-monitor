@@ -68,6 +68,72 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001213900-26-081414",
+    "cik": "0001736035",
+    "company_name": "K - Blackstone Secured Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-24",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026081414/0001213900-26-081414.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026081414/0001213900-26-081414-index.html",
+    "tracked_name": "Blackstone Secured Lending Fund",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "lending fund"
+    ],
+    "description": "8-K item sections referenced: 5.02",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, lending fund.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.02",
+    "whats_new": [
+      "Matched keywords: credit fund, lending fund. 8-K item sections referenced: 5.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001213900-26-081411",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-24",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026081411/0001213900-26-081411.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026081411/0001213900-26-081411-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 5.02",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.02",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 5.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-086133",
     "cik": "0002031283",
     "company_name": "K - Stone Point Credit Income Fund",
@@ -2873,72 +2939,6 @@
     "one_line_takeaway": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT",
     "whats_new": [
       "Matched keywords: direct lending, lending fund. S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002109212-26-000001",
-    "cik": "0002109212",
-    "company_name": "Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF",
-    "form_type": "D",
-    "filed_date": "2026-06-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2109212/000210921226000001/0002109212-26-000001.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2109212/000210921226000001/0002109212-26-000001-index.html",
-    "tracked_name": "Morgan Stanley Direct Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund"
-    ],
-    "description": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109212 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act",
-    "openarena_output": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109212 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109212 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act\n\nD. Most Important Points\nMorgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF - D",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109212 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund. S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109212 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002109213-26-000001",
-    "cik": "0002109213",
-    "company_name": "Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF",
-    "form_type": "D",
-    "filed_date": "2026-06-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2109213/000210921326000001/0002109213-26-000001.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2109213/000210921326000001/0002109213-26-000001-index.html",
-    "tracked_name": "Morgan Stanley Direct Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund"
-    ],
-    "description": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109213 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act",
-    "openarena_output": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109213 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109213 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act\n\nD. Most Important Points\nMorgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF - D",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109213 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund. S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109213 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act"
     ],
     "remaining_sections": {
       "most_important_points": [
