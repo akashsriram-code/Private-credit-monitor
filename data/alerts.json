@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-317666",
+    "cik": "0001950803",
+    "company_name": "I/A - Stepstone Private Credit Fund LLC",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-07-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526317666/0001193125-26-317666.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526317666/0001193125-26-317666-index.html",
+    "tracked_name": "StepStone Private Credit Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "openarena_output": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000930413-26-002156",
     "cik": "0002041841",
     "company_name": "K - Lord Abbett Private Credit Fund S",
@@ -2906,39 +2939,6 @@
     "one_line_takeaway": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109217 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT",
     "whats_new": [
       "Matched keywords: direct lending, lending fund. S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder B SCSp RAIF CENTRAL INDEX KEY: 0002109217 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002109216-26-000001",
-    "cik": "0002109216",
-    "company_name": "Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF",
-    "form_type": "D",
-    "filed_date": "2026-06-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2109216/000210921626000001/0002109216-26-000001.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2109216/000210921626000001/0002109216-26-000001-index.html",
-    "tracked_name": "Morgan Stanley Direct Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund"
-    ],
-    "description": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT",
-    "openarena_output": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nS OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT\n\nD. Most Important Points\nMorgan Stanley Direct Lending Fund is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF - D",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund. S OF CHANGE: 20260604 EFFECTIVENESS DATE: 20260604 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley European Direct Lending Fund II Leveraged Feeder A SCSp RAIF CENTRAL INDEX KEY: 0002109216 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT"
     ],
     "remaining_sections": {
       "most_important_points": [
