@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001911066-26-000091",
+    "cik": "0001911066",
+    "company_name": "K - Nuveen Churchill Private Capital Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-07-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911066/000191106626000091/0001911066-26-000091.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1911066/000191106626000091/0001911066-26-000091-index.html",
+    "tracked_name": "Nuveen Churchill Private Capital Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Nuveen Churchill Private Capital Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nNuveen Churchill Private Capital Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Nuveen Churchill Private Capital Income Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: private debt. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Nuveen Churchill Private Capital Income Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-322526",
     "cik": "0001920453",
     "company_name": "I/A - Fidelity Private Credit Fund",
@@ -2829,40 +2861,6 @@
     "remaining_sections": {
       "most_important_points": [
         "HPS Corporate Lending Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-025004",
-    "cik": "0001902649",
-    "company_name": "K - BlackRock Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-06-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126025004/0001140361-26-025004.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126025004/0001140361-26-025004-index.html",
-    "tracked_name": "BlackRock Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 7.01, 9.01\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 7.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
