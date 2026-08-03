@@ -34,6 +34,103 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001104659-26-089871",
+    "cik": "0001849089",
+    "company_name": "K - Lafayette Square USA, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1849089/000110465926089871/0001104659-26-089871.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1849089/000110465926089871/0001104659-26-089871-index.html",
+    "tracked_name": "Lafayette Square USA Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Lafayette Square USA, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nLafayette Square USA Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Lafayette Square USA, Inc. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lafayette Square USA Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-330873",
+    "cik": "0001899017",
+    "company_name": "I/A - Bain Capital Private Credit",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-08-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330873/0001193125-26-330873.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330873/0001193125-26-330873-index.html",
+    "tracked_name": "Bain Capital Private Credit",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "ED AS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "openarena_output": "SEC Filing Analysis: I/A - Bain Capital Private Credit - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nED AS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nC. What's New\nMatched keywords: private credit.\nED AS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Bain Capital Private Credit - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ED AS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "whats_new": [
+      "Matched keywords: private credit. ED AS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-089853",
+    "cik": "0001742313",
+    "company_name": "I - Monroe Capital Income Plus Corp",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1742313/000110465926089853/0001104659-26-089853.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1742313/000110465926089853/0001104659-26-089853-index.html",
+    "tracked_name": "Monroe Capital Income Plus Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in ",
+    "openarena_output": "SEC Filing Analysis: I - Monroe Capital Income Plus Corp - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in \n\nC. What's New\nMatched keywords: private credit, senior secured.\nctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in \n\nD. Most Important Points\nMonroe Capital Income Plus Corp. is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Monroe Capital Income Plus Corp - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Income Plus Corp. is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-329904",
     "cik": "0001920453",
     "company_name": "I - Fidelity Private Credit Fund",
@@ -58,6 +155,39 @@
     "remaining_sections": {
       "most_important_points": [
         "Fidelity Private Credit Company LLC is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-330882",
+    "cik": "0001899017",
+    "company_name": "I - Bain Capital Private Credit",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330882/0001193125-26-330882.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330882/0001193125-26-330882-index.html",
+    "tracked_name": "Bain Capital Private Credit",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
+    "openarena_output": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nC. What's New\nMatched keywords: credit fund, private credit.\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2745,135 +2875,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002031750-26-000042",
-    "cik": "0002031750",
-    "company_name": "K - Ares Core Infrastructure Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-06-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000042/0002031750-26-000042.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000042/0002031750-26-000042-index.html",
-    "tracked_name": "Ares Core Infrastructure Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-044938",
-    "cik": "0001918712",
-    "company_name": "K - ARES STRATEGIC INCOME FUND",
-    "form_type": "8-K",
-    "filed_date": "2026-06-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026044938/0001628280-26-044938.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026044938/0001628280-26-044938-index.html",
-    "tracked_name": "Ares Strategic Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - ARES STRATEGIC INCOME FUND - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Strategic Income Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-025991",
-    "cik": "0001901164",
-    "company_name": "K - T. Rowe Price OHA Select Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-06-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126025991/0001140361-26-025991.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126025991/0001140361-26-025991-index.html",
-    "tracked_name": "T. Rowe Price OHA Select Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 7.01, 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - T. Rowe Price OHA Select Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 7.01, 8.01, 9.01\n\nD. Most Important Points\nT. Rowe Price OHA Select Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - T. Rowe Price OHA Select Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 7.01, 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-076212",
-    "cik": "0002031283",
-    "company_name": "K - Stone Point Credit Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-06-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926076212/0001104659-26-076212.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926076212/0001104659-26-076212-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "8-K item sections referenced: 3.02",
-    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit income.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02",
-    "whats_new": [
-      "Matched keywords: credit income. 8-K item sections referenced: 3.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
