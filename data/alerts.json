@@ -1,5 +1,41 @@
 [
   {
+    "accession_number": "0001527469-26-000047",
+    "cik": "0001527469",
+    "company_name": "K - Athene Holding Ltd.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000047/0001527469-26-000047.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000047/0001527469-26-000047-index.html",
+    "tracked_name": "Athene Holding Ltd.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "asset-backed finance",
+      "credit fund",
+      "direct lending",
+      "opportunistic credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: asset-backed finance, credit fund, direct lending, opportunistic credit, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nAthene Holding Ltd. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: asset-backed finance, credit fund, direct lending, opportunistic credit, senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Athene Holding Ltd. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001496099-26-000029",
     "cik": "0001496099",
     "company_name": "Q - New Mountain Finance Corp",
@@ -2838,39 +2874,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Golub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001803498-26-000036",
-    "cik": "0001803498",
-    "company_name": "K - Blackstone Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-06-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000036/0001803498-26-000036.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000036/0001803498-26-000036-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
