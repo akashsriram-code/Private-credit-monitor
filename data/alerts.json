@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001493152-26-036285",
+    "cik": "0001509470",
+    "company_name": "Q - Neostellar Capital Corp.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226036285/0001493152-26-036285.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226036285/0001493152-26-036285-index.html",
+    "tracked_name": "SuRo Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve",
+    "openarena_output": "SEC Filing Analysis: Q - Neostellar Capital Corp. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve\n\nC. What's New\nMatched keywords: private credit.\nent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve\n\nD. Most Important Points\nSuRo Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Neostellar Capital Corp. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve",
+    "whats_new": [
+      "Matched keywords: private credit. ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "SuRo Capital Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001628280-26-053783",
     "cik": "0001422183",
     "company_name": "Q - FS KKR Capital Corp",
@@ -64,6 +96,39 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-336794",
+    "cik": "0001370755",
+    "company_name": "Q - BlackRock TCP Capital Corp.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526336794/0001193125-26-336794.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526336794/0001193125-26-336794-index.html",
+    "tracked_name": "BlackRock TCP Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private debt",
+      "senior secured"
+    ],
+    "description": "ger By: Pantheon Ventures (UK) LLP, its portfolio manager By: /s/ Toni Vainio Name: Toni Vainio Titke: Partner Pantheon Private Debt Secondary Solutions SCSp SICAV-RAIF, in respect of its compartment Pantheon Senior Debt Secondaries IV (USD) By: Pantheon Ventures (Ireland) DAC, its investment manager By: Pantheon Ventu",
+    "openarena_output": "SEC Filing Analysis: Q - BlackRock TCP Capital Corp. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nger By: Pantheon Ventures (UK) LLP, its portfolio manager By: /s/ Toni Vainio Name: Toni Vainio Titke: Partner Pantheon Private Debt Secondary Solutions SCSp SICAV-RAIF, in respect of its compartment Pantheon Senior Debt Secondaries IV (USD) By: Pantheon Ventures (Ireland) DAC, its investment manager By: Pantheon Ventu\n\nC. What's New\nMatched keywords: private debt, senior secured.\nger By: Pantheon Ventures (UK) LLP, its portfolio manager By: /s/ Toni Vainio Name: Toni Vainio Titke: Partner Pantheon Private Debt Secondary Solutions SCSp SICAV-RAIF, in respect of its compartment Pantheon Senior Debt Secondaries IV (USD) By: Pantheon Ventures (Ireland) DAC, its investment manager By: Pantheon Ventu\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - BlackRock TCP Capital Corp. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ger By: Pantheon Ventures (UK) LLP, its portfolio manager By: /s/ Toni Vainio Name: Toni Vainio Titke: Partner Pantheon Private Debt Secondary Solutions SCSp SICAV-RAIF, in respect of its compartment Pantheon Senior Debt Secondaries IV (USD) By: Pantheon Ventures (Ireland) DAC, its investment manager By: Pantheon Ventu",
+    "whats_new": [
+      "Matched keywords: private debt, senior secured. ger By: Pantheon Ventures (UK) LLP, its portfolio manager By: /s/ Toni Vainio Name: Toni Vainio Titke: Partner Pantheon Private Debt Secondary Solutions SCSp SICAV-RAIF, in respect of its compartment Pantheon Senior Debt Secondaries IV (USD) By: Pantheon Ventures (Ireland) DAC, its investment manager By: Pantheon Ventu"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -168,6 +233,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001104659-26-091692",
+    "cik": "0001534254",
+    "company_name": "K - CION Investment Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926091692/0001104659-26-091692.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926091692/0001104659-26-091692-index.html",
+    "tracked_name": "CION Investment Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - CION Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nCION Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - CION Investment Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "CION Investment Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-085889",
     "cik": "0001736035",
     "company_name": "K - Blackstone Secured Lending Fund",
@@ -195,6 +292,40 @@
     "remaining_sections": {
       "most_important_points": [
         "Blackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-336845",
+    "cik": "0001370755",
+    "company_name": "K - BlackRock TCP Capital Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526336845/0001193125-26-336845.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526336845/0001193125-26-336845-index.html",
+    "tracked_name": "BlackRock TCP Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.01, 2.02",
+    "openarena_output": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.01, 2.02\n\nC. What's New\nMatched keywords: direct lending, private credit, senior secured.\n8-K item sections referenced: 1.01, 2.01, 2.02\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.01, 2.02",
+    "whats_new": [
+      "Matched keywords: direct lending, private credit, senior secured. 8-K item sections referenced: 1.01, 2.01, 2.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2522,139 +2653,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-082256",
-    "cik": "0001476765",
-    "company_name": "K - GOLUB CAPITAL BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926082256/0001104659-26-082256.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926082256/0001104659-26-082256-index.html",
-    "tracked_name": "Golub Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - GOLUB CAPITAL BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nGolub Capital BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - GOLUB CAPITAL BDC, Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-082282",
-    "cik": "0001422183",
-    "company_name": "K - FS KKR Capital Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926082282/0001104659-26-082282.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926082282/0001104659-26-082282-index.html",
-    "tracked_name": "FS KKR Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 7.01, 9.01\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 7.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "FS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-027772",
-    "cik": "0001911321",
-    "company_name": "K - Kennedy Lewis Capital Co",
-    "form_type": "8-K",
-    "filed_date": "2026-07-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911321/000114036126027772/0001140361-26-027772.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1911321/000114036126027772/0001140361-26-027772-index.html",
-    "tracked_name": "Kennedy Lewis Capital Company",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 1.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 1.02, 9.01\n\nC. What's New\nMatched keywords: direct lending, private debt, senior secured.\n8-K item sections referenced: 1.01, 1.02, 9.01\n\nD. Most Important Points\nKennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 1.02, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, private debt, senior secured. 8-K item sections referenced: 1.01, 1.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Kennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-081356",
-    "cik": "0001930087",
-    "company_name": "K - Golub Capital Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930087/000110465926081356/0001104659-26-081356.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1930087/000110465926081356/0001104659-26-081356-index.html",
-    "tracked_name": "Golub Capital Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Golub Capital Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nGolub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Golub Capital Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
