@@ -1,5 +1,209 @@
 [
   {
+    "accession_number": "0001628280-26-053783",
+    "cik": "0001422183",
+    "company_name": "Q - FS KKR Capital Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/0001628280-26-053783.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/0001628280-26-053783-index.html",
+    "tracked_name": "FS KKR Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit income",
+      "senior secured"
+    ],
+    "description": "vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202",
+    "openarena_output": "SEC Filing Analysis: Q - FS KKR Capital Corp - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nvices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202\n\nC. What's New\nMatched keywords: credit income, senior secured.\nvices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - FS KKR Capital Corp - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202",
+    "whats_new": [
+      "Matched keywords: credit income, senior secured. vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "FS KKR Capital Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001736035-26-000016",
+    "cik": "0001736035",
+    "company_name": "Q - Blackstone Secured Lending Fund",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/0001736035-26-000016.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/0001736035-26-000016-index.html",
+    "tracked_name": "Blackstone Secured Lending Fund",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc",
+    "openarena_output": "SEC Filing Analysis: Q - Blackstone Secured Lending Fund - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nO 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit, private debt, senior secured.\nO 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Blackstone Secured Lending Fund - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund, private credit, private debt, senior secured. O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001737924-26-000086",
+    "cik": "0001737924",
+    "company_name": "K - Nuveen Churchill Direct Lending Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1737924/000173792426000086/0001737924-26-000086.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1737924/000173792426000086/0001737924-26-000086-index.html",
+    "tracked_name": "Nuveen Churchill Direct Lending Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Nuveen Churchill Direct Lending Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: direct lending, private debt, senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nNuveen Churchill Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Nuveen Churchill Direct Lending Corp. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, private debt, senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Nuveen Churchill Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-336509",
+    "cik": "0001278752",
+    "company_name": "K - MidCap Financial Investment Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1278752/000119312526336509/0001193125-26-336509.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1278752/000119312526336509/0001193125-26-336509-index.html",
+    "tracked_name": "MidCap Financial Investment Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02",
+    "openarena_output": "SEC Filing Analysis: K - MidCap Financial Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02\n\nD. Most Important Points\nMidCap Financial Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - MidCap Financial Investment Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "MidCap Financial Investment Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-091572",
+    "cik": "0001422183",
+    "company_name": "K - FS KKR Capital Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926091572/0001104659-26-091572.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926091572/0001104659-26-091572-index.html",
+    "tracked_name": "FS KKR Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - FS KKR Capital Corp - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "FS KKR Capital Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001213900-26-085889",
+    "cik": "0001736035",
+    "company_name": "K - Blackstone Secured Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026085889/0001213900-26-085889.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026085889/0001213900-26-085889-index.html",
+    "tracked_name": "Blackstone Secured Lending Fund",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "lending fund",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: credit fund, lending fund, private credit, private debt, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: credit fund, lending fund, private credit, private debt, senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-333791",
     "cik": "0001794776",
     "company_name": "Q - Palmer Square Capital BDC Inc.",
@@ -2451,207 +2655,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-297641",
-    "cik": "0001572694",
-    "company_name": "K - Goldman Sachs BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1572694/000119312526297641/0001193125-26-297641.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1572694/000119312526297641/0001193125-26-297641-index.html",
-    "tracked_name": "Goldman Sachs BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: private credit.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nGoldman Sachs BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs BDC, Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: private credit. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001476765-26-000036",
-    "cik": "0001476765",
-    "company_name": "K - GOLUB CAPITAL BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000036/0001476765-26-000036.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000036/0001476765-26-000036-index.html",
-    "tracked_name": "Golub Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - GOLUB CAPITAL BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nGolub Capital BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - GOLUB CAPITAL BDC, Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-293510",
-    "cik": "0001869453",
-    "company_name": "K - Blue Owl Technology Income Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-02",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1869453/000119312526293510/0001193125-26-293510.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1869453/000119312526293510/0001193125-26-293510-index.html",
-    "tracked_name": "Blue Owl Technology Income Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "credit income",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, private credit, senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nBlue Owl Technology Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Income Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: credit fund, credit income, direct lending, private credit, senior secured. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Technology Income Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-293509",
-    "cik": "0001812554",
-    "company_name": "K - Blue Owl Credit Income Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-02",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526293509/0001193125-26-293509.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526293509/0001193125-26-293509-index.html",
-    "tracked_name": "Blue Owl Credit Income Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "credit income",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, private credit, senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: credit fund, credit income, direct lending, private credit, senior secured. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001535778-26-000072",
-    "cik": "0001535778",
-    "company_name": "K - MSC INCOME FUND, INC.",
-    "form_type": "8-K",
-    "filed_date": "2026-06-30",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000072/0001535778-26-000072.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000072/0001535778-26-000072-index.html",
-    "tracked_name": "MSC Income Fund Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02, 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - MSC INCOME FUND, INC. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01, 9.01\n\nC. What's New\nMatched keywords: private credit.\n8-K item sections referenced: 5.02, 8.01, 9.01\n\nD. Most Important Points\nMSC Income Fund Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - MSC INCOME FUND, INC. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: private credit. 8-K item sections referenced: 5.02, 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "MSC Income Fund Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001661306-26-000049",
-    "cik": "0001661306",
-    "company_name": "K - Hancock Park Corporate Income, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-06-30",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000049/0001661306-26-000049.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000049/0001661306-26-000049-index.html",
-    "tracked_name": "Hancock Park Corporate Income Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.02",
-    "openarena_output": "SEC Filing Analysis: K - Hancock Park Corporate Income, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.02\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 1.02\n\nD. Most Important Points\nHancock Park Corporate Income Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Hancock Park Corporate Income, Inc. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.02",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 1.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Hancock Park Corporate Income Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
