@@ -168,6 +168,41 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001901606-26-000026",
+    "cik": "0001901606",
+    "company_name": "Q - Golub Capital Direct Lending Unlevered Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000026/0001901606-26-000026.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000026/0001901606-26-000026-index.html",
+    "tracked_name": "Golub Capital Direct Lending Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": ": GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest",
+    "openarena_output": "SEC Filing Analysis: Q - Golub Capital Direct Lending Unlevered Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n: GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\n: GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest\n\nD. Most Important Points\nGolub Capital Direct Lending Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Golub Capital Direct Lending Unlevered Corp - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": ": GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured. : GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Golub Capital Direct Lending Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001655887-26-000016",
     "cik": "0001655887",
     "company_name": "Q - Blue Owl Capital Corp II",
@@ -268,6 +303,39 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001901606-26-000025",
+    "cik": "0001901606",
+    "company_name": "K - Golub Capital Direct Lending Unlevered Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000025/0001901606-26-000025.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000025/0001901606-26-000025-index.html",
+    "tracked_name": "Golub Capital Direct Lending Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Golub Capital Direct Lending Unlevered Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: direct lending, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nGolub Capital Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Golub Capital Direct Lending Unlevered Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Golub Capital Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2588,71 +2656,6 @@
     "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
     "whats_new": [
       "Matched keywords: credit fund. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Runway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-078363",
-    "cik": "0001794776",
-    "company_name": "K - Palmer Square Capital BDC Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-15",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1794776/000121390026078363/0001213900-26-078363.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1794776/000121390026078363/0001213900-26-078363-index.html",
-    "tracked_name": "Palmer Square Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Palmer Square Capital BDC Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 9.01\n\nD. Most Important Points\nPalmer Square Capital BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Palmer Square Capital BDC Inc. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Palmer Square Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-302607",
-    "cik": "0001653384",
-    "company_name": "K - Runway Growth Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526302607/0001193125-26-302607.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526302607/0001193125-26-302607-index.html",
-    "tracked_name": "Runway Growth Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, senior secured.\n8-K item sections referenced: 7.01, 9.01\n\nD. Most Important Points\nRunway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, senior secured. 8-K item sections referenced: 7.01, 9.01"
     ],
     "remaining_sections": {
       "most_important_points": [
