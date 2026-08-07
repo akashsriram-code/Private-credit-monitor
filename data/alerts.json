@@ -1,5 +1,72 @@
 [
   {
+    "accession_number": "0001396440-26-000094",
+    "cik": "0001396440",
+    "company_name": "Q - Main Street Capital CORP",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/0001396440-26-000094.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/0001396440-26-000094-index.html",
+    "tracked_name": "Main Street Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat",
+    "openarena_output": "SEC Filing Analysis: Q - Main Street Capital CORP - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nRios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat\n\nC. What's New\nMatched keywords: private debt.\nRios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat\n\nD. Most Important Points\nMain Street Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Main Street Capital CORP - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat",
+    "whats_new": [
+      "Matched keywords: private debt. Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Main Street Capital Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001661306-26-000068",
+    "cik": "0001661306",
+    "company_name": "Q - Hancock Park Corporate Income, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000068/0001661306-26-000068.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000068/0001661306-26-000068-index.html",
+    "tracked_name": "Hancock Park Corporate Income Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "opportunistic credit",
+      "senior secured",
+      "structured credit"
+    ],
+    "description": "ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act ",
+    "openarena_output": "SEC Filing Analysis: Q - Hancock Park Corporate Income, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act \n\nC. What's New\nMatched keywords: credit fund, opportunistic credit, senior secured, structured credit.\nate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act \n\nD. Most Important Points\nHancock Park Corporate Income Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Hancock Park Corporate Income, Inc. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act",
+    "whats_new": [
+      "Matched keywords: credit fund, opportunistic credit, senior secured, structured credit. ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Hancock Park Corporate Income Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001493152-26-036285",
     "cik": "0001509470",
     "company_name": "Q - Neostellar Capital Corp.",
@@ -2585,70 +2652,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001396440-26-000084",
-    "cik": "0001396440",
-    "company_name": "K - Main Street Capital CORP",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000084/0001396440-26-000084.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000084/0001396440-26-000084-index.html",
-    "tracked_name": "Main Street Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Main Street Capital CORP - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nMain Street Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Main Street Capital CORP - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Main Street Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001535778-26-000074",
-    "cik": "0001535778",
-    "company_name": "K - MSC INCOME FUND, INC.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000074/0001535778-26-000074.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000074/0001535778-26-000074-index.html",
-    "tracked_name": "MSC Income Fund Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - MSC INCOME FUND, INC. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nMSC Income Fund Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - MSC INCOME FUND, INC. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "MSC Income Fund Inc. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
