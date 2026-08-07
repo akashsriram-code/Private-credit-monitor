@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-339655",
+    "cik": "0001919369",
+    "company_name": "Q - VISTA CREDIT STRATEGIC LENDING CORP.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1919369/000119312526339655/0001193125-26-339655.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1919369/000119312526339655/0001193125-26-339655-index.html",
+    "tracked_name": "Vista Credit Strategic Lending Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac",
+    "openarena_output": "SEC Filing Analysis: Q - VISTA CREDIT STRATEGIC LENDING CORP. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nrespectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac\n\nC. What's New\nMatched keywords: private credit, senior secured.\nrespectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac\n\nD. Most Important Points\nVista Credit Strategic Lending Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - VISTA CREDIT STRATEGIC LENDING CORP. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Vista Credit Strategic Lending Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001396440-26-000094",
     "cik": "0001396440",
     "company_name": "Q - Main Street Capital CORP",
@@ -23,6 +56,38 @@
     "remaining_sections": {
       "most_important_points": [
         "Main Street Capital Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001535778-26-000085",
+    "cik": "0001535778",
+    "company_name": "Q - MSC INCOME FUND, INC.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000085/0001535778-26-000085.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000085/0001535778-26-000085-index.html",
+    "tracked_name": "MSC Income Fund Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti",
+    "openarena_output": "SEC Filing Analysis: Q - MSC INCOME FUND, INC. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nSC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti\n\nC. What's New\nMatched keywords: senior secured.\nSC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti\n\nD. Most Important Points\nMSC Income Fund Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - MSC INCOME FUND, INC. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti",
+    "whats_new": [
+      "Matched keywords: senior secured. SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "MSC Income Fund Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -62,6 +127,39 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000005272-26-000076",
+    "cik": "0000005272",
+    "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000076/0000005272-26-000076.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000076/0000005272-26-000076-index.html",
+    "tracked_name": "American International Group, Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu",
+    "openarena_output": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ndiversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu\n\nC. What's New\nMatched keywords: credit fund, private credit.\ndiversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu\n\nD. Most Important Points\nAmerican International Group, Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "American International Group, Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2557,105 +2655,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-299742",
-    "cik": "0001786108",
-    "company_name": "K - Trinity Capital Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1786108/000119312526299742/0001193125-26-299742.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1786108/000119312526299742/0001193125-26-299742-index.html",
-    "tracked_name": "Trinity Capital Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Trinity Capital Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 9.01\n\nC. What's New\nMatched keywords: private credit.\n8-K item sections referenced: 7.01, 9.01\n\nD. Most Important Points\nTrinity Capital Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Trinity Capital Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: private credit. 8-K item sections referenced: 7.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Trinity Capital Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-299312",
-    "cik": "0001965934",
-    "company_name": "K - Overland Advantage",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526299312/0001193125-26-299312.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526299312/0001193125-26-299312-index.html",
-    "tracked_name": "Overland Advantage",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Overland Advantage - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 9.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 1.01, 9.01\n\nD. Most Important Points\nOverland Advantage is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Overland Advantage - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 9.01",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 1.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Overland Advantage is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-299743",
-    "cik": "0001782524",
-    "company_name": "K - Morgan Stanley Direct Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1782524/000119312526299743/0001193125-26-299743.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1782524/000119312526299743/0001193125-26-299743-index.html",
-    "tracked_name": "Morgan Stanley Direct Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "private debt"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03",
-    "openarena_output": "SEC Filing Analysis: K - Morgan Stanley Direct Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: direct lending, lending fund, private debt.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nMorgan Stanley Direct Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Morgan Stanley Direct Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, private debt. 8-K item sections referenced: 1.01, 2.03"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
