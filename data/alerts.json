@@ -240,6 +240,41 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001628280-26-054923",
+    "cik": "0001918712",
+    "company_name": "Q - ARES STRATEGIC INCOME FUND",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026054923/0001628280-26-054923.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026054923/0001628280-26-054923-index.html",
+    "tracked_name": "Ares Strategic Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02",
+    "openarena_output": "SEC Filing Analysis: Q - ARES STRATEGIC INCOME FUND - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - ARES STRATEGIC INCOME FUND - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured. 8-K item sections referenced: 3.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Strategic Income Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000005272-26-000076",
     "cik": "0000005272",
     "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
@@ -2632,38 +2667,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-304889",
-    "cik": "0001653384",
-    "company_name": "K - Runway Growth Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-15",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526304889/0001193125-26-304889.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526304889/0001193125-26-304889-index.html",
-    "tracked_name": "Runway Growth Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nRunway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Runway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"

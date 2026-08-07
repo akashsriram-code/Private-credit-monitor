@@ -1,6 +1,6 @@
 {
   "mode": "github-pages-scheduled-poller",
-  "last_run": "2026-08-07T21:06:53.496733+00:00",
+  "last_run": "2026-08-07T21:54:59.564990+00:00",
   "last_error": null,
   "days_scanned": 7,
   "hours_lookback": 3,
@@ -27,7 +27,7 @@
     "credit income",
     "lending fund"
   ],
-  "new_alerts": 2,
+  "new_alerts": 1,
   "total_alerts": 80,
   "email_sent": true,
   "entities_tracked": 156,
