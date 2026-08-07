@@ -168,6 +168,43 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001655887-26-000016",
+    "cik": "0001655887",
+    "company_name": "Q - Blue Owl Capital Corp II",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000016/0001655887-26-000016.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000016/0001655887-26-000016-index.html",
+    "tracked_name": "Blue Owl Capital Corp. II",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "middle market lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ",
+    "openarena_output": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\na Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, middle market lending, private credit.\na Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ\n\nD. Most Important Points\nBlue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ",
+    "whats_new": [
+      "Matched keywords: credit fund, credit income, direct lending, middle market lending, private credit. a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000005272-26-000076",
     "cik": "0000005272",
     "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
@@ -196,6 +233,73 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-340235",
+    "cik": "0001950976",
+    "company_name": "Q - 26North BDC, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526340235/0001193125-26-340235.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526340235/0001193125-26-340235-index.html",
+    "tracked_name": "26North BDC Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C",
+    "openarena_output": "SEC Filing Analysis: Q - 26North BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit, senior secured.\nries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C\n\nD. Most Important Points\n26North BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - 26North BDC, Inc. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund, private credit, senior secured. ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "26North BDC Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-340236",
+    "cik": "0001527469",
+    "company_name": "K - Athene Holding Ltd.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1527469/000119312526340236/0001193125-26-340236.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1527469/000119312526340236/0001193125-26-340236-index.html",
+    "tracked_name": "Athene Holding Ltd.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 2.03, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.03, 8.01\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 2.03, 8.01\n\nD. Most Important Points\nAthene Holding Ltd. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.03, 8.01",
+    "whats_new": [
+      "Matched keywords: private debt. 8-K item sections referenced: 2.03, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Athene Holding Ltd. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2553,107 +2657,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Runway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002061670-26-000065",
-    "cik": "0002061670",
-    "company_name": "K - Monroe Capital Enhanced Corporate Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000065/0002061670-26-000065.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000065/0002061670-26-000065-index.html",
-    "tracked_name": "Monroe Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "lending fund"
-    ],
-    "description": "8-K item sections referenced: 5.07",
-    "openarena_output": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07\n\nC. What's New\nMatched keywords: lending fund.\n8-K item sections referenced: 5.07\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.07",
-    "whats_new": [
-      "Matched keywords: lending fund. 8-K item sections referenced: 5.07"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-302966",
-    "cik": "0001899996",
-    "company_name": "K - Fidelity Private Credit Co LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-07-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899996/000119312526302966/0001193125-26-302966.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1899996/000119312526302966/0001193125-26-302966-index.html",
-    "tracked_name": "Fidelity Private Credit Company LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Fidelity Private Credit Co LLC - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nFidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Fidelity Private Credit Co LLC - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Fidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001737924-26-000079",
-    "cik": "0001737924",
-    "company_name": "K - Nuveen Churchill Direct Lending Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1737924/000173792426000079/0001737924-26-000079.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1737924/000173792426000079/0001737924-26-000079-index.html",
-    "tracked_name": "Nuveen Churchill Direct Lending Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Nuveen Churchill Direct Lending Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: direct lending, senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nNuveen Churchill Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Nuveen Churchill Direct Lending Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Nuveen Churchill Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
