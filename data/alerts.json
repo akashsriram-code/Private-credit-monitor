@@ -33,6 +33,42 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001742313-26-000046",
+    "cik": "0001742313",
+    "company_name": "Q - Monroe Capital Income Plus Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1742313/000174231326000046/0001742313-26-000046.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1742313/000174231326000046/0001742313-26-000046-index.html",
+    "tracked_name": "Monroe Capital Income Plus Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "middle market lending",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where",
+    "openarena_output": "SEC Filing Analysis: Q - Monroe Capital Income Plus Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where\n\nC. What's New\nMatched keywords: direct lending, middle market lending, private credit, private debt, senior secured.\nulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where\n\nD. Most Important Points\nMonroe Capital Income Plus Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Monroe Capital Income Plus Corp - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where",
+    "whats_new": [
+      "Matched keywords: direct lending, middle market lending, private credit, private debt, senior secured. ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Income Plus Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001396440-26-000094",
     "cik": "0001396440",
     "company_name": "Q - Main Street Capital CORP",
@@ -2622,39 +2658,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001315863-26-000524",
-    "cik": "0002062135",
-    "company_name": "Monroe Capital Evergreen Private Credit Fund LP",
-    "form_type": "D",
-    "filed_date": "2026-07-09",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2062135/000131586326000524/0001315863-26-000524.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2062135/000131586326000524/0001315863-26-000524-index.html",
-    "tracked_name": "Monroe Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "GE: 20260709 EFFECTIVENESS DATE: 20260709 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Evergreen Private Credit Fund LP CENTRAL INDEX KEY: 0002062135 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: 021-59016",
-    "openarena_output": "SEC Filing Analysis: Monroe Capital Evergreen Private Credit Fund LP - D\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nGE: 20260709 EFFECTIVENESS DATE: 20260709 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Evergreen Private Credit Fund LP CENTRAL INDEX KEY: 0002062135 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: 021-59016\n\nC. What's New\nMatched keywords: credit fund, private credit.\nGE: 20260709 EFFECTIVENESS DATE: 20260709 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Evergreen Private Credit Fund LP CENTRAL INDEX KEY: 0002062135 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: 021-59016\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Monroe Capital Evergreen Private Credit Fund LP - D",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "GE: 20260709 EFFECTIVENESS DATE: 20260709 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Evergreen Private Credit Fund LP CENTRAL INDEX KEY: 0002062135 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: 021-59016",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. GE: 20260709 EFFECTIVENESS DATE: 20260709 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Evergreen Private Credit Fund LP CENTRAL INDEX KEY: 0002062135 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: D SEC ACT: 1933 Act SEC FILE NUMBER: 021-59016"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Corporation is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
