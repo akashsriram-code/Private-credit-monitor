@@ -1,5 +1,104 @@
 [
   {
+    "accession_number": "0001104659-26-093465",
+    "cik": "0001552198",
+    "company_name": "Q - WhiteHorse Finance, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093465/0001104659-26-093465.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093465/0001104659-26-093465-index.html",
+    "tracked_name": "WhiteHorse Finance Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa",
+    "openarena_output": "SEC Filing Analysis: Q - WhiteHorse Finance, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa\n\nC. What's New\nMatched keywords: senior secured.\n1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa\n\nD. Most Important Points\nWhiteHorse Finance Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - WhiteHorse Finance, Inc. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa",
+    "whats_new": [
+      "Matched keywords: senior secured. 1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "WhiteHorse Finance Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001913724-26-000024",
+    "cik": "0001913724",
+    "company_name": "Q - TPG Twin Brook Capital Income Fund",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000024/0001913724-26-000024.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000024/0001913724-26-000024-index.html",
+    "tracked_name": "TPG Twin Brook Capital Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "senior secured"
+    ],
+    "description": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees ",
+    "openarena_output": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nC. What's New\nMatched keywords: credit fund, senior secured.\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees",
+    "whats_new": [
+      "Matched keywords: credit fund, senior secured. s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-093435",
+    "cik": "0001551901",
+    "company_name": "Q - Stellus Capital Investment Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1551901/000110465926093435/0001104659-26-093435.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1551901/000110465926093435/0001104659-26-093435-index.html",
+    "tracked_name": "Stellus Capital Investment Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest ",
+    "openarena_output": "SEC Filing Analysis: Q - Stellus Capital Investment Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nn 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest \n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nn 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest \n\nD. Most Important Points\nStellus Capital Investment Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Stellus Capital Investment Corp - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, senior secured. n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stellus Capital Investment Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-342352",
     "cik": "0001504619",
     "company_name": "Q - PennantPark Floating Rate Capital Ltd.",
@@ -92,6 +191,40 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-342549",
+    "cik": "0001851322",
+    "company_name": "Q - North Haven Private Income Fund LLC",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526342549/0001193125-26-342549.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526342549/0001193125-26-342549-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs",
+    "openarena_output": "SEC Filing Analysis: Q - North Haven Private Income Fund LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs\n\nC. What's New\nMatched keywords: lending fund, private credit, senior secured.\nted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - North Haven Private Income Fund LLC - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs",
+    "whats_new": [
+      "Matched keywords: lending fund, private credit, senior secured. ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -233,6 +366,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001104659-26-093467",
+    "cik": "0001552198",
+    "company_name": "K - WhiteHorse Finance, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093467/0001104659-26-093467.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093467/0001104659-26-093467-index.html",
+    "tracked_name": "WhiteHorse Finance Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - WhiteHorse Finance, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: direct lending, senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nWhiteHorse Finance Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - WhiteHorse Finance, Inc. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "WhiteHorse Finance Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-341070",
     "cik": "0001920145",
     "company_name": "K - Goldman Sachs Private Credit Corp.",
@@ -290,6 +456,38 @@
     "remaining_sections": {
       "most_important_points": [
         "Crescent Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-055335",
+    "cik": "0001838126",
+    "company_name": "I - HPS Corporate Lending Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026055335/0001628280-26-055335.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026055335/0001628280-26-055335-index.html",
+    "tracked_name": "HPS Corporate Lending Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "lending fund"
+    ],
+    "description": "D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
+    "openarena_output": "SEC Filing Analysis: I - HPS Corporate Lending Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nD AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nC. What's New\nMatched keywords: lending fund.\nD AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nD. Most Important Points\nHPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - HPS Corporate Lending Fund - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
+    "whats_new": [
+      "Matched keywords: lending fund. D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "HPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2474,200 +2672,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Apollo Debt Solutions BDC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001859919-26-000064",
-    "cik": "0001859919",
-    "company_name": "I/A - Barings Private Credit Corp",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-07-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000064/0001859919-26-000064.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000064/0001859919-26-000064-index.html",
-    "tracked_name": "Barings Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "description": "1 FILED AS OF DATE: 20260723 DATE AS OF CHANGE: 20260723 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMB",
-    "openarena_output": "SEC Filing Analysis: I/A - Barings Private Credit Corp - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n1 FILED AS OF DATE: 20260723 DATE AS OF CHANGE: 20260723 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMB\n\nC. What's New\nMatched keywords: private credit.\n1 FILED AS OF DATE: 20260723 DATE AS OF CHANGE: 20260723 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMB\n\nD. Most Important Points\nBarings Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Barings Private Credit Corp - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "1 FILED AS OF DATE: 20260723 DATE AS OF CHANGE: 20260723 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMB",
-    "whats_new": [
-      "Matched keywords: private credit. 1 FILED AS OF DATE: 20260723 DATE AS OF CHANGE: 20260723 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMB"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Barings Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001580642-26-004541",
-    "cik": "0001825265",
-    "company_name": "K - TCW Direct Lending VIII LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-07-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825265/000158064226004541/0001580642-26-004541.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1825265/000158064226004541/0001580642-26-004541-index.html",
-    "tracked_name": "TCW Direct Lending VIII LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending"
-    ],
-    "description": "8-K item sections referenced: 5.07",
-    "openarena_output": "SEC Filing Analysis: K - TCW Direct Lending VIII LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07\n\nC. What's New\nMatched keywords: direct lending.\n8-K item sections referenced: 5.07\n\nD. Most Important Points\nTCW Direct Lending VIII LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - TCW Direct Lending VIII LLC - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.07",
-    "whats_new": [
-      "Matched keywords: direct lending. 8-K item sections referenced: 5.07"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending VIII LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001580642-26-004542",
-    "cik": "0001715933",
-    "company_name": "K - TCW Direct Lending VII LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-07-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1715933/000158064226004542/0001580642-26-004542.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1715933/000158064226004542/0001580642-26-004542-index.html",
-    "tracked_name": "TCW Direct Lending VII LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending"
-    ],
-    "description": "8-K item sections referenced: 5.07",
-    "openarena_output": "SEC Filing Analysis: K - TCW Direct Lending VII LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07\n\nC. What's New\nMatched keywords: direct lending.\n8-K item sections referenced: 5.07\n\nD. Most Important Points\nTCW Direct Lending VII LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - TCW Direct Lending VII LLC - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.07",
-    "whats_new": [
-      "Matched keywords: direct lending. 8-K item sections referenced: 5.07"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending VII LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001580642-26-004543",
-    "cik": "0001603480",
-    "company_name": "K - TCW Direct Lending LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-07-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1603480/000158064226004543/0001580642-26-004543.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1603480/000158064226004543/0001580642-26-004543-index.html",
-    "tracked_name": "TCW Direct Lending LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending"
-    ],
-    "description": "8-K item sections referenced: 5.07",
-    "openarena_output": "SEC Filing Analysis: K - TCW Direct Lending LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07\n\nC. What's New\nMatched keywords: direct lending.\n8-K item sections referenced: 5.07\n\nD. Most Important Points\nTCW Direct Lending LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - TCW Direct Lending LLC - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.07",
-    "whats_new": [
-      "Matched keywords: direct lending. 8-K item sections referenced: 5.07"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-085672",
-    "cik": "0002031283",
-    "company_name": "K - Stone Point Credit Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926085672/0001104659-26-085672.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926085672/0001104659-26-085672-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "8-K item sections referenced: 3.02",
-    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit income.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02",
-    "whats_new": [
-      "Matched keywords: credit income. 8-K item sections referenced: 3.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-085912",
-    "cik": "0001287750",
-    "company_name": "K - ARES CAPITAL CORP",
-    "form_type": "8-K",
-    "filed_date": "2026-07-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926085912/0001104659-26-085912.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926085912/0001104659-26-085912-index.html",
-    "tracked_name": "Ares Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - ARES CAPITAL CORP - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: direct lending, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nAres Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - ARES CAPITAL CORP - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Capital Corporation is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
