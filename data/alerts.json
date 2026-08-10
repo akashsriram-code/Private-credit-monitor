@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001193125-26-341070",
+    "cik": "0001920145",
+    "company_name": "K - Goldman Sachs Private Credit Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526341070/0001193125-26-341070.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526341070/0001193125-26-341070-index.html",
+    "tracked_name": "Goldman Sachs Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-339655",
     "cik": "0001919369",
     "company_name": "Q - VISTA CREDIT STRATEGIC LENDING CORP.",
@@ -2630,39 +2664,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Barings Private Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-307794",
-    "cik": "0001899017",
-    "company_name": "K - Bain Capital Private Credit",
-    "form_type": "8-K",
-    "filed_date": "2026-07-17",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526307794/0001193125-26-307794.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526307794/0001193125-26-307794-index.html",
-    "tracked_name": "Bain Capital Private Credit",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.03, 1.01",
-    "openarena_output": "SEC Filing Analysis: K - Bain Capital Private Credit - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.03, 1.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 2.03, 1.01\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Bain Capital Private Credit - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.03, 1.01",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 2.03, 1.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Bain Capital Private Credit is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
