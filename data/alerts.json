@@ -33,6 +33,177 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-344703",
+    "cik": "0001885968",
+    "company_name": "Q - T Series BDC LLC",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1885968/000119312526344703/0001193125-26-344703.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1885968/000119312526344703/0001193125-26-344703-index.html",
+    "tracked_name": "T Series Middle Market Loan Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "based incentive fees and no capital gains incentive fees payable to the Investment Adviser. Administration Agreement MS Private Credit Administrative Services LLC, an indirect, wholly owned subsidiary of Morgan Stanley (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to an administration a",
+    "openarena_output": "SEC Filing Analysis: Q - T Series BDC LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nbased incentive fees and no capital gains incentive fees payable to the Investment Adviser. Administration Agreement MS Private Credit Administrative Services LLC, an indirect, wholly owned subsidiary of Morgan Stanley (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to an administration a\n\nC. What's New\nMatched keywords: private credit, senior secured.\nbased incentive fees and no capital gains incentive fees payable to the Investment Adviser. Administration Agreement MS Private Credit Administrative Services LLC, an indirect, wholly owned subsidiary of Morgan Stanley (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to an administration a\n\nD. Most Important Points\nT Series Middle Market Loan Fund LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - T Series BDC LLC - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "based incentive fees and no capital gains incentive fees payable to the Investment Adviser. Administration Agreement MS Private Credit Administrative Services LLC, an indirect, wholly owned subsidiary of Morgan Stanley (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to an administration a",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. based incentive fees and no capital gains incentive fees payable to the Investment Adviser. Administration Agreement MS Private Credit Administrative Services LLC, an indirect, wholly owned subsidiary of Morgan Stanley (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to an administration a"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "T Series Middle Market Loan Fund LLC is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001925531-26-000014",
+    "cik": "0001925531",
+    "company_name": "Q - New Mountain Guardian IV BDC, L.L.C.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1925531/000192553126000014/0001925531-26-000014.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1925531/000192553126000014/0001925531-26-000014-index.html",
+    "tracked_name": "New Mountain Guardian IV BDC LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "nmg4:FundedDebtSecuritiesMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 Ivy Hill Middle Market Credit Fund, Ltd | Structured Finance Obligations 2026-06-30 0001925531 country:US nmg4:StructuredFinanceObligationsMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 us-gaap:Inve",
+    "openarena_output": "SEC Filing Analysis: Q - New Mountain Guardian IV BDC, L.L.C. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nnmg4:FundedDebtSecuritiesMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 Ivy Hill Middle Market Credit Fund, Ltd | Structured Finance Obligations 2026-06-30 0001925531 country:US nmg4:StructuredFinanceObligationsMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 us-gaap:Inve\n\nC. What's New\nMatched keywords: credit fund, direct lending, senior secured.\nnmg4:FundedDebtSecuritiesMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 Ivy Hill Middle Market Credit Fund, Ltd | Structured Finance Obligations 2026-06-30 0001925531 country:US nmg4:StructuredFinanceObligationsMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 us-gaap:Inve\n\nD. Most Important Points\nNew Mountain Guardian IV BDC LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - New Mountain Guardian IV BDC, L.L.C. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "nmg4:FundedDebtSecuritiesMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 Ivy Hill Middle Market Credit Fund, Ltd | Structured Finance Obligations 2026-06-30 0001925531 country:US nmg4:StructuredFinanceObligationsMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 us-gaap:Inve",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, senior secured. nmg4:FundedDebtSecuritiesMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 Ivy Hill Middle Market Credit Fund, Ltd | Structured Finance Obligations 2026-06-30 0001925531 country:US nmg4:StructuredFinanceObligationsMember us-gaap:InvestmentUnaffiliatedIssuerMember 2026-06-30 0001925531 us-gaap:Inve"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "New Mountain Guardian IV BDC LLC is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001930087-26-000099",
+    "cik": "0001930087",
+    "company_name": "Q - Golub Capital Private Credit Fund",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000099/0001930087-26-000099.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000099/0001930087-26-000099-index.html",
+    "tracked_name": "Golub Capital Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "LED AS OF DATE: 20260811 DATE AS OF CHANGE: 20260811 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01555 FILM NUMBER: 261263284 BUS",
+    "openarena_output": "SEC Filing Analysis: Q - Golub Capital Private Credit Fund - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260811 DATE AS OF CHANGE: 20260811 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01555 FILM NUMBER: 261263284 BUS\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\nLED AS OF DATE: 20260811 DATE AS OF CHANGE: 20260811 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01555 FILM NUMBER: 261263284 BUS\n\nD. Most Important Points\nGolub Capital Private Credit Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Golub Capital Private Credit Fund - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "LED AS OF DATE: 20260811 DATE AS OF CHANGE: 20260811 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01555 FILM NUMBER: 261263284 BUS",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured. LED AS OF DATE: 20260811 DATE AS OF CHANGE: 20260811 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01555 FILM NUMBER: 261263284 BUS"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Golub Capital Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001702510-26-000084",
+    "cik": "0001702510",
+    "company_name": "Q - Carlyle Credit Solutions, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1702510/000170251026000084/0001702510-26-000084.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1702510/000170251026000084/0001702510-26-000084-index.html",
+    "tracked_name": "Carlyle Credit Solutions Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured",
+      "structured credit"
+    ],
+    "description": "td. | Structured Credit 2 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | OHA Credit Funding 14-R Ltd. | Structured Credit 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | Pikes Peak CLO 8 | Structured Credit 2026-06-30 0001702510 Invest",
+    "openarena_output": "SEC Filing Analysis: Q - Carlyle Credit Solutions, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ntd. | Structured Credit 2 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | OHA Credit Funding 14-R Ltd. | Structured Credit 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | Pikes Peak CLO 8 | Structured Credit 2026-06-30 0001702510 Invest\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured, structured credit.\ntd. | Structured Credit 2 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | OHA Credit Funding 14-R Ltd. | Structured Credit 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | Pikes Peak CLO 8 | Structured Credit 2026-06-30 0001702510 Invest\n\nD. Most Important Points\nCarlyle Credit Solutions Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Carlyle Credit Solutions, Inc. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "td. | Structured Credit 2 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | OHA Credit Funding 14-R Ltd. | Structured Credit 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | Pikes Peak CLO 8 | Structured Credit 2026-06-30 0001702510 Invest",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured, structured credit. td. | Structured Credit 2 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | OHA Credit Funding 14-R Ltd. | Structured Credit 2026-06-30 0001702510 Investment | Non-Affiliated Issuer | Structured Credit Investment | Pikes Peak CLO 8 | Structured Credit 2026-06-30 0001702510 Invest"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Carlyle Credit Solutions Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001930087-26-000101",
+    "cik": "0001930087",
+    "company_name": "I/A - Golub Capital Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000101/0001930087-26-000101.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000101/0001930087-26-000101-index.html",
+    "tracked_name": "Golub Capital Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "DATE: 20260811 DATE AS OF CHANGE: 20260811 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26126336",
+    "openarena_output": "SEC Filing Analysis: I/A - Golub Capital Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nDATE: 20260811 DATE AS OF CHANGE: 20260811 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26126336\n\nC. What's New\nMatched keywords: credit fund, private credit.\nDATE: 20260811 DATE AS OF CHANGE: 20260811 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26126336\n\nD. Most Important Points\nGolub Capital Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Golub Capital Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "DATE: 20260811 DATE AS OF CHANGE: 20260811 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26126336",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. DATE: 20260811 DATE AS OF CHANGE: 20260811 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26126336"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Golub Capital Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-093465",
     "cik": "0001552198",
     "company_name": "Q - WhiteHorse Finance, Inc.",
@@ -2504,175 +2675,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002155",
-    "cik": "0002008748",
-    "company_name": "K - Lord Abbett Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002155/0000930413-26-002155.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002155/0000930413-26-002155-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-081414",
-    "cik": "0001736035",
-    "company_name": "K - Blackstone Secured Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026081414/0001213900-26-081414.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026081414/0001213900-26-081414-index.html",
-    "tracked_name": "Blackstone Secured Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "lending fund"
-    ],
-    "description": "8-K item sections referenced: 5.02",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, lending fund.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02",
-    "whats_new": [
-      "Matched keywords: credit fund, lending fund. 8-K item sections referenced: 5.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-081411",
-    "cik": "0001803498",
-    "company_name": "K - Blackstone Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026081411/0001213900-26-081411.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026081411/0001213900-26-081411-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 5.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-086133",
-    "cik": "0002031283",
-    "company_name": "K - Stone Point Credit Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926086133/0001104659-26-086133.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926086133/0001104659-26-086133-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "credit income",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund, credit income, private credit, senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, credit income, private credit, senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001803498-26-000039",
-    "cik": "0001803498",
-    "company_name": "K - Blackstone Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-23",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000039/0001803498-26-000039.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000039/0001803498-26-000039-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "private debt"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, private debt.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, private debt. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
