@@ -66,6 +66,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-344935",
+    "cik": "0001905824",
+    "company_name": "Q - PIMCO Capital Solutions BDC Corp.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1905824/000119312526344935/0001193125-26-344935.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1905824/000119312526344935/0001193125-26-344935-index.html",
+    "tracked_name": "PIMCO Capital Solutions BDC Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "f U.S. corporate issuers, including broadly syndicated loans, which may provide more liquidity than the Company&#8217;s private credit investments. Depending on various factors, including, without limitation, the Company&#8217;s cash flows, the state of the loan market, and the need to quickly ramp-up the Company&#8217",
+    "openarena_output": "SEC Filing Analysis: Q - PIMCO Capital Solutions BDC Corp. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nf U.S. corporate issuers, including broadly syndicated loans, which may provide more liquidity than the Company&#8217;s private credit investments. Depending on various factors, including, without limitation, the Company&#8217;s cash flows, the state of the loan market, and the need to quickly ramp-up the Company&#8217\n\nC. What's New\nMatched keywords: private credit, senior secured.\nf U.S. corporate issuers, including broadly syndicated loans, which may provide more liquidity than the Company&#8217;s private credit investments. Depending on various factors, including, without limitation, the Company&#8217;s cash flows, the state of the loan market, and the need to quickly ramp-up the Company&#8217\n\nD. Most Important Points\nPIMCO Capital Solutions BDC Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - PIMCO Capital Solutions BDC Corp. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "f U.S. corporate issuers, including broadly syndicated loans, which may provide more liquidity than the Company&#8217;s private credit investments. Depending on various factors, including, without limitation, the Company&#8217;s cash flows, the state of the loan market, and the need to quickly ramp-up the Company&#8217",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. f U.S. corporate issuers, including broadly syndicated loans, which may provide more liquidity than the Company&#8217;s private credit investments. Depending on various factors, including, without limitation, the Company&#8217;s cash flows, the state of the loan market, and the need to quickly ramp-up the Company&#8217"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "PIMCO Capital Solutions BDC Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001925531-26-000014",
     "cik": "0001925531",
     "company_name": "Q - New Mountain Guardian IV BDC, L.L.C.",
@@ -166,6 +199,39 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-094146",
+    "cik": "0001895316",
+    "company_name": "Q - Brightwood Capital Corp I",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926094146/0001104659-26-094146.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926094146/0001104659-26-094146-index.html",
+    "tracked_name": "Brightwood Capital Corp I",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "senior secured"
+    ],
+    "description": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of ",
+    "openarena_output": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nC. What's New\nMatched keywords: credit income, senior secured.\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nD. Most Important Points\nBrightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of",
+    "whats_new": [
+      "Matched keywords: credit income, senior secured. Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Brightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2612,73 +2678,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-317666",
-    "cik": "0001950803",
-    "company_name": "I/A - Stepstone Private Credit Fund LLC",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-07-27",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526317666/0001193125-26-317666.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526317666/0001193125-26-317666-index.html",
-    "tracked_name": "StepStone Private Credit Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
-    "openarena_output": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. OF DATE: 20260727 DATE AS OF CHANGE: 20260727 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002156",
-    "cik": "0002041841",
-    "company_name": "K - Lord Abbett Private Credit Fund S",
-    "form_type": "8-K",
-    "filed_date": "2026-07-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002156/0000930413-26-002156.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002156/0000930413-26-002156-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
