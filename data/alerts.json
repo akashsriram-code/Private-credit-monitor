@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001193125-26-346072",
+    "cik": "0001634452",
+    "company_name": "I/A - AB Private Credit Investors Corp",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-08-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526346072/0001193125-26-346072.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526346072/0001193125-26-346072-index.html",
+    "tracked_name": "AB Private Credit Investors Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "UNT: 1 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: AB Private Credit Investors Corp CENTRAL INDEX KEY: 0001634452 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC",
+    "openarena_output": "SEC Filing Analysis: I/A - AB Private Credit Investors Corp - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nUNT: 1 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: AB Private Credit Investors Corp CENTRAL INDEX KEY: 0001634452 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC\n\nC. What's New\nMatched keywords: private credit.\nUNT: 1 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: AB Private Credit Investors Corp CENTRAL INDEX KEY: 0001634452 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - AB Private Credit Investors Corp - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "UNT: 1 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: AB Private Credit Investors Corp CENTRAL INDEX KEY: 0001634452 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC",
+    "whats_new": [
+      "Matched keywords: private credit. UNT: 1 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: AB Private Credit Investors Corp CENTRAL INDEX KEY: 0001634452 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "AB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-344075",
     "cik": "0001784700",
     "company_name": "Q - Varagon Capital Corp",
@@ -2642,38 +2674,6 @@
     "remaining_sections": {
       "most_important_points": [
         "North Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-049827",
-    "cik": "0001838126",
-    "company_name": "K - HPS Corporate Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-07-27",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026049827/0001628280-26-049827.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026049827/0001628280-26-049827-index.html",
-    "tracked_name": "HPS Corporate Lending Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "lending fund"
-    ],
-    "description": "8-K item sections referenced: 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - HPS Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01\n\nC. What's New\nMatched keywords: lending fund.\n8-K item sections referenced: 7.01, 8.01\n\nD. Most Important Points\nHPS Corporate Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - HPS Corporate Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: lending fund. 8-K item sections referenced: 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "HPS Corporate Lending Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
