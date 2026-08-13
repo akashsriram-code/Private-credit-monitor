@@ -1,5 +1,106 @@
 [
   {
+    "accession_number": "0000930413-26-002500",
+    "cik": "0002041841",
+    "company_name": "Q - Lord Abbett Private Credit Fund S",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002500/0000930413-26-002500.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002500/0000930413-26-002500-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272",
+    "openarena_output": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund S - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund S - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, senior secured. FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000930413-26-002499",
+    "cik": "0002008748",
+    "company_name": "Q - Lord Abbett Private Credit Fund",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002499/0000930413-26-002499.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002499/0000930413-26-002499-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764",
+    "openarena_output": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, senior secured. FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-348682",
+    "cik": "0001633858",
+    "company_name": "Q - Audax Credit BDC Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633858/000119312526348682/0001193125-26-348682.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1633858/000119312526348682/0001193125-26-348682-index.html",
+    "tracked_name": "Audax Credit BDC Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua",
+    "openarena_output": "SEC Filing Analysis: Q - Audax Credit BDC Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua\n\nC. What's New\nMatched keywords: direct lending, senior secured.\nccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua\n\nD. Most Important Points\nAudax Credit BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Audax Credit BDC Inc. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua",
+    "whats_new": [
+      "Matched keywords: direct lending, senior secured. ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Audax Credit BDC Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-088673",
     "cik": "0001843162",
     "company_name": "K - Chicago Atlantic BDC, Inc.",
@@ -2582,105 +2683,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-089853",
-    "cik": "0001742313",
-    "company_name": "I - Monroe Capital Income Plus Corp",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-03",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1742313/000110465926089853/0001104659-26-089853.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1742313/000110465926089853/0001104659-26-089853-index.html",
-    "tracked_name": "Monroe Capital Income Plus Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in ",
-    "openarena_output": "SEC Filing Analysis: I - Monroe Capital Income Plus Corp - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in \n\nC. What's New\nMatched keywords: private credit, senior secured.\nctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in \n\nD. Most Important Points\nMonroe Capital Income Plus Corp. is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Monroe Capital Income Plus Corp - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. ctive risk-adjusted returns with the downside protection associated with investing in asset-based and secured corporate private credit opportunities in a manner that is decoupled from public markets&#8217; volatility. We seek to provide attractive risk-adjusted returns and downside protection by investing primarily in"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Income Plus Corp. is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-329904",
-    "cik": "0001920453",
-    "company_name": "I - Fidelity Private Credit Fund",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-03",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526329904/0001193125-26-329904.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526329904/0001193125-26-329904-index.html",
-    "tracked_name": "Fidelity Private Credit Company LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "S OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
-    "openarena_output": "SEC Filing Analysis: I - Fidelity Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nC. What's New\nMatched keywords: credit fund, private credit.\nS OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nD. Most Important Points\nFidelity Private Credit Company LLC is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Fidelity Private Credit Fund - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "S OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. S OF DATE: 20260803 DATE AS OF CHANGE: 20260803 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Fidelity Private Credit Company LLC is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-330882",
-    "cik": "0001899017",
-    "company_name": "I - Bain Capital Private Credit",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-03",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330882/0001193125-26-330882.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526330882/0001193125-26-330882-index.html",
-    "tracked_name": "Bain Capital Private Credit",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
-    "openarena_output": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nC. What's New\nMatched keywords: credit fund, private credit.\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
