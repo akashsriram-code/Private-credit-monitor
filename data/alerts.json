@@ -36,6 +36,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002149386-26-000003",
+    "cik": "0002149386",
+    "company_name": "Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund",
+    "form_type": "D",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2149386/000214938626000003/0002149386-26-000003.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2149386/000214938626000003/0002149386-26-000003-index.html",
+    "tracked_name": "Jefferies Credit Partners BDC Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund"
+    ],
+    "description": "ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T",
+    "openarena_output": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T\n\nD. Most Important Points\nJefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund - D",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund. ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Jefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-346657",
     "cik": "0001825265",
     "company_name": "Q - TCW Direct Lending VIII LLC",
@@ -2655,38 +2688,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-084087",
-    "cik": "0001259429",
-    "company_name": "K - Oxford Square Capital Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-31",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026084087/0001213900-26-084087.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026084087/0001213900-26-084087-index.html",
-    "tracked_name": "Oxford Square Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nOxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Oxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
