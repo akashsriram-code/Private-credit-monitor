@@ -36,6 +36,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002149416-26-000002",
+    "cik": "0002149416",
+    "company_name": "Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund",
+    "form_type": "D",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2149416/000214941626000002/0002149416-26-000002.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2149416/000214941626000002/0002149416-26-000002-index.html",
+    "tracked_name": "Jefferies Credit Partners BDC Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund"
+    ],
+    "description": "Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T",
+    "openarena_output": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T\n\nD. Most Important Points\nJefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund - D",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund. Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Jefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0002149386-26-000003",
     "cik": "0002149386",
     "company_name": "Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund",
@@ -2648,42 +2681,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001823945-26-000040",
-    "cik": "0001823945",
-    "company_name": "Q - BLUE OWL CAPITAL INC.",
-    "form_type": "10-Q",
-    "filed_date": "2026-07-31",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1823945/000182394526000040/0001823945-26-000040.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1823945/000182394526000040/0001823945-26-000040-index.html",
-    "tracked_name": "Blue Owl Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "asset-backed finance",
-      "credit fund",
-      "credit income",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen",
-    "openarena_output": "SEC Filing Analysis: Q - BLUE OWL CAPITAL INC. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen\n\nC. What's New\nMatched keywords: asset-backed finance, credit fund, credit income, direct lending, private credit.\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen\n\nD. Most Important Points\nBlue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - BLUE OWL CAPITAL INC. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen",
-    "whats_new": [
-      "Matched keywords: asset-backed finance, credit fund, credit income, direct lending, private credit. uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
