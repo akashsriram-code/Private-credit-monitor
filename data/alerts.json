@@ -1,5 +1,41 @@
 [
   {
+    "accession_number": "0001213900-26-088673",
+    "cik": "0001843162",
+    "company_name": "K - Chicago Atlantic BDC, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1843162/000121390026088673/0001213900-26-088673.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1843162/000121390026088673/0001213900-26-088673-index.html",
+    "tracked_name": "Chicago Atlantic BDC Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured",
+      "structured credit"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Chicago Atlantic BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured, structured credit.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nChicago Atlantic BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Chicago Atlantic BDC, Inc. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured, structured credit. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Chicago Atlantic BDC Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-346657",
     "cik": "0001825265",
     "company_name": "Q - TCW Direct Lending VIII LLC",
@@ -2643,38 +2679,6 @@
     "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
     "whats_new": [
       "Matched keywords: senior secured. 8-K item sections referenced: 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Oxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-083625",
-    "cik": "0001259429",
-    "company_name": "K - Oxford Square Capital Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-07-31",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026083625/0001213900-26-083625.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1259429/000121390026083625/0001213900-26-083625-index.html",
-    "tracked_name": "Oxford Square Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nOxford Square Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Oxford Square Capital Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
     ],
     "remaining_sections": {
       "most_important_points": [
