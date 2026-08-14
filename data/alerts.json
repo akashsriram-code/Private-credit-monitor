@@ -1,5 +1,40 @@
 [
   {
+    "accession_number": "0001104659-26-097359",
+    "cik": "0002077250",
+    "company_name": "Q - Stone Point Credit Income Fund - Select",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2077250/000110465926097359/0001104659-26-097359.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2077250/000110465926097359/0001104659-26-097359-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N",
+    "openarena_output": "SEC Filing Analysis: Q - Stone Point Credit Income Fund - Select - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N\n\nC. What's New\nMatched keywords: credit income, direct lending, private credit, senior secured.\n0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Stone Point Credit Income Fund - Select - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N",
+    "whats_new": [
+      "Matched keywords: credit income, direct lending, private credit, senior secured. 0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-352549",
     "cik": "0001825384",
     "company_name": "Q - Stone Point Credit Corp",
@@ -90,6 +125,38 @@
     "remaining_sections": {
       "most_important_points": [
         "MSD Investment Corp is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-352658",
+    "cik": "0001578348",
+    "company_name": "Q - Investcorp Credit Management BDC, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1578348/000119312526352658/0001193125-26-352658.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1578348/000119312526352658/0001193125-26-352658-index.html",
+    "tracked_name": "Investcorp Credit Management BDC Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "OvernightIndexSwapRateMember icmb:ThreeMonthSofrMember 2026-06-30 0001578348 Non-Controlled/Non-Affiliated Investments, Senior Secured First Lien Debt Investments, Insurance, Asurion, LLC Term Loan, Interest Rate 1M S + 4.00%, Maturity Date 8/21/2028 2025-12-31 0001578348 Investment in non-controlled, Affiliated Invest",
+    "openarena_output": "SEC Filing Analysis: Q - Investcorp Credit Management BDC, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOvernightIndexSwapRateMember icmb:ThreeMonthSofrMember 2026-06-30 0001578348 Non-Controlled/Non-Affiliated Investments, Senior Secured First Lien Debt Investments, Insurance, Asurion, LLC Term Loan, Interest Rate 1M S + 4.00%, Maturity Date 8/21/2028 2025-12-31 0001578348 Investment in non-controlled, Affiliated Invest\n\nC. What's New\nMatched keywords: senior secured.\nOvernightIndexSwapRateMember icmb:ThreeMonthSofrMember 2026-06-30 0001578348 Non-Controlled/Non-Affiliated Investments, Senior Secured First Lien Debt Investments, Insurance, Asurion, LLC Term Loan, Interest Rate 1M S + 4.00%, Maturity Date 8/21/2028 2025-12-31 0001578348 Investment in non-controlled, Affiliated Invest\n\nD. Most Important Points\nInvestcorp Credit Management BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Investcorp Credit Management BDC, Inc. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OvernightIndexSwapRateMember icmb:ThreeMonthSofrMember 2026-06-30 0001578348 Non-Controlled/Non-Affiliated Investments, Senior Secured First Lien Debt Investments, Insurance, Asurion, LLC Term Loan, Interest Rate 1M S + 4.00%, Maturity Date 8/21/2028 2025-12-31 0001578348 Investment in non-controlled, Affiliated Invest",
+    "whats_new": [
+      "Matched keywords: senior secured. OvernightIndexSwapRateMember icmb:ThreeMonthSofrMember 2026-06-30 0001578348 Non-Controlled/Non-Affiliated Investments, Senior Secured First Lien Debt Investments, Insurance, Asurion, LLC Term Loan, Interest Rate 1M S + 4.00%, Maturity Date 8/21/2028 2025-12-31 0001578348 Investment in non-controlled, Affiliated Invest"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Investcorp Credit Management BDC Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2617,71 +2684,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Oaktree Specialty Lending Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001099219-26-000048",
-    "cik": "0001099219",
-    "company_name": "K - METLIFE INC",
-    "form_type": "8-K",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000048/0001099219-26-000048.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000048/0001099219-26-000048-index.html",
-    "tracked_name": "MetLife, Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 2.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - METLIFE INC - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: direct lending, private credit.\n8-K item sections referenced: 2.02, 7.01, 8.01\n\nD. Most Important Points\nMetLife, Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - METLIFE INC - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit. 8-K item sections referenced: 2.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "MetLife, Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001747777-26-000027",
-    "cik": "0001747777",
-    "company_name": "K - Blue Owl Technology Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1747777/000174777726000027/0001747777-26-000027.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1747777/000174777726000027/0001747777-26-000027-index.html",
-    "tracked_name": "Blue Owl Technology Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nBlue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
