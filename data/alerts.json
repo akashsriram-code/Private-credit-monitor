@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001104659-26-096954",
+    "cik": "0002125316",
+    "company_name": "Q - Monroe Capital Asset-Backed Finance Company, LP",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2125316/000110465926096954/0001104659-26-096954.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2125316/000110465926096954/0001104659-26-096954-index.html",
+    "tracked_name": "Monroe Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "asset-backed finance",
+      "private credit"
+    ],
+    "description": "0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA",
+    "openarena_output": "SEC Filing Analysis: Q - Monroe Capital Asset-Backed Finance Company, LP - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA\n\nC. What's New\nMatched keywords: asset-backed finance, private credit.\n0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Monroe Capital Asset-Backed Finance Company, LP - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA",
+    "whats_new": [
+      "Matched keywords: asset-backed finance, private credit. 0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001901164-26-000022",
     "cik": "0001901164",
     "company_name": "Q - T. Rowe Price OHA Select Private Credit Fund",
@@ -2651,39 +2684,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-331631",
-    "cik": "0001803498",
-    "company_name": "I - Blackstone Private Credit Fund",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000119312526331631/0001193125-26-331631.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000119312526331631/0001193125-26-331631-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261235673 ",
-    "openarena_output": "SEC Filing Analysis: I - Blackstone Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261235673 \n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261235673 \n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Blackstone Private Credit Fund - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261235673",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261235673"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
