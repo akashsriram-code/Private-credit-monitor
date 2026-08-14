@@ -33,6 +33,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-352436",
+    "cik": "0001849894",
+    "company_name": "Q - MSD Investment Corp.",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1849894/000119312526352436/0001193125-26-352436.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1849894/000119312526352436/0001193125-26-352436-index.html",
+    "tracked_name": "MSD Investment Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: Q - MSD Investment Corp. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nMSD Investment Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - MSD Investment Corp. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "MSD Investment Corp is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-352198",
     "cik": "0002017636",
     "company_name": "Q - CCS IX Portfolio Holdings, LLC",
@@ -98,6 +130,38 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-352442",
+    "cik": "0001872371",
+    "company_name": "I - Oaktree Strategic Credit Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526352442/0001193125-26-352442.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526352442/0001193125-26-352442-index.html",
+    "tracked_name": "Oaktree Strategic Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund"
+    ],
+    "description": "OF DATE: 20260814 DATE AS OF CHANGE: 20260814 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261282749 B",
+    "openarena_output": "SEC Filing Analysis: I - Oaktree Strategic Credit Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260814 DATE AS OF CHANGE: 20260814 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261282749 B\n\nC. What's New\nMatched keywords: credit fund.\nOF DATE: 20260814 DATE AS OF CHANGE: 20260814 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261282749 B\n\nD. Most Important Points\nOaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Oaktree Strategic Credit Fund - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20260814 DATE AS OF CHANGE: 20260814 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261282749 B",
+    "whats_new": [
+      "Matched keywords: credit fund. OF DATE: 20260814 DATE AS OF CHANGE: 20260814 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261282749 B"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Oaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2620,75 +2684,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001437749-26-025691",
-    "cik": "0001487428",
-    "company_name": "K - Horizon Technology Finance Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1487428/000143774926025691/0001437749-26-025691.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1487428/000143774926025691/0001437749-26-025691-index.html",
-    "tracked_name": "Horizon Technology Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "private credit",
-      "structured credit"
-    ],
-    "description": "8-K item sections referenced: 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Horizon Technology Finance Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: direct lending, private credit, structured credit.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nHorizon Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Horizon Technology Finance Corp - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit, structured credit. 8-K item sections referenced: 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Horizon Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001437749-26-025688",
-    "cik": "0001487428",
-    "company_name": "K - Horizon Technology Finance Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1487428/000143774926025688/0001437749-26-025688.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1487428/000143774926025688/0001437749-26-025688-index.html",
-    "tracked_name": "Horizon Technology Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "private credit",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Horizon Technology Finance Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: direct lending, private credit, senior secured, structured credit.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nHorizon Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Horizon Technology Finance Corp - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit, senior secured, structured credit. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Horizon Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
