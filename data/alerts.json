@@ -33,6 +33,76 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-352198",
+    "cik": "0002017636",
+    "company_name": "Q - CCS IX Portfolio Holdings, LLC",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2017636/000119312526352198/0001193125-26-352198.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2017636/000119312526352198/0001193125-26-352198-index.html",
+    "tracked_name": "CCS IX Portfolio Holdings",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "r and administrator, respectively, of Crescent Capital BDC, Inc., a publicly-traded BDC since 2015 and Crescent Private Credit Income Corp., a non-traded BDC since 2022. Our investment objective is to provide unitholders with current income and long-term capital appreciation through investments in securities related to",
+    "openarena_output": "SEC Filing Analysis: Q - CCS IX Portfolio Holdings, LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nr and administrator, respectively, of Crescent Capital BDC, Inc., a publicly-traded BDC since 2015 and Crescent Private Credit Income Corp., a non-traded BDC since 2022. Our investment objective is to provide unitholders with current income and long-term capital appreciation through investments in securities related to\n\nC. What's New\nMatched keywords: credit income, private credit, senior secured.\nr and administrator, respectively, of Crescent Capital BDC, Inc., a publicly-traded BDC since 2015 and Crescent Private Credit Income Corp., a non-traded BDC since 2022. Our investment objective is to provide unitholders with current income and long-term capital appreciation through investments in securities related to\n\nD. Most Important Points\nCCS IX Portfolio Holdings is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - CCS IX Portfolio Holdings, LLC - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "r and administrator, respectively, of Crescent Capital BDC, Inc., a publicly-traded BDC since 2015 and Crescent Private Credit Income Corp., a non-traded BDC since 2022. Our investment objective is to provide unitholders with current income and long-term capital appreciation through investments in securities related to",
+    "whats_new": [
+      "Matched keywords: credit income, private credit, senior secured. r and administrator, respectively, of Crescent Capital BDC, Inc., a publicly-traded BDC since 2015 and Crescent Private Credit Income Corp., a non-traded BDC since 2022. Our investment objective is to provide unitholders with current income and long-term capital appreciation through investments in securities related to"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "CCS IX Portfolio Holdings is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-352137",
+    "cik": "0001634452",
+    "company_name": "Q - AB Private Credit Investors Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-08-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526352137/0001193125-26-352137.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526352137/0001193125-26-352137-index.html",
+    "tracked_name": "AB Private Credit Investors Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "the Term SOFR Reference Rate, or the weighted average of the Commercial Paper Rate, the Liquidity Funding Rate and the Credit Funding Rate (each as defined in the Natixis Credit Agreement, the &#8220;Applicable Rate&#8221;), in each case, plus a margin. Advances used to finance the purchase or origination of any eligib",
+    "openarena_output": "SEC Filing Analysis: Q - AB Private Credit Investors Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nthe Term SOFR Reference Rate, or the weighted average of the Commercial Paper Rate, the Liquidity Funding Rate and the Credit Funding Rate (each as defined in the Natixis Credit Agreement, the &#8220;Applicable Rate&#8221;), in each case, plus a margin. Advances used to finance the purchase or origination of any eligib\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\nthe Term SOFR Reference Rate, or the weighted average of the Commercial Paper Rate, the Liquidity Funding Rate and the Credit Funding Rate (each as defined in the Natixis Credit Agreement, the &#8220;Applicable Rate&#8221;), in each case, plus a margin. Advances used to finance the purchase or origination of any eligib\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - AB Private Credit Investors Corp - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "the Term SOFR Reference Rate, or the weighted average of the Commercial Paper Rate, the Liquidity Funding Rate and the Credit Funding Rate (each as defined in the Natixis Credit Agreement, the &#8220;Applicable Rate&#8221;), in each case, plus a margin. Advances used to finance the purchase or origination of any eligib",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. the Term SOFR Reference Rate, or the weighted average of the Commercial Paper Rate, the Liquidity Funding Rate and the Credit Funding Rate (each as defined in the Natixis Credit Agreement, the &#8220;Applicable Rate&#8221;), in each case, plus a margin. Advances used to finance the purchase or origination of any eligib"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "AB Private Credit Investors Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001901164-26-000022",
     "cik": "0001901164",
     "company_name": "Q - T. Rowe Price OHA Select Private Credit Fund",
@@ -2615,75 +2685,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Horizon Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001527469-26-000047",
-    "cik": "0001527469",
-    "company_name": "K - Athene Holding Ltd.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000047/0001527469-26-000047.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000047/0001527469-26-000047-index.html",
-    "tracked_name": "Athene Holding Ltd.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "asset-backed finance",
-      "credit fund",
-      "direct lending",
-      "opportunistic credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: asset-backed finance, credit fund, direct lending, opportunistic credit, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nAthene Holding Ltd. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: asset-backed finance, credit fund, direct lending, opportunistic credit, senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Athene Holding Ltd. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-084924",
-    "cik": "0001803498",
-    "company_name": "I/A - Blackstone Private Credit Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-08-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026084924/0001213900-26-084924.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026084924/0001213900-26-084924-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26123564",
-    "openarena_output": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26123564\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26123564\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26123564",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. OF DATE: 20260804 DATE AS OF CHANGE: 20260804 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26123564"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
