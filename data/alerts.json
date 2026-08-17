@@ -32,6 +32,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001104659-26-097733",
+    "cik": "0002031283",
+    "company_name": "I - Stone Point Credit Income Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097733/0001104659-26-097733.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097733/0001104659-26-097733-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
+    "openarena_output": "SEC Filing Analysis: I - Stone Point Credit Income Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Stone Point Credit Income Fund - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
+    "whats_new": [
+      "Matched keywords: credit income. LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-097359",
     "cik": "0002077250",
     "company_name": "Q - Stone Point Credit Income Fund - Select",
@@ -2649,41 +2681,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Barings Private Credit Corp is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001379785-26-000030",
-    "cik": "0001379785",
-    "company_name": "Q - Barings BDC, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1379785/000137978526000030/0001379785-26-000030.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1379785/000137978526000030/0001379785-26-000030-index.html",
-    "tracked_name": "Barings BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "private debt",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "r the Investment Advisers Act of 1940, as amended. Barings&#8217; primary investment capabilities include fixed income, private credit, real estate, equity, and alternative investments. Subject to the oversight of our Board of Directors (the &#8220;Board&#8221;), the portfolio managers manage our day-to-day operations ",
-    "openarena_output": "SEC Filing Analysis: Q - Barings BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nr the Investment Advisers Act of 1940, as amended. Barings&#8217; primary investment capabilities include fixed income, private credit, real estate, equity, and alternative investments. Subject to the oversight of our Board of Directors (the &#8220;Board&#8221;), the portfolio managers manage our day-to-day operations \n\nC. What's New\nMatched keywords: private credit, private debt, senior secured, structured credit.\nr the Investment Advisers Act of 1940, as amended. Barings&#8217; primary investment capabilities include fixed income, private credit, real estate, equity, and alternative investments. Subject to the oversight of our Board of Directors (the &#8220;Board&#8221;), the portfolio managers manage our day-to-day operations \n\nD. Most Important Points\nBarings BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Barings BDC, Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "r the Investment Advisers Act of 1940, as amended. Barings&#8217; primary investment capabilities include fixed income, private credit, real estate, equity, and alternative investments. Subject to the oversight of our Board of Directors (the &#8220;Board&#8221;), the portfolio managers manage our day-to-day operations",
-    "whats_new": [
-      "Matched keywords: private credit, private debt, senior secured, structured credit. r the Investment Advisers Act of 1940, as amended. Barings&#8217; primary investment capabilities include fixed income, private credit, real estate, equity, and alternative investments. Subject to the oversight of our Board of Directors (the &#8220;Board&#8221;), the portfolio managers manage our day-to-day operations"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Barings BDC Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
