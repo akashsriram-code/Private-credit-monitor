@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001104659-26-097722",
+    "cik": "0002031283",
+    "company_name": "I/A - Stone Point Credit Income Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-08-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097722/0001104659-26-097722.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097722/0001104659-26-097722-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "openarena_output": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "whats_new": [
+      "Matched keywords: credit income. LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-097359",
     "cik": "0002077250",
     "company_name": "Q - Stone Point Credit Income Fund - Select",
@@ -2656,38 +2688,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-333737",
-    "cik": "0001414932",
-    "company_name": "K - Oaktree Specialty Lending Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1414932/000119312526333737/0001193125-26-333737.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1414932/000119312526333737/0001193125-26-333737-index.html",
-    "tracked_name": "Oaktree Specialty Lending Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02",
-    "openarena_output": "SEC Filing Analysis: K - Oaktree Specialty Lending Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02\n\nD. Most Important Points\nOaktree Specialty Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Oaktree Specialty Lending Corp - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Oaktree Specialty Lending Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
