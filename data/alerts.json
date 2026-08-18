@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001193125-26-355208",
+    "cik": "0001634452",
+    "company_name": "K - AB Private Credit Investors Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526355208/0001193125-26-355208.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526355208/0001193125-26-355208-index.html",
+    "tracked_name": "AB Private Credit Investors Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: K - AB Private Credit Investors Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: private credit, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - AB Private Credit Investors Corp - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: private credit, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "AB Private Credit Investors Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-097722",
     "cik": "0002031283",
     "company_name": "I/A - Stone Point Credit Income Fund",
@@ -2646,41 +2680,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Blue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001859919-26-000068",
-    "cik": "0001859919",
-    "company_name": "Q - Barings Private Credit Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000068/0001859919-26-000068.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000068/0001859919-26-000068-index.html",
-    "tracked_name": "Barings Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "private debt",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "T: 20260630 FILED AS OF DATE: 20260805 DATE AS OF CHANGE: 20260805 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 8",
-    "openarena_output": "SEC Filing Analysis: Q - Barings Private Credit Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nT: 20260630 FILED AS OF DATE: 20260805 DATE AS OF CHANGE: 20260805 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 8\n\nC. What's New\nMatched keywords: private credit, private debt, senior secured, structured credit.\nT: 20260630 FILED AS OF DATE: 20260805 DATE AS OF CHANGE: 20260805 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 8\n\nD. Most Important Points\nBarings Private Credit Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Barings Private Credit Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "T: 20260630 FILED AS OF DATE: 20260805 DATE AS OF CHANGE: 20260805 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 8",
-    "whats_new": [
-      "Matched keywords: private credit, private debt, senior secured, structured credit. T: 20260630 FILED AS OF DATE: 20260805 DATE AS OF CHANGE: 20260805 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Barings Private Credit Corp CENTRAL INDEX KEY: 0001859919 ORGANIZATION NAME: EIN: 863780522 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 8"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Barings Private Credit Corp is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
