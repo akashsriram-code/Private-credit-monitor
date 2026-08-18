@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001859919-26-000075",
+    "cik": "0001859919",
+    "company_name": "K - Barings Private Credit Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000075/0001859919-26-000075.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000075/0001859919-26-000075-index.html",
+    "tracked_name": "Barings Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Barings Private Credit Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: private credit, private debt.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nBarings Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Barings Private Credit Corp - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "whats_new": [
+      "Matched keywords: private credit, private debt. 8-K item sections referenced: 1.01, 2.03, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Barings Private Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-355208",
     "cik": "0001634452",
     "company_name": "K - AB Private Credit Investors Corp",
@@ -2644,42 +2677,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Blue Owl Technology Finance Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001655888-26-000056",
-    "cik": "0001655888",
-    "company_name": "Q - Blue Owl Capital Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000056/0001655888-26-000056.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000056/0001655888-26-000056-index.html",
-    "tracked_name": "Blue Owl Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "credit income",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "Blue Owl Credit Income Corp., Blue Owl Technology Finance Corp., Blue Owl Technology Income Corp. Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princi",
-    "openarena_output": "SEC Filing Analysis: Q - Blue Owl Capital Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nBlue Owl Credit Income Corp., Blue Owl Technology Finance Corp., Blue Owl Technology Income Corp. Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princi\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, private credit, senior secured.\nBlue Owl Credit Income Corp., Blue Owl Technology Finance Corp., Blue Owl Technology Income Corp. Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princi\n\nD. Most Important Points\nBlue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Blue Owl Capital Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "Blue Owl Credit Income Corp., Blue Owl Technology Finance Corp., Blue Owl Technology Income Corp. Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princi",
-    "whats_new": [
-      "Matched keywords: credit fund, credit income, direct lending, private credit, senior secured. Blue Owl Credit Income Corp., Blue Owl Technology Finance Corp., Blue Owl Technology Income Corp. Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princi"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
