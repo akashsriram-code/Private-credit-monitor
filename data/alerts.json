@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-356685",
+    "cik": "0001950803",
+    "company_name": "K - Stepstone Private Credit Fund LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-08-19",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526356685/0001193125-26-356685.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526356685/0001193125-26-356685-index.html",
+    "tracked_name": "StepStone Private Credit Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
+    "openarena_output": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nC. What's New\nMatched keywords: credit fund, private credit.\ns FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001859919-26-000075",
     "cik": "0001859919",
     "company_name": "K - Barings Private Credit Corp",
@@ -2640,39 +2673,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Palmer Square Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001137774-26-000176",
-    "cik": "0001137774",
-    "company_name": "Q - PRUDENTIAL FINANCIAL INC",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000176/0001137774-26-000176.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000176/0001137774-26-000176-index.html",
-    "tracked_name": "Prudential Financial, Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "structured credit"
-    ],
-    "description": "ions) Assets Under Management(1) (at fair value): Public equity $ 230.8 $ 223.1 $ 226.8 Public credit 921.2 902.7 877.7 Private credit(2) 119.7 119.0 116.0 Real estate 135.7 134.4 132.3 Multi-asset 76.2 78.5 80.3 Other alternatives(2) 7.7 8.4 7.6 Total PGIM assets under management $ 1,491.3 $ 1,466.1 $ 1,440.7 Assets u",
-    "openarena_output": "SEC Filing Analysis: Q - PRUDENTIAL FINANCIAL INC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nions) Assets Under Management(1) (at fair value): Public equity $ 230.8 $ 223.1 $ 226.8 Public credit 921.2 902.7 877.7 Private credit(2) 119.7 119.0 116.0 Real estate 135.7 134.4 132.3 Multi-asset 76.2 78.5 80.3 Other alternatives(2) 7.7 8.4 7.6 Total PGIM assets under management $ 1,491.3 $ 1,466.1 $ 1,440.7 Assets u\n\nC. What's New\nMatched keywords: private credit, structured credit.\nions) Assets Under Management(1) (at fair value): Public equity $ 230.8 $ 223.1 $ 226.8 Public credit 921.2 902.7 877.7 Private credit(2) 119.7 119.0 116.0 Real estate 135.7 134.4 132.3 Multi-asset 76.2 78.5 80.3 Other alternatives(2) 7.7 8.4 7.6 Total PGIM assets under management $ 1,491.3 $ 1,466.1 $ 1,440.7 Assets u\n\nD. Most Important Points\nPrudential Financial, Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - PRUDENTIAL FINANCIAL INC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ions) Assets Under Management(1) (at fair value): Public equity $ 230.8 $ 223.1 $ 226.8 Public credit 921.2 902.7 877.7 Private credit(2) 119.7 119.0 116.0 Real estate 135.7 134.4 132.3 Multi-asset 76.2 78.5 80.3 Other alternatives(2) 7.7 8.4 7.6 Total PGIM assets under management $ 1,491.3 $ 1,466.1 $ 1,440.7 Assets u",
-    "whats_new": [
-      "Matched keywords: private credit, structured credit. ions) Assets Under Management(1) (at fair value): Public equity $ 230.8 $ 223.1 $ 226.8 Public credit 921.2 902.7 877.7 Private credit(2) 119.7 119.0 116.0 Real estate 135.7 134.4 132.3 Multi-asset 76.2 78.5 80.3 Other alternatives(2) 7.7 8.4 7.6 Total PGIM assets under management $ 1,491.3 $ 1,466.1 $ 1,440.7 Assets u"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Prudential Financial, Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
