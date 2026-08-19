@@ -33,6 +33,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002031750-26-000068",
+    "cik": "0002031750",
+    "company_name": "K - Ares Core Infrastructure Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-19",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000068/0002031750-26-000068.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000068/0002031750-26-000068-index.html",
+    "tracked_name": "Ares Core Infrastructure Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001859919-26-000075",
     "cik": "0001859919",
     "company_name": "K - Barings Private Credit Corp",
@@ -2638,41 +2670,6 @@
     "remaining_sections": {
       "most_important_points": [
         "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-333791",
-    "cik": "0001794776",
-    "company_name": "Q - Palmer Square Capital BDC Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-05",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1794776/000119312526333791/0001193125-26-333791.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1794776/000119312526333791/0001193125-26-333791-index.html",
-    "tracked_name": "Palmer Square Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "debt securities and, to a lesser extent, (2) investing in collateralized loan obligation (&#8220;CLO&#8221;) structured credit funds that typically own corporate debt securities, including the equity and junior debt tranches of CLOs. To a limited extent, the Company may enter into derivatives transactions, which may ut",
-    "openarena_output": "SEC Filing Analysis: Q - Palmer Square Capital BDC Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ndebt securities and, to a lesser extent, (2) investing in collateralized loan obligation (&#8220;CLO&#8221;) structured credit funds that typically own corporate debt securities, including the equity and junior debt tranches of CLOs. To a limited extent, the Company may enter into derivatives transactions, which may ut\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured, structured credit.\ndebt securities and, to a lesser extent, (2) investing in collateralized loan obligation (&#8220;CLO&#8221;) structured credit funds that typically own corporate debt securities, including the equity and junior debt tranches of CLOs. To a limited extent, the Company may enter into derivatives transactions, which may ut\n\nD. Most Important Points\nPalmer Square Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Palmer Square Capital BDC Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "debt securities and, to a lesser extent, (2) investing in collateralized loan obligation (&#8220;CLO&#8221;) structured credit funds that typically own corporate debt securities, including the equity and junior debt tranches of CLOs. To a limited extent, the Company may enter into derivatives transactions, which may ut",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured, structured credit. debt securities and, to a lesser extent, (2) investing in collateralized loan obligation (&#8220;CLO&#8221;) structured credit funds that typically own corporate debt securities, including the equity and junior debt tranches of CLOs. To a limited extent, the Company may enter into derivatives transactions, which may ut"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Palmer Square Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
