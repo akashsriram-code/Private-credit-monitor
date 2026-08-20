@@ -65,6 +65,38 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001859919-26-000078",
+    "cik": "0001859919",
+    "company_name": "K - Barings Private Credit Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-08-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000078/0001859919-26-000078.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1859919/000185991926000078/0001859919-26-000078-index.html",
+    "tracked_name": "Barings Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Barings Private Credit Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBarings Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Barings Private Credit Corp - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Barings Private Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-356685",
     "cik": "0001950803",
     "company_name": "K - Stepstone Private Credit Fund LLC",
@@ -2637,38 +2669,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-091692",
-    "cik": "0001534254",
-    "company_name": "K - CION Investment Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-06",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926091692/0001104659-26-091692.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926091692/0001104659-26-091692-index.html",
-    "tracked_name": "CION Investment Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - CION Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nCION Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - CION Investment Corp - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "CION Investment Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
