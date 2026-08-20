@@ -32,6 +32,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002061670-26-000078",
+    "cik": "0002061670",
+    "company_name": "K - Monroe Capital Enhanced Corporate Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000078/0002061670-26-000078.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000078/0002061670-26-000078-index.html",
+    "tracked_name": "Monroe Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "lending fund",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: lending fund, senior secured.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: lending fund, senior secured. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-359243",
     "cik": "0001920145",
     "company_name": "K - Goldman Sachs Private Credit Corp.",
@@ -2633,42 +2666,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001736035-26-000016",
-    "cik": "0001736035",
-    "company_name": "Q - Blackstone Secured Lending Fund",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-06",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/0001736035-26-000016.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/0001736035-26-000016-index.html",
-    "tracked_name": "Blackstone Secured Lending Fund",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc",
-    "openarena_output": "SEC Filing Analysis: Q - Blackstone Secured Lending Fund - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nO 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit, private debt, senior secured.\nO 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Blackstone Secured Lending Fund - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, private credit, private debt, senior secured. O 2025-1&#8221; ), BGSL Investments LLC ( &#8220;BGSL Investments&#8221; ), BXSL Associates GP (Lux) S.&#224; r.l, BXSL Direct Lending (Lux) SCSp, BXSL C-1 LLC, and BXSL C-2 Funding LLC. Cash and Cash Equivalents and Restricted Cash Cash and cash equivalents consist of demand deposits and highly liquid investments, suc"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
