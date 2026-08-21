@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001104659-26-099624",
+    "cik": "0001976336",
+    "company_name": "K - Antares Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1976336/000110465926099624/0001104659-26-099624.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1976336/000110465926099624/0001104659-26-099624-index.html",
+    "tracked_name": "Antares Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 ",
+    "openarena_output": "SEC Filing Analysis: K - Antares Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nits FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 \n\nC. What's New\nMatched keywords: credit fund, private credit.\nits FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 \n\nD. Most Important Points\nAntares Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Antares Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Antares Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-099040",
     "cik": "0002031283",
     "company_name": "K - Stone Point Credit Income Fund",
@@ -2633,39 +2666,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-053783",
-    "cik": "0001422183",
-    "company_name": "Q - FS KKR Capital Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-06",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/0001628280-26-053783.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/0001628280-26-053783-index.html",
-    "tracked_name": "FS KKR Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit income",
-      "senior secured"
-    ],
-    "description": "vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202",
-    "openarena_output": "SEC Filing Analysis: Q - FS KKR Capital Corp - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nvices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202\n\nC. What's New\nMatched keywords: credit income, senior secured.\nvices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202\n\nD. Most Important Points\nFS KKR Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - FS KKR Capital Corp - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202",
-    "whats_new": [
-      "Matched keywords: credit income, senior secured. vices 1 2026-06-30 0001422183 Sotheby's, Revolver | Consumer Services 2 2026-06-30 0001422183 Star Mountain Diversified Credit Income Fund III, LP, ABF Equity | Financial Services 2026-06-30 0001422183 SunPower Financial, ABF Equity | Financial Services 2026-06-30 0001422183 TDC LLP, ABF Equity | Financial Services 202"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "FS KKR Capital Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
