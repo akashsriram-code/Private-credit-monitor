@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-364810",
+    "cik": "0001646614",
+    "company_name": "K - Silver Point Specialty Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526364810/0001193125-26-364810.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526364810/0001193125-26-364810-index.html",
+    "tracked_name": "Silver Point Specialty Lending Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "lending fund"
+    ],
+    "description": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F",
+    "openarena_output": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F\n\nC. What's New\nMatched keywords: credit fund, lending fund.\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F\n\nD. Most Important Points\nSilver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F",
+    "whats_new": [
+      "Matched keywords: credit fund, lending fund. TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Silver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-099624",
     "cik": "0001976336",
     "company_name": "K - Antares Private Credit Fund",
@@ -2634,38 +2667,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001493152-26-036285",
-    "cik": "0001509470",
-    "company_name": "Q - Neostellar Capital Corp.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-06",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226036285/0001493152-26-036285.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1509470/000149315226036285/0001493152-26-036285-index.html",
-    "tracked_name": "SuRo Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "description": "ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve",
-    "openarena_output": "SEC Filing Analysis: Q - Neostellar Capital Corp. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve\n\nC. What's New\nMatched keywords: private credit.\nent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve\n\nD. Most Important Points\nSuRo Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Neostellar Capital Corp. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve",
-    "whats_new": [
-      "Matched keywords: private credit. ent funds for the purpose of investing in securities of a single private issuer. In addition, the Company may invest in private credit and in founders equity, founders warrants, and private investment in public equity transactions of special purpose acquisition companies (&#8220;SPACs&#8221;). The Company may also inve"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "SuRo Capital Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
