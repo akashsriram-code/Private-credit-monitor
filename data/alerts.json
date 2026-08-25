@@ -133,6 +133,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-365299",
+    "cik": "0001920145",
+    "company_name": "I - Goldman Sachs Private Credit Corp.",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526365299/0001193125-26-365299.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526365299/0001193125-26-365299-index.html",
+    "tracked_name": "Goldman Sachs Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
+    "openarena_output": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nC. What's New\nMatched keywords: credit fund, private credit.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-099624",
     "cik": "0001976336",
     "company_name": "K - Antares Private Credit Fund",
@@ -2630,39 +2663,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Ares Strategic Income Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000005272-26-000076",
-    "cik": "0000005272",
-    "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000076/0000005272-26-000076.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000076/0000005272-26-000076-index.html",
-    "tracked_name": "American International Group, Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu",
-    "openarena_output": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ndiversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu\n\nC. What's New\nMatched keywords: credit fund, private credit.\ndiversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu\n\nD. Most Important Points\nAmerican International Group, Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. diversified funds across sectors and vintage years 303 74 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 1,022 481 1,147 549 Total private equity funds 2,757 1,077 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek retu"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "American International Group, Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
