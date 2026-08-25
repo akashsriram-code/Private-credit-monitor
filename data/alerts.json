@@ -33,6 +33,106 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-365098",
+    "cik": "0001851322",
+    "company_name": "K - North Haven Private Income Fund LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-08-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526365098/0001193125-26-365098.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526365098/0001193125-26-365098-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01",
+    "openarena_output": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 7.01\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-365212",
+    "cik": "0001812554",
+    "company_name": "K - Blue Owl Credit Income Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-08-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526365212/0001193125-26-365212.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526365212/0001193125-26-365212-index.html",
+    "tracked_name": "Blue Owl Credit Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: credit income, private credit, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: credit income, private credit, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-365111",
+    "cik": "0001899017",
+    "company_name": "K - Bain Capital Private Credit",
+    "form_type": "8-K",
+    "filed_date": "2026-08-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526365111/0001193125-26-365111.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526365111/0001193125-26-365111-index.html",
+    "tracked_name": "Bain Capital Private Credit",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Bain Capital Private Credit - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Bain Capital Private Credit - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Bain Capital Private Credit is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-099624",
     "cik": "0001976336",
     "company_name": "K - Antares Private Credit Fund",
@@ -2567,106 +2667,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-340235",
-    "cik": "0001950976",
-    "company_name": "Q - 26North BDC, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526340235/0001193125-26-340235.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526340235/0001193125-26-340235-index.html",
-    "tracked_name": "26North BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C",
-    "openarena_output": "SEC Filing Analysis: Q - 26North BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit, senior secured.\nries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C\n\nD. Most Important Points\n26North BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - 26North BDC, Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, private credit, senior secured. ries and affiliated entities. The terms &#8220;Adviser&#8221; and our &#8220;investment adviser&#8221; refer to 26North Direct Lending LP, our investment adviser. The terms &#8220;Administrator&#8221; and our &#8220;administrator&#8221; refer to 26North Direct Lending Administration LLC, our administrator. 2 Table of C"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "26North BDC Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001901606-26-000025",
-    "cik": "0001901606",
-    "company_name": "K - Golub Capital Direct Lending Unlevered Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000025/0001901606-26-000025.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000025/0001901606-26-000025-index.html",
-    "tracked_name": "Golub Capital Direct Lending Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Golub Capital Direct Lending Unlevered Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: direct lending, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nGolub Capital Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Golub Capital Direct Lending Unlevered Corp - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending, senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-340236",
-    "cik": "0001527469",
-    "company_name": "K - Athene Holding Ltd.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1527469/000119312526340236/0001193125-26-340236.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1527469/000119312526340236/0001193125-26-340236-index.html",
-    "tracked_name": "Athene Holding Ltd.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private debt"
-    ],
-    "description": "8-K item sections referenced: 2.03, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.03, 8.01\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 2.03, 8.01\n\nD. Most Important Points\nAthene Holding Ltd. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Athene Holding Ltd. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.03, 8.01",
-    "whats_new": [
-      "Matched keywords: private debt. 8-K item sections referenced: 2.03, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Athene Holding Ltd. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
