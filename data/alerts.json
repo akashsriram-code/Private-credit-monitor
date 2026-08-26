@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001580642-26-005688",
+    "cik": "0002037804",
+    "company_name": "K - New Mountain Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226005688/0001580642-26-005688.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226005688/0001580642-26-005688-index.html",
+    "tracked_name": "New Mountain Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nNew Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "New Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001039828-26-000018",
     "cik": "0001039828",
     "company_name": "K - American National Group Inc.",
@@ -28,6 +61,71 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-059107",
+    "cik": "0001869453",
+    "company_name": "I - Blue Owl Technology Income Corp.",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1869453/000162828026059107/0001628280-26-059107.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1869453/000162828026059107/0001628280-26-059107-index.html",
+    "tracked_name": "Blue Owl Technology Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may",
+    "openarena_output": "SEC Filing Analysis: I - Blue Owl Technology Income Corp. - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ny-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may\n\nC. What's New\nMatched keywords: senior secured.\ny-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may\n\nD. Most Important Points\nBlue Owl Technology Income Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Blue Owl Technology Income Corp. - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may",
+    "whats_new": [
+      "Matched keywords: senior secured. y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Technology Income Corp is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-059106",
+    "cik": "0001812554",
+    "company_name": "I - Blue Owl Credit Income Corp.",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026059106/0001628280-26-059106.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026059106/0001628280-26-059106-index.html",
+    "tracked_name": "Blue Owl Credit Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "senior secured"
+    ],
+    "description": "FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
+    "openarena_output": "SEC Filing Analysis: I - Blue Owl Credit Income Corp. - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nC. What's New\nMatched keywords: credit income, senior secured.\nFILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Blue Owl Credit Income Corp. - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
+    "whats_new": [
+      "Matched keywords: credit income, senior secured. FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2558,113 +2656,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001661306-26-000068",
-    "cik": "0001661306",
-    "company_name": "Q - Hancock Park Corporate Income, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000068/0001661306-26-000068.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1661306/000166130626000068/0001661306-26-000068-index.html",
-    "tracked_name": "Hancock Park Corporate Income Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "opportunistic credit",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act ",
-    "openarena_output": "SEC Filing Analysis: Q - Hancock Park Corporate Income, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act \n\nC. What's New\nMatched keywords: credit fund, opportunistic credit, senior secured, structured credit.\nate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act \n\nD. Most Important Points\nHancock Park Corporate Income Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Hancock Park Corporate Income, Inc. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act",
-    "whats_new": [
-      "Matched keywords: credit fund, opportunistic credit, senior secured, structured credit. ate Finance Trust, Inc., a corporation that qualifies as a real estate investment trust; and (ii) CIM Real Assets &amp; Credit Fund, an externally managed registered investment company that operates as an interval fund that invests primarily in a combination of real estate, credit and related investments. The 1940 Act"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Hancock Park Corporate Income Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001901606-26-000026",
-    "cik": "0001901606",
-    "company_name": "Q - Golub Capital Direct Lending Unlevered Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000026/0001901606-26-000026.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1901606/000190160626000026/0001901606-26-000026-index.html",
-    "tracked_name": "Golub Capital Direct Lending Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": ": GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest",
-    "openarena_output": "SEC Filing Analysis: Q - Golub Capital Direct Lending Unlevered Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n: GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\n: GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest\n\nD. Most Important Points\nGolub Capital Direct Lending Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Golub Capital Direct Lending Unlevered Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": ": GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit, senior secured. : GBDC), Golub Capital Direct Lending Corporation, or GDLC, Golub Capital BDC 4, Inc., or GBDC 4, Golub Capital Private Credit Fund, or GCRED, Golub Capital Private Income Fund I, or GPIF I and Golub Capital Private Income Fund S, or GPIF S, all of which are business development companies that primarily focus on invest"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital Direct Lending Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001655887-26-000016",
-    "cik": "0001655887",
-    "company_name": "Q - Blue Owl Capital Corp II",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000016/0001655887-26-000016.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000016/0001655887-26-000016-index.html",
-    "tracked_name": "Blue Owl Capital Corp. II",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "credit income",
-      "direct lending",
-      "middle market lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ",
-    "openarena_output": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\na Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, middle market lending, private credit.\na Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ\n\nD. Most Important Points\nBlue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ",
-    "whats_new": [
-      "Matched keywords: credit fund, credit income, direct lending, middle market lending, private credit. a Delaware limited liability company, is a joint venture among the Company, OBDC, OCIC, OTF, OTIC, Blue Owl Alternative Credit Fund and California State Teachers Retirement System (each, a &#8220;Blue Owl Leasing Member&#8221; and collectively, the &#8220;Blue Owl Leasing Members&#8221;). Blue Owl Leasing&#8217;s princ"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
