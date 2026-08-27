@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001193125-26-371350",
+    "cik": "0001993402",
+    "company_name": "K - Antares Strategic Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-08-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1993402/000119312526371350/0001193125-26-371350.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1993402/000119312526371350/0001193125-26-371350-index.html",
+    "tracked_name": "Antares Strategic Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund"
+    ],
+    "description": "8-K item sections referenced: 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Antares Strategic Credit Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund.\n8-K item sections referenced: 7.01, 8.01\n\nD. Most Important Points\nAntares Strategic Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Antares Strategic Credit Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund. 8-K item sections referenced: 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Antares Strategic Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001580642-26-005688",
     "cik": "0002037804",
     "company_name": "K - New Mountain Private Credit Fund",
@@ -2620,38 +2652,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Main Street Capital Corporation is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001535778-26-000085",
-    "cik": "0001535778",
-    "company_name": "Q - MSC INCOME FUND, INC.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000085/0001535778-26-000085.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1535778/000153577826000085/0001535778-26-000085-index.html",
-    "tracked_name": "MSC Income Fund Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti",
-    "openarena_output": "SEC Filing Analysis: Q - MSC INCOME FUND, INC. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nSC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti\n\nC. What's New\nMatched keywords: senior secured.\nSC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti\n\nD. Most Important Points\nMSC Income Fund Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - MSC INCOME FUND, INC. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti",
-    "whats_new": [
-      "Matched keywords: senior secured. SC Income was in compliance with all financial covenants of the SPV Facility. Corporate Facility MSC Income maintains a senior secured revolving credit agreement dated March 6, 2017 (as amended, the &#8220;Corporate Facility&#8221;) with EverBank, as administrative agent, and with EverBank and other financial instituti"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "MSC Income Fund Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
