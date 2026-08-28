@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001193125-26-373361",
+    "cik": "0001634452",
+    "company_name": "I - AB Private Credit Investors Corp",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-08-28",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526373361/0001193125-26-373361.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526373361/0001193125-26-373361-index.html",
+    "tracked_name": "AB Private Credit Investors Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund",
+      "private credit"
+    ],
+    "description": "ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq",
+    "openarena_output": "SEC Filing Analysis: I - AB Private Credit Investors Corp - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit.\nivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - AB Private Credit Investors Corp - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund, private credit. ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "AB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-371350",
     "cik": "0001993402",
     "company_name": "K - Antares Strategic Credit Fund",
@@ -2624,38 +2658,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001396440-26-000094",
-    "cik": "0001396440",
-    "company_name": "Q - Main Street Capital CORP",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/0001396440-26-000094.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/0001396440-26-000094-index.html",
-    "tracked_name": "Main Street Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private debt"
-    ],
-    "description": "Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat",
-    "openarena_output": "SEC Filing Analysis: Q - Main Street Capital CORP - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nRios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat\n\nC. What's New\nMatched keywords: private debt.\nRios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat\n\nD. Most Important Points\nMain Street Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Main Street Capital CORP - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat",
-    "whats_new": [
-      "Matched keywords: private debt. Rios Stone Products LLC | Class A Preferred Units 2026-06-30 0001396440 EIG Fund Investments | LP Interests (EIG Global Private Debt Fund-A, L.P.) 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 1 2026-06-30 0001396440 FCC Intermediate Holdco, LLC | Secured Debt 2 2026-06-30 0001396440 FCC Intermediat"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Main Street Capital Corporation is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
