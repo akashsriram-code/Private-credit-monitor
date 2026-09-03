@@ -1,5 +1,42 @@
 [
   {
+    "accession_number": "0001213900-26-096935",
+    "cik": "0001803498",
+    "company_name": "I/A - Blackstone Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/0001213900-26-096935.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/0001213900-26-096935-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674",
+    "openarena_output": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, private debt.\nOF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, private debt. OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-373361",
     "cik": "0001634452",
     "company_name": "I - AB Private Credit Investors Corp",
@@ -2618,42 +2655,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Vista Credit Strategic Lending Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001742313-26-000046",
-    "cik": "0001742313",
-    "company_name": "Q - Monroe Capital Income Plus Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1742313/000174231326000046/0001742313-26-000046.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1742313/000174231326000046/0001742313-26-000046-index.html",
-    "tracked_name": "Monroe Capital Income Plus Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "middle market lending",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where",
-    "openarena_output": "SEC Filing Analysis: Q - Monroe Capital Income Plus Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where\n\nC. What's New\nMatched keywords: direct lending, middle market lending, private credit, private debt, senior secured.\nulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where\n\nD. Most Important Points\nMonroe Capital Income Plus Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Monroe Capital Income Plus Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where",
-    "whats_new": [
-      "Matched keywords: direct lending, middle market lending, private credit, private debt, senior secured. ulting in higher returns when compared to the market for U.S. high yield bonds and U.S. traded loans. (1) Middle market direct lending also offers a natural hedge to higher interest rates with floating rate structures that benefit from higher interest rates, while providing broad diversification in an environment where"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Income Plus Corp. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
