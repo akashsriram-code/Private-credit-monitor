@@ -135,6 +135,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001580642-26-006079",
+    "cik": "0002037804",
+    "company_name": "I/A - New Mountain Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226006079/0001580642-26-006079.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226006079/0001580642-26-006079-index.html",
+    "tracked_name": "New Mountain Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
+    "openarena_output": "SEC Filing Analysis: I/A - New Mountain Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nDATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nC. What's New\nMatched keywords: credit fund, private credit.\nDATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nD. Most Important Points\nNew Mountain Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - New Mountain Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "New Mountain Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-096935",
     "cik": "0001803498",
     "company_name": "I/A - Blackstone Private Credit Fund",
@@ -2630,40 +2663,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-341070",
-    "cik": "0001920145",
-    "company_name": "K - Goldman Sachs Private Credit Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526341070/0001193125-26-341070.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526341070/0001193125-26-341070-index.html",
-    "tracked_name": "Goldman Sachs Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
