@@ -1,5 +1,140 @@
 [
   {
+    "accession_number": "0001193125-26-382839",
+    "cik": "0001747777",
+    "company_name": "K - Blue Owl Technology Finance Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1747777/000119312526382839/0001193125-26-382839.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1747777/000119312526382839/0001193125-26-382839-index.html",
+    "tracked_name": "Blue Owl Technology Finance Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nBlue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001140361-26-035674",
+    "cik": "0001370755",
+    "company_name": "K - BlackRock TCP Capital Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126035674/0001140361-26-035674.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126035674/0001140361-26-035674-index.html",
+    "tracked_name": "BlackRock TCP Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 5.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001140361-26-035676",
+    "cik": "0001902649",
+    "company_name": "K - BlackRock Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126035676/0001140361-26-035676.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126035676/0001140361-26-035676-index.html",
+    "tracked_name": "BlackRock Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 5.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001140361-26-035675",
+    "cik": "0001834543",
+    "company_name": "K - BlackRock Direct Lending Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126035675/0001140361-26-035675.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126035675/0001140361-26-035675-index.html",
+    "tracked_name": "BlackRock Direct Lending Corp.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 5.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-096935",
     "cik": "0001803498",
     "company_name": "I/A - Blackstone Private Credit Fund",
@@ -2525,136 +2660,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342415",
-    "cik": "0001633336",
-    "company_name": "K - Crescent Capital BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526342415/0001193125-26-342415.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526342415/0001193125-26-342415-index.html",
-    "tracked_name": "Crescent Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Crescent Capital BDC, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nCrescent Capital BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Crescent Capital BDC, Inc. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Crescent Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-055335",
-    "cik": "0001838126",
-    "company_name": "I - HPS Corporate Lending Fund",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026055335/0001628280-26-055335.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026055335/0001628280-26-055335-index.html",
-    "tracked_name": "HPS Corporate Lending Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "lending fund"
-    ],
-    "description": "D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
-    "openarena_output": "SEC Filing Analysis: I - HPS Corporate Lending Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nD AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nC. What's New\nMatched keywords: lending fund.\nD AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nD. Most Important Points\nHPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - HPS Corporate Lending Fund - SC TO-I",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
-    "whats_new": [
-      "Matched keywords: lending fund. D AS OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-9"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "HPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-032018",
-    "cik": "0001902649",
-    "company_name": "I - BlackRock Private Credit Fund",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126032018/0001140361-26-032018.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126032018/0001140361-26-032018-index.html",
-    "tracked_name": "BlackRock Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: BlackRock Private Credit Fund CENTRAL INDEX KEY: 0001902649 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-940",
-    "openarena_output": "SEC Filing Analysis: I - BlackRock Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: BlackRock Private Credit Fund CENTRAL INDEX KEY: 0001902649 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-940\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: BlackRock Private Credit Fund CENTRAL INDEX KEY: 0001902649 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-940\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - BlackRock Private Credit Fund - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: BlackRock Private Credit Fund CENTRAL INDEX KEY: 0001902649 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-940",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. OF DATE: 20260810 DATE AS OF CHANGE: 20260810 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: BlackRock Private Credit Fund CENTRAL INDEX KEY: 0001902649 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-940"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-339655",
-    "cik": "0001919369",
-    "company_name": "Q - VISTA CREDIT STRATEGIC LENDING CORP.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-07",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1919369/000119312526339655/0001193125-26-339655.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1919369/000119312526339655/0001193125-26-339655-index.html",
-    "tracked_name": "Vista Credit Strategic Lending Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac",
-    "openarena_output": "SEC Filing Analysis: Q - VISTA CREDIT STRATEGIC LENDING CORP. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nrespectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac\n\nC. What's New\nMatched keywords: private credit, senior secured.\nrespectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac\n\nD. Most Important Points\nVista Credit Strategic Lending Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - VISTA CREDIT STRATEGIC LENDING CORP. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. respectively. The net change in unrealized depreciation for the three and six months ended June 30, 2026 was due to the private credit markets experiencing notable volatility, driven primarily by widening credit spreads and a shift in investor risk appetite. This has had a direct impact on debt and equity valuations ac"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Vista Credit Strategic Lending Corp. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
