@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001913724-26-000028",
+    "cik": "0001913724",
+    "company_name": "K - TPG Twin Brook Capital Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000028/0001913724-26-000028.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000028/0001913724-26-000028-index.html",
+    "tracked_name": "TPG Twin Brook Capital Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-384555",
     "cik": "0001920453",
     "company_name": "I/A - Fidelity Private Credit Fund",
@@ -2630,41 +2662,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001527469-26-000056",
-    "cik": "0001527469",
-    "company_name": "Q - Athene Holding Ltd.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/0001527469-26-000056.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/0001527469-26-000056-index.html",
-    "tracked_name": "Athene Holding Ltd.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "opportunistic credit",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "cial services companies. Our credit strategy comprises direct origination, asset-backed, multi-credit and opportunistic credit funds focused on generating excess returns through high-quality credit underwriting and origination. Our equity strategy comprises private equity, hybrid value, secondaries equity, real estate ",
-    "openarena_output": "SEC Filing Analysis: Q - Athene Holding Ltd. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ncial services companies. Our credit strategy comprises direct origination, asset-backed, multi-credit and opportunistic credit funds focused on generating excess returns through high-quality credit underwriting and origination. Our equity strategy comprises private equity, hybrid value, secondaries equity, real estate \n\nC. What's New\nMatched keywords: credit fund, opportunistic credit, senior secured, structured credit.\ncial services companies. Our credit strategy comprises direct origination, asset-backed, multi-credit and opportunistic credit funds focused on generating excess returns through high-quality credit underwriting and origination. Our equity strategy comprises private equity, hybrid value, secondaries equity, real estate \n\nD. Most Important Points\nAthene Holding Ltd. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Athene Holding Ltd. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "cial services companies. Our credit strategy comprises direct origination, asset-backed, multi-credit and opportunistic credit funds focused on generating excess returns through high-quality credit underwriting and origination. Our equity strategy comprises private equity, hybrid value, secondaries equity, real estate",
-    "whats_new": [
-      "Matched keywords: credit fund, opportunistic credit, senior secured, structured credit. cial services companies. Our credit strategy comprises direct origination, asset-backed, multi-credit and opportunistic credit funds focused on generating excess returns through high-quality credit underwriting and origination. Our equity strategy comprises private equity, hybrid value, secondaries equity, real estate"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Athene Holding Ltd. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
