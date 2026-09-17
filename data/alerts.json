@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001104659-26-108606",
+    "cik": "0001534254",
+    "company_name": "K - CION Investment Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-09-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926108606/0001104659-26-108606.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926108606/0001104659-26-108606-index.html",
+    "tracked_name": "CION Investment Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - CION Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nCION Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - CION Investment Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 8.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "CION Investment Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001913724-26-000028",
     "cik": "0001913724",
     "company_name": "K - TPG Twin Brook Capital Income Fund",
@@ -2624,40 +2656,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Kayne Anderson BDC Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342351",
-    "cik": "0001633336",
-    "company_name": "Q - Crescent Capital BDC, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526342351/0001193125-26-342351.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526342351/0001193125-26-342351-index.html",
-    "tracked_name": "Crescent Capital BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "middle market lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m",
-    "openarena_output": "SEC Filing Analysis: Q - Crescent Capital BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nh its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m\n\nC. What's New\nMatched keywords: middle market lending, private credit, senior secured.\nh its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m\n\nD. Most Important Points\nCrescent Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Crescent Capital BDC, Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m",
-    "whats_new": [
-      "Matched keywords: middle market lending, private credit, senior secured. h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Crescent Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
