@@ -1,5 +1,71 @@
 [
   {
+    "accession_number": "0001193125-26-395654",
+    "cik": "0001851322",
+    "company_name": "I/A - North Haven Private Income Fund LLC",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526395654/0001193125-26-395654.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526395654/0001193125-26-395654-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
+    "openarena_output": "SEC Filing Analysis: I/A - North Haven Private Income Fund LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nC. What's New\nMatched keywords: credit fund, private credit.\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - North Haven Private Income Fund LLC - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-395623",
+    "cik": "0001973476",
+    "company_name": "I/A - North Haven Private Income Fund A LLC",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526395623/0001193125-26-395623.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526395623/0001193125-26-395623-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
+    "openarena_output": "SEC Filing Analysis: I/A - North Haven Private Income Fund A LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nC. What's New\nMatched keywords: credit fund, private credit.\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - North Haven Private Income Fund A LLC - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-108606",
     "cik": "0001534254",
     "company_name": "K - CION Investment Corp",
@@ -2589,73 +2655,6 @@
     "remaining_sections": {
       "most_important_points": [
         "North Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342387",
-    "cik": "0001973476",
-    "company_name": "Q - North Haven Private Income Fund A LLC",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526342387/0001193125-26-342387.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526342387/0001193125-26-342387-index.html",
-    "tracked_name": "North Haven Private Income Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "e calculation. Incentive fees on Cumulative Capital Gains crystallize at calendar year-end. Administration Agreement MS Private Credit Administrative Services LLC (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to the administration agreement between the Company and the Administrator date",
-    "openarena_output": "SEC Filing Analysis: Q - North Haven Private Income Fund A LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ne calculation. Incentive fees on Cumulative Capital Gains crystallize at calendar year-end. Administration Agreement MS Private Credit Administrative Services LLC (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to the administration agreement between the Company and the Administrator date\n\nC. What's New\nMatched keywords: private credit, senior secured.\ne calculation. Incentive fees on Cumulative Capital Gains crystallize at calendar year-end. Administration Agreement MS Private Credit Administrative Services LLC (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to the administration agreement between the Company and the Administrator date\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - North Haven Private Income Fund A LLC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "e calculation. Incentive fees on Cumulative Capital Gains crystallize at calendar year-end. Administration Agreement MS Private Credit Administrative Services LLC (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to the administration agreement between the Company and the Administrator date",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. e calculation. Incentive fees on Cumulative Capital Gains crystallize at calendar year-end. Administration Agreement MS Private Credit Administrative Services LLC (the &#8220;Administrator&#8221;) is the administrator of the Company pursuant to the administration agreement between the Company and the Administrator date"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342385",
-    "cik": "0001747172",
-    "company_name": "Q - Kayne Anderson BDC, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1747172/000119312526342385/0001193125-26-342385.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1747172/000119312526342385/0001193125-26-342385-index.html",
-    "tracked_name": "Kayne Anderson BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "middle market lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "onsiders data sources including, but not limited to: (i) industry publications, such as S&amp;P Global&#8217;s High-End Middle Market Lending Review; Thomson Reuter&#8217;s Refinitiv Middle Market Monthly Stats; CapitalIQ; Pitchbook News; The Lead Left, and other data sources; (ii) comparable investments reviewed or co",
-    "openarena_output": "SEC Filing Analysis: Q - Kayne Anderson BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nonsiders data sources including, but not limited to: (i) industry publications, such as S&amp;P Global&#8217;s High-End Middle Market Lending Review; Thomson Reuter&#8217;s Refinitiv Middle Market Monthly Stats; CapitalIQ; Pitchbook News; The Lead Left, and other data sources; (ii) comparable investments reviewed or co\n\nC. What's New\nMatched keywords: middle market lending, private credit, senior secured.\nonsiders data sources including, but not limited to: (i) industry publications, such as S&amp;P Global&#8217;s High-End Middle Market Lending Review; Thomson Reuter&#8217;s Refinitiv Middle Market Monthly Stats; CapitalIQ; Pitchbook News; The Lead Left, and other data sources; (ii) comparable investments reviewed or co\n\nD. Most Important Points\nKayne Anderson BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Kayne Anderson BDC, Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "onsiders data sources including, but not limited to: (i) industry publications, such as S&amp;P Global&#8217;s High-End Middle Market Lending Review; Thomson Reuter&#8217;s Refinitiv Middle Market Monthly Stats; CapitalIQ; Pitchbook News; The Lead Left, and other data sources; (ii) comparable investments reviewed or co",
-    "whats_new": [
-      "Matched keywords: middle market lending, private credit, senior secured. onsiders data sources including, but not limited to: (i) industry publications, such as S&amp;P Global&#8217;s High-End Middle Market Lending Review; Thomson Reuter&#8217;s Refinitiv Middle Market Monthly Stats; CapitalIQ; Pitchbook News; The Lead Left, and other data sources; (ii) comparable investments reviewed or co"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Kayne Anderson BDC Inc. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
