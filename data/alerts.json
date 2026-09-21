@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001104659-26-109154",
+    "cik": "0002031283",
+    "company_name": "K - Stone Point Credit Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109154/0001104659-26-109154.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109154/0001104659-26-109154-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "8-K item sections referenced: 3.02",
+    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit income.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02",
+    "whats_new": [
+      "Matched keywords: credit income. 8-K item sections referenced: 3.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-395654",
     "cik": "0001851322",
     "company_name": "I/A - North Haven Private Income Fund LLC",
@@ -2625,40 +2657,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342549",
-    "cik": "0001851322",
-    "company_name": "Q - North Haven Private Income Fund LLC",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526342549/0001193125-26-342549.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526342549/0001193125-26-342549-index.html",
-    "tracked_name": "North Haven Private Income Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "lending fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs",
-    "openarena_output": "SEC Filing Analysis: Q - North Haven Private Income Fund LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs\n\nC. What's New\nMatched keywords: lending fund, private credit, senior secured.\nted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - North Haven Private Income Fund LLC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs",
-    "whats_new": [
-      "Matched keywords: lending fund, private credit, senior secured. ted Facility Agreement, dated as of December 29, 2021, by and among Broadway Funding Holdings LLC, Cliffwater Corporate Lending Fund and the Borrower. (j) Other Documents . The Administrative Agent shall have received such other documents as the Administrative Agent or any Lender may reasonably request in form and subs"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
