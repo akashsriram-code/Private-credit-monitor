@@ -33,6 +33,70 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0002031750-26-000077",
+    "cik": "0002031750",
+    "company_name": "K - Ares Core Infrastructure Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000077/0002031750-26-000077.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000077/0002031750-26-000077-index.html",
+    "tracked_name": "Ares Core Infrastructure Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-109615",
+    "cik": "0002031283",
+    "company_name": "I/A - Stone Point Credit Income Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109615/0001104659-26-109615.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109615/0001104659-26-109615-index.html",
+    "tracked_name": "Stone Point Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "openarena_output": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "whats_new": [
+      "Matched keywords: credit income. LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-109154",
     "cik": "0002031283",
     "company_name": "K - Stone Point Credit Income Fund",
@@ -2587,72 +2651,6 @@
     "remaining_sections": {
       "most_important_points": [
         "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-093435",
-    "cik": "0001551901",
-    "company_name": "Q - Stellus Capital Investment Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1551901/000110465926093435/0001104659-26-093435.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1551901/000110465926093435/0001104659-26-093435-index.html",
-    "tracked_name": "Stellus Capital Investment Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest ",
-    "openarena_output": "SEC Filing Analysis: Q - Stellus Capital Investment Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nn 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest \n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nn 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest \n\nD. Most Important Points\nStellus Capital Investment Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Stellus Capital Investment Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. n 57(k) of the 1940 Act. The Company co-invests, subject to the conditions in the Order, with a private BDC and private credit funds managed by Stellus Capital or an affiliate thereof that have investment strategies that are similar or identical to the Company&#8217;s investment strategy, and the Company may co-invest"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stellus Capital Investment Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342352",
-    "cik": "0001504619",
-    "company_name": "Q - PennantPark Floating Rate Capital Ltd.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1504619/000119312526342352/0001193125-26-342352.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1504619/000119312526342352/0001193125-26-342352-index.html",
-    "tracked_name": "PennantPark Floating Rate Capital Ltd.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "Coupon 10.12% Basis Point Spread Above Index 1M SOFR+ 585 2025-09-30 0001504619 Inv in NCNA Prtfl Comp FLSD PennantPark Senior Secured Loan Fund II, LLC Acquisition 11/18/2025 Maturity 08/08/2032 Industry Financial Services Current Coupon 11.66% Basis Point Spread Above Index 3M SOFR+ 800 2025-10-01 2026-06-30 00015046",
-    "openarena_output": "SEC Filing Analysis: Q - PennantPark Floating Rate Capital Ltd. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nCoupon 10.12% Basis Point Spread Above Index 1M SOFR+ 585 2025-09-30 0001504619 Inv in NCNA Prtfl Comp FLSD PennantPark Senior Secured Loan Fund II, LLC Acquisition 11/18/2025 Maturity 08/08/2032 Industry Financial Services Current Coupon 11.66% Basis Point Spread Above Index 3M SOFR+ 800 2025-10-01 2026-06-30 00015046\n\nC. What's New\nMatched keywords: senior secured.\nCoupon 10.12% Basis Point Spread Above Index 1M SOFR+ 585 2025-09-30 0001504619 Inv in NCNA Prtfl Comp FLSD PennantPark Senior Secured Loan Fund II, LLC Acquisition 11/18/2025 Maturity 08/08/2032 Industry Financial Services Current Coupon 11.66% Basis Point Spread Above Index 3M SOFR+ 800 2025-10-01 2026-06-30 00015046\n\nD. Most Important Points\nPennantPark Floating Rate Capital Ltd. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - PennantPark Floating Rate Capital Ltd. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "Coupon 10.12% Basis Point Spread Above Index 1M SOFR+ 585 2025-09-30 0001504619 Inv in NCNA Prtfl Comp FLSD PennantPark Senior Secured Loan Fund II, LLC Acquisition 11/18/2025 Maturity 08/08/2032 Industry Financial Services Current Coupon 11.66% Basis Point Spread Above Index 3M SOFR+ 800 2025-10-01 2026-06-30 00015046",
-    "whats_new": [
-      "Matched keywords: senior secured. Coupon 10.12% Basis Point Spread Above Index 1M SOFR+ 585 2025-09-30 0001504619 Inv in NCNA Prtfl Comp FLSD PennantPark Senior Secured Loan Fund II, LLC Acquisition 11/18/2025 Maturity 08/08/2032 Industry Financial Services Current Coupon 11.66% Basis Point Spread Above Index 3M SOFR+ 800 2025-10-01 2026-06-30 00015046"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "PennantPark Floating Rate Capital Ltd. is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
