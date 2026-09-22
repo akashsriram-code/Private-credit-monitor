@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001803498-26-000053",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000053/0001803498-26-000053.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000053/0001803498-26-000053-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-109154",
     "cik": "0002031283",
     "company_name": "K - Stone Point Credit Income Fund",
@@ -2624,39 +2657,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-342350",
-    "cik": "0001383414",
-    "company_name": "Q - PENNANTPARK INVESTMENT CORP",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1383414/000119312526342350/0001193125-26-342350.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1383414/000119312526342350/0001193125-26-342350-index.html",
-    "tracked_name": "PennantPark Investment Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "inistrative services necessary for us to operate. On July 31, 2020, we and certain entities and managed accounts of the private credit investment manager of Pantheon Ventures (UK) LLP, or Pantheon, entered into a limited liability company agreement to co-manage PSLF, a newly formed unconsolidated joint venture formed a",
-    "openarena_output": "SEC Filing Analysis: Q - PENNANTPARK INVESTMENT CORP - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ninistrative services necessary for us to operate. On July 31, 2020, we and certain entities and managed accounts of the private credit investment manager of Pantheon Ventures (UK) LLP, or Pantheon, entered into a limited liability company agreement to co-manage PSLF, a newly formed unconsolidated joint venture formed a\n\nC. What's New\nMatched keywords: private credit, senior secured.\ninistrative services necessary for us to operate. On July 31, 2020, we and certain entities and managed accounts of the private credit investment manager of Pantheon Ventures (UK) LLP, or Pantheon, entered into a limited liability company agreement to co-manage PSLF, a newly formed unconsolidated joint venture formed a\n\nD. Most Important Points\nPennantPark Investment Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - PENNANTPARK INVESTMENT CORP - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "inistrative services necessary for us to operate. On July 31, 2020, we and certain entities and managed accounts of the private credit investment manager of Pantheon Ventures (UK) LLP, or Pantheon, entered into a limited liability company agreement to co-manage PSLF, a newly formed unconsolidated joint venture formed a",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. inistrative services necessary for us to operate. On July 31, 2020, we and certain entities and managed accounts of the private credit investment manager of Pantheon Ventures (UK) LLP, or Pantheon, entered into a limited liability company agreement to co-manage PSLF, a newly formed unconsolidated joint venture formed a"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "PennantPark Investment Corp. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
