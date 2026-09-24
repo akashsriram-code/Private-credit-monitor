@@ -1,5 +1,77 @@
 [
   {
+    "accession_number": "0000930413-26-002984",
+    "cik": "0002041841",
+    "company_name": "K - Lord Abbett Private Credit Fund S",
+    "form_type": "8-K",
+    "filed_date": "2026-09-24",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002984/0000930413-26-002984.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002984/0000930413-26-002984-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000930413-26-002983",
+    "cik": "0002008748",
+    "company_name": "K - Lord Abbett Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-24",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002983/0000930413-26-002983.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002983/0000930413-26-002983-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001803498-26-000053",
     "cik": "0001803498",
     "company_name": "K - Blackstone Private Credit Fund",
@@ -2590,71 +2662,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-093465",
-    "cik": "0001552198",
-    "company_name": "Q - WhiteHorse Finance, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093465/0001104659-26-093465.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1552198/000110465926093465/0001104659-26-093465-index.html",
-    "tracked_name": "WhiteHorse Finance Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa",
-    "openarena_output": "SEC Filing Analysis: Q - WhiteHorse Finance, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa\n\nC. What's New\nMatched keywords: senior secured.\n1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa\n\nD. Most Important Points\nWhiteHorse Finance Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - WhiteHorse Finance, Inc. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa",
-    "whats_new": [
-      "Matched keywords: senior secured. 1;), to create WHF STRS Ohio Senior Loan Fund, LLC (&#8220;STRS JV&#8221;), a joint venture, which invests primarily in senior secured first and second lien term loans. (19) On January 24, 2022, as part of a restructuring agreement between the Company and PlayMonster LLC, the Company&#8217;s first lien secured term loa"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "WhiteHorse Finance Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001913724-26-000024",
-    "cik": "0001913724",
-    "company_name": "Q - TPG Twin Brook Capital Income Fund",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000024/0001913724-26-000024.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000024/0001913724-26-000024-index.html",
-    "tracked_name": "TPG Twin Brook Capital Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "senior secured"
-    ],
-    "description": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees ",
-    "openarena_output": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nC. What's New\nMatched keywords: credit fund, senior secured.\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees",
-    "whats_new": [
-      "Matched keywords: credit fund, senior secured. s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
