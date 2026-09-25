@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001193125-26-402506",
+    "cik": "0001646614",
+    "company_name": "K - Silver Point Specialty Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526402506/0001193125-26-402506.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526402506/0001193125-26-402506-index.html",
+    "tracked_name": "Silver Point Specialty Lending Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "lending fund"
+    ],
+    "description": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO",
+    "openarena_output": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO\n\nC. What's New\nMatched keywords: credit fund, lending fund.\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO\n\nD. Most Important Points\nSilver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO",
+    "whats_new": [
+      "Matched keywords: credit fund, lending fund. TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Silver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-401047",
     "cik": "0001973476",
     "company_name": "K - North Haven Private Income Fund A LLC",
@@ -2628,39 +2661,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-094146",
-    "cik": "0001895316",
-    "company_name": "Q - Brightwood Capital Corp I",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-11",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926094146/0001104659-26-094146.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926094146/0001104659-26-094146-index.html",
-    "tracked_name": "Brightwood Capital Corp I",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income",
-      "senior secured"
-    ],
-    "description": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of ",
-    "openarena_output": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nC. What's New\nMatched keywords: credit income, senior secured.\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nD. Most Important Points\nBrightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of",
-    "whats_new": [
-      "Matched keywords: credit income, senior secured. Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Brightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
