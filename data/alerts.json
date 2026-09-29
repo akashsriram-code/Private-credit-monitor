@@ -1,5 +1,69 @@
 [
   {
+    "accession_number": "0001140361-26-038002",
+    "cik": "0001901164",
+    "company_name": "K - T. Rowe Price OHA Select Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126038002/0001140361-26-038002.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126038002/0001140361-26-038002-index.html",
+    "tracked_name": "T. Rowe Price OHA Select Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 7.01, 8.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - T. Rowe Price OHA Select Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 7.01, 8.01, 9.01\n\nD. Most Important Points\nT. Rowe Price OHA Select Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - T. Rowe Price OHA Select Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01, 9.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 7.01, 8.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-407757",
+    "cik": "0001782524",
+    "company_name": "K - Morgan Stanley Direct Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1782524/000119312526407757/0001193125-26-407757.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1782524/000119312526407757/0001193125-26-407757-index.html",
+    "tracked_name": "Morgan Stanley Direct Lending Fund",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "lending fund"
+    ],
+    "description": "cers FILED AS OF DATE: 20260929 DATE AS OF CHANGE: 20260929 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley Direct Lending Fund CENTRAL INDEX KEY: 0001782524 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 81",
+    "openarena_output": "SEC Filing Analysis: K - Morgan Stanley Direct Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ncers FILED AS OF DATE: 20260929 DATE AS OF CHANGE: 20260929 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley Direct Lending Fund CENTRAL INDEX KEY: 0001782524 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 81\n\nC. What's New\nMatched keywords: direct lending, lending fund.\ncers FILED AS OF DATE: 20260929 DATE AS OF CHANGE: 20260929 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley Direct Lending Fund CENTRAL INDEX KEY: 0001782524 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 81\n\nD. Most Important Points\nMorgan Stanley Direct Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Morgan Stanley Direct Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "cers FILED AS OF DATE: 20260929 DATE AS OF CHANGE: 20260929 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley Direct Lending Fund CENTRAL INDEX KEY: 0001782524 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 81",
+    "whats_new": [
+      "Matched keywords: direct lending, lending fund. cers FILED AS OF DATE: 20260929 DATE AS OF CHANGE: 20260929 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Morgan Stanley Direct Lending Fund CENTRAL INDEX KEY: 0001782524 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 81"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Morgan Stanley Direct Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-111819",
     "cik": "0002125316",
     "company_name": "K - Monroe Capital Asset-Backed Finance Company, LP",
@@ -27,6 +91,74 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001911321-26-000036",
+    "cik": "0001911321",
+    "company_name": "K - Kennedy Lewis Capital Co",
+    "form_type": "8-K",
+    "filed_date": "2026-09-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911321/000191132126000036/0001911321-26-000036.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1911321/000191132126000036/0001911321-26-000036-index.html",
+    "tracked_name": "Kennedy Lewis Capital Company",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: private debt, senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nKennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
+    "whats_new": [
+      "Matched keywords: private debt, senior secured. 8-K item sections referenced: 8.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Kennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-407832",
+    "cik": "0001920145",
+    "company_name": "I/A - Goldman Sachs Private Credit Corp.",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-09-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526407832/0001193125-26-407832.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526407832/0001193125-26-407832-index.html",
+    "tracked_name": "Goldman Sachs Private Credit Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
+    "openarena_output": "SEC Filing Analysis: I/A - Goldman Sachs Private Credit Corp. - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Goldman Sachs Private Credit Corp. - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2522,139 +2654,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-346556",
-    "cik": "0001965934",
-    "company_name": "Q - Overland Advantage",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526346556/0001193125-26-346556.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526346556/0001193125-26-346556-index.html",
-    "tracked_name": "Overland Advantage",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "ontrolled/non-affiliated debt Debt investments Energy Equipment &amp; Services Jones Industrial Holdings Inc First lien senior secured term loan Interest Rate SOFR + 5.25% Maturity Date 5/3/2030 2025-12-31 0001965934 us-gaap:InvestmentUnaffiliatedIssuerMember ck0001965934:ElectronicEquipmentMember us-gaap:DebtSecuritie",
-    "openarena_output": "SEC Filing Analysis: Q - Overland Advantage - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nontrolled/non-affiliated debt Debt investments Energy Equipment &amp; Services Jones Industrial Holdings Inc First lien senior secured term loan Interest Rate SOFR + 5.25% Maturity Date 5/3/2030 2025-12-31 0001965934 us-gaap:InvestmentUnaffiliatedIssuerMember ck0001965934:ElectronicEquipmentMember us-gaap:DebtSecuritie\n\nC. What's New\nMatched keywords: senior secured.\nontrolled/non-affiliated debt Debt investments Energy Equipment &amp; Services Jones Industrial Holdings Inc First lien senior secured term loan Interest Rate SOFR + 5.25% Maturity Date 5/3/2030 2025-12-31 0001965934 us-gaap:InvestmentUnaffiliatedIssuerMember ck0001965934:ElectronicEquipmentMember us-gaap:DebtSecuritie\n\nD. Most Important Points\nOverland Advantage is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Overland Advantage - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ontrolled/non-affiliated debt Debt investments Energy Equipment &amp; Services Jones Industrial Holdings Inc First lien senior secured term loan Interest Rate SOFR + 5.25% Maturity Date 5/3/2030 2025-12-31 0001965934 us-gaap:InvestmentUnaffiliatedIssuerMember ck0001965934:ElectronicEquipmentMember us-gaap:DebtSecuritie",
-    "whats_new": [
-      "Matched keywords: senior secured. ontrolled/non-affiliated debt Debt investments Energy Equipment &amp; Services Jones Industrial Holdings Inc First lien senior secured term loan Interest Rate SOFR + 5.25% Maturity Date 5/3/2030 2025-12-31 0001965934 us-gaap:InvestmentUnaffiliatedIssuerMember ck0001965934:ElectronicEquipmentMember us-gaap:DebtSecuritie"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Overland Advantage is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-056136",
-    "cik": "0001975736",
-    "company_name": "Q - KKR FS Income Trust Select",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1975736/000162828026056136/0001628280-26-056136.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1975736/000162828026056136/0001628280-26-056136-index.html",
-    "tracked_name": "KKR FS Income Trust",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "senior secured"
-    ],
-    "description": "information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me",
-    "openarena_output": "SEC Filing Analysis: Q - KKR FS Income Trust Select - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ninformation as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me\n\nC. What's New\nMatched keywords: direct lending, lending fund, senior secured.\ninformation as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me\n\nD. Most Important Points\nKKR FS Income Trust is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - KKR FS Income Trust Select - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, senior secured. information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "KKR FS Income Trust is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-056131",
-    "cik": "0001930679",
-    "company_name": "Q - KKR FS Income Trust",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930679/000162828026056131/0001628280-26-056131.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1930679/000162828026056131/0001628280-26-056131-index.html",
-    "tracked_name": "KKR FS Income Trust",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "senior secured"
-    ],
-    "description": "information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me",
-    "openarena_output": "SEC Filing Analysis: Q - KKR FS Income Trust - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ninformation as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me\n\nC. What's New\nMatched keywords: direct lending, lending fund, senior secured.\ninformation as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me\n\nD. Most Important Points\nKKR FS Income Trust is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - KKR FS Income Trust - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, senior secured. information as of June 30, 2026 and may include pro forma adjustments. The above Median LTV figures relate only to the direct lending investments in the investment portfolio. (8) EBITDA is generally defined as net income before net interest expense, income tax expense, depreciation and amortization. The above EBITDA me"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "KKR FS Income Trust is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001825248-26-000024",
-    "cik": "0001825248",
-    "company_name": "Q - Franklin BSP Capital Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825248/000182524826000024/0001825248-26-000024.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1825248/000182524826000024/0001825248-26-000024-index.html",
-    "tracked_name": "Franklin BSP Capital Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "lending fund",
-      "senior secured"
-    ],
-    "description": "ergers, the Company became party to the joint venture formed on January 20, 2021, between FBLC and Cliffwater Corporate Lending Fund (&#8220;CCLF&#8221;), FBLC Senior Loan Fund, LLC (&#8220;SLF&#8221;). SLF invests primarily in senior secured loans, and to a lesser extent may invest in mezzanine loans, unsecured loans ",
-    "openarena_output": "SEC Filing Analysis: Q - Franklin BSP Capital Corp - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nergers, the Company became party to the joint venture formed on January 20, 2021, between FBLC and Cliffwater Corporate Lending Fund (&#8220;CCLF&#8221;), FBLC Senior Loan Fund, LLC (&#8220;SLF&#8221;). SLF invests primarily in senior secured loans, and to a lesser extent may invest in mezzanine loans, unsecured loans \n\nC. What's New\nMatched keywords: lending fund, senior secured.\nergers, the Company became party to the joint venture formed on January 20, 2021, between FBLC and Cliffwater Corporate Lending Fund (&#8220;CCLF&#8221;), FBLC Senior Loan Fund, LLC (&#8220;SLF&#8221;). SLF invests primarily in senior secured loans, and to a lesser extent may invest in mezzanine loans, unsecured loans \n\nD. Most Important Points\nFranklin BSP Capital Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Franklin BSP Capital Corp - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ergers, the Company became party to the joint venture formed on January 20, 2021, between FBLC and Cliffwater Corporate Lending Fund (&#8220;CCLF&#8221;), FBLC Senior Loan Fund, LLC (&#8220;SLF&#8221;). SLF invests primarily in senior secured loans, and to a lesser extent may invest in mezzanine loans, unsecured loans",
-    "whats_new": [
-      "Matched keywords: lending fund, senior secured. ergers, the Company became party to the joint venture formed on January 20, 2021, between FBLC and Cliffwater Corporate Lending Fund (&#8220;CCLF&#8221;), FBLC Senior Loan Fund, LLC (&#8220;SLF&#8221;). SLF invests primarily in senior secured loans, and to a lesser extent may invest in mezzanine loans, unsecured loans"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Franklin BSP Capital Corp is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
