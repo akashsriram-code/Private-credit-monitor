@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001193125-26-409214",
+    "cik": "0001772704",
+    "company_name": "K - Goldman Sachs Private Middle Market Credit II LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-09-30",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1772704/000119312526409214/0001193125-26-409214.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1772704/000119312526409214/0001193125-26-409214-index.html",
+    "tracked_name": "Goldman Sachs Private Middle Market Credit II LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03",
+    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs Private Middle Market Credit II LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: credit fund, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nGoldman Sachs Private Middle Market Credit II LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs Private Middle Market Credit II LLC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
+    "whats_new": [
+      "Matched keywords: credit fund, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs Private Middle Market Credit II LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-408861",
     "cik": "0001920453",
     "company_name": "K - Fidelity Private Credit Fund",
@@ -26,6 +60,72 @@
     "remaining_sections": {
       "most_important_points": [
         "Fidelity Private Credit Company LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001213900-26-105305",
+    "cik": "0001736035",
+    "company_name": "K - Blackstone Secured Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-30",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026105305/0001213900-26-105305.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026105305/0001213900-26-105305-index.html",
+    "tracked_name": "Blackstone Secured Lending Fund",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "lending fund"
+    ],
+    "description": "8-K item sections referenced: 5.07",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07\n\nC. What's New\nMatched keywords: lending fund.\n8-K item sections referenced: 5.07\n\nD. Most Important Points\nBlackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Secured Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.07",
+    "whats_new": [
+      "Matched keywords: lending fund. 8-K item sections referenced: 5.07"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Secured Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001213900-26-105306",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-09-30",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026105306/0001213900-26-105306.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026105306/0001213900-26-105306-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 5.07, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.07, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 5.07, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 5.07, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 5.07, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2551,109 +2651,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002149386-26-000003",
-    "cik": "0002149386",
-    "company_name": "Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund",
-    "form_type": "D",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2149386/000214938626000003/0002149386-26-000003.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2149386/000214938626000003/0002149386-26-000003-index.html",
-    "tracked_name": "Jefferies Credit Partners BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund"
-    ],
-    "description": "ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T",
-    "openarena_output": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T\n\nD. Most Important Points\nJefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund - D",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund. ANY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Levered European Direct Lending Fund CENTRAL INDEX KEY: 0002149386 ORGANIZATION NAME: EIN: 981953373 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 2549004HVK0DOIF57Q49 FILING VALUES: FORM T"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Jefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-346657",
-    "cik": "0001825265",
-    "company_name": "Q - TCW Direct Lending VIII LLC",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825265/000119312526346657/0001193125-26-346657.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1825265/000119312526346657/0001193125-26-346657-index.html",
-    "tracked_name": "TCW Direct Lending VIII LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBE",
-    "openarena_output": "SEC Filing Analysis: Q - TCW Direct Lending VIII LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: direct lending, private credit, private debt, senior secured.\nEPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nTCW Direct Lending VIII LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - TCW Direct Lending VIII LLC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBE",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit, private debt, senior secured. EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VIII LLC CENTRAL INDEX KEY: 0001825265 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBE"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending VIII LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-346651",
-    "cik": "0001715933",
-    "company_name": "Q - TCW Direct Lending VII LLC",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-12",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1715933/000119312526346651/0001193125-26-346651.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1715933/000119312526346651/0001193125-26-346651-index.html",
-    "tracked_name": "TCW Direct Lending VII LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VII LLC CENTRAL INDEX KEY: 0001715933 ORGANIZATION NAME: EIN: 822252672 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER",
-    "openarena_output": "SEC Filing Analysis: Q - TCW Direct Lending VII LLC - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VII LLC CENTRAL INDEX KEY: 0001715933 ORGANIZATION NAME: EIN: 822252672 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER\n\nC. What's New\nMatched keywords: direct lending, private credit, private debt, senior secured.\nEPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VII LLC CENTRAL INDEX KEY: 0001715933 ORGANIZATION NAME: EIN: 822252672 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER\n\nD. Most Important Points\nTCW Direct Lending VII LLC is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - TCW Direct Lending VII LLC - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VII LLC CENTRAL INDEX KEY: 0001715933 ORGANIZATION NAME: EIN: 822252672 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER",
-    "whats_new": [
-      "Matched keywords: direct lending, private credit, private debt, senior secured. EPORT: 20260630 FILED AS OF DATE: 20260812 DATE AS OF CHANGE: 20260812 FILER: COMPANY DATA: COMPANY CONFORMED NAME: TCW Direct Lending VII LLC CENTRAL INDEX KEY: 0001715933 ORGANIZATION NAME: EIN: 822252672 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TCW Direct Lending VII LLC is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
