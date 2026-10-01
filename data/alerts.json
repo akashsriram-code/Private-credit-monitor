@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001628280-26-064151",
+    "cik": "0001911066",
+    "company_name": "K - Nuveen Churchill Private Capital Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-01",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911066/000162828026064151/0001628280-26-064151.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1911066/000162828026064151/0001628280-26-064151-index.html",
+    "tracked_name": "Nuveen Churchill Private Capital Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Nuveen Churchill Private Capital Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nNuveen Churchill Private Capital Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Nuveen Churchill Private Capital Income Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: private debt. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Nuveen Churchill Private Capital Income Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-409214",
     "cik": "0001772704",
     "company_name": "K - Goldman Sachs Private Middle Market Credit II LLC",
@@ -2618,39 +2650,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002149416-26-000002",
-    "cik": "0002149416",
-    "company_name": "Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund",
-    "form_type": "D",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2149416/000214941626000002/0002149416-26-000002.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2149416/000214941626000002/0002149416-26-000002-index.html",
-    "tracked_name": "Jefferies Credit Partners BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund"
-    ],
-    "description": "Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T",
-    "openarena_output": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund - D\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T\n\nC. What's New\nMatched keywords: direct lending, lending fund.\nY DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T\n\nD. Most Important Points\nJefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund - D",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund. Y DATA: COMPANY CONFORMED NAME: Jefferies Credit Partners (Luxembourg) S.C.A. SICAV-RAIF - Jefferies Unlevered European Direct Lending Fund CENTRAL INDEX KEY: 0002149416 ORGANIZATION NAME: EIN: 981955407 STATE OF INCORPORATION: N4 FISCAL YEAR END: 1231 LEGAL ENTITY IDENTIFIER: 254900MDLNONPHZS8Q59 FILING VALUES: FORM T"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Jefferies Credit Partners BDC Inc. is on the watchlist and matched a recent D filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
