@@ -1,5 +1,77 @@
 [
   {
+    "accession_number": "0001193125-26-411314",
+    "cik": "0001869453",
+    "company_name": "K - Blue Owl Technology Income Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1869453/000119312526411314/0001193125-26-411314.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1869453/000119312526411314/0001193125-26-411314-index.html",
+    "tracked_name": "Blue Owl Technology Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, private credit, senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nBlue Owl Technology Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Income Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: credit fund, credit income, direct lending, private credit, senior secured. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Technology Income Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-411315",
+    "cik": "0001812554",
+    "company_name": "K - Blue Owl Credit Income Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526411315/0001193125-26-411315.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526411315/0001193125-26-411315-index.html",
+    "tracked_name": "Blue Owl Credit Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, private credit, senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: credit fund, credit income, direct lending, private credit, senior secured. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001628280-26-064151",
     "cik": "0001911066",
     "company_name": "K - Nuveen Churchill Private Capital Income Fund",
@@ -2581,75 +2653,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001039828-26-000016",
-    "cik": "0001039828",
-    "company_name": "Q - American National Group Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982826000016/0001039828-26-000016.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982826000016/0001039828-26-000016-index.html",
-    "tracked_name": "American National Group, Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "ncies, which are determined based on an independent evaluation of the transaction. For other loans without published or private credit ratings, the Company assigns internal risk ratings, based on its investment selection and monitoring process and policies. These internal risk ratings are categorized as &#8220;Unrated&",
-    "openarena_output": "SEC Filing Analysis: Q - American National Group Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nncies, which are determined based on an independent evaluation of the transaction. For other loans without published or private credit ratings, the Company assigns internal risk ratings, based on its investment selection and monitoring process and policies. These internal risk ratings are categorized as &#8220;Unrated&\n\nC. What's New\nMatched keywords: private credit, senior secured.\nncies, which are determined based on an independent evaluation of the transaction. For other loans without published or private credit ratings, the Company assigns internal risk ratings, based on its investment selection and monitoring process and policies. These internal risk ratings are categorized as &#8220;Unrated&\n\nD. Most Important Points\nAmerican National Group, Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - American National Group Inc. - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ncies, which are determined based on an independent evaluation of the transaction. For other loans without published or private credit ratings, the Company assigns internal risk ratings, based on its investment selection and monitoring process and policies. These internal risk ratings are categorized as &#8220;Unrated&",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. ncies, which are determined based on an independent evaluation of the transaction. For other loans without published or private credit ratings, the Company assigns internal risk ratings, based on its investment selection and monitoring process and policies. These internal risk ratings are categorized as &#8220;Unrated&"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "American National Group, Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-088673",
-    "cik": "0001843162",
-    "company_name": "K - Chicago Atlantic BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1843162/000121390026088673/0001213900-26-088673.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1843162/000121390026088673/0001213900-26-088673-index.html",
-    "tracked_name": "Chicago Atlantic BDC Inc.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit",
-      "senior secured",
-      "structured credit"
-    ],
-    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Chicago Atlantic BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured, structured credit.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nChicago Atlantic BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Chicago Atlantic BDC, Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit, senior secured, structured credit. 8-K item sections referenced: 2.02, 7.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Chicago Atlantic BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
