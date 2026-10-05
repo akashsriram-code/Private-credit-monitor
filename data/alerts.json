@@ -1,5 +1,135 @@
 [
   {
+    "accession_number": "0001213900-26-106862",
+    "cik": "0001786108",
+    "company_name": "K - Trinity Capital Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1786108/000121390026106862/0001213900-26-106862.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1786108/000121390026106862/0001213900-26-106862-index.html",
+    "tracked_name": "Trinity Capital Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Trinity Capital Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nTrinity Capital Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Trinity Capital Inc. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "whats_new": [
+      "Matched keywords: private debt. 8-K item sections referenced: 1.01, 2.03, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Trinity Capital Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-414262",
+    "cik": "0001572694",
+    "company_name": "K - Goldman Sachs BDC, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1572694/000119312526414262/0001193125-26-414262.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1572694/000119312526414262/0001193125-26-414262-index.html",
+    "tracked_name": "Goldman Sachs BDC Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs BDC, Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: private credit.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nGoldman Sachs BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs BDC, Inc. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: private credit. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Goldman Sachs BDC Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-113727",
+    "cik": "0001975736",
+    "company_name": "I/A - KKR FS Income Trust Select",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-10-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1975736/000110465926113727/0001104659-26-113727.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1975736/000110465926113727/0001104659-26-113727-index.html",
+    "tracked_name": "KKR FS Income Trust",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "private credit"
+    ],
+    "description": "to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env",
+    "openarena_output": "SEC Filing Analysis: I/A - KKR FS Income Trust Select - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nto Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env\n\nC. What's New\nMatched keywords: direct lending, private credit.\nto Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env\n\nD. Most Important Points\nKKR FS Income Trust is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - KKR FS Income Trust Select - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env",
+    "whats_new": [
+      "Matched keywords: direct lending, private credit. to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "KKR FS Income Trust is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-113726",
+    "cik": "0001930679",
+    "company_name": "I/A - KKR FS Income Trust",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-10-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930679/000110465926113726/0001104659-26-113726.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1930679/000110465926113726/0001104659-26-113726-index.html",
+    "tracked_name": "KKR FS Income Trust",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "private credit"
+    ],
+    "description": "to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env",
+    "openarena_output": "SEC Filing Analysis: I/A - KKR FS Income Trust - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nto Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env\n\nC. What's New\nMatched keywords: direct lending, private credit.\nto Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env\n\nD. Most Important Points\nKKR FS Income Trust is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - KKR FS Income Trust - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env",
+    "whats_new": [
+      "Matched keywords: direct lending, private credit. to Private Credit investing. Asset performance of the Fund to-date has been strong, and we believe that the pairing of direct lending with a dedicated asset-based finance (&ldquo;ABF&rdquo;) allocation continues to be a compelling strategy built for all-weather performance throughout the credit cycle, including the env"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "KKR FS Income Trust is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-411314",
     "cik": "0001869453",
     "company_name": "K - Blue Owl Technology Income Corp.",
@@ -2519,140 +2649,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-089024",
-    "cik": "0001779523",
-    "company_name": "Q - Muzinich BDC, Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1779523/000121390026089024/0001213900-26-089024.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1779523/000121390026089024/0001213900-26-089024-index.html",
-    "tracked_name": "Muzinich BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private debt",
-      "senior secured"
-    ],
-    "description": "ated Accounts As of June 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1",
-    "openarena_output": "SEC Filing Analysis: Q - Muzinich BDC, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nated Accounts As of June 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1\n\nC. What's New\nMatched keywords: private debt, senior secured.\nated Accounts As of June 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1\n\nD. Most Important Points\nMuzinich BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Muzinich BDC, Inc. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ated Accounts As of June 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1",
-    "whats_new": [
-      "Matched keywords: private debt, senior secured. ated Accounts As of June 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Muzinich BDC Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002500",
-    "cik": "0002041841",
-    "company_name": "Q - Lord Abbett Private Credit Fund S",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002500/0000930413-26-002500.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002500/0000930413-26-002500-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272",
-    "openarena_output": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund S - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund S - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01843 FILM NUMBER: 261272"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002499",
-    "cik": "0002008748",
-    "company_name": "Q - Lord Abbett Private Credit Fund",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002499/0000930413-26-002499.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002499/0000930413-26-002499-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764",
-    "openarena_output": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\nFILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Lord Abbett Private Credit Fund - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. FILED AS OF DATE: 20260813 DATE AS OF CHANGE: 20260813 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE NUMBER: 814-01764"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-348682",
-    "cik": "0001633858",
-    "company_name": "Q - Audax Credit BDC Inc.",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-13",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633858/000119312526348682/0001193125-26-348682.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1633858/000119312526348682/0001193125-26-348682-index.html",
-    "tracked_name": "Audax Credit BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "senior secured"
-    ],
-    "description": "ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua",
-    "openarena_output": "SEC Filing Analysis: Q - Audax Credit BDC Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua\n\nC. What's New\nMatched keywords: direct lending, senior secured.\nccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua\n\nD. Most Important Points\nAudax Credit BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Audax Credit BDC Inc. - 10-Q",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua",
-    "whats_new": [
-      "Matched keywords: direct lending, senior secured. ccompanying notes are an integral part of these consolidated financial statements. 16 (j) Three affiliated funds, Audax Direct Lending Solutions Fund - A, L.P., Audax Direct Lending Solutions Fund - C, L.P., and Audax Direct Lending Solutions Fund - D, L.P., co-invested with the Company in this portfolio company pursua"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Audax Credit BDC Inc. is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
