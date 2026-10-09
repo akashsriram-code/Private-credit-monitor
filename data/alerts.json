@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001213900-26-108523",
+    "cik": "0001377936",
+    "company_name": "K - SARATOGA INVESTMENT CORP.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1377936/000121390026108523/0001213900-26-108523.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1377936/000121390026108523/0001213900-26-108523-index.html",
+    "tracked_name": "Saratoga Investment Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - SARATOGA INVESTMENT CORP. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nSaratoga Investment Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - SARATOGA INVESTMENT CORP. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 1.01, 2.03, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Saratoga Investment Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-418097",
     "cik": "0001786108",
     "company_name": "K - Trinity Capital Inc.",
@@ -2610,39 +2642,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Stone Point Credit Corp is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-096954",
-    "cik": "0002125316",
-    "company_name": "Q - Monroe Capital Asset-Backed Finance Company, LP",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2125316/000110465926096954/0001104659-26-096954.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2125316/000110465926096954/0001104659-26-096954-index.html",
-    "tracked_name": "Monroe Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "asset-backed finance",
-      "private credit"
-    ],
-    "description": "0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA",
-    "openarena_output": "SEC Filing Analysis: Q - Monroe Capital Asset-Backed Finance Company, LP - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA\n\nC. What's New\nMatched keywords: asset-backed finance, private credit.\n0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Monroe Capital Asset-Backed Finance Company, LP - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA",
-    "whats_new": [
-      "Matched keywords: asset-backed finance, private credit. 0630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Monroe Capital Asset-Backed Finance Company, LP CENTRAL INDEX KEY: 0002125316 STANDARD INDUSTRIAL CLASSIFICATION: FINANCE SERVICES [6199] ORGANIZATION NAME: 02 Finance EIN: 000000000 STATE OF INCORPORATION: DE FISCA"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Corporation is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
