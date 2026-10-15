@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0000017313-26-000161",
+    "cik": "0000017313",
+    "company_name": "K - CAPITAL SOUTHWEST CORP",
+    "form_type": "8-K",
+    "filed_date": "2026-10-15",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/17313/000001731326000161/0000017313-26-000161.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/17313/000001731326000161/0000017313-26-000161-index.html",
+    "tracked_name": "Capital Southwest Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "middle market lending"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - CAPITAL SOUTHWEST CORP - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: middle market lending.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nCapital Southwest Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - CAPITAL SOUTHWEST CORP - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: middle market lending. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Capital Southwest Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-108523",
     "cik": "0001377936",
     "company_name": "K - SARATOGA INVESTMENT CORP.",
@@ -2604,40 +2636,6 @@
     "one_line_takeaway": "0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N",
     "whats_new": [
       "Matched keywords: credit income, direct lending, private credit, senior secured. 0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-352549",
-    "cik": "0001825384",
-    "company_name": "Q - Stone Point Credit Corp",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825384/000119312526352549/0001193125-26-352549.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1825384/000119312526352549/0001193125-26-352549-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "825384 Ministry Brands Holdings, LLC, First Lien Term Loan, Due 12/28/2028 2026-06-30 0001825384 Ivy Hill Middle Market Credit Fund XII Ltd, Unsecured Note, Due 4/20/2037 2025-12-31 0001825384 Galway Borrower LLC, First Lien Delayed Draw Term Loan, Due 09/29/2028 One 2026-06-30 0001825384 us-gaap:FairValueInputsLevel3M",
-    "openarena_output": "SEC Filing Analysis: Q - Stone Point Credit Corp - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n825384 Ministry Brands Holdings, LLC, First Lien Term Loan, Due 12/28/2028 2026-06-30 0001825384 Ivy Hill Middle Market Credit Fund XII Ltd, Unsecured Note, Due 4/20/2037 2025-12-31 0001825384 Galway Borrower LLC, First Lien Delayed Draw Term Loan, Due 09/29/2028 One 2026-06-30 0001825384 us-gaap:FairValueInputsLevel3M\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n825384 Ministry Brands Holdings, LLC, First Lien Term Loan, Due 12/28/2028 2026-06-30 0001825384 Ivy Hill Middle Market Credit Fund XII Ltd, Unsecured Note, Due 4/20/2037 2025-12-31 0001825384 Galway Borrower LLC, First Lien Delayed Draw Term Loan, Due 09/29/2028 One 2026-06-30 0001825384 us-gaap:FairValueInputsLevel3M\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Stone Point Credit Corp - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "825384 Ministry Brands Holdings, LLC, First Lien Term Loan, Due 12/28/2028 2026-06-30 0001825384 Ivy Hill Middle Market Credit Fund XII Ltd, Unsecured Note, Due 4/20/2037 2025-12-31 0001825384 Galway Borrower LLC, First Lien Delayed Draw Term Loan, Due 09/29/2028 One 2026-06-30 0001825384 us-gaap:FairValueInputsLevel3M",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 825384 Ministry Brands Holdings, LLC, First Lien Term Loan, Due 12/28/2028 2026-06-30 0001825384 Ivy Hill Middle Market Credit Fund XII Ltd, Unsecured Note, Due 4/20/2037 2025-12-31 0001825384 Galway Borrower LLC, First Lien Delayed Draw Term Loan, Due 09/29/2028 One 2026-06-30 0001825384 us-gaap:FairValueInputsLevel3M"
     ],
     "remaining_sections": {
       "most_important_points": [
