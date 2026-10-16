@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001544206-26-000058",
+    "cik": "0001544206",
+    "company_name": "K - Carlyle Secured Lending, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-10-16",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1544206/000154420626000058/0001544206-26-000058.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1544206/000154420626000058/0001544206-26-000058-index.html",
+    "tracked_name": "Carlyle Secured Lending Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Carlyle Secured Lending, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 7.01, 9.01\n\nD. Most Important Points\nCarlyle Secured Lending Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Carlyle Secured Lending, Inc. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Carlyle Secured Lending Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000017313-26-000161",
     "cik": "0000017313",
     "company_name": "K - CAPITAL SOUTHWEST CORP",
@@ -2609,41 +2641,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-097359",
-    "cik": "0002077250",
-    "company_name": "Q - Stone Point Credit Income Fund - Select",
-    "form_type": "10-Q",
-    "filed_date": "2026-08-14",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2077250/000110465926097359/0001104659-26-097359.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2077250/000110465926097359/0001104659-26-097359-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N",
-    "openarena_output": "SEC Filing Analysis: Q - Stone Point Credit Income Fund - Select - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N\n\nC. What's New\nMatched keywords: credit income, direct lending, private credit, senior secured.\n0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: Q - Stone Point Credit Income Fund - Select - 10-Q",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N",
-    "whats_new": [
-      "Matched keywords: credit income, direct lending, private credit, senior secured. 0260630 FILED AS OF DATE: 20260814 DATE AS OF CHANGE: 20260814 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund - Select CENTRAL INDEX KEY: 0002077250 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 10-Q SEC ACT: 1934 Act SEC FILE N"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 10-Q filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
