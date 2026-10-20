@@ -1,5 +1,102 @@
 [
   {
+    "accession_number": "0002061670-26-000094",
+    "cik": "0002061670",
+    "company_name": "K - Monroe Capital Enhanced Corporate Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000094/0002061670-26-000094.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000094/0002061670-26-000094-index.html",
+    "tracked_name": "Monroe Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "lending fund",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: lending fund, senior secured.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01",
+    "whats_new": [
+      "Matched keywords: lending fund, senior secured. 8-K item sections referenced: 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-426866",
+    "cik": "0000896159",
+    "company_name": "K - Chubb Ltd",
+    "form_type": "8-K",
+    "filed_date": "2026-10-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/0001193125-26-426866.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/0001193125-26-426866-index.html",
+    "tracked_name": "Chubb Limited",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "8-K item sections referenced: 2.02",
+    "openarena_output": "SEC Filing Analysis: K - Chubb Ltd - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02\n\nC. What's New\nMatched keywords: private debt.\n8-K item sections referenced: 2.02\n\nD. Most Important Points\nChubb Limited is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Chubb Ltd - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02",
+    "whats_new": [
+      "Matched keywords: private debt. 8-K item sections referenced: 2.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Chubb Limited is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-426842",
+    "cik": "0001837532",
+    "company_name": "K - Apollo Debt Solutions BDC",
+    "form_type": "8-K",
+    "filed_date": "2026-10-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1837532/000119312526426842/0001193125-26-426842.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1837532/000119312526426842/0001193125-26-426842-index.html",
+    "tracked_name": "Apollo Debt Solutions BDC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt"
+    ],
+    "description": "ctober 20, 2026, was 9.08%. 2 During the quarter ended September 30, 2026, ADS originated approximately $1.6 billion of private debt investments, with a focus on large cap issuers. The Fund&#8217;s new directly originated investments had a weighted average spread of 486 basis points. During the quarter ended September ",
+    "openarena_output": "SEC Filing Analysis: K - Apollo Debt Solutions BDC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nctober 20, 2026, was 9.08%. 2 During the quarter ended September 30, 2026, ADS originated approximately $1.6 billion of private debt investments, with a focus on large cap issuers. The Fund&#8217;s new directly originated investments had a weighted average spread of 486 basis points. During the quarter ended September \n\nC. What's New\nMatched keywords: private debt.\nctober 20, 2026, was 9.08%. 2 During the quarter ended September 30, 2026, ADS originated approximately $1.6 billion of private debt investments, with a focus on large cap issuers. The Fund&#8217;s new directly originated investments had a weighted average spread of 486 basis points. During the quarter ended September \n\nD. Most Important Points\nApollo Debt Solutions BDC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Apollo Debt Solutions BDC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ctober 20, 2026, was 9.08%. 2 During the quarter ended September 30, 2026, ADS originated approximately $1.6 billion of private debt investments, with a focus on large cap issuers. The Fund&#8217;s new directly originated investments had a weighted average spread of 486 basis points. During the quarter ended September",
+    "whats_new": [
+      "Matched keywords: private debt. ctober 20, 2026, was 9.08%. 2 During the quarter ended September 30, 2026, ADS originated approximately $1.6 billion of private debt investments, with a focus on large cap issuers. The Fund&#8217;s new directly originated investments had a weighted average spread of 486 basis points. During the quarter ended September"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Apollo Debt Solutions BDC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001544206-26-000058",
     "cik": "0001544206",
     "company_name": "K - Carlyle Secured Lending, Inc.",
@@ -2539,104 +2636,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Blue Owl Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-355208",
-    "cik": "0001634452",
-    "company_name": "K - AB Private Credit Investors Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-08-18",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526355208/0001193125-26-355208.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526355208/0001193125-26-355208-index.html",
-    "tracked_name": "AB Private Credit Investors Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03",
-    "openarena_output": "SEC Filing Analysis: K - AB Private Credit Investors Corp - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: private credit, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - AB Private Credit Investors Corp - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
-    "whats_new": [
-      "Matched keywords: private credit, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "AB Private Credit Investors Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-097722",
-    "cik": "0002031283",
-    "company_name": "I/A - Stone Point Credit Income Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-08-17",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097722/0001104659-26-097722.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097722/0001104659-26-097722-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
-    "openarena_output": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
-    "whats_new": [
-      "Matched keywords: credit income. LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-097733",
-    "cik": "0002031283",
-    "company_name": "I - Stone Point Credit Income Fund",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-17",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097733/0001104659-26-097733.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926097733/0001104659-26-097733-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
-    "openarena_output": "SEC Filing Analysis: I - Stone Point Credit Income Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Stone Point Credit Income Fund - SC TO-I",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
-    "whats_new": [
-      "Matched keywords: credit income. LED AS OF DATE: 20260817 DATE AS OF CHANGE: 20260817 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
