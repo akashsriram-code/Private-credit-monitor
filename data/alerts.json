@@ -32,6 +32,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-427959",
+    "cik": "0001950803",
+    "company_name": "K - Stepstone Private Credit Fund LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-10-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526427959/0001193125-26-427959.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526427959/0001193125-26-427959-index.html",
+    "tracked_name": "StepStone Private Credit Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "s FILED AS OF DATE: 20261021 DATE AS OF CHANGE: 20261021 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
+    "openarena_output": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns FILED AS OF DATE: 20261021 DATE AS OF CHANGE: 20261021 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nC. What's New\nMatched keywords: credit fund, private credit.\ns FILED AS OF DATE: 20261021 DATE AS OF CHANGE: 20261021 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "s FILED AS OF DATE: 20261021 DATE AS OF CHANGE: 20261021 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. s FILED AS OF DATE: 20261021 DATE AS OF CHANGE: 20261021 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-427340",
     "cik": "0001837532",
     "company_name": "K - Apollo Debt Solutions BDC",
@@ -2612,38 +2645,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002031750-26-000068",
-    "cik": "0002031750",
-    "company_name": "K - Ares Core Infrastructure Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-19",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000068/0002031750-26-000068.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000068/0002031750-26-000068-index.html",
-    "tracked_name": "Ares Core Infrastructure Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
