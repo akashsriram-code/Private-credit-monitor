@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001803498-26-000056",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000056/0001803498-26-000056.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000056/0001803498-26-000056-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-117798",
     "cik": "0002031283",
     "company_name": "K - Stone Point Credit Income Fund",
@@ -2608,39 +2641,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Ares Strategic Income Fund is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-356685",
-    "cik": "0001950803",
-    "company_name": "K - Stepstone Private Credit Fund LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-08-19",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526356685/0001193125-26-356685.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526356685/0001193125-26-356685-index.html",
-    "tracked_name": "StepStone Private Credit Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
-    "openarena_output": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nC. What's New\nMatched keywords: credit fund, private credit.\ns FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Stepstone Private Credit Fund LLC - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. s FILED AS OF DATE: 20260819 DATE AS OF CHANGE: 20260819 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
