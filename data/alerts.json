@@ -1,5 +1,77 @@
 [
   {
+    "accession_number": "0000930413-26-003116",
+    "cik": "0002041841",
+    "company_name": "K - Lord Abbett Private Credit Fund S",
+    "form_type": "8-K",
+    "filed_date": "2026-10-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326003116/0000930413-26-003116.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326003116/0000930413-26-003116-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000930413-26-003115",
+    "cik": "0002008748",
+    "company_name": "K - Lord Abbett Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003115/0000930413-26-003115.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003115/0000930413-26-003115-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001803498-26-000056",
     "cik": "0001803498",
     "company_name": "K - Blackstone Private Credit Fund",
@@ -2576,71 +2648,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Barings Private Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-359179",
-    "cik": "0001950976",
-    "company_name": "K - 26North BDC, Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526359179/0001193125-26-359179.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1950976/000119312526359179/0001193125-26-359179-index.html",
-    "tracked_name": "26North BDC Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - 26North BDC, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: direct lending.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\n26North BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - 26North BDC, Inc. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: direct lending. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "26North BDC Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-099224",
-    "cik": "0001918712",
-    "company_name": "I - ARES STRATEGIC INCOME FUND",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000110465926099224/0001104659-26-099224.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000110465926099224/0001104659-26-099224-index.html",
-    "tracked_name": "Ares Strategic Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "5 PARK AVE STREET 2: 44TH FLOOR CITY: NEW YORK STATE: NY ZIP: 10067 FORMER COMPANY: FORMER CONFORMED NAME: ARES PRIVATE CREDIT FUND DATE OF NAME CHANGE: 20220322 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: ARES STRATEGIC INCOME FUND CENTRAL INDEX KEY: 0001918712 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORAT",
-    "openarena_output": "SEC Filing Analysis: I - ARES STRATEGIC INCOME FUND - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n5 PARK AVE STREET 2: 44TH FLOOR CITY: NEW YORK STATE: NY ZIP: 10067 FORMER COMPANY: FORMER CONFORMED NAME: ARES PRIVATE CREDIT FUND DATE OF NAME CHANGE: 20220322 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: ARES STRATEGIC INCOME FUND CENTRAL INDEX KEY: 0001918712 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORAT\n\nC. What's New\nMatched keywords: credit fund, private credit.\n5 PARK AVE STREET 2: 44TH FLOOR CITY: NEW YORK STATE: NY ZIP: 10067 FORMER COMPANY: FORMER CONFORMED NAME: ARES PRIVATE CREDIT FUND DATE OF NAME CHANGE: 20220322 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: ARES STRATEGIC INCOME FUND CENTRAL INDEX KEY: 0001918712 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORAT\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - ARES STRATEGIC INCOME FUND - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "5 PARK AVE STREET 2: 44TH FLOOR CITY: NEW YORK STATE: NY ZIP: 10067 FORMER COMPANY: FORMER CONFORMED NAME: ARES PRIVATE CREDIT FUND DATE OF NAME CHANGE: 20220322 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: ARES STRATEGIC INCOME FUND CENTRAL INDEX KEY: 0001918712 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORAT",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 5 PARK AVE STREET 2: 44TH FLOOR CITY: NEW YORK STATE: NY ZIP: 10067 FORMER COMPANY: FORMER CONFORMED NAME: ARES PRIVATE CREDIT FUND DATE OF NAME CHANGE: 20220322 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: ARES STRATEGIC INCOME FUND CENTRAL INDEX KEY: 0001918712 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORAT"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Strategic Income Fund is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
