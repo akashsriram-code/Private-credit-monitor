@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0001580642-26-007100",
+    "cik": "0002037804",
+    "company_name": "K - New Mountain Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226007100/0001580642-26-007100.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226007100/0001580642-26-007100-index.html",
+    "tracked_name": "New Mountain Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "openarena_output": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nNew Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "New Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000930413-26-003116",
     "cik": "0002041841",
     "company_name": "K - Lord Abbett Private Credit Fund S",
@@ -2618,40 +2651,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-058253",
-    "cik": "0001747777",
-    "company_name": "K - Blue Owl Technology Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1747777/000162828026058253/0001628280-26-058253.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1747777/000162828026058253/0001628280-26-058253-index.html",
-    "tracked_name": "Blue Owl Technology Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.03, 1.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.03, 1.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private debt, senior secured.\n8-K item sections referenced: 2.03, 1.01, 8.01\n\nD. Most Important Points\nBlue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.03, 1.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private debt, senior secured. 8-K item sections referenced: 2.03, 1.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
