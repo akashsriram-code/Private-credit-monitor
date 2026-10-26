@@ -1,5 +1,69 @@
 [
   {
+    "accession_number": "0001193125-26-432193",
+    "cik": "0001851322",
+    "company_name": "K - North Haven Private Income Fund LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-10-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526432193/0001193125-26-432193.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526432193/0001193125-26-432193-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01",
+    "openarena_output": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 7.01\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-432186",
+    "cik": "0001973476",
+    "company_name": "K - North Haven Private Income Fund A LLC",
+    "form_type": "8-K",
+    "filed_date": "2026-10-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526432186/0001193125-26-432186.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526432186/0001193125-26-432186-index.html",
+    "tracked_name": "North Haven Private Income Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02, 7.01",
+    "openarena_output": "SEC Filing Analysis: K - North Haven Private Income Fund A LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 7.01\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - North Haven Private Income Fund A LLC - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001580642-26-007100",
     "cik": "0002037804",
     "company_name": "K - New Mountain Private Credit Fund",
@@ -28,6 +92,71 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001580642-26-007114",
+    "cik": "0001496099",
+    "company_name": "K - New Mountain Finance Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-10-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1496099/000158064226007114/0001580642-26-007114.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1496099/000158064226007114/0001580642-26-007114-index.html",
+    "tracked_name": "New Mountain Finance Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 8.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - New Mountain Finance Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: direct lending, senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nNew Mountain Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - New Mountain Finance Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, senior secured. 8-K item sections referenced: 8.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "New Mountain Finance Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-067327",
+    "cik": "0001812554",
+    "company_name": "I/A - Blue Owl Credit Income Corp.",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-10-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026067327/0001628280-26-067327.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026067327/0001628280-26-067327-index.html",
+    "tracked_name": "Blue Owl Credit Income Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income"
+    ],
+    "description": "FILED AS OF DATE: 20261026 DATE AS OF CHANGE: 20261026 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "openarena_output": "SEC Filing Analysis: I/A - Blue Owl Credit Income Corp. - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20261026 DATE AS OF CHANGE: 20261026 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: credit income.\nFILED AS OF DATE: 20261026 DATE AS OF CHANGE: 20261026 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Blue Owl Credit Income Corp. - SC TO-I/A",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "FILED AS OF DATE: 20261026 DATE AS OF CHANGE: 20261026 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
+    "whats_new": [
+      "Matched keywords: credit income. FILED AS OF DATE: 20261026 DATE AS OF CHANGE: 20261026 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2516,137 +2645,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-099624",
-    "cik": "0001976336",
-    "company_name": "K - Antares Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-21",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1976336/000110465926099624/0001104659-26-099624.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1976336/000110465926099624/0001104659-26-099624-index.html",
-    "tracked_name": "Antares Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 ",
-    "openarena_output": "SEC Filing Analysis: K - Antares Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nits FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 \n\nC. What's New\nMatched keywords: credit fund, private credit.\nits FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793 \n\nD. Most Important Points\nAntares Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Antares Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. its FILED AS OF DATE: 20260821 DATE AS OF CHANGE: 20260821 FILER: COMPANY DATA: COMPANY CONFORMED NAME: Antares Private Credit Fund CENTRAL INDEX KEY: 0001976336 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01793"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Antares Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-099040",
-    "cik": "0002031283",
-    "company_name": "K - Stone Point Credit Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926099040/0001104659-26-099040.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926099040/0001104659-26-099040-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "8-K item sections referenced: 3.02",
-    "openarena_output": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit income.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Stone Point Credit Income Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02",
-    "whats_new": [
-      "Matched keywords: credit income. 8-K item sections referenced: 3.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002061670-26-000078",
-    "cik": "0002061670",
-    "company_name": "K - Monroe Capital Enhanced Corporate Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000078/0002061670-26-000078.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2061670/000206167026000078/0002061670-26-000078-index.html",
-    "tracked_name": "Monroe Capital Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "lending fund",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01\n\nC. What's New\nMatched keywords: lending fund, senior secured.\n8-K item sections referenced: 8.01\n\nD. Most Important Points\nMonroe Capital Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Monroe Capital Enhanced Corporate Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 8.01",
-    "whats_new": [
-      "Matched keywords: lending fund, senior secured. 8-K item sections referenced: 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-359243",
-    "cik": "0001920145",
-    "company_name": "K - Goldman Sachs Private Credit Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-20",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526359243/0001193125-26-359243.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526359243/0001193125-26-359243-index.html",
-    "tracked_name": "Goldman Sachs Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d32445d8k.htm 8-K 8-K false 0001920145 0001920145 2",
-    "openarena_output": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d32445d8k.htm 8-K 8-K false 0001920145 0001920145 2\n\nC. What's New\nMatched keywords: credit fund, private credit.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d32445d8k.htm 8-K 8-K false 0001920145 0001920145 2\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Goldman Sachs Private Credit Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d32445d8k.htm 8-K 8-K false 0001920145 0001920145 2",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 8-K 1 d32445d8k.htm 8-K 8-K false 0001920145 0001920145 2"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
