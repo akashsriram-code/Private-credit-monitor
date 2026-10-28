@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001193125-26-436228",
+    "cik": "0001838126",
+    "company_name": "K - HPS Corporate Lending Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-10-28",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838126/000119312526436228/0001193125-26-436228.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1838126/000119312526436228/0001193125-26-436228-index.html",
+    "tracked_name": "HPS Corporate Lending Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "lending fund"
+    ],
+    "description": "vents FILED AS OF DATE: 20261028 DATE AS OF CHANGE: 20261028 FILER: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01431",
+    "openarena_output": "SEC Filing Analysis: K - HPS Corporate Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nvents FILED AS OF DATE: 20261028 DATE AS OF CHANGE: 20261028 FILER: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01431\n\nC. What's New\nMatched keywords: lending fund.\nvents FILED AS OF DATE: 20261028 DATE AS OF CHANGE: 20261028 FILER: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01431\n\nD. Most Important Points\nHPS Corporate Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - HPS Corporate Lending Fund - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "vents FILED AS OF DATE: 20261028 DATE AS OF CHANGE: 20261028 FILER: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01431",
+    "whats_new": [
+      "Matched keywords: lending fund. vents FILED AS OF DATE: 20261028 DATE AS OF CHANGE: 20261028 FILER: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: 8-K SEC ACT: 1934 Act SEC FILE NUMBER: 814-01431"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "HPS Corporate Lending Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-432193",
     "cik": "0001851322",
     "company_name": "K - North Haven Private Income Fund LLC",
@@ -2612,39 +2644,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Bain Capital Private Credit is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-365299",
-    "cik": "0001920145",
-    "company_name": "I - Goldman Sachs Private Credit Corp.",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526365299/0001193125-26-365299.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526365299/0001193125-26-365299-index.html",
-    "tracked_name": "Goldman Sachs Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "openarena_output": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nC. What's New\nMatched keywords: credit fund, private credit.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Goldman Sachs Private Credit Corp. - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
