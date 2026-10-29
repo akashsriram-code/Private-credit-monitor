@@ -36,6 +36,105 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0000930413-26-003179",
+    "cik": "0002008748",
+    "company_name": "I/A - Lord Abbett Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003179/0000930413-26-003179.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003179/0000930413-26-003179-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-",
+    "openarena_output": "SEC Filing Analysis: I/A - Lord Abbett Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nC. What's New\nMatched keywords: credit fund, private credit.\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Lord Abbett Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000930413-26-003181",
+    "cik": "0002041841",
+    "company_name": "I - Lord Abbett Private Credit Fund S",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326003181/0000930413-26-003181.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326003181/0000930413-26-003181-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-95186 FILM NUMBER: 261",
+    "openarena_output": "SEC Filing Analysis: I - Lord Abbett Private Credit Fund S - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-95186 FILM NUMBER: 261\n\nC. What's New\nMatched keywords: credit fund, private credit.\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-95186 FILM NUMBER: 261\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Lord Abbett Private Credit Fund S - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-95186 FILM NUMBER: 261",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund S CENTRAL INDEX KEY: 0002041841 ORGANIZATION NAME: EIN: 995126353 STATE OF INCORPORATION: DE FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-95186 FILM NUMBER: 261"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0000930413-26-003180",
+    "cik": "0002008748",
+    "company_name": "I - Lord Abbett Private Credit Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003180/0000930413-26-003180.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326003180/0000930413-26-003180-index.html",
+    "tracked_name": "Lord Abbett Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
+    "openarena_output": "SEC Filing Analysis: I - Lord Abbett Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nC. What's New\nMatched keywords: credit fund, private credit.\nF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Lord Abbett Private Credit Fund - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. F DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Lord Abbett Private Credit Fund CENTRAL INDEX KEY: 0002008748 ORGANIZATION NAME: EIN: 934670837 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-436228",
     "cik": "0001838126",
     "company_name": "K - HPS Corporate Lending Fund",
@@ -2551,106 +2650,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-364810",
-    "cik": "0001646614",
-    "company_name": "K - Silver Point Specialty Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526364810/0001193125-26-364810.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526364810/0001193125-26-364810-index.html",
-    "tracked_name": "Silver Point Specialty Lending Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "lending fund"
-    ],
-    "description": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F",
-    "openarena_output": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F\n\nC. What's New\nMatched keywords: credit fund, lending fund.\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F\n\nD. Most Important Points\nSilver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F",
-    "whats_new": [
-      "Matched keywords: credit fund, lending fund. TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d113776d8k.htm 8-K 8-K false 0001646614 0001646614 2026-08-20 2026-08-20 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 F"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Silver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-365098",
-    "cik": "0001851322",
-    "company_name": "K - North Haven Private Income Fund LLC",
-    "form_type": "8-K",
-    "filed_date": "2026-08-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526365098/0001193125-26-365098.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1851322/000119312526365098/0001193125-26-365098-index.html",
-    "tracked_name": "North Haven Private Income Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01",
-    "openarena_output": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 7.01\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - North Haven Private Income Fund LLC - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "North Haven Private Income Fund LLC is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-365212",
-    "cik": "0001812554",
-    "company_name": "K - Blue Owl Credit Income Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526365212/0001193125-26-365212.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526365212/0001193125-26-365212-index.html",
-    "tracked_name": "Blue Owl Credit Income Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: credit income, private credit, private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Credit Income Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
-    "whats_new": [
-      "Matched keywords: credit income, private credit, private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Credit Income Corp is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
