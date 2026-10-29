@@ -36,6 +36,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-438099",
+    "cik": "0001950803",
+    "company_name": "I/A - Stepstone Private Credit Fund LLC",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526438099/0001193125-26-438099.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1950803/000119312526438099/0001193125-26-438099-index.html",
+    "tracked_name": "StepStone Private Credit Fund LLC",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "OF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "openarena_output": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nD. Most Important Points\nStepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Stepstone Private Credit Fund LLC - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. OF DATE: 20261029 DATE AS OF CHANGE: 20261029 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stepstone Private Credit Fund LLC CENTRAL INDEX KEY: 0001950803 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "StepStone Private Credit Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000930413-26-003179",
     "cik": "0002008748",
     "company_name": "I/A - Lord Abbett Private Credit Fund",
@@ -2613,39 +2646,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Blue Owl Technology Income Corp is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-059106",
-    "cik": "0001812554",
-    "company_name": "I - Blue Owl Credit Income Corp.",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026059106/0001628280-26-059106.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1812554/000162828026059106/0001628280-26-059106-index.html",
-    "tracked_name": "Blue Owl Credit Income Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income",
-      "senior secured"
-    ],
-    "description": "FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
-    "openarena_output": "SEC Filing Analysis: I - Blue Owl Credit Income Corp. - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nFILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nC. What's New\nMatched keywords: credit income, senior secured.\nFILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:\n\nD. Most Important Points\nBlue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Blue Owl Credit Income Corp. - SC TO-I",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:",
-    "whats_new": [
-      "Matched keywords: credit income, senior secured. FILED AS OF DATE: 20260826 DATE AS OF CHANGE: 20260826 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blue Owl Credit Income Corp. CENTRAL INDEX KEY: 0001812554 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER:"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Credit Income Corp is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
