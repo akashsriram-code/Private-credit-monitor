@@ -1,5 +1,41 @@
 [
   {
+    "accession_number": "0001823945-26-000055",
+    "cik": "0001823945",
+    "company_name": "Q - BLUE OWL CAPITAL INC.",
+    "form_type": "10-Q",
+    "filed_date": "2026-10-30",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1823945/000182394526000055/0001823945-26-000055.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1823945/000182394526000055/0001823945-26-000055-index.html",
+    "tracked_name": "Blue Owl Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "asset-backed finance",
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "private credit"
+    ],
+    "description": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen",
+    "openarena_output": "SEC Filing Analysis: Q - BLUE OWL CAPITAL INC. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen\n\nC. What's New\nMatched keywords: asset-backed finance, credit fund, credit income, direct lending, private credit.\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen\n\nD. Most Important Points\nBlue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - BLUE OWL CAPITAL INC. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen",
+    "whats_new": [
+      "Matched keywords: asset-backed finance, credit fund, credit income, direct lending, private credit. uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; and (iv) liquid credit, which focuses on the management of CLOs. Our Credit platform also includes our other adjacent investmen"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Capital Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001823945-26-000050",
     "cik": "0001823945",
     "company_name": "K - BLUE OWL CAPITAL INC.",
@@ -2618,38 +2654,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001628280-26-059107",
-    "cik": "0001869453",
-    "company_name": "I - Blue Owl Technology Income Corp.",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1869453/000162828026059107/0001628280-26-059107.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1869453/000162828026059107/0001628280-26-059107-index.html",
-    "tracked_name": "Blue Owl Technology Income Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may",
-    "openarena_output": "SEC Filing Analysis: I - Blue Owl Technology Income Corp. - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ny-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may\n\nC. What's New\nMatched keywords: senior secured.\ny-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may\n\nD. Most Important Points\nBlue Owl Technology Income Corp is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - Blue Owl Technology Income Corp. - SC TO-I",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may",
-    "whats_new": [
-      "Matched keywords: senior secured. y-related companies, specifically software companies, based primarily in the United States . We originate and invest in senior secured or unsecured loans, subordinated loans or mezzanine loans, and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, which may"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Technology Income Corp is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
