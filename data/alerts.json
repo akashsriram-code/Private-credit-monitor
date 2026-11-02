@@ -1,5 +1,71 @@
 [
   {
+    "accession_number": "0001213900-26-114678",
+    "cik": "0001803498",
+    "company_name": "I/A - Blackstone Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026114678/0001213900-26-114678.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026114678/0001213900-26-114678-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26150994",
+    "openarena_output": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26150994\n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26150994\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26150994",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26150994"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-442721",
+    "cik": "0001803498",
+    "company_name": "I - Blackstone Private Credit Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000119312526442721/0001193125-26-442721.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000119312526442721/0001193125-26-442721-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261509979 ",
+    "openarena_output": "SEC Filing Analysis: I - Blackstone Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261509979 \n\nC. What's New\nMatched keywords: credit fund, private credit.\nOF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261509979 \n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Blackstone Private Credit Fund - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261509979",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 261509979"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001823945-26-000055",
     "cik": "0001823945",
     "company_name": "Q - BLUE OWL CAPITAL INC.",
@@ -2588,72 +2654,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001580642-26-005688",
-    "cik": "0002037804",
-    "company_name": "K - New Mountain Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226005688/0001580642-26-005688.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226005688/0001580642-26-005688-index.html",
-    "tracked_name": "New Mountain Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nNew Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - New Mountain Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "New Mountain Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001039828-26-000018",
-    "cik": "0001039828",
-    "company_name": "K - American National Group Inc.",
-    "form_type": "8-K",
-    "filed_date": "2026-08-26",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982826000018/0001039828-26-000018.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1039828/000103982826000018/0001039828-26-000018-index.html",
-    "tracked_name": "American National Group, Inc.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 2.02, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - American National Group Inc. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: private credit, senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nAmerican National Group, Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - American National Group Inc. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
-    "whats_new": [
-      "Matched keywords: private credit, senior secured. 8-K item sections referenced: 2.02, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "American National Group, Inc. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
