@@ -1,5 +1,37 @@
 [
   {
+    "accession_number": "0001628280-26-068951",
+    "cik": "0001838126",
+    "company_name": "I/A - HPS Corporate Lending Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026068951/0001628280-26-068951.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1838126/000162828026068951/0001628280-26-068951-index.html",
+    "tracked_name": "HPS Corporate Lending Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "lending fund"
+    ],
+    "description": "D AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005",
+    "openarena_output": "SEC Filing Analysis: I/A - HPS Corporate Lending Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nD AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005\n\nC. What's New\nMatched keywords: lending fund.\nD AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005\n\nD. Most Important Points\nHPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - HPS Corporate Lending Fund - SC TO-I/A",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "D AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005",
+    "whats_new": [
+      "Matched keywords: lending fund. D AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: HPS Corporate Lending Fund CENTRAL INDEX KEY: 0001838126 ORGANIZATION NAME: EIN: 876391045 STATE OF INCORPORATION: NY FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "HPS Corporate Lending Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001213900-26-114678",
     "cik": "0001803498",
     "company_name": "I/A - Blackstone Private Credit Fund",
@@ -33,6 +65,69 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001193125-26-443906",
+    "cik": "0001899017",
+    "company_name": "I/A - Bain Capital Private Credit",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526443906/0001193125-26-443906.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526443906/0001193125-26-443906-index.html",
+    "tracked_name": "Bain Capital Private Credit",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "description": "ED AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "openarena_output": "SEC Filing Analysis: I/A - Bain Capital Private Credit - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nED AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nC. What's New\nMatched keywords: private credit.\nED AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Bain Capital Private Credit - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "ED AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0",
+    "whats_new": [
+      "Matched keywords: private credit. ED AS OF DATE: 20261102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Bain Capital Private Credit CENTRAL INDEX KEY: 0001899017 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 0"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001140361-26-041610",
+    "cik": "0001901164",
+    "company_name": "I - T. Rowe Price OHA Select Private Credit Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126041610/0001140361-26-041610.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126041610/0001140361-26-041610-index.html",
+    "tracked_name": "T. Rowe Price OHA Select Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
+    "openarena_output": "SEC Filing Analysis: I - T. Rowe Price OHA Select Private Credit Fund - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nC. What's New\nMatched keywords: credit fund, private credit.\n102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94\n\nD. Most Important Points\nT. Rowe Price OHA Select Private Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - T. Rowe Price OHA Select Private Credit Fund - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 102 DATE AS OF CHANGE: 20261102 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-94"
+    ],
+    "remaining_sections": {
+      "most_important_points": [],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-442721",
     "cik": "0001803498",
     "company_name": "I - Blackstone Private Credit Fund",
@@ -57,6 +152,39 @@
     "remaining_sections": {
       "most_important_points": [
         "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-443910",
+    "cik": "0001899017",
+    "company_name": "I - Bain Capital Private Credit",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-11-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526443910/0001193125-26-443910.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1899017/000119312526443910/0001193125-26-443910-index.html",
+    "tracked_name": "Bain Capital Private Credit",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
+    "openarena_output": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nC. What's New\nMatched keywords: credit fund, private credit.\namount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref\n\nD. Most Important Points\nBain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Bain Capital Private Credit - SC TO-I",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. amount requested to be repurchased would need to be reduced to maintain minimum account balance 2 BAIN CAPITAL PRIVATE CREDIT FUND ACCOUNT #: (Should be the same as on page 2) PART 3 &#8211; PAYMENT Payments will be directed back to the account indicated under Section 6 of your Subscription Agreement. If you would pref"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Bain Capital Private Credit is on the watchlist and matched a recent SC TO-I filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2518,142 +2646,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001580642-26-006079",
-    "cik": "0002037804",
-    "company_name": "I/A - New Mountain Private Credit Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226006079/0001580642-26-006079.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2037804/000158064226006079/0001580642-26-006079-index.html",
-    "tracked_name": "New Mountain Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
-    "openarena_output": "SEC Filing Analysis: I/A - New Mountain Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nDATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nC. What's New\nMatched keywords: credit fund, private credit.\nDATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9\n\nD. Most Important Points\nNew Mountain Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - New Mountain Private Credit Fund - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. DATE: 20260904 DATE AS OF CHANGE: 20260904 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: New Mountain Private Credit Fund CENTRAL INDEX KEY: 0002037804 ORGANIZATION NAME: EIN: 996860731 STATE OF INCORPORATION: MD FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-9"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "New Mountain Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001213900-26-096935",
-    "cik": "0001803498",
-    "company_name": "I/A - Blackstone Private Credit Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-03",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/0001213900-26-096935.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026096935/0001213900-26-096935-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "private debt",
-      "senior secured"
-    ],
-    "description": "OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674",
-    "openarena_output": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, private debt.\nOF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Blackstone Private Credit Fund - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, lending fund, private credit, private debt. OF DATE: 20260903 DATE AS OF CHANGE: 20260903 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Blackstone Private Credit Fund CENTRAL INDEX KEY: 0001803498 ORGANIZATION NAME: EIN: 000000000 FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-91801 FILM NUMBER: 26135674"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-373361",
-    "cik": "0001634452",
-    "company_name": "I - AB Private Credit Investors Corp",
-    "form_type": "SC TO-I",
-    "filed_date": "2026-08-28",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526373361/0001193125-26-373361.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526373361/0001193125-26-373361-index.html",
-    "tracked_name": "AB Private Credit Investors Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "direct lending",
-      "lending fund",
-      "private credit"
-    ],
-    "description": "ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq",
-    "openarena_output": "SEC Filing Analysis: I - AB Private Credit Investors Corp - SC TO-I\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq\n\nC. What's New\nMatched keywords: direct lending, lending fund, private credit.\nivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq\n\nD. Most Important Points\nAB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I - AB Private Credit Investors Corp - SC TO-I",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq",
-    "whats_new": [
-      "Matched keywords: direct lending, lending fund, private credit. ivate Equity Solutions 2021 (Delaware) Fund L.P. (&#8220;AB PES 2021&#8221;), AB Private Credit Investors Middle Market Direct Lending Fund, L.P. (&#8220;AB MMDLF&#8221;), the Fund and AB-Abbott Private Equity Solutions 2022 (Delaware) Fund L.P. (&#8220;AB PES 2022&#8221;), as borrowers, AB PEI GP, AB-Abbott Private Eq"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "AB Private Credit Investors Corp. is on the watchlist and matched a recent SC TO-I filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-371350",
-    "cik": "0001993402",
-    "company_name": "K - Antares Strategic Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-08-27",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1993402/000119312526371350/0001193125-26-371350.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1993402/000119312526371350/0001193125-26-371350-index.html",
-    "tracked_name": "Antares Strategic Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund"
-    ],
-    "description": "8-K item sections referenced: 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Antares Strategic Credit Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund.\n8-K item sections referenced: 7.01, 8.01\n\nD. Most Important Points\nAntares Strategic Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Antares Strategic Credit Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund. 8-K item sections referenced: 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Antares Strategic Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
