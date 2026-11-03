@@ -1,5 +1,75 @@
 [
   {
+    "accession_number": "0001171843-26-007082",
+    "cik": "0001418076",
+    "company_name": "K - SLR Investment Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-11-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1418076/000117184326007082/0001171843-26-007082.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1418076/000117184326007082/0001171843-26-007082-index.html",
+    "tracked_name": "SLR Investment Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - SLR Investment Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nSLR Investment Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - SLR Investment Corp. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "SLR Investment Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001803498-26-000059",
+    "cik": "0001803498",
+    "company_name": "K - Blackstone Private Credit Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-11-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000059/0001803498-26-000059.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000059/0001803498-26-000059-index.html",
+    "tracked_name": "Blackstone Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "lending fund",
+      "private credit",
+      "private debt",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 7.01",
+    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: credit fund, credit income, direct lending, lending fund, private credit.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 7.01",
+    "whats_new": [
+      "Matched keywords: credit fund, credit income, direct lending, lending fund, private credit. 8-K item sections referenced: 7.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001628280-26-068951",
     "cik": "0001838126",
     "company_name": "I/A - HPS Corporate Lending Fund",
@@ -2574,74 +2644,6 @@
     "remaining_sections": {
       "most_important_points": [
         "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-035676",
-    "cik": "0001902649",
-    "company_name": "K - BlackRock Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126035676/0001140361-26-035676.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126035676/0001140361-26-035676-index.html",
-    "tracked_name": "BlackRock Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-035675",
-    "cik": "0001834543",
-    "company_name": "K - BlackRock Direct Lending Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126035675/0001140361-26-035675.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126035675/0001140361-26-035675-index.html",
-    "tracked_name": "BlackRock Direct Lending Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
