@@ -1,5 +1,38 @@
 [
   {
+    "accession_number": "0000005272-26-000104",
+    "cik": "0000005272",
+    "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000104/0000005272-26-000104.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000104/0000005272-26-000104-index.html",
+    "tracked_name": "American International Group, Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "diversified funds across sectors and vintage years 560 88 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 961 549 1,147 549 Total private equity funds 2,800 1,056 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek return",
+    "openarena_output": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ndiversified funds across sectors and vintage years 560 88 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 961 549 1,147 549 Total private equity funds 2,800 1,056 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek return\n\nC. What's New\nMatched keywords: credit fund, private credit.\ndiversified funds across sectors and vintage years 560 88 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 961 549 1,147 549 Total private equity funds 2,800 1,056 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek return\n\nD. Most Important Points\nAmerican International Group, Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - AMERICAN INTERNATIONAL GROUP, INC. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "diversified funds across sectors and vintage years 560 88 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 961 549 1,147 549 Total private equity funds 2,800 1,056 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek return",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. diversified funds across sectors and vintage years 560 88 71 98 Other Includes multi-strategy funds, co-investments and credit funds in opportunistic and distressed strategies 961 549 1,147 549 Total private equity funds 2,800 1,056 3,090 1,266 Hedge funds Funds that pool money from accredited investors and seek return"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "American International Group, Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001171843-26-007082",
     "cik": "0001418076",
     "company_name": "K - SLR Investment Corp.",
@@ -2614,40 +2647,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-035674",
-    "cik": "0001370755",
-    "company_name": "K - BlackRock TCP Capital Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126035674/0001140361-26-035674.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126035674/0001140361-26-035674-index.html",
-    "tracked_name": "BlackRock TCP Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02, 8.01\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
