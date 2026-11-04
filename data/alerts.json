@@ -1,5 +1,39 @@
 [
   {
+    "accession_number": "0001287032-26-000309",
+    "cik": "0001287032",
+    "company_name": "Q - PROSPECT CAPITAL CORP",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1287032/000128703226000309/0001287032-26-000309.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1287032/000128703226000309/0001287032-26-000309-index.html",
+    "tracked_name": "Prospect Capital Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "private credit",
+      "senior secured",
+      "structured credit"
+    ],
+    "description": "n the regulation or enforcement of bank lending and capital requirements could have material and adverse effects on the private credit market. In light of these developments, there can be no assurances that political and regulatory conditions will not worsen and adversely affect the Company, its portfolio companies or ",
+    "openarena_output": "SEC Filing Analysis: Q - PROSPECT CAPITAL CORP - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nn the regulation or enforcement of bank lending and capital requirements could have material and adverse effects on the private credit market. In light of these developments, there can be no assurances that political and regulatory conditions will not worsen and adversely affect the Company, its portfolio companies or \n\nC. What's New\nMatched keywords: private credit, senior secured, structured credit.\nn the regulation or enforcement of bank lending and capital requirements could have material and adverse effects on the private credit market. In light of these developments, there can be no assurances that political and regulatory conditions will not worsen and adversely affect the Company, its portfolio companies or \n\nD. Most Important Points\nProspect Capital Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - PROSPECT CAPITAL CORP - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "n the regulation or enforcement of bank lending and capital requirements could have material and adverse effects on the private credit market. In light of these developments, there can be no assurances that political and regulatory conditions will not worsen and adversely affect the Company, its portfolio companies or",
+    "whats_new": [
+      "Matched keywords: private credit, senior secured, structured credit. n the regulation or enforcement of bank lending and capital requirements could have material and adverse effects on the private credit market. In light of these developments, there can be no assurances that political and regulatory conditions will not worsen and adversely affect the Company, its portfolio companies or"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Prospect Capital Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0000005272-26-000104",
     "cik": "0000005272",
     "company_name": "Q - AMERICAN INTERNATIONAL GROUP, INC.",
@@ -24,6 +58,39 @@
     "remaining_sections": {
       "most_important_points": [
         "American International Group, Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-447614",
+    "cik": "0002011498",
+    "company_name": "K - AGL Private Credit Income Fund",
+    "form_type": "8-K",
+    "filed_date": "2026-11-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526447614/0001193125-26-447614.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526447614/0001193125-26-447614-index.html",
+    "tracked_name": "AGL Private Credit Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "private credit"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - AGL Private Credit Income Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: credit income, private credit.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nAGL Private Credit Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - AGL Private Credit Income Fund - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: credit income, private credit. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "AGL Private Credit Income Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2575,74 +2642,6 @@
     "remaining_sections": {
       "most_important_points": [
         "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-384555",
-    "cik": "0001920453",
-    "company_name": "I/A - Fidelity Private Credit Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-08",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526384555/0001193125-26-384555.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920453/000119312526384555/0001193125-26-384555-index.html",
-    "tracked_name": "Fidelity Private Credit Company LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "S OF DATE: 20260908 DATE AS OF CHANGE: 20260908 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-",
-    "openarena_output": "SEC Filing Analysis: I/A - Fidelity Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nS OF DATE: 20260908 DATE AS OF CHANGE: 20260908 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\nS OF DATE: 20260908 DATE AS OF CHANGE: 20260908 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nD. Most Important Points\nFidelity Private Credit Company LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Fidelity Private Credit Fund - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "S OF DATE: 20260908 DATE AS OF CHANGE: 20260908 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit, senior secured. S OF DATE: 20260908 DATE AS OF CHANGE: 20260908 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Fidelity Private Credit Fund CENTRAL INDEX KEY: 0001920453 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Fidelity Private Credit Company LLC is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-382839",
-    "cik": "0001747777",
-    "company_name": "K - Blue Owl Technology Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-04",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1747777/000119312526382839/0001193125-26-382839.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1747777/000119312526382839/0001193125-26-382839-index.html",
-    "tracked_name": "Blue Owl Technology Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03",
-    "openarena_output": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03\n\nC. What's New\nMatched keywords: private debt, senior secured.\n8-K item sections referenced: 1.01, 2.03\n\nD. Most Important Points\nBlue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blue Owl Technology Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03",
-    "whats_new": [
-      "Matched keywords: private debt, senior secured. 8-K item sections referenced: 1.01, 2.03"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blue Owl Technology Finance Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
