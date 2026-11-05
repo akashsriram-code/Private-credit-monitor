@@ -1,5 +1,103 @@
 [
   {
+    "accession_number": "0001193125-26-448640",
+    "cik": "0001370755",
+    "company_name": "Q - BlackRock TCP Capital Corp.",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526448640/0001193125-26-448640.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526448640/0001193125-26-448640-index.html",
+    "tracked_name": "BlackRock TCP Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "/16/2030 2026-09-30 0001370755 tcpc:FundingFacilityIMember 2023-12-31 0001370755 Controlled Affiliates, Fishbowl, Inc., Senior Secured 1st Lien Term Loan, SOFR + 5%, 1% SOFR Floor, 7.50% EOT, due 05/27/2027 2026-09-30 0001370755 tcpc:CommunityMergerSubDebtLLCCincSystemsMember 2026-01-01 2026-09-30 0001370755 Debt Inves",
+    "openarena_output": "SEC Filing Analysis: Q - BlackRock TCP Capital Corp. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n/16/2030 2026-09-30 0001370755 tcpc:FundingFacilityIMember 2023-12-31 0001370755 Controlled Affiliates, Fishbowl, Inc., Senior Secured 1st Lien Term Loan, SOFR + 5%, 1% SOFR Floor, 7.50% EOT, due 05/27/2027 2026-09-30 0001370755 tcpc:CommunityMergerSubDebtLLCCincSystemsMember 2026-01-01 2026-09-30 0001370755 Debt Inves\n\nC. What's New\nMatched keywords: senior secured.\n/16/2030 2026-09-30 0001370755 tcpc:FundingFacilityIMember 2023-12-31 0001370755 Controlled Affiliates, Fishbowl, Inc., Senior Secured 1st Lien Term Loan, SOFR + 5%, 1% SOFR Floor, 7.50% EOT, due 05/27/2027 2026-09-30 0001370755 tcpc:CommunityMergerSubDebtLLCCincSystemsMember 2026-01-01 2026-09-30 0001370755 Debt Inves\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - BlackRock TCP Capital Corp. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "/16/2030 2026-09-30 0001370755 tcpc:FundingFacilityIMember 2023-12-31 0001370755 Controlled Affiliates, Fishbowl, Inc., Senior Secured 1st Lien Term Loan, SOFR + 5%, 1% SOFR Floor, 7.50% EOT, due 05/27/2027 2026-09-30 0001370755 tcpc:CommunityMergerSubDebtLLCCincSystemsMember 2026-01-01 2026-09-30 0001370755 Debt Inves",
+    "whats_new": [
+      "Matched keywords: senior secured. /16/2030 2026-09-30 0001370755 tcpc:FundingFacilityIMember 2023-12-31 0001370755 Controlled Affiliates, Fishbowl, Inc., Senior Secured 1st Lien Term Loan, SOFR + 5%, 1% SOFR Floor, 7.50% EOT, due 05/27/2027 2026-09-30 0001370755 tcpc:CommunityMergerSubDebtLLCCincSystemsMember 2026-01-01 2026-09-30 0001370755 Debt Inves"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-123088",
+    "cik": "0001534254",
+    "company_name": "K - CION Investment Corp",
+    "form_type": "8-K",
+    "filed_date": "2026-11-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926123088/0001104659-26-123088.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926123088/0001104659-26-123088-index.html",
+    "tracked_name": "CION Investment Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - CION Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nCION Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - CION Investment Corp - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "CION Investment Corporation is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-448654",
+    "cik": "0001370755",
+    "company_name": "K - BlackRock TCP Capital Corp.",
+    "form_type": "8-K",
+    "filed_date": "2026-11-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526448654/0001193125-26-448654.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000119312526448654/0001193125-26-448654-index.html",
+    "tracked_name": "BlackRock TCP Capital Corp.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nC. What's New\nMatched keywords: direct lending, private credit, senior secured.\n8-K item sections referenced: 2.02, 7.01, 9.01\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 7.01, 9.01",
+    "whats_new": [
+      "Matched keywords: direct lending, private credit, senior secured. 8-K item sections referenced: 2.02, 7.01, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001287032-26-000309",
     "cik": "0001287032",
     "company_name": "Q - PROSPECT CAPITAL CORP",
@@ -2549,103 +2647,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-395623",
-    "cik": "0001973476",
-    "company_name": "I/A - North Haven Private Income Fund A LLC",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-18",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526395623/0001193125-26-395623.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1973476/000119312526395623/0001193125-26-395623-index.html",
-    "tracked_name": "North Haven Private Income Fund LLC",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
-    "openarena_output": "SEC Filing Analysis: I/A - North Haven Private Income Fund A LLC - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nC. What's New\nMatched keywords: credit fund, private credit.\ning improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi\n\nD. Most Important Points\nNorth Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - North Haven Private Income Fund A LLC - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. ing improved lending terms and healthy sponsor activity as compared to the start of the year, along with broadly stable credit fundamentals across the portfolio. We are also seeing a rally in broadly syndicated loans, with particular rebound in software-related credits. We believe these trends suggest a more constructi"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "North Haven Private Income Fund LLC is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-108606",
-    "cik": "0001534254",
-    "company_name": "K - CION Investment Corp",
-    "form_type": "8-K",
-    "filed_date": "2026-09-17",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926108606/0001104659-26-108606.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1534254/000110465926108606/0001104659-26-108606-index.html",
-    "tracked_name": "CION Investment Corporation",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - CION Investment Corp - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nCION Investment Corporation is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - CION Investment Corp - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "CION Investment Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001913724-26-000028",
-    "cik": "0001913724",
-    "company_name": "K - TPG Twin Brook Capital Income Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-10",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000028/0001913724-26-000028.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000028/0001913724-26-000028-index.html",
-    "tracked_name": "TPG Twin Brook Capital Income Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01",
-    "openarena_output": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 7.01\n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - TPG Twin Brook Capital Income Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 7.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
