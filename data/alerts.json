@@ -33,6 +33,44 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001655887-26-000025",
+    "cik": "0001655887",
+    "company_name": "Q - Blue Owl Capital Corp II",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000025/0001655887-26-000025.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1655887/000165588726000025/0001655887-26-000025-index.html",
+    "tracked_name": "Blue Owl Capital Corp. II",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "asset-backed finance",
+      "credit fund",
+      "credit income",
+      "direct lending",
+      "middle market lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; (iv) liquid credit, which focuses on the management of CLOs; and (v) our other adjacent investment strategies (e.g., strategic ",
+    "openarena_output": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; (iv) liquid credit, which focuses on the management of CLOs; and (v) our other adjacent investment strategies (e.g., strategic \n\nC. What's New\nMatched keywords: asset-backed finance, credit fund, credit income, direct lending, middle market lending.\nuipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; (iv) liquid credit, which focuses on the management of CLOs; and (v) our other adjacent investment strategies (e.g., strategic \n\nD. Most Important Points\nBlue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Blue Owl Capital Corp II - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; (iv) liquid credit, which focuses on the management of CLOs; and (v) our other adjacent investment strategies (e.g., strategic",
+    "whats_new": [
+      "Matched keywords: asset-backed finance, credit fund, credit income, direct lending, middle market lending. uipment leasing; (iii) investment grade credit, which focuses on generating capital-efficient investment income through asset-backed finance, private corporate credit, and structured products; (iv) liquid credit, which focuses on the management of CLOs; and (v) our other adjacent investment strategies (e.g., strategic"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Blue Owl Capital Corp. II is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-451070",
     "cik": "0001902649",
     "company_name": "Q - BlackRock Private Credit Fund",
@@ -58,6 +96,41 @@
     "remaining_sections": {
       "most_important_points": [
         "BlackRock Private Credit Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001628280-26-071717",
+    "cik": "0001918712",
+    "company_name": "Q - ARES STRATEGIC INCOME FUND",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026071717/0001628280-26-071717.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1918712/000162828026071717/0001628280-26-071717-index.html",
+    "tracked_name": "Ares Strategic Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "direct lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 3.02",
+    "openarena_output": "SEC Filing Analysis: Q - ARES STRATEGIC INCOME FUND - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\n8-K item sections referenced: 3.02\n\nD. Most Important Points\nAres Strategic Income Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - ARES STRATEGIC INCOME FUND - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 3.02",
+    "whats_new": [
+      "Matched keywords: credit fund, direct lending, private credit, senior secured. 8-K item sections referenced: 3.02"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Ares Strategic Income Fund is on the watchlist and matched a recent 10-Q filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
@@ -2587,70 +2660,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0002031750-26-000077",
-    "cik": "0002031750",
-    "company_name": "K - Ares Core Infrastructure Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000077/0002031750-26-000077.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031750/000203175026000077/0002031750-26-000077-index.html",
-    "tracked_name": "Ares Core Infrastructure Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nAres Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Ares Core Infrastructure Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: senior secured. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Ares Core Infrastructure Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001104659-26-109615",
-    "cik": "0002031283",
-    "company_name": "I/A - Stone Point Credit Income Fund",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109615/0001104659-26-109615.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2031283/000110465926109615/0001104659-26-109615-index.html",
-    "tracked_name": "Stone Point Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit income"
-    ],
-    "description": "LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
-    "openarena_output": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nLED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nC. What's New\nMatched keywords: credit income.\nLED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE\n\nD. Most Important Points\nStone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Stone Point Credit Income Fund - SC TO-I/A",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE",
-    "whats_new": [
-      "Matched keywords: credit income. LED AS OF DATE: 20260922 DATE AS OF CHANGE: 20260922 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Stone Point Credit Income Fund CENTRAL INDEX KEY: 0002031283 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBE"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Stone Point Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
