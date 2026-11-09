@@ -1,5 +1,103 @@
 [
   {
+    "accession_number": "0001321741-26-000022",
+    "cik": "0001321741",
+    "company_name": "Q - GLADSTONE INVESTMENT CORPORATION\\DE",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1321741/000132174126000022/0001321741-26-000022.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1321741/000132174126000022/0001321741-26-000022-index.html",
+    "tracked_name": "Gladstone Investment Corporation",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "en there is equity value or sufficient TEV to cover the principal balance of our debt securities, the fair value of our senior secured debt generally equals or approximates cost. 19 Table of Contents TEV is primarily calculated using EBITDA and EBITDA multiples; however, TEV may also be calculated using revenue and rev",
+    "openarena_output": "SEC Filing Analysis: Q - GLADSTONE INVESTMENT CORPORATION\\DE - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nen there is equity value or sufficient TEV to cover the principal balance of our debt securities, the fair value of our senior secured debt generally equals or approximates cost. 19 Table of Contents TEV is primarily calculated using EBITDA and EBITDA multiples; however, TEV may also be calculated using revenue and rev\n\nC. What's New\nMatched keywords: senior secured.\nen there is equity value or sufficient TEV to cover the principal balance of our debt securities, the fair value of our senior secured debt generally equals or approximates cost. 19 Table of Contents TEV is primarily calculated using EBITDA and EBITDA multiples; however, TEV may also be calculated using revenue and rev\n\nD. Most Important Points\nGladstone Investment Corporation is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - GLADSTONE INVESTMENT CORPORATION\\DE - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "en there is equity value or sufficient TEV to cover the principal balance of our debt securities, the fair value of our senior secured debt generally equals or approximates cost. 19 Table of Contents TEV is primarily calculated using EBITDA and EBITDA multiples; however, TEV may also be calculated using revenue and rev",
+    "whats_new": [
+      "Matched keywords: senior secured. en there is equity value or sufficient TEV to cover the principal balance of our debt securities, the fair value of our senior secured debt generally equals or approximates cost. 19 Table of Contents TEV is primarily calculated using EBITDA and EBITDA multiples; however, TEV may also be calculated using revenue and rev"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Gladstone Investment Corporation is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-453562",
+    "cik": "0001633336",
+    "company_name": "Q - Crescent Capital BDC, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453562/0001193125-26-453562.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453562/0001193125-26-453562-index.html",
+    "tracked_name": "Crescent Capital BDC Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "middle market lending",
+      "private credit",
+      "senior secured"
+    ],
+    "description": "h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m",
+    "openarena_output": "SEC Filing Analysis: Q - Crescent Capital BDC, Inc. - 10-Q\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nh its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m\n\nC. What's New\nMatched keywords: middle market lending, private credit, senior secured.\nh its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m\n\nD. Most Important Points\nCrescent Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Crescent Capital BDC, Inc. - 10-Q",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m",
+    "whats_new": [
+      "Matched keywords: middle market lending, private credit, senior secured. h its investing partner. Additionally, the Company&#8217;s investment strategy focuses primarily on directly originated middle market lending in senior secured first lien, second lien and equity investments, while the Logan JV focuses primarily on senior secured syndicated loans to larger issuers. (2) Gross additions m"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Crescent Capital BDC Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-453594",
+    "cik": "0001633336",
+    "company_name": "K - Crescent Capital BDC, Inc.",
+    "form_type": "8-K",
+    "filed_date": "2026-11-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453594/0001193125-26-453594.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1633336/000119312526453594/0001193125-26-453594-index.html",
+    "tracked_name": "Crescent Capital BDC Inc.",
+    "tracked_type": "Public",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "8-K item sections referenced: 2.02, 9.01",
+    "openarena_output": "SEC Filing Analysis: K - Crescent Capital BDC, Inc. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 2.02, 9.01\n\nC. What's New\nMatched keywords: senior secured.\n8-K item sections referenced: 2.02, 9.01\n\nD. Most Important Points\nCrescent Capital BDC Inc. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: K - Crescent Capital BDC, Inc. - 8-K",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "8-K item sections referenced: 2.02, 9.01",
+    "whats_new": [
+      "Matched keywords: senior secured. 8-K item sections referenced: 2.02, 9.01"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Crescent Capital BDC Inc. is on the watchlist and matched a recent 8-K filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-450982",
     "cik": "0001919369",
     "company_name": "Q - VISTA CREDIT STRATEGIC LENDING CORP.",
@@ -2555,111 +2653,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002984",
-    "cik": "0002041841",
-    "company_name": "K - Lord Abbett Private Credit Fund S",
-    "form_type": "8-K",
-    "filed_date": "2026-09-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002984/0000930413-26-002984.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041326002984/0000930413-26-002984-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund S - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0000930413-26-002983",
-    "cik": "0002008748",
-    "company_name": "K - Lord Abbett Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-24",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002983/0000930413-26-002983.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/2008748/000093041326002983/0000930413-26-002983-index.html",
-    "tracked_name": "Lord Abbett Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "lending fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, direct lending, lending fund, private credit, senior secured.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nLord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Lord Abbett Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, lending fund, private credit, senior secured. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Lord Abbett Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001803498-26-000053",
-    "cik": "0001803498",
-    "company_name": "K - Blackstone Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-22",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000053/0001803498-26-000053.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1803498/000180349826000053/0001803498-26-000053-index.html",
-    "tracked_name": "Blackstone Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 7.01, 8.01\n\nD. Most Important Points\nBlackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Blackstone Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Blackstone Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
