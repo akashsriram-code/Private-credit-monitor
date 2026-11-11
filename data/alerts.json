@@ -32,6 +32,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001930087-26-000124",
+    "cik": "0001930087",
+    "company_name": "I/A - Golub Capital Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-10",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000124/0001930087-26-000124.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000124/0001930087-26-000124-index.html",
+    "tracked_name": "Golub Capital Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "DATE: 20261110 DATE AS OF CHANGE: 20261110 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26154168",
+    "openarena_output": "SEC Filing Analysis: I/A - Golub Capital Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nDATE: 20261110 DATE AS OF CHANGE: 20261110 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26154168\n\nC. What's New\nMatched keywords: credit fund, private credit.\nDATE: 20261110 DATE AS OF CHANGE: 20261110 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26154168\n\nD. Most Important Points\nGolub Capital Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Golub Capital Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "DATE: 20261110 DATE AS OF CHANGE: 20261110 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26154168",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. DATE: 20261110 DATE AS OF CHANGE: 20261110 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Golub Capital Private Credit Fund CENTRAL INDEX KEY: 0001930087 ORGANIZATION NAME: EIN: 922030260 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-94264 FILM NUMBER: 26154168"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Golub Capital Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001628280-26-072594",
     "cik": "0001838126",
     "company_name": "I - HPS Corporate Lending Fund",
@@ -2614,40 +2647,6 @@
     "remaining_sections": {
       "most_important_points": [
         "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-037716",
-    "cik": "0001834543",
-    "company_name": "K - BlackRock Direct Lending Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126037716/0001140361-26-037716.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1834543/000114036126037716/0001140361-26-037716-index.html",
-    "tracked_name": "BlackRock Direct Lending Corp.",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Direct Lending Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Direct Lending Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
