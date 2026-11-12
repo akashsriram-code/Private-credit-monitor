@@ -1,5 +1,70 @@
 [
   {
+    "accession_number": "0001193125-26-457655",
+    "cik": "0001965934",
+    "company_name": "Q - Overland Advantage",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526457655/0001193125-26-457655.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1965934/000119312526457655/0001193125-26-457655-index.html",
+    "tracked_name": "Overland Advantage",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "senior secured"
+    ],
+    "description": "934 Investments Non-controlled/non-affiliated debt Debt investments Household Products VC GB Holdings I Corp First lien senior secured term loan Interest Rate SOFR + 3.50% Maturity Date 7/21/2028 2025-12-31 0001965934 ck0001965934:EnvisionManagementHoldingIncMember us-gaap:DelayedDrawTermLoanMember 2025-12-31 000196593",
+    "openarena_output": "SEC Filing Analysis: Q - Overland Advantage - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n934 Investments Non-controlled/non-affiliated debt Debt investments Household Products VC GB Holdings I Corp First lien senior secured term loan Interest Rate SOFR + 3.50% Maturity Date 7/21/2028 2025-12-31 0001965934 ck0001965934:EnvisionManagementHoldingIncMember us-gaap:DelayedDrawTermLoanMember 2025-12-31 000196593\n\nC. What's New\nMatched keywords: senior secured.\n934 Investments Non-controlled/non-affiliated debt Debt investments Household Products VC GB Holdings I Corp First lien senior secured term loan Interest Rate SOFR + 3.50% Maturity Date 7/21/2028 2025-12-31 0001965934 ck0001965934:EnvisionManagementHoldingIncMember us-gaap:DelayedDrawTermLoanMember 2025-12-31 000196593\n\nD. Most Important Points\nOverland Advantage is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Overland Advantage - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "934 Investments Non-controlled/non-affiliated debt Debt investments Household Products VC GB Holdings I Corp First lien senior secured term loan Interest Rate SOFR + 3.50% Maturity Date 7/21/2028 2025-12-31 0001965934 ck0001965934:EnvisionManagementHoldingIncMember us-gaap:DelayedDrawTermLoanMember 2025-12-31 000196593",
+    "whats_new": [
+      "Matched keywords: senior secured. 934 Investments Non-controlled/non-affiliated debt Debt investments Household Products VC GB Holdings I Corp First lien senior secured term loan Interest Rate SOFR + 3.50% Maturity Date 7/21/2028 2025-12-31 0001965934 ck0001965934:EnvisionManagementHoldingIncMember us-gaap:DelayedDrawTermLoanMember 2025-12-31 000196593"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Overland Advantage is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001104659-26-126100",
+    "cik": "0001895316",
+    "company_name": "Q - Brightwood Capital Corp I",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926126100/0001104659-26-126100.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1895316/000110465926126100/0001104659-26-126100-index.html",
+    "tracked_name": "Brightwood Capital Corp I",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit income",
+      "senior secured"
+    ],
+    "description": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of ",
+    "openarena_output": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nC. What's New\nMatched keywords: credit income, senior secured.\nPaid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of \n\nD. Most Important Points\nBrightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Brightwood Capital Corp I - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of",
+    "whats_new": [
+      "Matched keywords: credit income, senior secured. Paid, Excluding Capitalized Interest, Operating Activities Cash paid during the period for interest expense on line of credit Income Taxes Paid, Net Cash paid during the period for income taxes, including excise tax No definition. Cash Flow Non Cash Financing Activities Disclosure [Abstract] Supplemental disclosure of"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Brightwood Capital Corp I is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001143598-26-000007",
     "cik": "0002061670",
     "company_name": "Monroe Capital Enhanced Corporate Lending Fund",
@@ -2580,73 +2645,6 @@
     "remaining_sections": {
       "most_important_points": [
         "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-037708",
-    "cik": "0001902649",
-    "company_name": "K - BlackRock Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126037708/0001140361-26-037708.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126037708/0001140361-26-037708-index.html",
-    "tracked_name": "BlackRock Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-037697",
-    "cik": "0001902649",
-    "company_name": "K - BlackRock Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126037697/0001140361-26-037697.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1902649/000114036126037697/0001140361-26-037697-index.html",
-    "tracked_name": "BlackRock Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 3.02, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 3.02, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit.\n8-K item sections referenced: 3.02, 8.01\n\nD. Most Important Points\nBlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 3.02, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit. 8-K item sections referenced: 3.02, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock Private Credit Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
