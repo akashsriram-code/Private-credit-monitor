@@ -32,6 +32,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001213900-26-119054",
+    "cik": "0001779523",
+    "company_name": "Q - Muzinich BDC, Inc.",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1779523/000121390026119054/0001213900-26-119054.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1779523/000121390026119054/0001213900-26-119054-index.html",
+    "tracked_name": "Muzinich BDC Inc.",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "private debt",
+      "senior secured"
+    ],
+    "description": "Accounts As of September 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1",
+    "openarena_output": "SEC Filing Analysis: Q - Muzinich BDC, Inc. - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nAccounts As of September 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1\n\nC. What's New\nMatched keywords: private debt, senior secured.\nAccounts As of September 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1\n\nD. Most Important Points\nMuzinich BDC Inc. is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Muzinich BDC, Inc. - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "Accounts As of September 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1",
+    "whats_new": [
+      "Matched keywords: private debt, senior secured. Accounts As of September 30, 2026, certain entities affiliated with the Adviser held shares of the Company. Muzinich US Private Debt, SCSp held 107,138.5 shares of the Company, or approximately 63.4 % of the outstanding shares of the Company, and Muzinich &amp; Co. held 1,832.5 shares of the Company, or approximately 1"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Muzinich BDC Inc. is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001104659-26-126100",
     "cik": "0001895316",
     "company_name": "Q - Brightwood Capital Corp I",
@@ -2611,40 +2644,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Golub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001140361-26-037711",
-    "cik": "0001370755",
-    "company_name": "K - BlackRock TCP Capital Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126037711/0001140361-26-037711.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1370755/000114036126037711/0001140361-26-037711-index.html",
-    "tracked_name": "BlackRock TCP Capital Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit"
-    ],
-    "description": "8-K item sections referenced: 5.02",
-    "openarena_output": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 5.02\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit.\n8-K item sections referenced: 5.02\n\nD. Most Important Points\nBlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - BlackRock TCP Capital Corp. - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 5.02",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit. 8-K item sections referenced: 5.02"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "BlackRock TCP Capital Corp. is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
