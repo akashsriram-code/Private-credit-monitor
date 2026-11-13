@@ -1,5 +1,69 @@
 [
   {
+    "accession_number": "0001193125-26-460047",
+    "cik": "0001784700",
+    "company_name": "Q - Varagon Capital Corp",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1784700/000119312526460047/0001193125-26-460047.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1784700/000119312526460047/0001193125-26-460047-index.html",
+    "tracked_name": "Varagon Capital Corp",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "direct lending",
+      "senior secured"
+    ],
+    "description": "SOFR + 5.25%, IR 9.42%, AD 6/2/2022, MD 10/29/2027 2026-09-30 0001784700 CI, Ind Inv Funds and Vehicles, Company Senior Direct Lending Program, LLC, Type of Investment Limited Partnership Units, RR&amp;S SOFR + 8.00%, IR 11.25%, MD 12/31/2036 2026-09-30 0001784700 us-gaap:DelayedDrawTermLoanMember ck0001784700:GritBuye",
+    "openarena_output": "SEC Filing Analysis: Q - Varagon Capital Corp - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nSOFR + 5.25%, IR 9.42%, AD 6/2/2022, MD 10/29/2027 2026-09-30 0001784700 CI, Ind Inv Funds and Vehicles, Company Senior Direct Lending Program, LLC, Type of Investment Limited Partnership Units, RR&amp;S SOFR + 8.00%, IR 11.25%, MD 12/31/2036 2026-09-30 0001784700 us-gaap:DelayedDrawTermLoanMember ck0001784700:GritBuye\n\nC. What's New\nMatched keywords: direct lending, senior secured.\nSOFR + 5.25%, IR 9.42%, AD 6/2/2022, MD 10/29/2027 2026-09-30 0001784700 CI, Ind Inv Funds and Vehicles, Company Senior Direct Lending Program, LLC, Type of Investment Limited Partnership Units, RR&amp;S SOFR + 8.00%, IR 11.25%, MD 12/31/2036 2026-09-30 0001784700 us-gaap:DelayedDrawTermLoanMember ck0001784700:GritBuye\n\nD. Most Important Points\nVaragon Capital Corp is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - Varagon Capital Corp - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "SOFR + 5.25%, IR 9.42%, AD 6/2/2022, MD 10/29/2027 2026-09-30 0001784700 CI, Ind Inv Funds and Vehicles, Company Senior Direct Lending Program, LLC, Type of Investment Limited Partnership Units, RR&amp;S SOFR + 8.00%, IR 11.25%, MD 12/31/2036 2026-09-30 0001784700 us-gaap:DelayedDrawTermLoanMember ck0001784700:GritBuye",
+    "whats_new": [
+      "Matched keywords: direct lending, senior secured. SOFR + 5.25%, IR 9.42%, AD 6/2/2022, MD 10/29/2027 2026-09-30 0001784700 CI, Ind Inv Funds and Vehicles, Company Senior Direct Lending Program, LLC, Type of Investment Limited Partnership Units, RR&amp;S SOFR + 8.00%, IR 11.25%, MD 12/31/2036 2026-09-30 0001784700 us-gaap:DelayedDrawTermLoanMember ck0001784700:GritBuye"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Varagon Capital Corp is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001140361-26-043632",
+    "cik": "0001901164",
+    "company_name": "I/A - T. Rowe Price OHA Select Private Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126043632/0001140361-26-043632.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126043632/0001140361-26-043632-index.html",
+    "tracked_name": "T. Rowe Price OHA Select Private Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "private credit"
+    ],
+    "description": "113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-",
+    "openarena_output": "SEC Filing Analysis: I/A - T. Rowe Price OHA Select Private Credit Fund - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nC. What's New\nMatched keywords: credit fund, private credit.\n113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-\n\nD. Most Important Points\nT. Rowe Price OHA Select Private Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - T. Rowe Price OHA Select Private Credit Fund - SC TO-I/A",
+    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005",
+    "whats_new": [
+      "Matched keywords: credit fund, private credit. 113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: T. Rowe Price OHA Select Private Credit Fund CENTRAL INDEX KEY: 0001901164 ORGANIZATION NAME: EIN: 000000000 STATE OF INCORPORATION: DE FISCAL YEAR END: 1231 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005"
+    ],
+    "remaining_sections": {
+      "most_important_points": [],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001193125-26-457655",
     "cik": "0001965934",
     "company_name": "Q - Overland Advantage",
@@ -2582,72 +2646,6 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-402956",
-    "cik": "0001653384",
-    "company_name": "K - Runway Growth Finance Corp.",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526402956/0001193125-26-402956.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1653384/000119312526402956/0001193125-26-402956-index.html",
-    "tracked_name": "Runway Growth Finance Corp.",
-    "tracked_type": "Public",
-    "matched_keywords": [
-      "credit fund"
-    ],
-    "description": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nC. What's New\nMatched keywords: credit fund.\n8-K item sections referenced: 1.01, 2.03, 9.01\n\nD. Most Important Points\nRunway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Runway Growth Finance Corp. - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 1.01, 2.03, 9.01",
-    "whats_new": [
-      "Matched keywords: credit fund. 8-K item sections referenced: 1.01, 2.03, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Runway Growth Finance Corp. is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001930087-26-000112",
-    "cik": "0001930087",
-    "company_name": "K - Golub Capital Private Credit Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000112/0001930087-26-000112.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1930087/000193008726000112/0001930087-26-000112-index.html",
-    "tracked_name": "Golub Capital Private Credit Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 7.01, 8.01",
-    "openarena_output": "SEC Filing Analysis: K - Golub Capital Private Credit Fund - 8-K\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 7.01, 8.01\n\nC. What's New\nMatched keywords: credit fund, private credit, senior secured.\n8-K item sections referenced: 7.01, 8.01\n\nD. Most Important Points\nGolub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Golub Capital Private Credit Fund - 8-K",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 7.01, 8.01",
-    "whats_new": [
-      "Matched keywords: credit fund, private credit, senior secured. 8-K item sections referenced: 7.01, 8.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Golub Capital Private Credit Fund is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
