@@ -33,6 +33,39 @@
     "source": "sec-daily-index"
   },
   {
+    "accession_number": "0001913724-26-000039",
+    "cik": "0001913724",
+    "company_name": "Q - TPG Twin Brook Capital Income Fund",
+    "form_type": "10-Q",
+    "filed_date": "2026-11-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000039/0001913724-26-000039.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1913724/000191372426000039/0001913724-26-000039-index.html",
+    "tracked_name": "TPG Twin Brook Capital Income Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund",
+      "senior secured"
+    ],
+    "description": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees ",
+    "openarena_output": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nC. What's New\nMatched keywords: credit fund, senior secured.\ns whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees \n\nD. Most Important Points\nTPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: Q - TPG Twin Brook Capital Income Fund - 10-Q",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees",
+    "whats_new": [
+      "Matched keywords: credit fund, senior secured. s whose debt is owned by other funds within TPG&#8217;s credit platform. From time to time, we co-invest with other TPG credit funds. Revenues We generate revenues primarily through the receipt of interest income from the investments we hold. In addition, we generate income from various loan origination and other fees"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "TPG Twin Brook Capital Income Fund is on the watchlist and matched a recent 10-Q filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
     "accession_number": "0001140361-26-043632",
     "cik": "0001901164",
     "company_name": "I/A - T. Rowe Price OHA Select Private Credit Fund",
@@ -59,6 +92,70 @@
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
     "wire_recommendation": "HIGH",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-461006",
+    "cik": "0001872371",
+    "company_name": "I/A - Oaktree Strategic Credit Fund",
+    "form_type": "SC TO-I/A",
+    "filed_date": "2026-11-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526461006/0001193125-26-461006.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526461006/0001193125-26-461006-index.html",
+    "tracked_name": "Oaktree Strategic Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund"
+    ],
+    "description": "OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554071",
+    "openarena_output": "SEC Filing Analysis: I/A - Oaktree Strategic Credit Fund - SC TO-I/A\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554071\n\nC. What's New\nMatched keywords: credit fund.\nOF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554071\n\nD. Most Important Points\nOaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I/A - Oaktree Strategic Credit Fund - SC TO-I/A",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554071",
+    "whats_new": [
+      "Matched keywords: credit fund. OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I/A SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554071"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Oaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I/A filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
+    "analysis_source": "fallback",
+    "openarena_error": "HTTP Error 401: Invalid Token",
+    "source": "sec-daily-index"
+  },
+  {
+    "accession_number": "0001193125-26-461019",
+    "cik": "0001872371",
+    "company_name": "I - Oaktree Strategic Credit Fund",
+    "form_type": "SC TO-I",
+    "filed_date": "2026-11-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526461019/0001193125-26-461019.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1872371/000119312526461019/0001193125-26-461019-index.html",
+    "tracked_name": "Oaktree Strategic Credit Fund",
+    "tracked_type": "Private",
+    "matched_keywords": [
+      "credit fund"
+    ],
+    "description": "OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554110 B",
+    "openarena_output": "SEC Filing Analysis: I - Oaktree Strategic Credit Fund - SC TO-I\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nOF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554110 B\n\nC. What's New\nMatched keywords: credit fund.\nOF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554110 B\n\nD. Most Important Points\nOaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
+    "openarena_title": "SEC Filing Analysis: I - Oaktree Strategic Credit Fund - SC TO-I",
+    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
+    "one_line_takeaway": "OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554110 B",
+    "whats_new": [
+      "Matched keywords: credit fund. OF DATE: 20261113 DATE AS OF CHANGE: 20261113 SUBJECT COMPANY: COMPANY DATA: COMPANY CONFORMED NAME: Oaktree Strategic Credit Fund CENTRAL INDEX KEY: 0001872371 ORGANIZATION NAME: EIN: 876478015 FISCAL YEAR END: 0930 FILING VALUES: FORM TYPE: SC TO-I SEC ACT: 1934 Act SEC FILE NUMBER: 005-93598 FILM NUMBER: 261554110 B"
+    ],
+    "remaining_sections": {
+      "most_important_points": [
+        "Oaktree Strategic Credit Fund is on the watchlist and matched a recent SC TO-I filing."
+      ],
+      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
+    },
+    "wire_recommendation": "UNKNOWN",
     "analysis_source": "fallback",
     "openarena_error": "HTTP Error 401: Invalid Token",
     "source": "sec-daily-index"
@@ -2541,107 +2638,6 @@
     "remaining_sections": {
       "most_important_points": [
         "Monroe Capital Corporation is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001911321-26-000036",
-    "cik": "0001911321",
-    "company_name": "K - Kennedy Lewis Capital Co",
-    "form_type": "8-K",
-    "filed_date": "2026-09-29",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1911321/000191132126000036/0001911321-26-000036.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1911321/000191132126000036/0001911321-26-000036-index.html",
-    "tracked_name": "Kennedy Lewis Capital Company",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "private debt",
-      "senior secured"
-    ],
-    "description": "8-K item sections referenced: 8.01, 9.01",
-    "openarena_output": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\n8-K item sections referenced: 8.01, 9.01\n\nC. What's New\nMatched keywords: private debt, senior secured.\n8-K item sections referenced: 8.01, 9.01\n\nD. Most Important Points\nKennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Kennedy Lewis Capital Co - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "8-K item sections referenced: 8.01, 9.01",
-    "whats_new": [
-      "Matched keywords: private debt, senior secured. 8-K item sections referenced: 8.01, 9.01"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Kennedy Lewis Capital Company is on the watchlist and matched a recent 8-K filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "UNKNOWN",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-407832",
-    "cik": "0001920145",
-    "company_name": "I/A - Goldman Sachs Private Credit Corp.",
-    "form_type": "SC TO-I/A",
-    "filed_date": "2026-09-29",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526407832/0001193125-26-407832.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1920145/000119312526407832/0001193125-26-407832-index.html",
-    "tracked_name": "Goldman Sachs Private Credit Corp",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "direct lending",
-      "private credit",
-      "senior secured"
-    ],
-    "description": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "openarena_output": "SEC Filing Analysis: I/A - Goldman Sachs Private Credit Corp. - SC TO-I/A\nA. Relevance Verdict\nHIGHLY RELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nC. What's New\nMatched keywords: credit fund, direct lending, private credit, senior secured.\nEET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S\n\nD. Most Important Points\nGoldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: I/A - Goldman Sachs Private Credit Corp. - SC TO-I/A",
-    "relevance_verdict": "HIGHLY RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S",
-    "whats_new": [
-      "Matched keywords: credit fund, direct lending, private credit, senior secured. EET 1: 200 WEST STREET CITY: NEW YORK STATE: NY ZIP: 10282 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Private Credit Fund LLC DATE OF NAME CHANGE: 20220518 FORMER COMPANY: FORMER CONFORMED NAME: Goldman Sachs Loan Fund LLC DATE OF NAME CHANGE: 20220329 FILED BY: COMPANY DATA: COMPANY CONFORMED NAME: Goldman S"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Goldman Sachs Private Credit Corp is on the watchlist and matched a recent SC TO-I/A filing."
-      ],
-      "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
-    },
-    "wire_recommendation": "HIGH",
-    "analysis_source": "fallback",
-    "openarena_error": "HTTP Error 401: Invalid Token",
-    "source": "sec-daily-index"
-  },
-  {
-    "accession_number": "0001193125-26-402506",
-    "cik": "0001646614",
-    "company_name": "K - Silver Point Specialty Lending Fund",
-    "form_type": "8-K",
-    "filed_date": "2026-09-25",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526402506/0001193125-26-402506.txt",
-    "index_url": "https://www.sec.gov/Archives/edgar/data/1646614/000119312526402506/0001193125-26-402506-index.html",
-    "tracked_name": "Silver Point Specialty Lending Fund",
-    "tracked_type": "Private",
-    "matched_keywords": [
-      "credit fund",
-      "lending fund"
-    ],
-    "description": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO",
-    "openarena_output": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K\nA. Relevance Verdict\nRELEVANT TO PRIVATE CREDIT\n\nB. One-Line Takeaway\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO\n\nC. What's New\nMatched keywords: credit fund, lending fund.\nTREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO\n\nD. Most Important Points\nSilver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing.\n\nE. Why It Matters Now\nThis filing matched the configured private credit watchlist and warrants editorial review.",
-    "openarena_title": "SEC Filing Analysis: K - Silver Point Specialty Lending Fund - 8-K",
-    "relevance_verdict": "RELEVANT TO PRIVATE CREDIT",
-    "one_line_takeaway": "TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO",
-    "whats_new": [
-      "Matched keywords: credit fund, lending fund. TREET 2: FIRST FLOOR CITY: GREENWICH STATE: CT ZIP: 06830 FORMER COMPANY: FORMER CONFORMED NAME: Silver Point Specialty Credit Fund, L.P. DATE OF NAME CHANGE: 20150629 8-K 1 d12024d8k.htm 8-K 8-K false 0001646614 0001646614 2026-09-23 2026-09-23 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FO"
-    ],
-    "remaining_sections": {
-      "most_important_points": [
-        "Silver Point Specialty Lending Fund is on the watchlist and matched a recent 8-K filing."
       ],
       "why_it_matters_now": "This filing matched the configured private credit watchlist and warrants editorial review."
     },
